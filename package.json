@@ -99,7 +99,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://salvia.visualstudio.com/DefaultCollection/SPO/_git/AccessionRV"
+    "url": "https://github.com/salviadev/AccessionRV"
   },
   "types": "./index.d.ts",
   "bin": {
