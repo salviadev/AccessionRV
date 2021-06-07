@@ -1,0 +1,78 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "CAGroupeUti",
+    "description": "contrôle accès - groupe utilisateurs",
+    "primaryKey": "code",
+    "properties": {
+      "code": {
+        "type": "string",
+        "format": "code"
+      },
+      "libelle": {
+        "type": "string",
+        "title": "libellé"
+      },
+      "actif" : {
+        "type" : "boolean"
+      },
+      "isAdmin" : {
+        "type" : "boolean"
+      },
+      "acces": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/CAGroupeUtiAccesDef"
+        }
+      }
+    },
+    "definitions": {
+      "CAGroupeUtiAccesDef": {
+        "type": "object",
+        "name" : "CAGroupeUtiAcces",
+        "description": "rôles par groupe",
+        "primaryKey": "code",
+        "properties": {
+              "code": {
+                "type": "string",
+                "format": "code"
+              },
+              "libelle": {
+                "type": "string",
+                "title": "libellé"
+              },
+              "refRole": {
+                "type": "string",
+                "format": "code"
+              },
+              "refUniteOrga": {
+                "type": "string",
+                "format": "code"
+              }
+
+        },
+        "indexes": [ 
+            { "fields" : ["refRole", "refUniteOrga", "parentId"], "unique": true },
+            { "fields" : "refUniteOrga"}
+        ],
+        "relations" : {
+            "role": {
+                "foreignEntity": "CARole",
+                "foreignKey": "code",
+                "key": "refRole",
+                "multiplicity": "one"
+            },
+            "uniteOrga": {
+                "foreignEntity": "CAUniteOrga",
+                "foreignKey": "code",
+                "key": "refUniteOrga",
+                "multiplicity": "one"
+            }
+        }
+
+      }
+
+    }
+
+  }
+  

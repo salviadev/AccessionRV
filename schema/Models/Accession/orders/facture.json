@@ -1,0 +1,80 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "Facture",
+    "description": "Facture Client",
+    "primaryKey": "code",
+    "properties": {
+        "code": {
+            "type": "string",
+            "format": "code"
+        },
+        "libelle": {
+            "type": "string"
+        },
+        "refTiers": {
+            "type": "string",
+            "format": "code"
+        },
+        "dtFact": {
+            "type": "string",
+            "format": "date"
+        },
+        "details": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/FactureDetailDef"
+            }
+        }
+    },
+    "indexes": [
+        {
+            "fields": "refTiers"
+        }
+    ],
+    "relations": {
+        "tiers": {
+            "foreignEntity": "Tiers",
+            "foreignKey": "code",
+            "key": "refTiers",
+            "multiplicity": "one"
+        }
+    },
+    "definitions": {
+        "FactureDetailDef": {
+            "type": "object",
+            "name": "FactureDetail",
+            "primaryKey": "code",
+            "properties": {
+                "code": {
+                    "type": "string",
+                    "format": "code"
+                },
+                "libelle": {
+                    "type": "string"
+                },
+                "montant": {
+                    "type": "number",
+                    "format": "money"
+                },
+                "refArticle": {
+                    "type": "string",
+                    "format": "code"
+                }
+            },
+            "relations": {
+                "article": {
+                    "foreignEntity": "Article",
+                    "foreignKey": "code",
+                    "key": "refArticle",
+                    "multiplicity": "one"
+                }
+            },
+            "indexes": [
+                {
+                    "fields": "refTiers"
+                }
+            ]
+        }
+    }
+}

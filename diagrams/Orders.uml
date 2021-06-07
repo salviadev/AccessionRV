@@ -1,0 +1,35 @@
+@startuml
+class Facture {
+  code: string
+  libelle: string
+  refTiers: string
+  dtFact: date
+  tenantId: integer
+  id: integer
+}
+class Tiers {
+  code: string
+  libelle: string
+  tenantId: integer
+  id: integer
+}
+class FactureDetail {
+  code: string
+  libelle: string
+  montant: number
+  refArticle: string
+  parentId: integer
+  tenantId: integer
+  id: integer
+}
+class Article {
+  code: string
+  libelle: string
+  prix: number
+  tenantId: integer
+  id: integer
+}
+Facture"1"  --> "tiers" Tiers
+Facture"1"  *--> "details" FactureDetail
+FactureDetail"1"  --> "article" Article
+@enduml

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "Tiers",
+    "description": "Tiers",
+    "primaryKey": "code",
+    "properties": {
+        "code": {
+            "type": "string",
+            "format": "code"
+        },
+        "libelle": {
+            "type": "string"
+        }
+    }
+}

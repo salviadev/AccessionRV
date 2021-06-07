@@ -1,0 +1,26 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "version": "1.0.0",
+    "type": "object",
+    "title": "PreferenceItemView",
+    "name": "PreferenceItemView",
+    "primaryKey": "id",
+    "theme": "preferences",
+    "isTransient": true,
+    "model": "SpoPreference",
+    "mappingDef": [
+        {
+            "from": "#model",
+            "mappings": [
+                "libelle",
+                "prive"
+            ]
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    }
+}

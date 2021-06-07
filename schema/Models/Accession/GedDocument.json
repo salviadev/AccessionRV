@@ -1,0 +1,130 @@
+{
+  "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+  "name": "GedDocument",
+  "type": "object",
+  "title": "GED Document",
+  "primaryKey": "code",
+  "properties": {  
+    "code": {
+      "type": "string",
+      "format": "code"
+    },
+    "libelle": {
+      "type": "string"
+    },
+    "dateCreation": {
+      "type": "string",
+      "format": "date-time",
+      "title": "date création"
+    },
+    "dateModif": {
+      "type": "string",
+      "format": "date-time",
+      "title": "date dernière modification"
+    },
+    "commentaire": {
+      "type": "string",
+      "format": "memo"
+    },
+    "proprietaire": {
+      "type": "string"
+    },
+    "classement": {
+      "type": "string",
+      "description": "Dossier1/Dossier2/Dossier3"
+    },
+    "refs": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/GedDocumentReferenceDef" }
+    },
+    "typeDoc": {
+      "type": "string"
+    },
+    "tailleFichier": {
+      "type": "integer",
+      "format": "int64",
+      "description": "taille en octet"
+    },
+    "refFichier": {
+      "type": "string",
+      "description": "uid|http://xxxx|file://xxxx|chemin_relatif"
+    },
+    "stockage": {
+      "type": "string",
+      "format": "code",
+      "description": "nom du config du stockage"
+    } 
+  },
+  "definitions": {
+    "GedDocumentReferenceDef": {
+      "name": "GedDocumentReference",
+      "type": "object",
+      "properties": {
+        "ref0": {
+          "type": "string"
+        },
+        "ref1": {
+          "type": "string"
+        },
+        "ref2": {
+          "type": "string"
+        },
+        "ref3": {
+          "type": "string"
+        },
+        "ref4": {
+          "type": "string"
+        },
+        "ref5": {
+          "type": "string"
+        },
+        "ref6": {
+          "type": "string"
+        },
+        "ref7": {
+          "type": "string"
+        },
+        "ref8": {
+          "type": "string"
+        },
+        "ref9": {
+          "type": "string"
+        },
+        "ref10": {
+          "type": "string"
+        },
+        "ref11": {
+          "type": "string"
+        },
+        "ref12": {
+          "type": "string"
+        },
+        "ref13": {
+          "type": "string"
+        },
+        "ref14": {
+          "type": "string"
+        },
+        "ref15": {
+          "type": "string"
+        },
+        "ref16": {
+          "type": "string"
+        },
+        "ref17": {
+          "type": "string"
+        },
+        "ref18": {
+          "type": "string"
+        },
+        "ref19": {
+          "type": "string"
+        },
+        "ref20": {
+          "type": "string"
+        }
+
+      }
+    }
+  }
+}

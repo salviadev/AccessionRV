@@ -1,0 +1,18 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "SpoPreference",
+    "primaryKey": "code",
+    "properties": {
+        "code": { "type": "string", "format": "code" },
+        "libelle": { "type": "string" },
+        "classe": { "type": "string", "format": "code" },
+        "util": { "type": "string" },
+        "prive" : { "type" : "boolean"},
+        "valeur" : { "type": "string", "format": "json" }
+    },
+    "indexes": [
+        { "fields" : "util" },
+        { "fields" : "classe" }
+    ]
+}

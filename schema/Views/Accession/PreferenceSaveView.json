@@ -1,0 +1,46 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "version": "1.0.0",
+    "type": "object",
+    "title": "PreferenceSaveView",
+    "name": "PreferenceSaveView",
+    "primaryKey": "id",
+    "theme": "preferences",
+    "isTransient": true,
+    "serializeDirectives": [
+        "models"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "libelle": {
+            "type": "string"
+        },
+        "modeCreate": {
+            "type": "boolean"
+        },
+        "codeModel": {
+            "type": "string"
+        },
+        "classe": {
+            "type": "string"
+        },
+        "prive": {
+            "type": "boolean"
+        },
+        "valeur": {
+            "type": "string",
+            "format": "memo",
+            "maxLength": 16000
+
+        }
+    },
+    "relations": {
+        "models": {
+            "type": "hasMany",
+            "aggregationKind": "none",
+            "model": "PreferenceView"
+        }
+    }
+}

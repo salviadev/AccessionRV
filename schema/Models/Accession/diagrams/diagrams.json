@@ -1,0 +1,18 @@
+{
+
+    "Habilitation": {
+        "classes": [
+            "CAGroupeUti",
+            "CAGroupeUtiMembre",
+            "CARole",
+            "CAUniteOrga"
+        ]
+    },
+    "Orders": {
+        "classes": [
+            "Facture",
+            "Article",
+            "Tiers"
+        ]
+    }
+}

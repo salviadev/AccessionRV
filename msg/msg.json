@@ -1,0 +1,4079 @@
+{
+	"Le tiers \"{{0}}\" n'existe pas": {
+		"message": "Le tiers \"{{0}}\" n'existe pas"
+	},
+	"Fonctionnalité non supportée !": {
+		"message": "Fonctionnalité non supportée !"
+	},
+	"{{0}} est requis.": {
+		"message": "{{0}} est requis."
+	},
+	"Propriétés \"telephones\", \"courriels\", \"sitesWeb\" et \"refExternes\" ne sont pas filtrables": {
+		"message": "Propriétés \"telephones\", \"courriels\", \"sitesWeb\" et \"refExternes\" ne sont pas filtrables"
+	},
+	"La selection \"{{0}}\" n'est pas correcte": {
+		"message": "La selection \"{{0}}\" n'est pas correcte"
+	},
+	"Json patch attendu": {
+		"message": "Json patch attendu"
+	},
+	"Lopération \"add\" est seulement permise sur le Path \"{{0}}\"": {
+		"message": "Lopération \"add\" est seulement permise sur le Path \"{{0}}\""
+	},
+	"Les opérations \"replace\" et \"remove\" sont seulement permise sur le path \"{{1}}\"": {
+		"message": "Les opérations \"replace\" et \"remove\" sont seulement permise sur le path \"{{1}}\""
+	},
+	"Le Path \"{{0}}\" n'est pas correct": {
+		"message": "Le Path \"{{0}}\" n'est pas correct"
+	},
+	"L'opération \"{{0}}\" du path \"{{1}}\" n'est pas correcte": {
+		"message": "L'opération \"{{0}}\" du path \"{{1}}\" n'est pas correcte"
+	},
+	"Le type de téléphone \"{{0}}\" n'est pas correcte": {
+		"message": "Le type de téléphone \"{{0}}\" n'est pas correcte"
+	},
+	"La propriété \"{{0}}\" n'est pas correcte": {
+		"message": "La propriété \"{{0}}\" n'est pas correcte"
+	},
+	"Le paramètre \"{{0}}\" n'existe pas": {
+		"message": "Le paramètre \"{{0}}\" n'existe pas"
+	},
+	"Impossible de retrouver l'entité importée {{0}} dans la table {{1}}": {
+		"message": "Impossible de retrouver l'entité importée {{0}} dans la table {{1}}"
+	},
+	"Le libellé « {{0}} » des échéanciers de la tranche commerciale « {{1}} » n'est pas unique": {
+		"message": "Le libellé « {{0}} » des échéanciers de la tranche commerciale « {{1}} » n'est pas unique"
+	},
+	"Un seul échéancier de la tranche commerciale « {{0}} » doit être utilisé par défaut": {
+		"message": "Un seul échéancier de la tranche commerciale « {{0}} » doit être utilisé par défaut"
+	},
+	"Impossible d'accéder aux données": {
+		"message": "Impossible d'accéder aux données"
+	},
+	"Mode not supported": {
+		"message": "Mode not supported"
+	},
+	"La tranche commerciale de destination {{0}} n'est pas vide": {
+		"message": "La tranche commerciale de destination {{0}} n'est pas vide"
+	},
+	"Les tranches commerciales n'ont pas la même option TVA.": {
+		"message": "Les tranches commerciales n'ont pas la même option TVA."
+	},
+	"La tranche commerciale d'origine {{0}} n'existe pas": {
+		"message": "La tranche commerciale d'origine {{0}} n'existe pas"
+	},
+	"La tranche commerciale de destination {{0}} n'existe pas": {
+		"message": "La tranche commerciale de destination {{0}} n'existe pas"
+	},
+	"Le {{0}} n existe pas": {
+		"message": "Le {{0}} n existe pas"
+	},
+	"{{0}} est incorrect. Valeurs attendues: {{1}}": {
+		"message": "{{0}} est incorrect. Valeurs attendues: {{1}}"
+	},
+	"{{0}} dépasse le nombre maximal de caractères autorisés.": {
+		"message": "{{0}} dépasse le nombre maximal de caractères autorisés."
+	},
+	"{{0}} ne peut être indéfini.": {
+		"message": "{{0}} ne peut être indéfini."
+	},
+	"Le mail ne respecte pas le format. Ex: exemple@exemple.com": {
+		"message": "Le mail ne respecte pas le format. Ex: exemple@exemple.com"
+	},
+	"phone ne respecte pas le format. Ex: +33101010101, 0101010101": {
+		"message": "phone ne respecte pas le format. Ex: +33101010101, 0101010101"
+	},
+	"phoneMobile ne respecte pas le format. Ex: +33606060606, 0606060606": {
+		"message": "phoneMobile ne respecte pas le format. Ex: +33606060606, 0606060606"
+	},
+	"siteWeb ne respecte pas le format. Ex: http://www.exemple.com": {
+		"message": "siteWeb ne respecte pas le format. Ex: http://www.exemple.com"
+	},
+	"prenom est requis pour un tiers PHYSIQUE.": {
+		"message": "prenom est requis pour un tiers PHYSIQUE."
+	},
+	"nomFamille est requis pour un tiers PHYSIQUE.": {
+		"message": "nomFamille est requis pour un tiers PHYSIQUE."
+	},
+	"phonePerso ne respecte pas le format. Ex: +33606060606, 0606060606": {
+		"message": "phonePerso ne respecte pas le format. Ex: +33606060606, 0606060606"
+	},
+	"Paramètres incorrects": {
+		"message": "Paramètres incorrects"
+	},
+	"Demande incorrecte": {
+		"message": "Demande incorrecte"
+	},
+	"La tranche commerciale \"{{0}}\" n'existe pas.": {
+		"message": "La tranche commerciale \"{{0}}\" n'existe pas."
+	},
+	"La tranche commerciale \"{{0}}\" ne fait pas partie de l'opération \"{{1}}\".": {
+		"message": "La tranche commerciale \"{{0}}\" ne fait pas partie de l'opération \"{{1}}\"."
+	},
+	"FNP initial": {
+		"message": "FNP initial"
+	},
+	"Achevement travaux": {
+		"message": "Achevement travaux"
+	},
+	"Apport fonds propres": {
+		"message": "Apport fonds propres"
+	},
+	"Restitution fonds propres": {
+		"message": "Restitution fonds propres"
+	},
+	"Distribution de la marge": {
+		"message": "Distribution de la marge"
+	},
+	"Déblocage d’emprunt": {
+		"message": "Déblocage d’emprunt"
+	},
+	"Remboursement d’emprunt": {
+		"message": "Remboursement d’emprunt"
+	},
+	"crédit": {
+		"message": "crédit"
+	},
+	"débit": {
+		"message": "débit"
+	},
+	"Stockable": {
+		"message": "Stockable"
+	},
+	"Non stockable": {
+		"message": "Non stockable"
+	},
+	"Hors FNP": {
+		"message": "Hors FNP"
+	},
+	"360 jours": {
+		"message": "360 jours"
+	},
+	"365 jours": {
+		"message": "365 jours"
+	},
+	"DG": {
+		"message": "DG"
+	},
+	"DES": {
+		"message": "DES"
+	},
+	"AV": {
+		"message": "AV"
+	},
+	"RV": {
+		"message": "RV"
+	},
+	"AF": {
+		"message": "AF"
+	},
+	"EAF": {
+		"message": "EAF"
+	},
+	"EAFN": {
+		"message": "EAFN"
+	},
+	"RC": {
+		"message": "RC"
+	},
+	"ETMA": {
+		"message": "ETMA"
+	},
+	"FTMA": {
+		"message": "FTMA"
+	},
+	"ECTMA": {
+		"message": "ECTMA"
+	},
+	"AFTMA": {
+		"message": "AFTMA"
+	},
+	"AFN": {
+		"message": "AFN"
+	},
+	"DAT": {
+		"message": "DAT"
+	},
+	"AR": {
+		"message": "AR"
+	},
+	"FR": {
+		"message": "FR"
+	},
+	"PR": {
+		"message": "PR"
+	},
+	"EPR": {
+		"message": "EPR"
+	},
+	"RFN": {
+		"message": "RFN"
+	},
+	"RFC": {
+		"message": "RFC"
+	},
+	"FNP": {
+		"message": "FNP"
+	},
+	"EFR": {
+		"message": "EFR"
+	},
+	"FRAISD": {
+		"message": "FRAISD"
+	},
+	"FRAISPF": {
+		"message": "FRAISPF"
+	},
+	"FRAISR": {
+		"message": "FRAISR"
+	},
+	"VSLA": {
+		"message": "VSLA"
+	},
+	"VSLL": {
+		"message": "VSLL"
+	},
+	"A": {
+		"message": "A"
+	},
+	"Bon commande recette": {
+		"message": "Bon commande recette"
+	},
+	"Facture recette": {
+		"message": "Facture recette"
+	},
+	"C": {
+		"message": "C"
+	},
+	"U": {
+		"message": "U"
+	},
+	"S": {
+		"message": "S"
+	},
+	"R": {
+		"message": "R"
+	},
+	"P": {
+		"message": "P"
+	},
+	"E": {
+		"message": "E"
+	},
+	"B": {
+		"message": "B"
+	},
+	"I": {
+		"message": "I"
+	},
+	"Personne Physique": {
+		"message": "Personne Physique"
+	},
+	"Tiers Moral": {
+		"message": "Tiers Moral"
+	},
+	"Collectivité Locale": {
+		"message": "Collectivité Locale"
+	},
+	"Organisme Financier": {
+		"message": "Organisme Financier"
+	},
+	"Monsieur": {
+		"message": "Monsieur"
+	},
+	"Madame": {
+		"message": "Madame"
+	},
+	"ACTIF": {
+		"message": "ACTIF"
+	},
+	"INACTIF": {
+		"message": "INACTIF"
+	},
+	"M": {
+		"message": "M"
+	},
+	"MME": {
+		"message": "MME"
+	},
+	"IBAN": {
+		"message": "IBAN"
+	},
+	"AUTRE": {
+		"message": "AUTRE"
+	},
+	"V": {
+		"message": "V"
+	},
+	"compte courant": {
+		"message": "compte courant"
+	},
+	"compte de dépôt": {
+		"message": "compte de dépôt"
+	},
+	"compte séquestre": {
+		"message": "compte séquestre"
+	},
+	"ANN": {
+		"message": "ANN"
+	},
+	"MENS": {
+		"message": "MENS"
+	},
+	"COOP": {
+		"message": "COOP"
+	},
+	"COOPHLM": {
+		"message": "COOPHLM"
+	},
+	"EURL": {
+		"message": "EURL"
+	},
+	"Office": {
+		"message": "Office"
+	},
+	"OPHLM": {
+		"message": "OPHLM"
+	},
+	"SA": {
+		"message": "SA"
+	},
+	"SAHLM": {
+		"message": "SAHLM"
+	},
+	"SARL": {
+		"message": "SARL"
+	},
+	"SAS": {
+		"message": "SAS"
+	},
+	"SASU": {
+		"message": "SASU"
+	},
+	"SCI": {
+		"message": "SCI"
+	},
+	"SCCV": {
+		"message": "SCCV"
+	},
+	"SCOP": {
+		"message": "SCOP"
+	},
+	"SELARL": {
+		"message": "SELARL"
+	},
+	"SEM": {
+		"message": "SEM"
+	},
+	"SCM": {
+		"message": "SCM"
+	},
+	"SCP": {
+		"message": "SCP"
+	},
+	"SNC": {
+		"message": "SNC"
+	},
+	"En cours d’immatriculation": {
+		"message": "En cours d’immatriculation"
+	},
+	"En activité": {
+		"message": "En activité"
+	},
+	"En liquidation": {
+		"message": "En liquidation"
+	},
+	"Fermée": {
+		"message": "Fermée"
+	},
+	"T": {
+		"message": "T"
+	},
+	"O": {
+		"message": "O"
+	},
+	"date de création": {
+		"message": "date de création"
+	},
+	"saisie libre": {
+		"message": "saisie libre"
+	},
+	"aucune": {
+		"message": "aucune"
+	},
+	"mois": {
+		"message": "mois"
+	},
+	"trimestre": {
+		"message": "trimestre"
+	},
+	"semestre": {
+		"message": "semestre"
+	},
+	"dernier jour de la période clôturée": {
+		"message": "dernier jour de la période clôturée"
+	},
+	"clôture différenciée": {
+		"message": "clôture différenciée"
+	},
+	"période en cours": {
+		"message": "période en cours"
+	},
+	"période n plus 1": {
+		"message": "période n plus 1"
+	},
+	"HT": {
+		"message": "HT"
+	},
+	"TTC": {
+		"message": "TTC"
+	},
+	"DOSSIER": {
+		"message": "DOSSIER"
+	},
+	"LOT": {
+		"message": "LOT"
+	},
+	"FIXE": {
+		"message": "FIXE"
+	},
+	"MNT": {
+		"message": "MNT"
+	},
+	"PRCT": {
+		"message": "PRCT"
+	},
+	"VENTE": {
+		"message": "VENTE"
+	},
+	"TMA": {
+		"message": "TMA"
+	},
+	"APPELE": {
+		"message": "APPELE"
+	},
+	"ENCAISSE": {
+		"message": "ENCAISSE"
+	},
+	"PREVU": {
+		"message": "PREVU"
+	},
+	"REEL": {
+		"message": "REEL"
+	},
+	"QTE": {
+		"message": "QTE"
+	},
+	"M2": {
+		"message": "M2"
+	},
+	"TC": {
+		"message": "TC"
+	},
+	"TYPO": {
+		"message": "TYPO"
+	},
+	"PREV": {
+		"message": "PREV"
+	},
+	"L": {
+		"message": "L"
+	},
+	"DET": {
+		"message": "DET"
+	},
+	"ACTU": {
+		"message": "ACTU"
+	},
+	"GLOBAL": {
+		"message": "GLOBAL"
+	},
+	"RES": {
+		"message": "RES"
+	},
+	"VEN": {
+		"message": "VEN"
+	},
+	"LIV": {
+		"message": "LIV"
+	},
+	"APP": {
+		"message": "APP"
+	},
+	"ENC": {
+		"message": "ENC"
+	},
+	"Préréservé": {
+		"message": "Préréservé"
+	},
+	"Réservé": {
+		"message": "Réservé"
+	},
+	"Loué": {
+		"message": "Loué"
+	},
+	"Vendu": {
+		"message": "Vendu"
+	},
+	"Livré": {
+		"message": "Livré"
+	},
+	"Désisté": {
+		"message": "Désisté"
+	},
+	"Résolu/résilié": {
+		"message": "Résolu/résilié"
+	},
+	"NON": {
+		"message": "NON"
+	},
+	"CS": {
+		"message": "CS"
+	},
+	"CC": {
+		"message": "CC"
+	},
+	"REALISE": {
+		"message": "REALISE"
+	},
+	"PRET": {
+		"message": "PRET"
+	},
+	"REVENTE": {
+		"message": "REVENTE"
+	},
+	"ACP": {
+		"message": "ACP"
+	},
+	"DEM": {
+		"message": "DEM"
+	},
+	"ACC": {
+		"message": "ACC"
+	},
+	"EMIS": {
+		"message": "EMIS"
+	},
+	"OBT": {
+		"message": "OBT"
+	},
+	"FINV": {
+		"message": "FINV"
+	},
+	"F": {
+		"message": "F"
+	},
+	"technique": {
+		"message": "technique"
+	},
+	"esthétique": {
+		"message": "esthétique"
+	},
+	"Demande": {
+		"message": "Demande"
+	},
+	"Devis": {
+		"message": "Devis"
+	},
+	"Signé": {
+		"message": "Signé"
+	},
+	"Refusé": {
+		"message": "Refusé"
+	},
+	"Annulé": {
+		"message": "Annulé"
+	},
+	"VIR": {
+		"message": "VIR"
+	},
+	"CHQ": {
+		"message": "CHQ"
+	},
+	"LIBRE": {
+		"message": "LIBRE"
+	},
+	"mètre": {
+		"message": "mètre"
+	},
+	"m2": {
+		"message": "m2"
+	},
+	"fixe": {
+		"message": "fixe"
+	},
+	"signature": {
+		"message": "signature"
+	},
+	"livraison": {
+		"message": "livraison"
+	},
+	"EVENEMENT": {
+		"message": "EVENEMENT"
+	},
+	"ECHEANCE": {
+		"message": "ECHEANCE"
+	},
+	"nature travaux": {
+		"message": "nature travaux"
+	},
+	"tranche commerciale": {
+		"message": "tranche commerciale"
+	},
+	"Nord": {
+		"message": "Nord"
+	},
+	"Nord-Est": {
+		"message": "Nord-Est"
+	},
+	"Est": {
+		"message": "Est"
+	},
+	"Sud-Est": {
+		"message": "Sud-Est"
+	},
+	"Sud": {
+		"message": "Sud"
+	},
+	"Sud-Ouest": {
+		"message": "Sud-Ouest"
+	},
+	"Ouest": {
+		"message": "Ouest"
+	},
+	"Nord-Ouest": {
+		"message": "Nord-Ouest"
+	},
+	"Nord-Sud": {
+		"message": "Nord-Sud"
+	},
+	"Est-Ouest": {
+		"message": "Est-Ouest"
+	},
+	"En stock": {
+		"message": "En stock"
+	},
+	"Optionné": {
+		"message": "Optionné"
+	},
+	"Pré-réservé": {
+		"message": "Pré-réservé"
+	},
+	"Lot témoin": {
+		"message": "Lot témoin"
+	},
+	"ANNULE": {
+		"message": "ANNULE"
+	},
+	"MORALE": {
+		"message": "MORALE"
+	},
+	"PHYSIQUE": {
+		"message": "PHYSIQUE"
+	},
+	"TVA classique": {
+		"message": "TVA classique"
+	},
+	"TVA sur marge inclus": {
+		"message": "TVA sur marge inclus"
+	},
+	"TVA sur marge non inclus": {
+		"message": "TVA sur marge non inclus"
+	},
+	"Lots principaux": {
+		"message": "Lots principaux"
+	},
+	"Prix": {
+		"message": "Prix"
+	},
+	"Surface": {
+		"message": "Surface"
+	},
+	"Tantième": {
+		"message": "Tantième"
+	},
+	"Au global": {
+		"message": "Au global"
+	},
+	"Par lot": {
+		"message": "Par lot"
+	},
+	"PROCEDURE_SAVED": {
+		"message": "PROCEDURE_SAVED"
+	},
+	"OPERATION_SAVED": {
+		"message": "OPERATION_SAVED"
+	},
+	"TRANCHE_SAVED": {
+		"message": "TRANCHE_SAVED"
+	},
+	"GANTT_SAVED": {
+		"message": "GANTT_SAVED"
+	},
+	"IMPORT_OLDPLANNING": {
+		"message": "IMPORT_OLDPLANNING"
+	},
+	"DUPLICATE": {
+		"message": "DUPLICATE"
+	},
+	"D": {
+		"message": "D"
+	},
+	"CB": {
+		"message": "CB"
+	},
+	"CHE": {
+		"message": "CHE"
+	},
+	"ESP": {
+		"message": "ESP"
+	},
+	"DEV": {
+		"message": "DEV"
+	},
+	"SIG": {
+		"message": "SIG"
+	},
+	"REF": {
+		"message": "REF"
+	},
+	"X": {
+		"message": "X"
+	},
+	"N": {
+		"message": "N"
+	},
+	"NE": {
+		"message": "NE"
+	},
+	"SE": {
+		"message": "SE"
+	},
+	"SO": {
+		"message": "SO"
+	},
+	"NO": {
+		"message": "NO"
+	},
+	"Personne Morale": {
+		"message": "Personne Morale"
+	},
+	"Engagement": {
+		"message": "Engagement"
+	},
+	"Facture": {
+		"message": "Facture"
+	},
+	"Reglement": {
+		"message": "Reglement"
+	},
+	"Versement": {
+		"message": "Versement"
+	},
+	"PreEngagement": {
+		"message": "PreEngagement"
+	},
+	"DemandeVers": {
+		"message": "DemandeVers"
+	},
+	"NotifFin": {
+		"message": "NotifFin"
+	},
+	"FraisFinanciers": {
+		"message": "FraisFinanciers"
+	},
+	"Dossier résa-vente": {
+		"message": "Dossier résa-vente"
+	},
+	"Dépôt garantie encaissé sur compte courant": {
+		"message": "Dépôt garantie encaissé sur compte courant"
+	},
+	"Appel fond": {
+		"message": "Appel fond"
+	},
+	"Encaissement appel fond": {
+		"message": "Encaissement appel fond"
+	},
+	"Appel fond TMA": {
+		"message": "Appel fond TMA"
+	},
+	"Encaissement TMA": {
+		"message": "Encaissement TMA"
+	},
+	"Encaissement facture recette": {
+		"message": "Encaissement facture recette"
+	},
+	"Dation": {
+		"message": "Dation"
+	},
+	"Dation Vendu": {
+		"message": "Dation Vendu"
+	},
+	"Dation Livré": {
+		"message": "Dation Livré"
+	},
+	"Résolution vente": {
+		"message": "Résolution vente"
+	},
+	"PreEngage": {
+		"message": "PreEngage"
+	},
+	"Engage": {
+		"message": "Engage"
+	},
+	"Reglé": {
+		"message": "Reglé"
+	},
+	"Facturé": {
+		"message": "Facturé"
+	},
+	"Annule": {
+		"message": "Annule"
+	},
+	"Initial": {
+		"message": "Initial"
+	},
+	"TotalAvenant": {
+		"message": "TotalAvenant"
+	},
+	"Avenant": {
+		"message": "Avenant"
+	},
+	"Actualisation": {
+		"message": "Actualisation"
+	},
+	"Revision": {
+		"message": "Revision"
+	},
+	"RevisionInitial": {
+		"message": "RevisionInitial"
+	},
+	"TotalBrut": {
+		"message": "TotalBrut"
+	},
+	"RG": {
+		"message": "RG"
+	},
+	"RGCouvCaution": {
+		"message": "RGCouvCaution"
+	},
+	"Prorata": {
+		"message": "Prorata"
+	},
+	"PUC": {
+		"message": "PUC"
+	},
+	"Retenu": {
+		"message": "Retenu"
+	},
+	"AutreRetenu": {
+		"message": "AutreRetenu"
+	},
+	"Penalites": {
+		"message": "Penalites"
+	},
+	"IE": {
+		"message": "IE"
+	},
+	"Avance": {
+		"message": "Avance"
+	},
+	"PenalitesDefinitives": {
+		"message": "PenalitesDefinitives"
+	},
+	"PenalitesDefTVA": {
+		"message": "PenalitesDefTVA"
+	},
+	"TotalNet": {
+		"message": "TotalNet"
+	},
+	"TotalAPayer": {
+		"message": "TotalAPayer"
+	},
+	"SousTraitants": {
+		"message": "SousTraitants"
+	},
+	"Prospection": {
+		"message": "Prospection"
+	},
+	"En étude": {
+		"message": "En étude"
+	},
+	"En Cours": {
+		"message": "En Cours"
+	},
+	"Achevé": {
+		"message": "Achevé"
+	},
+	"Archivé": {
+		"message": "Archivé"
+	},
+	"Abandonné": {
+		"message": "Abandonné"
+	},
+	"string": {
+		"message": "string"
+	},
+	"integer": {
+		"message": "integer"
+	},
+	"number": {
+		"message": "number"
+	},
+	"boolean": {
+		"message": "boolean"
+	},
+	"date": {
+		"message": "date"
+	},
+	"date-time": {
+		"message": "date-time"
+	},
+	"rate": {
+		"message": "rate"
+	},
+	"money": {
+		"message": "money"
+	},
+	"Opération": {
+		"message": "Opération"
+	},
+	"Travaux": {
+		"message": "Travaux"
+	},
+	"Commerciale": {
+		"message": "Commerciale"
+	},
+	"taux normal": {
+		"message": "taux normal"
+	},
+	"taux intermédiaire": {
+		"message": "taux intermédiaire"
+	},
+	"taux réduit": {
+		"message": "taux réduit"
+	},
+	"Actif": {
+		"message": "Actif"
+	},
+	"Inactif": {
+		"message": "Inactif"
+	},
+	"Fournisseur": {
+		"message": "Fournisseur"
+	},
+	"Client": {
+		"message": "Client"
+	},
+	"Banque": {
+		"message": "Banque"
+	},
+	"Société": {
+		"message": "Société"
+	},
+	"Simulation": {
+		"message": "Simulation"
+	},
+	"Actualisé": {
+		"message": "Actualisé"
+	},
+	"Simulation Favorite": {
+		"message": "Simulation Favorite"
+	},
+	"Comité d'engagement": {
+		"message": "Comité d'engagement"
+	},
+	"Comité PC": {
+		"message": "Comité PC"
+	},
+	"{Non renseigné}": {
+		"message": "{Non renseigné}"
+	},
+	"ADDED": {
+		"message": "ADDED"
+	},
+	"MODIFIED": {
+		"message": "MODIFIED"
+	},
+	"DELETED": {
+		"message": "DELETED"
+	},
+	"Avancement des tranches commerciales": {
+		"message": "Avancement des tranches commerciales"
+	},
+	"Types de commercialisation": {
+		"message": "Types de commercialisation"
+	},
+	"Type opération": {
+		"message": "Type opération"
+	},
+	"Type version opération": {
+		"message": "Type version opération"
+	},
+	"La catégorie {{0}} n'existe pas dans les codifications disponibles": {
+		"message": "La catégorie {{0}} n'existe pas dans les codifications disponibles"
+	},
+	"Aucun code ou libellé n'a pu être reçu pour la codification avec le numéro d'ordre <{{0}}>": {
+		"message": "Aucun code ou libellé n'a pu être reçu pour la codification avec le numéro d'ordre <{{0}}>"
+	},
+	"Code <{{0}}> non valide, caractères acceptés : lettre majuscule, chiffre et _": {
+		"message": "Code <{{0}}> non valide, caractères acceptés : lettre majuscule, chiffre et _"
+	},
+	"Il n'y a pas de lots à grouper": {
+		"message": "Il n'y a pas de lots à grouper"
+	},
+	"Il n'y a pas de lots à dégrouper": {
+		"message": "Il n'y a pas de lots à dégrouper"
+	},
+	"Paramètre groupement obligatoire": {
+		"message": "Paramètre groupement obligatoire"
+	},
+	"Il n'y a pas de lots à la vente en bloc": {
+		"message": "Il n'y a pas de lots à la vente en bloc"
+	},
+	"Les informations du lot numéroté {{numLot}} pour l'option en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+		"message": "Les informations du lot numéroté {{numLot}} pour l'option en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé."
+	},
+	"Les informations du lot numéroté {{numeroLot}} pour la réservation en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+		"message": "Les informations du lot numéroté {{numeroLot}} pour la réservation en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé."
+	},
+	"Les informations du lot de numéro {{0}} pour la réservation en cours n'ont pu être lues": {
+		"message": "Les informations du lot de numéro {{0}} pour la réservation en cours n'ont pu être lues"
+	},
+	"Il existe plusieurs réservations en cours pour le lot de numéro {{0}}.": {
+		"message": "Il existe plusieurs réservations en cours pour le lot de numéro {{0}}."
+	},
+	"Les informations du lot numéroté {{0}} pour la réservation en cours n'ont pu être lues.": {
+		"message": "Les informations du lot numéroté {{0}} pour la réservation en cours n'ont pu être lues."
+	},
+	"Les informations du lot de numéro {{0}} pour l'option en cours n'ont pu être lues": {
+		"message": "Les informations du lot de numéro {{0}} pour l'option en cours n'ont pu être lues"
+	},
+	"Il est impossible de lire l'option en cours pour le lot de numéro {{0}}.": {
+		"message": "Il est impossible de lire l'option en cours pour le lot de numéro {{0}}."
+	},
+	"Il existe plusieurs options en cours pour le lot de numéro {{0}}.": {
+		"message": "Il existe plusieurs options en cours pour le lot de numéro {{0}}."
+	},
+	"Le numéro de lot est obligatoire, veuillez renseigner un numéro de lot": {
+		"message": "Le numéro de lot est obligatoire, veuillez renseigner un numéro de lot"
+	},
+	"Le code de lot est obligatoire, veuillez renseigner un code de lot": {
+		"message": "Le code de lot est obligatoire, veuillez renseigner un code de lot"
+	},
+	"La livraison ne peut être antérieure à la réception du lot": {
+		"message": "La livraison ne peut être antérieure à la réception du lot"
+	},
+	"La réception ne peut être antérieure à l'achèvement du lot": {
+		"message": "La réception ne peut être antérieure à l'achèvement du lot"
+	},
+	"Le lot n'est pas en stock.": {
+		"message": "Le lot n'est pas en stock."
+	},
+	"Il y a moins de 2 lots sélectionnés pour le groupement": {
+		"message": "Il y a moins de 2 lots sélectionnés pour le groupement"
+	},
+	"Tous les lots n'appartiennent pas au même groupement": {
+		"message": "Tous les lots n'appartiennent pas au même groupement"
+	},
+	"Tous les lots à grouper n'appartiennent pas à la même tranche commerciale": {
+		"message": "Tous les lots à grouper n'appartiennent pas à la même tranche commerciale"
+	},
+	"Le numéro de lot {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+		"message": "Le numéro de lot {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent."
+	},
+	"Le numéro de copropriété {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+		"message": "Le numéro de copropriété {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent."
+	},
+	"Verrouillage de lot n° {{0}}": {
+		"message": "Verrouillage de lot n° {{0}}"
+	},
+	"Impossible de verrouiller lot n° {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+		"message": "Impossible de verrouiller lot n° {{0}}, il est déjà en cours de utilisation par ailleurs."
+	},
+	"Lots manquants": {
+		"message": "Lots manquants"
+	},
+	"Le lot {{0}} n'est pas en option": {
+		"message": "Le lot {{0}} n'est pas en option"
+	},
+	"Impossible d`annuler plusieurs options en même temps": {
+		"message": "Impossible d`annuler plusieurs options en même temps"
+	},
+	"La date d'annulation ne peut être supérieure à la date du jour": {
+		"message": "La date d'annulation ne peut être supérieure à la date du jour"
+	},
+	"La date d'annulation ne peut être antérieure à la date de pose d'option": {
+		"message": "La date d'annulation ne peut être antérieure à la date de pose d'option"
+	},
+	"multiple": {
+		"message": "multiple"
+	},
+	"Dates": {
+		"message": "Dates"
+	},
+	"Réservation": {
+		"message": "Réservation"
+	},
+	"Réalisée": {
+		"message": "Réalisée"
+	},
+	"Envoi du contrat": {
+		"message": "Envoi du contrat"
+	},
+	"Vente": {
+		"message": "Vente"
+	},
+	"Désistement": {
+		"message": "Désistement"
+	},
+	"Résolution": {
+		"message": "Résolution"
+	},
+	"Livraison": {
+		"message": "Livraison"
+	},
+	"Total prix commercial TTC": {
+		"message": "Total prix commercial TTC"
+	},
+	"Total prix commercial HT": {
+		"message": "Total prix commercial HT"
+	},
+	"Total montant Dation TTC": {
+		"message": "Total montant Dation TTC"
+	},
+	"Total montant Dation HT": {
+		"message": "Total montant Dation HT"
+	},
+	"Montant TTC": {
+		"message": "Montant TTC"
+	},
+	"Montant HT": {
+		"message": "Montant HT"
+	},
+	"Aucune échéance": {
+		"message": "Aucune échéance"
+	},
+	"Apport personnel": {
+		"message": "Apport personnel"
+	},
+	"Prêt bancaire  {{0}}": {
+		"message": "Prêt bancaire  {{0}}"
+	},
+	"Revente": {
+		"message": "Revente"
+	},
+	"Aucun financement": {
+		"message": "Aucun financement"
+	},
+	"Aucun vendeur": {
+		"message": "Aucun vendeur"
+	},
+	"Compte client": {
+		"message": "Compte client"
+	},
+	"Total dossier client TTC": {
+		"message": "Total dossier client TTC"
+	},
+	"Total dossier client HT": {
+		"message": "Total dossier client HT"
+	},
+	"Montant appelé TTC": {
+		"message": "Montant appelé TTC"
+	},
+	"Montant appelé HT": {
+		"message": "Montant appelé HT"
+	},
+	"Montant encaissé TTC": {
+		"message": "Montant encaissé TTC"
+	},
+	"Montant encaissé HT": {
+		"message": "Montant encaissé HT"
+	},
+	"Solde à régler TTC": {
+		"message": "Solde à régler TTC"
+	},
+	"Solde à régler HT": {
+		"message": "Solde à régler HT"
+	},
+	"Imposible de supprimer cet objet car il est utilisé dans \"{{0}}\".": {
+		"message": "Imposible de supprimer cet objet car il est utilisé dans \"{{0}}\"."
+	},
+	"Toutes": {
+		"message": "Toutes"
+	},
+	"Le champ {{0}} est obligatoire": {
+		"message": "Le champ {{0}} est obligatoire"
+	},
+	"Inconnu": {
+		"message": "Inconnu"
+	},
+	"Vous essayez de modifier un objet de type \"{{0}}\" qui à été modifié par un autre utilisateur.": {
+		"message": "Vous essayez de modifier un objet de type \"{{0}}\" qui à été modifié par un autre utilisateur."
+	},
+	"123 {{0}} 56 {{1}}{{0}}": {
+		"message": "123 {{0}} 56 {{1}}{{0}}"
+	},
+	"123 {{one}} 56 {{two}}{{one}}": {
+		"message": "123 {{one}} 56 {{two}}{{one}}"
+	},
+	"Reprise terminé : {{0}} tiers en {{1}} secondes": {
+		"message": "Reprise terminé : {{0}} tiers en {{1}} secondes"
+	},
+	"Vous devez être un administrateur pour gérer les verrous": {
+		"message": "Vous devez être un administrateur pour gérer les verrous"
+	},
+	"Mise à zéro des affectations budgetaires ...": {
+		"message": "Mise à zéro des affectations budgetaires ..."
+	},
+	"Recalcul affectations budgetaires ...": {
+		"message": "Recalcul affectations budgetaires ..."
+	},
+	"Le dossier {{0}} n'a pas des acquereurs.": {
+		"message": "Le dossier {{0}} n'a pas des acquereurs."
+	},
+	"La \"{{0}}\" tranche n'existe pas.": {
+		"message": "La \"{{0}}\" tranche n'existe pas."
+	},
+	"Impossible d'enregistrer l'impact budgétaire pour l'encaissement \"{{0}}\".": {
+		"message": "Impossible d'enregistrer l'impact budgétaire pour l'encaissement \"{{0}}\"."
+	},
+	"Impossible d'enregistrer l'impact budgétaire pour le dossier \"{{0}}\".": {
+		"message": "Impossible d'enregistrer l'impact budgétaire pour le dossier \"{{0}}\"."
+	},
+	"La tranche commerciale {{0}} n'existe pas": {
+		"message": "La tranche commerciale {{0}} n'existe pas"
+	},
+	"Aucun libellé n'a été reçu pour l'aide à la vente": {
+		"message": "Aucun libellé n'a été reçu pour l'aide à la vente"
+	},
+	"Aucun code n'a pu être attribué à la codification": {
+		"message": "Aucun code n'a pu être attribué à la codification"
+	},
+	"Le libellé {{libelle}} de l'aide à la vente est déjà utilisé": {
+		"message": "Le libellé {{libelle}} de l'aide à la vente est déjà utilisé"
+	},
+	"Le code {{code}} de l'aide à la vente est déjà utilisé": {
+		"message": "Le code {{code}} de l'aide à la vente est déjà utilisé"
+	},
+	"Le montant d'aide à la vente doit être positif pour l'aide libellée {{libelle}}": {
+		"message": "Le montant d'aide à la vente doit être positif pour l'aide libellée {{libelle}}"
+	},
+	"Les aides 'Frais de notaire' sont définies pour l'ensemble des lots du dossier": {
+		"message": "Les aides 'Frais de notaire' sont définies pour l'ensemble des lots du dossier"
+	},
+	"Pour les aides '{{libelle}}' il faut saisir le Montant TTC max ou le % Offert max": {
+		"message": "Pour les aides '{{libelle}}' il faut saisir le Montant TTC max ou le % Offert max"
+	},
+	"L'aide 'Echéancier aménagé' est définie pour chaque lot du dossier": {
+		"message": "L'aide 'Echéancier aménagé' est définie pour chaque lot du dossier"
+	},
+	"Les aides 'Frais de notaire' et 'Echéancier aménagé' ne peuvent pas être supprimées": {
+		"message": "Les aides 'Frais de notaire' et 'Echéancier aménagé' ne peuvent pas être supprimées"
+	},
+	"Cette aide est utilisée. Elle ne peut être supprimée": {
+		"message": "Cette aide est utilisée. Elle ne peut être supprimée"
+	},
+	"Aide à la vente {{0}} non trouvé": {
+		"message": "Aide à la vente {{0}} non trouvé"
+	},
+	"Aide à la vente non trouvée": {
+		"message": "Aide à la vente non trouvée"
+	},
+	"L'aide à la vente n'est pas définie": {
+		"message": "L'aide à la vente n'est pas définie"
+	},
+	"La tranche commerciale n'est pas définie pour l'aide {{0}}": {
+		"message": "La tranche commerciale n'est pas définie pour l'aide {{0}}"
+	},
+	"Le montant de l'aide {{0}} doit être positif": {
+		"message": "Le montant de l'aide {{0}} doit être positif"
+	},
+	"La TVA de l'aide {{0}} ne peut pas être négative": {
+		"message": "La TVA de l'aide {{0}} ne peut pas être négative"
+	},
+	"La fin de la validité de l'aide à la vente {{0}} doit être postérieure au début": {
+		"message": "La fin de la validité de l'aide à la vente {{0}} doit être postérieure au début"
+	},
+	"Impossible de vérifier si cette aide est utilisée. Elle ne peut être supprimée": {
+		"message": "Impossible de vérifier si cette aide est utilisée. Elle ne peut être supprimée"
+	},
+	"Cette aide est utilisée dans des ventes. Elle ne peut être supprimée": {
+		"message": "Cette aide est utilisée dans des ventes. Elle ne peut être supprimée"
+	},
+	"Merci d'indiquer la tranche commerciale ou le code opération": {
+		"message": "Merci d'indiquer la tranche commerciale ou le code opération"
+	},
+	"La tranche {{tranche}} n'existe pas": {
+		"message": "La tranche {{tranche}} n'existe pas"
+	},
+	"L'opération {{0}} n'a pas de tranches commerciales": {
+		"message": "L'opération {{0}} n'a pas de tranches commerciales"
+	},
+	"La tranche commerciale {{0}} n'appartient pas à l'opération {{1}}": {
+		"message": "La tranche commerciale {{0}} n'appartient pas à l'opération {{1}}"
+	},
+	"Le champ \"{{0}}\" est obligatoire.": {
+		"message": "Le champ \"{{0}}\" est obligatoire."
+	},
+	"La référence du dossier client doit être indiquée.": {
+		"message": "La référence du dossier client doit être indiquée."
+	},
+	"Le dossier client référence {{0}} n'existe pas.": {
+		"message": "Le dossier client référence {{0}} n'existe pas."
+	},
+	"La référence du tiers doit être indiquée.": {
+		"message": "La référence du tiers doit être indiquée."
+	},
+	"Le tiers référence {{0}} n'existe pas.": {
+		"message": "Le tiers référence {{0}} n'existe pas."
+	},
+	"L'échéance référence {{0}} n'existe pas dans les TMA.": {
+		"message": "L'échéance référence {{0}} n'existe pas dans les TMA."
+	},
+	"L'échéance référence {{0}} n'existe pas dans le dossier de vente.": {
+		"message": "L'échéance référence {{0}} n'existe pas dans le dossier de vente."
+	},
+	"Code opération manquant": {
+		"message": "Code opération manquant"
+	},
+	"L'op opération \"{{0}}\" n'existe pas.": {
+		"message": "L'op opération \"{{0}}\" n'existe pas."
+	},
+	"Avant de pouvoir supprimer un appel de fond, vous devez au préalable supprimer tous les encaissements lui étant liés.": {
+		"message": "Avant de pouvoir supprimer un appel de fond, vous devez au préalable supprimer tous les encaissements lui étant liés."
+	},
+	"Attention statut ne devrait pas être encaissé": {
+		"message": "Attention statut ne devrait pas être encaissé"
+	},
+	"Il est impossible de lancer la facturation sur l'échéance {{0}}. Cette facturation a déjà été lancée": {
+		"message": "Il est impossible de lancer la facturation sur l'échéance {{0}}. Cette facturation a déjà été lancée"
+	},
+	"Impossible de trouver la tranche commerciale de l'appel de fonds {{0}}": {
+		"message": "Impossible de trouver la tranche commerciale de l'appel de fonds {{0}}"
+	},
+	"Un plan de compte compatible n'a pas été trouvé": {
+		"message": "Un plan de compte compatible n'a pas été trouvé"
+	},
+	"La date est obligatoire": {
+		"message": "La date est obligatoire"
+	},
+	"La version est obligatoire": {
+		"message": "La version est obligatoire"
+	},
+	"Le budget est obligatoire": {
+		"message": "Le budget est obligatoire"
+	},
+	"La tranche {{0}} est comptabilisée, vous ne pouvez pas supprimer sa date d'achèvement": {
+		"message": "La tranche {{0}} est comptabilisée, vous ne pouvez pas supprimer sa date d'achèvement"
+	},
+	"Code FNP is missing": {
+		"message": "Code FNP is missing"
+	},
+	"Il n'existe pas un FNP pour ce code": {
+		"message": "Il n'existe pas un FNP pour ce code"
+	},
+	"Tranche Commerciale": {
+		"message": "Tranche Commerciale"
+	},
+	"Dossier de vente": {
+		"message": "Dossier de vente"
+	},
+	"Lot": {
+		"message": "Lot"
+	},
+	"Invalid init params.": {
+		"message": "Invalid init params."
+	},
+	"lots": {
+		"message": "lots"
+	},
+	"Le code opération \"{{0}}\" est incorrect": {
+		"message": "Le code opération \"{{0}}\" est incorrect"
+	},
+	"La date OS n'est pas renseigné.": {
+		"message": "La date OS n'est pas renseigné."
+	},
+	"secondaires": {
+		"message": "secondaires"
+	},
+	"principaux": {
+		"message": "principaux"
+	},
+	"L'opération {{0}} n'existe pas": {
+		"message": "L'opération {{0}} n'existe pas"
+	},
+	"Erreur dans l'actualisation de la commercialisation": {
+		"message": "Erreur dans l'actualisation de la commercialisation"
+	},
+	"Le lot {{0}} n'existe pas dans la tranche {{1}}": {
+		"message": "Le lot {{0}} n'existe pas dans la tranche {{1}}"
+	},
+	"L'opération {{0}} n'a pas des tranches commerciales.": {
+		"message": "L'opération {{0}} n'a pas des tranches commerciales."
+	},
+	"Pas de correspondence pour la tranche {{0}}": {
+		"message": "Pas de correspondence pour la tranche {{0}}"
+	},
+	"Pas de correspondence pour la tranche travaux{{0}}": {
+		"message": "Pas de correspondence pour la tranche travaux{{0}}"
+	},
+	"Id du container introuvable": {
+		"message": "Id du container introuvable"
+	},
+	"Id du view model principal introuvable": {
+		"message": "Id du view model principal introuvable"
+	},
+	"Id de la ligne de la cellule sélectionnée introuvable": {
+		"message": "Id de la ligne de la cellule sélectionnée introuvable"
+	},
+	"Id de la cellule sélectionnée container introuvable": {
+		"message": "Id de la cellule sélectionnée container introuvable"
+	},
+	"Impossible de retrouver le container principal": {
+		"message": "Impossible de retrouver le container principal"
+	},
+	"Impossible de retrouver le view model principal": {
+		"message": "Impossible de retrouver le view model principal"
+	},
+	"janv.": {
+		"message": "janv."
+	},
+	"févr.": {
+		"message": "févr."
+	},
+	"mars": {
+		"message": "mars"
+	},
+	"avril": {
+		"message": "avril"
+	},
+	"mai": {
+		"message": "mai"
+	},
+	"juin": {
+		"message": "juin"
+	},
+	"juil.": {
+		"message": "juil."
+	},
+	"août": {
+		"message": "août"
+	},
+	"sept.": {
+		"message": "sept."
+	},
+	"oct.": {
+		"message": "oct."
+	},
+	"nov.": {
+		"message": "nov."
+	},
+	"déc.": {
+		"message": "déc."
+	},
+	"Tranche travaux": {
+		"message": "Tranche travaux"
+	},
+	"Tranche commerciale": {
+		"message": "Tranche commerciale"
+	},
+	"Stade": {
+		"message": "Stade"
+	},
+	"% appelé": {
+		"message": "% appelé"
+	},
+	"% cumulé": {
+		"message": "% cumulé"
+	},
+	"Prévisionnel": {
+		"message": "Prévisionnel"
+	},
+	"Réservés": {
+		"message": "Réservés"
+	},
+	"Réservations à acter": {
+		"message": "Réservations à acter"
+	},
+	"Vendus": {
+		"message": "Vendus"
+	},
+	"Livrés": {
+		"message": "Livrés"
+	},
+	"Appelés": {
+		"message": "Appelés"
+	},
+	"Encaissés": {
+		"message": "Encaissés"
+	},
+	"Impossible de charger la codification {{0}}": {
+		"message": "Impossible de charger la codification {{0}}"
+	},
+	"Impossible de charger la codif {{0}} de la catégorie {{1}}": {
+		"message": "Impossible de charger la codif {{0}} de la catégorie {{1}}"
+	},
+	"Option": {
+		"message": "Option"
+	},
+	"Ajouter": {
+		"message": "Ajouter"
+	},
+	"Soustraire": {
+		"message": "Soustraire"
+	},
+	"Multiplier": {
+		"message": "Multiplier"
+	},
+	"Diviser": {
+		"message": "Diviser"
+	},
+	"Remplacer": {
+		"message": "Remplacer"
+	},
+	" ": {
+		"message": " "
+	},
+	"%": {
+		"message": "%"
+	},
+	"Compte courant": {
+		"message": "Compte courant"
+	},
+	"Compte de dépôt": {
+		"message": "Compte de dépôt"
+	},
+	"Compte séquestre": {
+		"message": "Compte séquestre"
+	},
+	"Technique": {
+		"message": "Technique"
+	},
+	"Esthétique": {
+		"message": "Esthétique"
+	},
+	"Fixe": {
+		"message": "Fixe"
+	},
+	"Signature": {
+		"message": "Signature"
+	},
+	"Oui": {
+		"message": "Oui"
+	},
+	"Non": {
+		"message": "Non"
+	},
+	"Chèque": {
+		"message": "Chèque"
+	},
+	"Espèces": {
+		"message": "Espèces"
+	},
+	"Carte paiement": {
+		"message": "Carte paiement"
+	},
+	"Virement bancaire": {
+		"message": "Virement bancaire"
+	},
+	"Impossible de créer les écritures du dossier de réservation/vente": {
+		"message": "Impossible de créer les écritures du dossier de réservation/vente"
+	},
+	"Impossible de créer les écritures de {{0}} encaissement(s)": {
+		"message": "Impossible de créer les écritures de {{0}} encaissement(s)"
+	},
+	"Impossible de créer les écritures de {{0}} TMA": {
+		"message": "Impossible de créer les écritures de {{0}} TMA"
+	},
+	"Impossible de retrouver la pièce comptable": {
+		"message": "Impossible de retrouver la pièce comptable"
+	},
+	"L'opération {{0}} n'existe pas.": {
+		"message": "L'opération {{0}} n'existe pas."
+	},
+	"La société {{0}} n'existe pas.": {
+		"message": "La société {{0}} n'existe pas."
+	},
+	"TMA hors acte vente": {
+		"message": "TMA hors acte vente"
+	},
+	"Total": {
+		"message": "Total"
+	},
+	"Le dossier portant l'id \"{{0}}\" n'existe pas.": {
+		"message": "Le dossier portant l'id \"{{0}}\" n'existe pas."
+	},
+	"Vous devez obligatoirement choisir un dossier ou un acquereur afin d'afficher le compte client.": {
+		"message": "Vous devez obligatoirement choisir un dossier ou un acquereur afin d'afficher le compte client."
+	},
+	"Totaux": {
+		"message": "Totaux"
+	},
+	"La référence comptable « {{0}} » de l'opération n'existe pas": {
+		"message": "La référence comptable « {{0}} » de l'opération n'existe pas"
+	},
+	"La référence comptable « {{0}} » de l'opération référence plusieurs opérations": {
+		"message": "La référence comptable « {{0}} » de l'opération référence plusieurs opérations"
+	},
+	"L'opération « {{0}} » n'existe pas": {
+		"message": "L'opération « {{0}} » n'existe pas"
+	},
+	"Compte bancaire {{0}}": {
+		"message": "Compte bancaire {{0}}"
+	},
+	"Le code comptable est obligatoire": {
+		"message": "Le code comptable est obligatoire"
+	},
+	"Le code journal est obligatoire": {
+		"message": "Le code journal est obligatoire"
+	},
+	"Le code journal « {{0}} » n'existe pas": {
+		"message": "Le code journal « {{0}} » n'existe pas"
+	},
+	"Le code journal de réaffectation est obligatoire": {
+		"message": "Le code journal de réaffectation est obligatoire"
+	},
+	"Le code journal de réaffectation « {{0}} » n'existe pas": {
+		"message": "Le code journal de réaffectation « {{0}} » n'existe pas"
+	},
+	"La tranche commerciale \"{{0}}\" n'existe pas": {
+		"message": "La tranche commerciale \"{{0}}\" n'existe pas"
+	},
+	"Le budget de l'opération « {{0}} » n'existe pas": {
+		"message": "Le budget de l'opération « {{0}} » n'existe pas"
+	},
+	"Aucun acquéreur n'a été attribué au dossier client « {{0}} »": {
+		"message": "Aucun acquéreur n'a été attribué au dossier client « {{0}} »"
+	},
+	"Aucun lot n'a été attribué au dossier client « {{0}} »": {
+		"message": "Aucun lot n'a été attribué au dossier client « {{0}} »"
+	},
+	"Le lot « {{0}} » n'est pas en stock": {
+		"message": "Le lot « {{0}} » n'est pas en stock"
+	},
+	"La tranche commerciale « {{0}} » n'existe pas": {
+		"message": "La tranche commerciale « {{0}} » n'existe pas"
+	},
+	"La tranche commerciale du lot « {{0}} » n'est pas commercialisée": {
+		"message": "La tranche commerciale du lot « {{0}} » n'est pas commercialisée"
+	},
+	"La référence comptable « {{0}} » de l'acquéreur n'existe pas": {
+		"message": "La référence comptable « {{0}} » de l'acquéreur n'existe pas"
+	},
+	"La référence comptable « {{0}} » de l'acquéreur référence plusieurs tiers": {
+		"message": "La référence comptable « {{0}} » de l'acquéreur référence plusieurs tiers"
+	},
+	"Le tiers « {{0}} » n'existe pas": {
+		"message": "Le tiers « {{0}} » n'existe pas"
+	},
+	"La quotité totale des acquéreurs doit être égale à 100": {
+		"message": "La quotité totale des acquéreurs doit être égale à 100"
+	},
+	"Le lot « {{0}} » n'a pas été trouvé": {
+		"message": "Le lot « {{0}} » n'a pas été trouvé"
+	},
+	"Incohérence dans la formule HT+TVA=TTC du lot « {{0}} » en TVA sur marge": {
+		"message": "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} » en TVA sur marge"
+	},
+	"Incohérence dans la formule HT+TVA=TTC du lot « {{0}} »": {
+		"message": "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} »"
+	},
+	"La référence de l'acquéreur doit être précisé sur le dépôt de garantie": {
+		"message": "La référence de l'acquéreur doit être précisé sur le dépôt de garantie"
+	},
+	"Le tiers « {{0}} » n'est pas un acquéreur du dossier": {
+		"message": "Le tiers « {{0}} » n'est pas un acquéreur du dossier"
+	},
+	"Echéances : le lot « {{0}} » n'est pas un lot du dossier": {
+		"message": "Echéances : le lot « {{0}} » n'est pas un lot du dossier"
+	},
+	"Echéances : l'échéance type « {{0}} » n'existe pas": {
+		"message": "Echéances : l'échéance type « {{0}} » n'existe pas"
+	},
+	"Echéances : le code évènement « {{0}} » n'existe pas pour la nature travaux du lot concerné (code nature « {{1}} »)": {
+		"message": "Echéances : le code évènement « {{0}} » n'existe pas pour la nature travaux du lot concerné (code nature « {{1}} »)"
+	},
+	"Aides à la vente : il est nécessaire d'indiquer soit la tranche commerciale, soit le lot concerné": {
+		"message": "Aides à la vente : il est nécessaire d'indiquer soit la tranche commerciale, soit le lot concerné"
+	},
+	"Aides à la vente : le lot « {{0}} » n'est pas un lot du dossier": {
+		"message": "Aides à la vente : le lot « {{0}} » n'est pas un lot du dossier"
+	},
+	"Aides à la vente : la tranche « {{0}} » n'est pas celle du lot « {{1}} »": {
+		"message": "Aides à la vente : la tranche « {{0}} » n'est pas celle du lot « {{1}} »"
+	},
+	"Aides à la vente : la tranche « {{0}} » ne correspond pas aux lots du dossier": {
+		"message": "Aides à la vente : la tranche « {{0}} » ne correspond pas aux lots du dossier"
+	},
+	"Aides à la vente : l'aide « {{0}} » n'est pas paramétrée sur la tranche commerciale « {{1}} »": {
+		"message": "Aides à la vente : l'aide « {{0}} » n'est pas paramétrée sur la tranche commerciale « {{1}} »"
+	},
+	"Le changement d'opération n'est pas autorisé.": {
+		"message": "Le changement d'opération n'est pas autorisé."
+	},
+	"Afin de pouvoir annuler votre vente, vous devez au préalable supprimer tous les appels de fonds étant liés à votre dossier ainsi que les encaissements liés à ces appels de fonds.": {
+		"message": "Afin de pouvoir annuler votre vente, vous devez au préalable supprimer tous les appels de fonds étant liés à votre dossier ainsi que les encaissements liés à ces appels de fonds."
+	},
+	"Afin de pouvoir annuler votre vente, vous devez au préalable annuler tous les TMAs étant liés à votre dossier.": {
+		"message": "Afin de pouvoir annuler votre vente, vous devez au préalable annuler tous les TMAs étant liés à votre dossier."
+	},
+	"Merci d'indiquer l'opération": {
+		"message": "Merci d'indiquer l'opération"
+	},
+	"L'opération n'existe pas.": {
+		"message": "L'opération n'existe pas."
+	},
+	"Choisir un modèle": {
+		"message": "Choisir un modèle"
+	},
+	"Vous ne pouvez pas supprimer ce niveau car il est lié à un classeur ayant des opérations actives.": {
+		"message": "Vous ne pouvez pas supprimer ce niveau car il est lié à un classeur ayant des opérations actives."
+	},
+	"Opérations": {
+		"message": "Opérations"
+	},
+	"Marché Commande Facturation": {
+		"message": "Marché Commande Facturation"
+	},
+	"Recettes": {
+		"message": "Recettes"
+	},
+	"Dossier Financement": {
+		"message": "Dossier Financement"
+	},
+	"Paramétrage": {
+		"message": "Paramétrage"
+	},
+	"Tiers": {
+		"message": "Tiers"
+	},
+	"Dossier opération": {
+		"message": "Dossier opération"
+	},
+	"Version": {
+		"message": "Version"
+	},
+	"Suivi Dossier": {
+		"message": "Suivi Dossier"
+	},
+	"Planning": {
+		"message": "Planning"
+	},
+	"Acteurs": {
+		"message": "Acteurs"
+	},
+	"Budget": {
+		"message": "Budget"
+	},
+	"Suivi budgétaire": {
+		"message": "Suivi budgétaire"
+	},
+	"Commercialisation": {
+		"message": "Commercialisation"
+	},
+	"Trésorerie": {
+		"message": "Trésorerie"
+	},
+	"Dossier Société": {
+		"message": "Dossier Société"
+	},
+	"Exercice et clôture": {
+		"message": "Exercice et clôture"
+	},
+	"Périmètre": {
+		"message": "Périmètre"
+	},
+	"Frais financiers": {
+		"message": "Frais financiers"
+	},
+	"Validation export comptable": {
+		"message": "Validation export comptable"
+	},
+	"Flux financiers": {
+		"message": "Flux financiers"
+	},
+	"Comptes bancaires": {
+		"message": "Comptes bancaires"
+	},
+	"Changement de société d'une opération": {
+		"message": "Changement de société d'une opération"
+	},
+	"Passage d'une opération du statut lancé au statut achevé": {
+		"message": "Passage d'une opération du statut lancé au statut achevé"
+	},
+	"Opération en cours terminé": {
+		"message": "Opération en cours terminé"
+	},
+	"Inventaire achèvement": {
+		"message": "Inventaire achèvement"
+	},
+	"Modification marge": {
+		"message": "Modification marge"
+	},
+	"Inventaire avancement anticipation recette": {
+		"message": "Inventaire avancement anticipation recette"
+	},
+	"Inventaire avancement FNP en cours": {
+		"message": "Inventaire avancement FNP en cours"
+	},
+	"Inventaire avancement calcul périodique": {
+		"message": "Inventaire avancement calcul périodique"
+	},
+	"Bon de commande": {
+		"message": "Bon de commande"
+	},
+	"Avenant Bon de commande": {
+		"message": "Avenant Bon de commande"
+	},
+	"Marché": {
+		"message": "Marché"
+	},
+	"Marché TCE": {
+		"message": "Marché TCE"
+	},
+	"Marché à bon de commande": {
+		"message": "Marché à bon de commande"
+	},
+	"Marché PI": {
+		"message": "Marché PI"
+	},
+	"Marché CES": {
+		"message": "Marché CES"
+	},
+	"Sous traitant": {
+		"message": "Sous traitant"
+	},
+	"Avenant marché": {
+		"message": "Avenant marché"
+	},
+	"Marché caution bancaire": {
+		"message": "Marché caution bancaire"
+	},
+	"Marché délégation de paiement": {
+		"message": "Marché délégation de paiement"
+	},
+	"Facture directe": {
+		"message": "Facture directe"
+	},
+	"Facture sur bon de commande": {
+		"message": "Facture sur bon de commande"
+	},
+	"Situations de Travaux": {
+		"message": "Situations de Travaux"
+	},
+	"Validation des factures": {
+		"message": "Validation des factures"
+	},
+	"OD": {
+		"message": "OD"
+	},
+	"Grille de prix vente": {
+		"message": "Grille de prix vente"
+	},
+	"Dossier client": {
+		"message": "Dossier client"
+	},
+	"Stade travaux": {
+		"message": "Stade travaux"
+	},
+	"Facturation TMA": {
+		"message": "Facturation TMA"
+	},
+	"Encaissement": {
+		"message": "Encaissement"
+	},
+	"Suivi compte client": {
+		"message": "Suivi compte client"
+	},
+	"Dossier client saisie en masse": {
+		"message": "Dossier client saisie en masse"
+	},
+	"Dossier financement": {
+		"message": "Dossier financement"
+	},
+	"Suivi dossier de prêt": {
+		"message": "Suivi dossier de prêt"
+	},
+	"Suivi dossier de subvention": {
+		"message": "Suivi dossier de subvention"
+	},
+	"Contrat cadre": {
+		"message": "Contrat cadre"
+	},
+	"Garantie de prêt": {
+		"message": "Garantie de prêt"
+	},
+	"Contrat de prêt": {
+		"message": "Contrat de prêt"
+	},
+	"Versements prêt": {
+		"message": "Versements prêt"
+	},
+	"Décision de financement": {
+		"message": "Décision de financement"
+	},
+	"Versements subvention": {
+		"message": "Versements subvention"
+	},
+	"Administration et contrôle des accès": {
+		"message": "Administration et contrôle des accès"
+	},
+	"Procédure et planning": {
+		"message": "Procédure et planning"
+	},
+	"CRM": {
+		"message": "CRM"
+	},
+	"Comptabilité": {
+		"message": "Comptabilité"
+	},
+	"Dossier des financements": {
+		"message": "Dossier des financements"
+	},
+	"Marchés et bons de commandes": {
+		"message": "Marchés et bons de commandes"
+	},
+	"Tranches commerciales": {
+		"message": "Tranches commerciales"
+	},
+	"Mobilité": {
+		"message": "Mobilité"
+	},
+	"Fiche Tiers": {
+		"message": "Fiche Tiers"
+	},
+	"Identification": {
+		"message": "Identification"
+	},
+	"Juridique": {
+		"message": "Juridique"
+	},
+	"Adresses": {
+		"message": "Adresses"
+	},
+	"Représentants": {
+		"message": "Représentants"
+	},
+	"Créer Opération": {
+		"message": "Créer Opération"
+	},
+	"Supprimer Opération": {
+		"message": "Supprimer Opération"
+	},
+	"Créer Tranche travaux": {
+		"message": "Créer Tranche travaux"
+	},
+	"Créer Tranche commerciale": {
+		"message": "Créer Tranche commerciale"
+	},
+	"Supprimer Tranche commerciale": {
+		"message": "Supprimer Tranche commerciale"
+	},
+	"Créer Budget": {
+		"message": "Créer Budget"
+	},
+	"Supprimer Budget": {
+		"message": "Supprimer Budget"
+	},
+	"Verrouiller autorisation budgétaire": {
+		"message": "Verrouiller autorisation budgétaire"
+	},
+	"Supprimer": {
+		"message": "Supprimer"
+	},
+	"Archiver": {
+		"message": "Archiver"
+	},
+	"Modifier le type de version": {
+		"message": "Modifier le type de version"
+	},
+	"Modifier le libellé": {
+		"message": "Modifier le libellé"
+	},
+	"Modifier le statut actualisé": {
+		"message": "Modifier le statut actualisé"
+	},
+	"Modifier la date d'arrêté": {
+		"message": "Modifier la date d'arrêté"
+	},
+	"Modifier le commentaire": {
+		"message": "Modifier le commentaire"
+	},
+	"Modifier avancement travaux": {
+		"message": "Modifier avancement travaux"
+	},
+	"Echéanciers": {
+		"message": "Echéanciers"
+	},
+	"Aides à la vente": {
+		"message": "Aides à la vente"
+	},
+	"TVA sur marge": {
+		"message": "TVA sur marge"
+	},
+	"Créer grille de prix": {
+		"message": "Créer grille de prix"
+	},
+	"Supprimer grille de prix": {
+		"message": "Supprimer grille de prix"
+	},
+	"Supprimer action": {
+		"message": "Supprimer action"
+	},
+	"Exporter": {
+		"message": "Exporter"
+	},
+	"Sauvegarde": {
+		"message": "Sauvegarde"
+	},
+	"Créer": {
+		"message": "Créer"
+	},
+	"Opérations rattachées": {
+		"message": "Opérations rattachées"
+	},
+	"Créer un exercice": {
+		"message": "Créer un exercice"
+	},
+	"Clôtures": {
+		"message": "Clôtures"
+	},
+	"Date achèvement": {
+		"message": "Date achèvement"
+	},
+	"Annuler date": {
+		"message": "Annuler date"
+	},
+	"Comptabiliser": {
+		"message": "Comptabiliser"
+	},
+	"Transfert": {
+		"message": "Transfert"
+	},
+	"Annuler comptabilisation": {
+		"message": "Annuler comptabilisation"
+	},
+	"Créer Bon de commande": {
+		"message": "Créer Bon de commande"
+	},
+	"Affecter le budget imprévu": {
+		"message": "Affecter le budget imprévu"
+	},
+	"Engager Bon de commande": {
+		"message": "Engager Bon de commande"
+	},
+	"Engager Avenant": {
+		"message": "Engager Avenant"
+	},
+	"Autoliquidation": {
+		"message": "Autoliquidation"
+	},
+	"Créer marché TCE": {
+		"message": "Créer marché TCE"
+	},
+	"Créer marché à Bon de commande": {
+		"message": "Créer marché à Bon de commande"
+	},
+	"Engager marché CES": {
+		"message": "Engager marché CES"
+	},
+	"Créer sous traitant": {
+		"message": "Créer sous traitant"
+	},
+	"Créer avenant": {
+		"message": "Créer avenant"
+	},
+	"Annuler Facture directe": {
+		"message": "Annuler Facture directe"
+	},
+	"Annuler Facture sur Bon de commande": {
+		"message": "Annuler Facture sur Bon de commande"
+	},
+	"Annuler Situation de travaux": {
+		"message": "Annuler Situation de travaux"
+	},
+	"Accompte": {
+		"message": "Accompte"
+	},
+	"DGD": {
+		"message": "DGD"
+	},
+	"Libération retenue de garantie ": {
+		"message": "Libération retenue de garantie "
+	},
+	"Engager": {
+		"message": "Engager"
+	},
+	"Coche TVA multiple": {
+		"message": "Coche TVA multiple"
+	},
+	"Police unique de chantier": {
+		"message": "Police unique de chantier"
+	},
+	"Inter Entreprises": {
+		"message": "Inter Entreprises"
+	},
+	"Plusieurs taux TVA": {
+		"message": "Plusieurs taux TVA"
+	},
+	"Grouper": {
+		"message": "Grouper"
+	},
+	"Dégrouper": {
+		"message": "Dégrouper"
+	},
+	"Vente en bloc": {
+		"message": "Vente en bloc"
+	},
+	"Non vente en bloc": {
+		"message": "Non vente en bloc"
+	},
+	"Changer de tranche": {
+		"message": "Changer de tranche"
+	},
+	"Ajouter un lot": {
+		"message": "Ajouter un lot"
+	},
+	"Supprimer un lot": {
+		"message": "Supprimer un lot"
+	},
+	"Poser une option": {
+		"message": "Poser une option"
+	},
+	"Annuler un option": {
+		"message": "Annuler un option"
+	},
+	"Annuler Vente": {
+		"message": "Annuler Vente"
+	},
+	"Forcer TVA sur marge": {
+		"message": "Forcer TVA sur marge"
+	},
+	"Réserver": {
+		"message": "Réserver"
+	},
+	"Aide à la vente": {
+		"message": "Aide à la vente"
+	},
+	" non trouvé.": {
+		"message": " non trouvé."
+	},
+	"Niveau organisationnel non trouvé.": {
+		"message": "Niveau organisationnel non trouvé."
+	},
+	"Vous ne pouvez pas supprimer ce niveau car il a un ou plusieurs sous niveaux.": {
+		"message": "Vous ne pouvez pas supprimer ce niveau car il a un ou plusieurs sous niveaux."
+	},
+	"Vous devez choisir un libellé pour \"Role Fonctionnel\" ainsi qu'un code pour celui-ci.": {
+		"message": "Vous devez choisir un libellé pour \"Role Fonctionnel\" ainsi qu'un code pour celui-ci."
+	},
+	"Le mot de passe doit au minimum contenir {{0}} caractères, comme spécifié ci-dessous par le champ \"Nombre minimum de caractères\".": {
+		"message": "Le mot de passe doit au minimum contenir {{0}} caractères, comme spécifié ci-dessous par le champ \"Nombre minimum de caractères\"."
+	},
+	"La confirmation du mot de passe n'est pas identique au mot de passe.": {
+		"message": "La confirmation du mot de passe n'est pas identique au mot de passe."
+	},
+	"Evènement": {
+		"message": "Evènement"
+	},
+	"Veuillez indiquer l'échéancier à utiliser par défaut pour cette nature de travaux": {
+		"message": "Veuillez indiquer l'échéancier à utiliser par défaut pour cette nature de travaux"
+	},
+	"Veuillez ne sélectionner qu'un seul échéancier à utiliser par défaut": {
+		"message": "Veuillez ne sélectionner qu'un seul échéancier à utiliser par défaut"
+	},
+	"L'échéancier type de la tranche commerciale {{0}} n'est pas défini": {
+		"message": "L'échéancier type de la tranche commerciale {{0}} n'est pas défini"
+	},
+	"L'échéance {{e1}} dépend de {{e2}}": {
+		"message": "L'échéance {{e1}} dépend de {{e2}}"
+	},
+	"Le libellé doit être renseigné.": {
+		"message": "Le libellé doit être renseigné."
+	},
+	"Le pourcentage doit être renseigné.": {
+		"message": "Le pourcentage doit être renseigné."
+	},
+	"Le délai doit être renseigné.": {
+		"message": "Le délai doit être renseigné."
+	},
+	"Le pourcentage doit être compris entre 0 % et 100 %.": {
+		"message": "Le pourcentage doit être compris entre 0 % et 100 %."
+	},
+	"L'échéance vente ne peut pas être liée à une autre échéance ou à un événement.": {
+		"message": "L'échéance vente ne peut pas être liée à une autre échéance ou à un événement."
+	},
+	"Une échéance liée à un évènement ne peut pas être liée également à une autre échéance.": {
+		"message": "Une échéance liée à un évènement ne peut pas être liée également à une autre échéance."
+	},
+	"L'échéance doit être liée à un évènement.": {
+		"message": "L'échéance doit être liée à un évènement."
+	},
+	"Une échéance liée à une autre échéance ne peut pas être liée également à un évènement.": {
+		"message": "Une échéance liée à une autre échéance ne peut pas être liée également à un évènement."
+	},
+	"L'échéance doit être liée à une autre échéance.": {
+		"message": "L'échéance doit être liée à une autre échéance."
+	},
+	"Type d'échéance non déterminé.": {
+		"message": "Type d'échéance non déterminé."
+	},
+	"Echéance": {
+		"message": "Echéance"
+	},
+	"Nouvel échéancier": {
+		"message": "Nouvel échéancier"
+	},
+	"Impossible de créer la copie d'une échéance": {
+		"message": "Impossible de créer la copie d'une échéance"
+	},
+	"Le libellé est obligatoire pour l'échéancier {{0}}": {
+		"message": "Le libellé est obligatoire pour l'échéancier {{0}}"
+	},
+	"Le libellé {{libelle}} de l'écheancier {{id}} n'est pas unique": {
+		"message": "Le libellé {{libelle}} de l'écheancier {{id}} n'est pas unique"
+	},
+	"Le libellé {{libelle}} des échéanciers {{ids}} n'est pas unique": {
+		"message": "Le libellé {{libelle}} des échéanciers {{ids}} n'est pas unique"
+	},
+	"La tranche commerciale n'est pas définie": {
+		"message": "La tranche commerciale n'est pas définie"
+	},
+	"Libre": {
+		"message": "Libre"
+	},
+	"Veuillez indiquer l'échéancier à utiliser par défaut pour cette tranche commerciale": {
+		"message": "Veuillez indiquer l'échéancier à utiliser par défaut pour cette tranche commerciale"
+	},
+	"EncaissementView: codeEncaissement is missing.": {
+		"message": "EncaissementView: codeEncaissement is missing."
+	},
+	"L'encaissement avec le code \"{{0}}\" n'existe pas.": {
+		"message": "L'encaissement avec le code \"{{0}}\" n'existe pas."
+	},
+	"Le mode de réglement doit être indiqué": {
+		"message": "Le mode de réglement doit être indiqué"
+	},
+	"Le mode de réglement {{0}} n'existe pas.": {
+		"message": "Le mode de réglement {{0}} n'existe pas."
+	},
+	"La référence du compte banque doit être indiquée.": {
+		"message": "La référence du compte banque doit être indiquée."
+	},
+	"Le compte bancaire référence {{0}} n'existe pas.": {
+		"message": "Le compte bancaire référence {{0}} n'existe pas."
+	},
+	"Le compte bancaire {{0}} ne concerne pas l'opération {{1}}": {
+		"message": "Le compte bancaire {{0}} ne concerne pas l'opération {{1}}"
+	},
+	"Encaissement introuvable": {
+		"message": "Encaissement introuvable"
+	},
+	"L'opération \"{{0}}\" n'existe pas.": {
+		"message": "L'opération \"{{0}}\" n'existe pas."
+	},
+	"Aucun compte bancaire de type \"compte courant\" n'est paramétré pour l'opération {{0}}": {
+		"message": "Aucun compte bancaire de type \"compte courant\" n'est paramétré pour l'opération {{0}}"
+	},
+	"Merci de préciser un mode de règlement": {
+		"message": "Merci de préciser un mode de règlement"
+	},
+	"Merci de préciser une banque": {
+		"message": "Merci de préciser une banque"
+	},
+	"La somme des ventilations doit être égale au montant réglé + les frais de notaire pris en charge": {
+		"message": "La somme des ventilations doit être égale au montant réglé + les frais de notaire pris en charge"
+	},
+	"La somme des ventilations doit être égale au montant réglé": {
+		"message": "La somme des ventilations doit être égale au montant réglé"
+	},
+	"La date de reglement est vide": {
+		"message": "La date de reglement est vide"
+	},
+	"Pas d'opération  dans dossier.": {
+		"message": "Pas d'opération  dans dossier."
+	},
+	"Impossible de retrouver l`échéance {{0}}": {
+		"message": "Impossible de retrouver l`échéance {{0}}"
+	},
+	"Impossible de retrouver l`échéance de TMA {{0}}": {
+		"message": "Impossible de retrouver l`échéance de TMA {{0}}"
+	},
+	"Impossible de retrouver le container de la modale": {
+		"message": "Impossible de retrouver le container de la modale"
+	},
+	"Impossible de retrouver la règle de la modale": {
+		"message": "Impossible de retrouver la règle de la modale"
+	},
+	"Il y trop des lignes. Seulement les premières {{0}} lignes sont chargées.": {
+		"message": "Il y trop des lignes. Seulement les premières {{0}} lignes sont chargées."
+	},
+	"Le montant réglé doit être inférieur ou égal au montant de l'appel": {
+		"message": "Le montant réglé doit être inférieur ou égal au montant de l'appel"
+	},
+	"Impossible de retrouver la tranche commerciale de l'encaissement {{0}}": {
+		"message": "Impossible de retrouver la tranche commerciale de l'encaissement {{0}}"
+	},
+	"Date de règlement vide.": {
+		"message": "Date de règlement vide."
+	},
+	"Pas d'opération.": {
+		"message": "Pas d'opération."
+	},
+	"Pas de tiers.": {
+		"message": "Pas de tiers."
+	},
+	"Pas de compte bancaire.": {
+		"message": "Pas de compte bancaire."
+	},
+	"Le montant d'encaissement est zéro.": {
+		"message": "Le montant d'encaissement est zéro."
+	},
+	"L'encaissement \"{{0}}\" n'existe pas.": {
+		"message": "L'encaissement \"{{0}}\" n'existe pas."
+	},
+	"idsFacture is missing.": {
+		"message": "idsFacture is missing."
+	},
+	"La facture \"{{0}}\" n'existe pas.": {
+		"message": "La facture \"{{0}}\" n'existe pas."
+	},
+	"Le tiers \"{{0}}\" n'existe pas.": {
+		"message": "Le tiers \"{{0}}\" n'existe pas."
+	},
+	"L'tranche commerciale \"{{0}}\" n'existe pas.": {
+		"message": "L'tranche commerciale \"{{0}}\" n'existe pas."
+	},
+	"Facture non trouvé": {
+		"message": "Facture non trouvé"
+	},
+	"La facture recette \"{{0}}\" n'existe pas, mais elle a des encaissements.": {
+		"message": "La facture recette \"{{0}}\" n'existe pas, mais elle a des encaissements."
+	},
+	"La date de fin d'exercice ne peut être antérieure à la date de début d'exercice": {
+		"message": "La date de fin d'exercice ne peut être antérieure à la date de début d'exercice"
+	},
+	"La société \"{{0}}\" n'a pas d'exercice ouvert.": {
+		"message": "La société \"{{0}}\" n'a pas d'exercice ouvert."
+	},
+	"La société \"{{0}}\" n'a pas d'exercice clos.": {
+		"message": "La société \"{{0}}\" n'a pas d'exercice clos."
+	},
+	"Les sociétés sélectionnées ne comportent pas de dates d'exercice compatibles.": {
+		"message": "Les sociétés sélectionnées ne comportent pas de dates d'exercice compatibles."
+	},
+	"Janvier": {
+		"message": "Janvier"
+	},
+	"Février": {
+		"message": "Février"
+	},
+	"Mars": {
+		"message": "Mars"
+	},
+	"Avril": {
+		"message": "Avril"
+	},
+	"Mai": {
+		"message": "Mai"
+	},
+	"Juin": {
+		"message": "Juin"
+	},
+	"Juillet": {
+		"message": "Juillet"
+	},
+	"Août": {
+		"message": "Août"
+	},
+	"Septembre": {
+		"message": "Septembre"
+	},
+	"Octobre": {
+		"message": "Octobre"
+	},
+	"Novembre": {
+		"message": "Novembre"
+	},
+	"Décembre": {
+		"message": "Décembre"
+	},
+	"Trimestre {{0}}": {
+		"message": "Trimestre {{0}}"
+	},
+	"Semestre {{0}}": {
+		"message": "Semestre {{0}}"
+	},
+	"Fille": {
+		"message": "Fille"
+	},
+	"Mère": {
+		"message": "Mère"
+	},
+	"La date de début d'exercice ne peut être ultérieure à la date de fin d'exercice": {
+		"message": "La date de début d'exercice ne peut être ultérieure à la date de fin d'exercice"
+	},
+	"refTiers est obligatoire": {
+		"message": "refTiers est obligatoire"
+	},
+	"Le tiers sélectionné n'existe pas": {
+		"message": "Le tiers sélectionné n'existe pas"
+	},
+	"Tous": {
+		"message": "Tous"
+	},
+	"La société n'a pas été définie": {
+		"message": "La société n'a pas été définie"
+	},
+	"L'opération n'a pas été définie": {
+		"message": "L'opération n'a pas été définie"
+	},
+	"Le type de mouvement n'a pas été défini": {
+		"message": "Le type de mouvement n'a pas été défini"
+	},
+	"La date de réglement n'a pas été définie": {
+		"message": "La date de réglement n'a pas été définie"
+	},
+	"Le montant du réglement n'a pas été défini": {
+		"message": "Le montant du réglement n'a pas été défini"
+	},
+	"Le mode de règlement n'a pas été défini": {
+		"message": "Le mode de règlement n'a pas été défini"
+	},
+	"La banque de règlement n'a pas été définie": {
+		"message": "La banque de règlement n'a pas été définie"
+	},
+	"L'opération {{0}} n'est pas rattachée à la société {{1}}": {
+		"message": "L'opération {{0}} n'est pas rattachée à la société {{1}}"
+	},
+	"L'associé {{0}} n'est pas actionnaire de la société {{1}}": {
+		"message": "L'associé {{0}} n'est pas actionnaire de la société {{1}}"
+	},
+	"Le compte banque {{0}} ne fait pas partie de l'opération {{1}}": {
+		"message": "Le compte banque {{0}} ne fait pas partie de l'opération {{1}}"
+	},
+	"La ventilation du montant n'est pas correctement réalisée sur les tranches ({{0}} au lieu de {{1}})": {
+		"message": "La ventilation du montant n'est pas correctement réalisée sur les tranches ({{0}} au lieu de {{1}})"
+	},
+	"Impossible de supprimer le frais financier {{0}} car il existe un autre plus recent {{1}}": {
+		"message": "Impossible de supprimer le frais financier {{0}} car il existe un autre plus recent {{1}}"
+	},
+	"Impossible de creer le(s) frais financiers car il existe plusieurs postes de type : produit financier": {
+		"message": "Impossible de creer le(s) frais financiers car il existe plusieurs postes de type : produit financier"
+	},
+	"Impossible de creer le(s) frais financiers car il n'existe pas des postes de type : produit financier": {
+		"message": "Impossible de creer le(s) frais financiers car il n'existe pas des postes de type : produit financier"
+	},
+	"Le tiers société pour \"{{0}}\" n'existe pas.": {
+		"message": "Le tiers société pour \"{{0}}\" n'existe pas."
+	},
+	"Le calcul des frais financiers est impossible (plusieurs sociétés)": {
+		"message": "Le calcul des frais financiers est impossible (plusieurs sociétés)"
+	},
+	"Le taux doit étre positive": {
+		"message": "Le taux doit étre positive"
+	},
+	"Les dates sélectionnées sont incohérentes": {
+		"message": "Les dates sélectionnées sont incohérentes"
+	},
+	"Impossible de creer le(s) frais financiers car il existe déjà pour la période séléctionée : {{0}} ": {
+		"message": "Impossible de creer le(s) frais financiers car il existe déjà pour la période séléctionée : {{0}} "
+	},
+	"Frais financiers tranche \"{{0}}\": période du \"{{1}}\" au \"{{2}}\"": {
+		"message": "Frais financiers tranche \"{{0}}\": période du \"{{1}}\" au \"{{2}}\""
+	},
+	"Code is missing": {
+		"message": "Code is missing"
+	},
+	"Il n'existe pas un frais financier pour ce code": {
+		"message": "Il n'existe pas un frais financier pour ce code"
+	},
+	"Il existe déja une piéce comptable pour le frais financier {{0}}": {
+		"message": "Il existe déja une piéce comptable pour le frais financier {{0}}"
+	},
+	"Impossible de supprimer le périmètre société {{0}} car il est utilisé par les sociétes {{1}}": {
+		"message": "Impossible de supprimer le périmètre société {{0}} car il est utilisé par les sociétes {{1}}"
+	},
+	"Le code est obligatoire": {
+		"message": "Le code est obligatoire"
+	},
+	"Le libellé est obligatoire": {
+		"message": "Le libellé est obligatoire"
+	},
+	"Le code doit être unique": {
+		"message": "Le code doit être unique"
+	},
+	"Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes.": {
+		"message": "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes."
+	},
+	"L'opération \"{{0}}\" n'a pas de grille de prix.": {
+		"message": "L'opération \"{{0}}\" n'a pas de grille de prix."
+	},
+	"L'opération \"{{0}}\" n'a pas la tranche commerciale \"{{1}}\".": {
+		"message": "L'opération \"{{0}}\" n'a pas la tranche commerciale \"{{1}}\"."
+	},
+	"Total ({{0}})": {
+		"message": "Total ({{0}})"
+	},
+	"Lots principaux ({{0}})": {
+		"message": "Lots principaux ({{0}})"
+	},
+	"Lots secondaires ({{0}})": {
+		"message": "Lots secondaires ({{0}})"
+	},
+	"Lot n° {{0}}: Le champ \"{{1}}\" est obligatoire.": {
+		"message": "Lot n° {{0}}: Le champ \"{{1}}\" est obligatoire."
+	},
+	"Préciser les identifiants des lots concernés par le changement de tranche": {
+		"message": "Préciser les identifiants des lots concernés par le changement de tranche"
+	},
+	"Préciser le code de la tranche de destination": {
+		"message": "Préciser le code de la tranche de destination"
+	},
+	"Le lot {{0}} n'existe pas": {
+		"message": "Le lot {{0}} n'existe pas"
+	},
+	"Le lot {{0}} est soumis à la TVA sur marge.": {
+		"message": "Le lot {{0}} est soumis à la TVA sur marge."
+	},
+	"Le code opération est obligatoire": {
+		"message": "Le code opération est obligatoire"
+	},
+	"Le code analytique « {{0}} » du programme n'existe pas": {
+		"message": "Le code analytique « {{0}} » du programme n'existe pas"
+	},
+	"Le code analytique « {{0}} » du programme référence plusieurs programmes": {
+		"message": "Le code analytique « {{0}} » du programme référence plusieurs programmes"
+	},
+	"Le programme « {{0}} » n'existe pas": {
+		"message": "Le programme « {{0}} » n'existe pas"
+	},
+	"La tranche commerciale « {{0}} » possède déjà une typologie": {
+		"message": "La tranche commerciale « {{0}} » possède déjà une typologie"
+	},
+	"Le lot doit être en stock": {
+		"message": "Le lot doit être en stock"
+	},
+	"Le type de lot doit être renseigné": {
+		"message": "Le type de lot doit être renseigné"
+	},
+	"Le type de lot « {{0}} » n'est pas autorisé pour le type d'ouvrage « {{1}} »": {
+		"message": "Le type de lot « {{0}} » n'est pas autorisé pour le type d'ouvrage « {{1}} »"
+	},
+	"Le type de lot « {{0}} » n'est pas cohérent avec l'indication principal/secondaire du lot": {
+		"message": "Le type de lot « {{0}} » n'est pas cohérent avec l'indication principal/secondaire du lot"
+	},
+	"La date de livraison doit être renseignée": {
+		"message": "La date de livraison doit être renseignée"
+	},
+	"Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes": {
+		"message": "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes"
+	},
+	"La codification n'a pas de numéro d'ordre": {
+		"message": "La codification n'a pas de numéro d'ordre"
+	},
+	"Aucun code n'a pu être reçu pour la codification": {
+		"message": "Aucun code n'a pu être reçu pour la codification"
+	},
+	"Aucun libellé n'a été reçu pour la codification": {
+		"message": "Aucun libellé n'a été reçu pour la codification"
+	},
+	"Les codifications de la catégorie sont inconnues, aucune validation n'est possible": {
+		"message": "Les codifications de la catégorie sont inconnues, aucune validation n'est possible"
+	},
+	"Le libellé {{libelle}} de la codification est déjà utilisé par {{code}}": {
+		"message": "Le libellé {{libelle}} de la codification est déjà utilisé par {{code}}"
+	},
+	"Le code {{code}} de la codification est déjà utilisé": {
+		"message": "Le code {{code}} de la codification est déjà utilisé"
+	},
+	"La nature des travaux n'est pas définie": {
+		"message": "La nature des travaux n'est pas définie"
+	},
+	"Vous n'avez pas les habilitations necessaires pour créer une opération": {
+		"message": "Vous n'avez pas les habilitations necessaires pour créer une opération"
+	},
+	"Il y a des affectations budgetaires sur cette opération.": {
+		"message": "Il y a des affectations budgetaires sur cette opération."
+	},
+	"Cette opération a des tranches commerciales.": {
+		"message": "Cette opération a des tranches commerciales."
+	},
+	"Cette opération est utilisé, elle ne peut être supprimé.": {
+		"message": "Cette opération est utilisé, elle ne peut être supprimé."
+	},
+	"La version {{0}} n'existe pas": {
+		"message": "La version {{0}} n'existe pas"
+	},
+	"Archivée le {{dateDay}}/{{dateMonth}}/{{dateYear}}": {
+		"message": "Archivée le {{dateDay}}/{{dateMonth}}/{{dateYear}}"
+	},
+	"Impossible de trouver l'opération source.": {
+		"message": "Impossible de trouver l'opération source."
+	},
+	"La version {{0}} est actualisée": {
+		"message": "La version {{0}} est actualisée"
+	},
+	"La version actualisée {{0}} n'existe pas": {
+		"message": "La version actualisée {{0}} n'existe pas"
+	},
+	"Autorisé uniquement si le statut d'opération est {{0}} ou {{1}}.": {
+		"message": "Autorisé uniquement si le statut d'opération est {{0}} ou {{1}}."
+	},
+	"Le statut d'opération est différent de statut de la version.": {
+		"message": "Le statut d'opération est différent de statut de la version."
+	},
+	"La version à actualiser n'est pas à isopérimètre.": {
+		"message": "La version à actualiser n'est pas à isopérimètre."
+	},
+	"La tranche travaux \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+		"message": "La tranche travaux \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\""
+	},
+	"La tranche travaux \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+		"message": "La tranche travaux \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\""
+	},
+	"La tranche commerciale \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+		"message": "La tranche commerciale \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\""
+	},
+	"La tranche commerciale \"{{0}} - {{1}}\" a des lots qu ne sont pas en stock.\"": {
+		"message": "La tranche commerciale \"{{0}} - {{1}}\" a des lots qu ne sont pas en stock.\""
+	},
+	"La tranche commerciale \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+		"message": "La tranche commerciale \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\""
+	},
+	"Le lot \"{{0}}\" existe déjà dans la tranche \"{{1}}\" de l'operation \"{{2}}.\"": {
+		"message": "Le lot \"{{0}}\" existe déjà dans la tranche \"{{1}}\" de l'operation \"{{2}}.\""
+	},
+	"Le lot {{0}} dans la tranche commerciale {{1}} a été reservé": {
+		"message": "Le lot {{0}} dans la tranche commerciale {{1}} a été reservé"
+	},
+	"Opération non définie.": {
+		"message": "Opération non définie."
+	},
+	"Version 1": {
+		"message": "Version 1"
+	},
+	"La tranche commerciale n'a pas été trouvée": {
+		"message": "La tranche commerciale n'a pas été trouvée"
+	},
+	"Impossible de supprimer la grille de prix: Le lot {{0}} n'est plus en stock": {
+		"message": "Impossible de supprimer la grille de prix: Le lot {{0}} n'est plus en stock"
+	},
+	"Impossible de créer la grille de prix: Le lot {{0}} n'est plus en stock": {
+		"message": "Impossible de créer la grille de prix: Le lot {{0}} n'est plus en stock"
+	},
+	"La liste des aides à la vente est incorrecte": {
+		"message": "La liste des aides à la vente est incorrecte"
+	},
+	"Le statut {{0}} pour la tranche commerciale n'existe pas": {
+		"message": "Le statut {{0}} pour la tranche commerciale n'existe pas"
+	},
+	"Impossible d'accéder à la nature de travaux de la tranche commerciale": {
+		"message": "Impossible d'accéder à la nature de travaux de la tranche commerciale"
+	},
+	"Impossible de supprimer la tranche commerciale car elle comprend des lots en stock": {
+		"message": "Impossible de supprimer la tranche commerciale car elle comprend des lots en stock"
+	},
+	"La répartition de la TVA sur Marge au tantième est impossible. Le lot \"{{0}}\" n'a pas des tantièmes.": {
+		"message": "La répartition de la TVA sur Marge au tantième est impossible. Le lot \"{{0}}\" n'a pas des tantièmes."
+	},
+	"Le mode de répartition de la TVA sur Marge est vide.": {
+		"message": "Le mode de répartition de la TVA sur Marge est vide."
+	},
+	"Impossible d'accéder à l'échéancier identifié par {{idEch}} associé aux travaux de type  {{libelle}} de cette tranche commerciale": {
+		"message": "Impossible d'accéder à l'échéancier identifié par {{idEch}} associé aux travaux de type  {{libelle}} de cette tranche commerciale"
+	},
+	"Impossible de répliquer l'échéancier {{libEch}} associé aux travaux de type {{libNat}} de cette tranche commerciale": {
+		"message": "Impossible de répliquer l'échéancier {{libEch}} associé aux travaux de type {{libNat}} de cette tranche commerciale"
+	},
+	"Impossible de créer un échéancier {{libEch}} pour cette tranche commerciale": {
+		"message": "Impossible de créer un échéancier {{libEch}} pour cette tranche commerciale"
+	},
+	"Impossible d'ajouter l'échéancier {{libEch}} à la liste des échéanciers pour cette tranche commerciale": {
+		"message": "Impossible d'ajouter l'échéancier {{libEch}} à la liste des échéanciers pour cette tranche commerciale"
+	},
+	"Merci d'indiquer le code opération": {
+		"message": "Merci d'indiquer le code opération"
+	},
+	"opération \"{{0}}\" non trouvé.": {
+		"message": "opération \"{{0}}\" non trouvé."
+	},
+	"Vous ne pouvez pas changer pour cette société.": {
+		"message": "Vous ne pouvez pas changer pour cette société."
+	},
+	"Erreur de connexion à service tiers: {{0}}": {
+		"message": "Erreur de connexion à service tiers: {{0}}"
+	},
+	"Dans le fichier config il manque l'entrée \"serverPlanning.host\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverPlanning.host\"."
+	},
+	"Dans le fichier config il manque l'entrée \"serverPlanning.tenant\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverPlanning.tenant\"."
+	},
+	"Dans le fichier config il manque l'entrée \"serverPlanning.authorization\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverPlanning.authorization\"."
+	},
+	"Dans le fichier config  l'entrée \"serverPlanning.authorization\" n'est pas correcte.": {
+		"message": "Dans le fichier config  l'entrée \"serverPlanning.authorization\" n'est pas correcte."
+	},
+	"Le cookie \"jwt\" n'est pas present.": {
+		"message": "Le cookie \"jwt\" n'est pas present."
+	},
+	"Reprise de ReferentielPlanning vers SpoGantt ...": {
+		"message": "Reprise de ReferentielPlanning vers SpoGantt ..."
+	},
+	"{{0}} - {{1}}: {{2}}": {
+		"message": "{{0}} - {{1}}: {{2}}"
+	},
+	"Reprise de Planning Spo vers SpoGantt ...": {
+		"message": "Reprise de Planning Spo vers SpoGantt ..."
+	},
+	"opération": {
+		"message": "opération"
+	},
+	"procédure": {
+		"message": "procédure"
+	},
+	"La migration du planning {{0}} a échoué: {{1}}": {
+		"message": "La migration du planning {{0}} a échoué: {{1}}"
+	},
+	"References invalides": {
+		"message": "References invalides"
+	},
+	"Le planning type n'existe pas": {
+		"message": "Le planning type n'existe pas"
+	},
+	"Suppression du planning impossible": {
+		"message": "Suppression du planning impossible"
+	},
+	"Le planning de l'opération {{0}} n'existe pas": {
+		"message": "Le planning de l'opération {{0}} n'existe pas"
+	},
+	"Le planning de l'opération {{0}} est vide": {
+		"message": "Le planning de l'opération {{0}} est vide"
+	},
+	"Le planning type {{0}} n'existe pas": {
+		"message": "Le planning type {{0}} n'existe pas"
+	},
+	"La version « {{0}} » n'existe pas pour l'opération « {{1}} »": {
+		"message": "La version « {{0}} » n'existe pas pour l'opération « {{1}} »"
+	},
+	"Le libellé d'étape « {{0}} » n'existe pas": {
+		"message": "Le libellé d'étape « {{0}} » n'existe pas"
+	},
+	"L'étape « {{0}} » n'existe pas": {
+		"message": "L'étape « {{0}} » n'existe pas"
+	},
+	"Le libellé de jalon « {{0}} » n'existe pas": {
+		"message": "Le libellé de jalon « {{0}} » n'existe pas"
+	},
+	"Le jalon « {{0}} » n'existe pas": {
+		"message": "Le jalon « {{0}} » n'existe pas"
+	},
+	"Le jalon « {{0}} » n'appartient pas à l'étape « {{1}} »": {
+		"message": "Le jalon « {{0}} » n'appartient pas à l'étape « {{1}} »"
+	},
+	"Le jalon « {{0}} » n'a pas été retrouvé dans le planning": {
+		"message": "Le jalon « {{0}} » n'a pas été retrouvé dans le planning"
+	},
+	"TT {{0}}": {
+		"message": "TT {{0}}"
+	},
+	"TC {{0}}": {
+		"message": "TC {{0}}"
+	},
+	"TC {{0}} {{1}}": {
+		"message": "TC {{0}} {{1}}"
+	},
+	"TT {{0}} {{1}}": {
+		"message": "TT {{0}} {{1}}"
+	},
+	"L'échéancier de la tranche commerciale \"{{0}}\" utilise cette action.": {
+		"message": "L'échéancier de la tranche commerciale \"{{0}}\" utilise cette action."
+	},
+	"Action non trouvé": {
+		"message": "Action non trouvé"
+	},
+	"La procédure enfant est vide.": {
+		"message": "La procédure enfant est vide."
+	},
+	"L'etape enfant est vide.": {
+		"message": "L'etape enfant est vide."
+	},
+	"L'action enfant est vide.": {
+		"message": "L'action enfant est vide."
+	},
+	"La procédure parent est vide.": {
+		"message": "La procédure parent est vide."
+	},
+	"L'etape parent est vide.": {
+		"message": "L'etape parent est vide."
+	},
+	"L'action parent est vide.": {
+		"message": "L'action parent est vide."
+	},
+	"Initialisation de la vue pose d'option incorrecte": {
+		"message": "Initialisation de la vue pose d'option incorrecte"
+	},
+	"Liste des lots et prix (TVA sur Marge)": {
+		"message": "Liste des lots et prix (TVA sur Marge)"
+	},
+	"Liste des lots et prix": {
+		"message": "Liste des lots et prix"
+	},
+	"Préciser les codes des lots concernés par la pose d'option": {
+		"message": "Préciser les codes des lots concernés par la pose d'option"
+	},
+	"On peut pas melanger des lots soumis au régime classique de TVA avec des lots soumis au TVA Sur Marge.": {
+		"message": "On peut pas melanger des lots soumis au régime classique de TVA avec des lots soumis au TVA Sur Marge."
+	},
+	"On ne peut avoir plusieurs fois le même lot dans un même dossier client.": {
+		"message": "On ne peut avoir plusieurs fois le même lot dans un même dossier client."
+	},
+	"La date-heure de début ne peut être supérieure à la date du jour.": {
+		"message": "La date-heure de début ne peut être supérieure à la date du jour."
+	},
+	"La date de fin ne peut être antérieure à la date de début d’option.": {
+		"message": "La date de fin ne peut être antérieure à la date de début d’option."
+	},
+	"La durée de l’option ne peut excéder {{dureeOption}} heures": {
+		"message": "La durée de l’option ne peut excéder {{dureeOption}} heures"
+	},
+	"Le nombre minimum de lots d’un dossier (option - pré-réservation - réservation) est égal à 1.": {
+		"message": "Le nombre minimum de lots d’un dossier (option - pré-réservation - réservation) est égal à 1."
+	},
+	"La date d’annulation d’option ne peut être antérieure à la date de la pose d’option.": {
+		"message": "La date d’annulation d’option ne peut être antérieure à la date de la pose d’option."
+	},
+	"La date d’annulation d’option ne peut être supérieure à la date du jour.": {
+		"message": "La date d’annulation d’option ne peut être supérieure à la date du jour."
+	},
+	"Verrouillage de l'option n° {{0}}": {
+		"message": "Verrouillage de l'option n° {{0}}"
+	},
+	"Impossible de verrouiller l'option {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+		"message": "Impossible de verrouiller l'option {{0}}, il est déjà en cours de utilisation par ailleurs."
+	},
+	"La libelle de modéle est vide.": {
+		"message": "La libelle de modéle est vide."
+	},
+	"La classe de modéle est vide.": {
+		"message": "La classe de modéle est vide."
+	},
+	"La classe des preferences est vide.": {
+		"message": "La classe des preferences est vide."
+	},
+	"Préférences utilisateur": {
+		"message": "Préférences utilisateur"
+	},
+	"Défaut": {
+		"message": "Défaut"
+	},
+	"Il y a des programmes qui utilisent cette procédure.": {
+		"message": "Il y a des programmes qui utilisent cette procédure."
+	},
+	"Il y a des types ouvrage qui utilisent cette procédure.": {
+		"message": "Il y a des types ouvrage qui utilisent cette procédure."
+	},
+	"Il y a des tranches travaux qui utilisent cette procédure.": {
+		"message": "Il y a des tranches travaux qui utilisent cette procédure."
+	},
+	"Il y a des opérations qui utilisent cette procédure.": {
+		"message": "Il y a des opérations qui utilisent cette procédure."
+	},
+	"Il y a des natures travaux qui utilisent cette procédure.": {
+		"message": "Il y a des natures travaux qui utilisent cette procédure."
+	},
+	"L'procédure \"{{0}}\" a le meme code.": {
+		"message": "L'procédure \"{{0}}\" a le meme code."
+	},
+	"Ged is disable": {
+		"message": "Ged is disable"
+	},
+	"Recette": {
+		"message": "Recette"
+	},
+	"{{0}} jours {{1}}, exigibilité le {{2}}": {
+		"message": "{{0}} jours {{1}}, exigibilité le {{2}}"
+	},
+	"Libellé": {
+		"message": "Libellé"
+	},
+	"A actualiser": {
+		"message": "A actualiser"
+	},
+	"Impossible d'exporter en {0}": {
+		"message": "Impossible d'exporter en {0}"
+	},
+	"Appel de fonds": {
+		"message": "Appel de fonds"
+	},
+	"Evénement": {
+		"message": "Evénement"
+	},
+	"Dossier": {
+		"message": "Dossier"
+	},
+	"Situation": {
+		"message": "Situation"
+	},
+	"Programme": {
+		"message": "Programme"
+	},
+	"Pour pouvoir être enregistrée, la vente doit être réalisée": {
+		"message": "Pour pouvoir être enregistrée, la vente doit être réalisée"
+	},
+	"Veuillez indiquer le motif de désistement": {
+		"message": "Veuillez indiquer le motif de désistement"
+	},
+	"Veuillez indiquer le motif de résolution": {
+		"message": "Veuillez indiquer le motif de résolution"
+	},
+	"Veuillez indiquer la date de livraison de ces lots": {
+		"message": "Veuillez indiquer la date de livraison de ces lots"
+	},
+	"La date de remise d'un dépot de garantie ne doit pas être antérieur à la date de réservation.": {
+		"message": "La date de remise d'un dépot de garantie ne doit pas être antérieur à la date de réservation."
+	},
+	"Aucun compte bancaire de type \"Compte Courant\" n'est paramétré pour l'opération {{0}}": {
+		"message": "Aucun compte bancaire de type \"Compte Courant\" n'est paramétré pour l'opération {{0}}"
+	},
+	"Aucun compte bancaire de type \"Compte Séquestre\" n'est paramétré pour l'opération {{0}}": {
+		"message": "Aucun compte bancaire de type \"Compte Séquestre\" n'est paramétré pour l'opération {{0}}"
+	},
+	"Le total des dépôts de garantie ne doit pas être négatif.": {
+		"message": "Le total des dépôts de garantie ne doit pas être négatif."
+	},
+	"Impossible de charger un des lots en mémoire": {
+		"message": "Impossible de charger un des lots en mémoire"
+	},
+	"Détail dossier TMA {{0}} introuvable": {
+		"message": "Détail dossier TMA {{0}} introuvable"
+	},
+	"Echeance dossier TMA manquant": {
+		"message": "Echeance dossier TMA manquant"
+	},
+	"Aucun échéancier de TMA n'est paramétré": {
+		"message": "Aucun échéancier de TMA n'est paramétré"
+	},
+	"Le montant offert TTC ne peut pas être supérieur au montant max.": {
+		"message": "Le montant offert TTC ne peut pas être supérieur au montant max."
+	},
+	"Le TMA ne peut pas être supprimé car son statut est \"{{0}}\". Il doit être \"demande\" ou \"annulé\" ou \"refusé\" afin d'être supprimé.": {
+		"message": "Le TMA ne peut pas être supprimé car son statut est \"{{0}}\". Il doit être \"demande\" ou \"annulé\" ou \"refusé\" afin d'être supprimé."
+	},
+	"Le Vendeur <{{libTiers}}> existe déjà !": {
+		"message": "Le Vendeur <{{libTiers}}> existe déjà !"
+	},
+	"Impossible de charger le résumé de la réservation": {
+		"message": "Impossible de charger le résumé de la réservation"
+	},
+	" - Dossier en Vente en bloc": {
+		"message": " - Dossier en Vente en bloc"
+	},
+	" - Dossier en Dation": {
+		"message": " - Dossier en Dation"
+	},
+	"Saisir une réservation": {
+		"message": "Saisir une réservation"
+	},
+	"Impossible de retrouver le dossier de réservation n°{0}": {
+		"message": "Impossible de retrouver le dossier de réservation n°{0}"
+	},
+	"Impossible de retrouver le dossier de réservation en cours": {
+		"message": "Impossible de retrouver le dossier de réservation en cours"
+	},
+	"Il y a des TMA attachés à ce lot.": {
+		"message": "Il y a des TMA attachés à ce lot."
+	},
+	"La date de vente est ultérieure à la date du jour": {
+		"message": "La date de vente est ultérieure à la date du jour"
+	},
+	"La date de report de livraison ne peut être antérieur à la date de livraison contractuelle.": {
+		"message": "La date de report de livraison ne peut être antérieur à la date de livraison contractuelle."
+	},
+	"Il existe des TMA inclus dans l'acte, pour les TMA en demande ils seront automatiquement annulés,     pour les TMA en devis, ils seront automatiquement signés. Voulez-vous continuer ?": {
+		"message": "Il existe des TMA inclus dans l'acte, pour les TMA en demande ils seront automatiquement annulés,     pour les TMA en devis, ils seront automatiquement signés. Voulez-vous continuer ?"
+	},
+	"Liste des Lots du dossier": {
+		"message": "Liste des Lots du dossier"
+	},
+	"Liste des Lots du dossier (TVA sur Marge)": {
+		"message": "Liste des Lots du dossier (TVA sur Marge)"
+	},
+	"Impossible de générer les écritures de dépôt de garantie, car aucun compte séquestre n'a été paramétré pour l'opération {{0}}": {
+		"message": "Impossible de générer les écritures de dépôt de garantie, car aucun compte séquestre n'a été paramétré pour l'opération {{0}}"
+	},
+	"L'échéance n'est pas libellée": {
+		"message": "L'échéance n'est pas libellée"
+	},
+	"Acquéreur déjà ajouté": {
+		"message": "Acquéreur déjà ajouté"
+	},
+	"Le lot {{0}} n'a pas le même taux de TVA que les autres lots du dossier": {
+		"message": "Le lot {{0}} n'a pas le même taux de TVA que les autres lots du dossier"
+	},
+	"Statistiques: Le champ \"{{0}}\" est obligatoire.": {
+		"message": "Statistiques: Le champ \"{{0}}\" est obligatoire."
+	},
+	"La liste des acquéreurs est vide": {
+		"message": "La liste des acquéreurs est vide"
+	},
+	"La quotité totale est de {{0}}. Elle doit être égale à 100 pour une indivision": {
+		"message": "La quotité totale est de {{0}}. Elle doit être égale à 100 pour une indivision"
+	},
+	"La quotité totale est de {{0}}. Elle doit être égale à 100": {
+		"message": "La quotité totale est de {{0}}. Elle doit être égale à 100"
+	},
+	"Veuillez sélectionner au moins 1 lot à réserver": {
+		"message": "Veuillez sélectionner au moins 1 lot à réserver"
+	},
+	"Tous les lots doit être en dation.": {
+		"message": "Tous les lots doit être en dation."
+	},
+	"Tous les lots du dossier doivent avoir le même taux de TVA": {
+		"message": "Tous les lots du dossier doivent avoir le même taux de TVA"
+	},
+	"La date de réservation est obligatoire": {
+		"message": "La date de réservation est obligatoire"
+	},
+	"La date de réservation ne peut être postérieure à la date du jour": {
+		"message": "La date de réservation ne peut être postérieure à la date du jour"
+	},
+	"La livraison ne peut être antérieure à la réservation": {
+		"message": "La livraison ne peut être antérieure à la réservation"
+	},
+	"La livraison ne peut être antérieure à la vente": {
+		"message": "La livraison ne peut être antérieure à la vente"
+	},
+	"La présentation du contrat ne peut intervenir avant sa signature": {
+		"message": "La présentation du contrat ne peut intervenir avant sa signature"
+	},
+	"La date limite de rétractation ne peut précéder la présentation du contrat": {
+		"message": "La date limite de rétractation ne peut précéder la présentation du contrat"
+	},
+	"Le notaire ne doit pas être convoqué après la vente": {
+		"message": "Le notaire ne doit pas être convoqué après la vente"
+	},
+	"Le notaire doit être notifié de la vente avant celle-ci": {
+		"message": "Le notaire doit être notifié de la vente avant celle-ci"
+	},
+	"La vente ne peut intervenir avant la réservation": {
+		"message": "La vente ne peut intervenir avant la réservation"
+	},
+	"La date de vente est obligatoire": {
+		"message": "La date de vente est obligatoire"
+	},
+	"Veuillez indiquer la date de désistement de cette réservation": {
+		"message": "Veuillez indiquer la date de désistement de cette réservation"
+	},
+	"Veuillez indiquer la date de résolution de cette vente": {
+		"message": "Veuillez indiquer la date de résolution de cette vente"
+	},
+	"La livraison ne peut intervenir avant la vente": {
+		"message": "La livraison ne peut intervenir avant la vente"
+	},
+	"Il est impossible de modifier le prix d'un dossier vendu": {
+		"message": "Il est impossible de modifier le prix d'un dossier vendu"
+	},
+	"Le prix total des TMA ne peut être négatif, merci de corriger": {
+		"message": "Le prix total des TMA ne peut être négatif, merci de corriger"
+	},
+	"Aucun libellé de condition suspensive n'a été sélectionnée": {
+		"message": "Aucun libellé de condition suspensive n'a été sélectionnée"
+	},
+	"La date limite de la condition suspensive n'a pas été renseignée": {
+		"message": "La date limite de la condition suspensive n'a pas été renseignée"
+	},
+	"Le lot {{refLot}} n'existe pas dans le dossier de réservation": {
+		"message": "Le lot {{refLot}} n'existe pas dans le dossier de réservation"
+	},
+	"Merci de préciser l'id du tiers concerné": {
+		"message": "Merci de préciser l'id du tiers concerné"
+	},
+	"L'échéancier du dossier a une échéance vide.": {
+		"message": "L'échéancier du dossier a une échéance vide."
+	},
+	"L'échéancier du lot n° {{0}} a une échéance vide.": {
+		"message": "L'échéancier du lot n° {{0}} a une échéance vide."
+	},
+	"Aucun échéancier n'a été attribué au dossier.": {
+		"message": "Aucun échéancier n'a été attribué au dossier."
+	},
+	"Aucun échéancier n'a été attribué au lot n° {{0}}.": {
+		"message": "Aucun échéancier n'a été attribué au lot n° {{0}}."
+	},
+	"Le total des échéances, {{0}}, est différent du prix HT du dossier.": {
+		"message": "Le total des échéances, {{0}}, est différent du prix HT du dossier."
+	},
+	"Le total des échéances, {{0}}, est différent du prix HT du lot n° {{1}}.": {
+		"message": "Le total des échéances, {{0}}, est différent du prix HT du lot n° {{1}}."
+	},
+	"Le total des échéances, {{0}}, est différent du prix TTC du dossier.": {
+		"message": "Le total des échéances, {{0}}, est différent du prix TTC du dossier."
+	},
+	"Le total des échéances, {{0}}, est différent du prix TTC du lot n° {{1}}.": {
+		"message": "Le total des échéances, {{0}}, est différent du prix TTC du lot n° {{1}}."
+	},
+	"Verrouillage de dossier n° {{0}}": {
+		"message": "Verrouillage de dossier n° {{0}}"
+	},
+	"Impossible de verrouiller le dossier {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+		"message": "Impossible de verrouiller le dossier {{0}}, il est déjà en cours de utilisation par ailleurs."
+	},
+	"Merci d'indiquer le libellé des détails du TMA": {
+		"message": "Merci d'indiquer le libellé des détails du TMA"
+	},
+	"Merci d'indiquer une unité pour les détails du TMA": {
+		"message": "Merci d'indiquer une unité pour les détails du TMA"
+	},
+	"Le taux d'appel d'une échéance doit être supérieur à 0": {
+		"message": "Le taux d'appel d'une échéance doit être supérieur à 0"
+	},
+	"Merci d'indiquer l'événement générateur de l'échéance": {
+		"message": "Merci d'indiquer l'événement générateur de l'échéance"
+	},
+	"Merci d'indiquer la date de l'échéance": {
+		"message": "Merci d'indiquer la date de l'échéance"
+	},
+	"Les taux de TVA du TMA et des lots le constituant doivent être les mêmes si le TMA est inclus dans l'acte": {
+		"message": "Les taux de TVA du TMA et des lots le constituant doivent être les mêmes si le TMA est inclus dans l'acte"
+	},
+	"Le statut du TMA impose que les prix de vente soient renseignés": {
+		"message": "Le statut du TMA impose que les prix de vente soient renseignés"
+	},
+	"Le dossier de TMA ne doit pas avoir son propre échéancier s'il est inclus dans l'acte": {
+		"message": "Le dossier de TMA ne doit pas avoir son propre échéancier s'il est inclus dans l'acte"
+	},
+	"Le dossier de TMA ne doit pas avoir d'échéancier si le prix de vente est de 0": {
+		"message": "Le dossier de TMA ne doit pas avoir d'échéancier si le prix de vente est de 0"
+	},
+	"Le % total des échéances doit être égal à 100%": {
+		"message": "Le % total des échéances doit être égal à 100%"
+	},
+	"Merci de préciser le mode de réglement": {
+		"message": "Merci de préciser le mode de réglement"
+	},
+	"Le total des échéances doit être égal au total du prix de vente": {
+		"message": "Le total des échéances doit être égal au total du prix de vente"
+	},
+	"La date de livraison doit être postérieure à la date de signature": {
+		"message": "La date de livraison doit être postérieure à la date de signature"
+	},
+	"La date de signature doit être postérieure à la date du devis": {
+		"message": "La date de signature doit être postérieure à la date du devis"
+	},
+	"La date du devis doit être postérieure à la date de la demande": {
+		"message": "La date du devis doit être postérieure à la date de la demande"
+	},
+	"La date du refus doit être postérieure à la date du devis": {
+		"message": "La date du refus doit être postérieure à la date du devis"
+	},
+	"La date d'annulation doit être postérieure à la date de la demande": {
+		"message": "La date d'annulation doit être postérieure à la date de la demande"
+	},
+	"Merci de ne saisir qu'une valeur pour le paramètre: TMA en moins-value non autorisé": {
+		"message": "Merci de ne saisir qu'une valeur pour le paramètre: TMA en moins-value non autorisé"
+	},
+	"Le dossier {{0}} n'existe pas": {
+		"message": "Le dossier {{0}} n'existe pas"
+	},
+	"refAcquereur est obligatoire": {
+		"message": "refAcquereur est obligatoire"
+	},
+	"Le libelle de l'indivision ne peut pas être vide.": {
+		"message": "Le libelle de l'indivision ne peut pas être vide."
+	},
+	"Code dossier introuvable": {
+		"message": "Code dossier introuvable"
+	},
+	"Le TMA {{0}} n'existe pas": {
+		"message": "Le TMA {{0}} n'existe pas"
+	},
+	"Quantité": {
+		"message": "Quantité"
+	},
+	"ML": {
+		"message": "ML"
+	},
+	"m²": {
+		"message": "m²"
+	},
+	"Le dossier est vide.": {
+		"message": "Le dossier est vide."
+	},
+	"La société \"{{0}}\" est la société mère d'une autre société, par conséquent elle ne peut pas être supprimé.": {
+		"message": "La société \"{{0}}\" est la société mère d'une autre société, par conséquent elle ne peut pas être supprimé."
+	},
+	"La société \"{{0}}\" est rattaché à une opération, par conséquent elle ne peut pas être supprimé.": {
+		"message": "La société \"{{0}}\" est rattaché à une opération, par conséquent elle ne peut pas être supprimé."
+	},
+	"Veuillez choisir une opération": {
+		"message": "Veuillez choisir une opération"
+	},
+	"Le type de compte est obligatoire": {
+		"message": "Le type de compte est obligatoire"
+	},
+	"L'IBAN est incorrect": {
+		"message": "L'IBAN est incorrect"
+	},
+	"Un seul compte par défaut par type de compte": {
+		"message": "Un seul compte par défaut par type de compte"
+	},
+	"Le compte comptable est obligatoire": {
+		"message": "Le compte comptable est obligatoire"
+	},
+	"L'IBAN est incorrect.": {
+		"message": "L'IBAN est incorrect."
+	},
+	"Préciser le tiers concerné pour créer l'acquéreur": {
+		"message": "Préciser le tiers concerné pour créer l'acquéreur"
+	},
+	"Le tiers {{0}} n'existe pas": {
+		"message": "Le tiers {{0}} n'existe pas"
+	},
+	"Merci de préciser le compte schema original": {
+		"message": "Merci de préciser le compte schema original"
+	},
+	"Le compte schéma {{0}} n'existe pas": {
+		"message": "Le compte schéma {{0}} n'existe pas"
+	},
+	"Le délai réservation vente est négatif": {
+		"message": "Le délai réservation vente est négatif"
+	},
+	"La référence comptable est obligatoire": {
+		"message": "La référence comptable est obligatoire"
+	},
+	"Le référence comptable \"{{0}}\" est déjà attribué à une autre société.": {
+		"message": "Le référence comptable \"{{0}}\" est déjà attribué à une autre société."
+	},
+	"Le paramétrage type \"{{0}}\" n'existe pas.": {
+		"message": "Le paramétrage type \"{{0}}\" n'existe pas."
+	},
+	"Invalid dateDebut or dateFin": {
+		"message": "Invalid dateDebut or dateFin"
+	},
+	"Exercice {{0}}": {
+		"message": "Exercice {{0}}"
+	},
+	"Exercice {{0}}-{{1}}": {
+		"message": "Exercice {{0}}-{{1}}"
+	},
+	"Afin de créer un exercice, il faut que vous renseigniez préalablement la date de création de votre entreprise.": {
+		"message": "Afin de créer un exercice, il faut que vous renseigniez préalablement la date de création de votre entreprise."
+	},
+	"Vous ne pouvez pas supprimer un exercice cloturé.": {
+		"message": "Vous ne pouvez pas supprimer un exercice cloturé."
+	},
+	"Vous ne pouvez pas supprimer un exercice ayant des écritures comptables.": {
+		"message": "Vous ne pouvez pas supprimer un exercice ayant des écritures comptables."
+	},
+	"La société modéle{{0}} n'a pas de mois de clôture exercice parametré.": {
+		"message": "La société modéle{{0}} n'a pas de mois de clôture exercice parametré."
+	},
+	"Impossible de récupérer l'actionnaire d'origine": {
+		"message": "Impossible de récupérer l'actionnaire d'origine"
+	},
+	"La société mère « {{0}} » n'existe pas": {
+		"message": "La société mère « {{0}} » n'existe pas"
+	},
+	"La société mère indiquée « {{0}} » n'est pas une société mère": {
+		"message": "La société mère indiquée « {{0}} » n'est pas une société mère"
+	},
+	"Le paramétrage type doit être renseigné": {
+		"message": "Le paramétrage type doit être renseigné"
+	},
+	"La date prévisionnelle de signature des statuts doit être renseignée": {
+		"message": "La date prévisionnelle de signature des statuts doit être renseignée"
+	},
+	"La référence comptable « {{0}} » du tiers n'existe pas": {
+		"message": "La référence comptable « {{0}} » du tiers n'existe pas"
+	},
+	"La référence comptable « {{0}} » du tiers référence plusieurs tiers": {
+		"message": "La référence comptable « {{0}} » du tiers référence plusieurs tiers"
+	},
+	"La référence comptable « {{0}} » du liquidateur n'existe pas": {
+		"message": "La référence comptable « {{0}} » du liquidateur n'existe pas"
+	},
+	"La référence comptable « {{0}} » du liquidateur référence plusieurs tiers": {
+		"message": "La référence comptable « {{0}} » du liquidateur référence plusieurs tiers"
+	},
+	"Le tiers liquidateur « {{0}} » n'existe pas": {
+		"message": "Le tiers liquidateur « {{0}} » n'existe pas"
+	},
+	"Le total des montants des associés doit être égal au capital de la société": {
+		"message": "Le total des montants des associés doit être égal au capital de la société"
+	},
+	"Le total des parts des associés doit être égal au nombre de parts de la société": {
+		"message": "Le total des parts des associés doit être égal au nombre de parts de la société"
+	},
+	"La référence comptable « {{0}} » de l'actionnaire n'existe pas": {
+		"message": "La référence comptable « {{0}} » de l'actionnaire n'existe pas"
+	},
+	"La référence comptable « {{0}} » de l'actionnaire référence plusieurs tiers": {
+		"message": "La référence comptable « {{0}} » de l'actionnaire référence plusieurs tiers"
+	},
+	"Code modèle société introuvable": {
+		"message": "Code modèle société introuvable"
+	},
+	"Code société manquant": {
+		"message": "Code société manquant"
+	},
+	"Liste des opérations rattachées à la société {{0}}": {
+		"message": "Liste des opérations rattachées à la société {{0}}"
+	},
+	"Vous ne pouvez pas supprimer un associé si un mouvement de fonds propres a été réalisé pour cet associé.": {
+		"message": "Vous ne pouvez pas supprimer un associé si un mouvement de fonds propres a été réalisé pour cet associé."
+	},
+	"Le code de société {{0}} est déjà utilisé": {
+		"message": "Le code de société {{0}} est déjà utilisé"
+	},
+	"Une société mère doit être indiquée": {
+		"message": "Une société mère doit être indiquée"
+	},
+	"Code opération manquant.": {
+		"message": "Code opération manquant."
+	},
+	"L'opération renseigné est introuvable.": {
+		"message": "L'opération renseigné est introuvable."
+	},
+	"Veuillez indiquer une date de validation": {
+		"message": "Veuillez indiquer une date de validation"
+	},
+	"Veuillez indiquer le stade travaux validé": {
+		"message": "Veuillez indiquer le stade travaux validé"
+	},
+	"L'action existe déjà.": {
+		"message": "L'action existe déjà."
+	},
+	"L'opération est introuvable": {
+		"message": "L'opération est introuvable"
+	},
+	"Suivi dossier": {
+		"message": "Suivi dossier"
+	},
+	"Le code tiers n'est pas défini": {
+		"message": "Le code tiers n'est pas défini"
+	},
+	"Le code tiers ({{0}}) ne correspond pas avec {{1}}": {
+		"message": "Le code tiers ({{0}}) ne correspond pas avec {{1}}"
+	},
+	"Tiers : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+		"message": "Tiers : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné"
+	},
+	"Tiers : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+		"message": "Tiers : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité"
+	},
+	"Adresses : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+		"message": "Adresses : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné"
+	},
+	"Adresses : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+		"message": "Adresses : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité"
+	},
+	"Répresentants : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+		"message": "Répresentants : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité"
+	},
+	"Tiers : Le champ 'Adresse' doit être renseigné pour un tiers PHYSIQUE": {
+		"message": "Tiers : Le champ 'Adresse' doit être renseigné pour un tiers PHYSIQUE"
+	},
+	"{{0}} : Le champ '{{1}}' doit être renseigné {{2}}": {
+		"message": "{{0}} : Le champ '{{1}}' doit être renseigné {{2}}"
+	},
+	"{{0}} : Le champ '{{1}}' ne respecte pas le format. Ex: {{2}}": {
+		"message": "{{0}} : Le champ '{{1}}' ne respecte pas le format. Ex: {{2}}"
+	},
+	"Il y a des affectations budgetaires qui utilisent ce tiers.": {
+		"message": "Il y a des affectations budgetaires qui utilisent ce tiers."
+	},
+	"Il y a des situations qui utilisent ce tiers.": {
+		"message": "Il y a des situations qui utilisent ce tiers."
+	},
+	"Il y a des opérations diverses qui utilisent ce tiers.": {
+		"message": "Il y a des opérations diverses qui utilisent ce tiers."
+	},
+	"Il y a des acteurs  qui utilisent ce tiers.": {
+		"message": "Il y a des acteurs  qui utilisent ce tiers."
+	},
+	"Il y a des acteurs de dossier diverses qui utilisent ce tiers.": {
+		"message": "Il y a des acteurs de dossier diverses qui utilisent ce tiers."
+	},
+	"Il y a des elements du dossier diverses qui utilisent ce tiers.": {
+		"message": "Il y a des elements du dossier diverses qui utilisent ce tiers."
+	},
+	"Ce tiers est utilisé commme sous-traitant.": {
+		"message": "Ce tiers est utilisé commme sous-traitant."
+	},
+	"Ce tiers est utilisé commme contractant.": {
+		"message": "Ce tiers est utilisé commme contractant."
+	},
+	"Ce tiers est utilisé dans une opération, il ne peut être supprimé.": {
+		"message": "Ce tiers est utilisé dans une opération, il ne peut être supprimé."
+	},
+	"Reprise de DOMTIERS vers SpoTiers...": {
+		"message": "Reprise de DOMTIERS vers SpoTiers..."
+	},
+	"Le tiers \"{{0}}\" a déjà un dossier vendu.": {
+		"message": "Le tiers \"{{0}}\" a déjà un dossier vendu."
+	},
+	"Veuillez spécifier une date d'appel afin de pouvoir facturer vos TMAs": {
+		"message": "Veuillez spécifier une date d'appel afin de pouvoir facturer vos TMAs"
+	},
+	"Le total des appels doit être de 100%": {
+		"message": "Le total des appels doit être de 100%"
+	},
+	"L'ordre de l'échéance {{0}} doit être défini": {
+		"message": "L'ordre de l'échéance {{0}} doit être défini"
+	},
+	"Plusieurs échéances ont le même numéro d'ordre": {
+		"message": "Plusieurs échéances ont le même numéro d'ordre"
+	},
+	"Le libellé de l'échéance est obligatoire": {
+		"message": "Le libellé de l'échéance est obligatoire"
+	},
+	"L'événement de l'échéance est obligatoire": {
+		"message": "L'événement de l'échéance est obligatoire"
+	},
+	"Le pourcentage d'appel de l'échéance doit être compris entre 0 et 100%": {
+		"message": "Le pourcentage d'appel de l'échéance doit être compris entre 0 et 100%"
+	},
+	"Au moins un échéancier doit etre renseigné": {
+		"message": "Au moins un échéancier doit etre renseigné"
+	},
+	"Le code de l'échéancier doit être renseigné": {
+		"message": "Le code de l'échéancier doit être renseigné"
+	},
+	"Le libelle de l'échéancier doit être renseigné": {
+		"message": "Le libelle de l'échéancier doit être renseigné"
+	},
+	"Vous ne pouvez pas ajouter de type ouvrage sans avoir créer une nature travaux au préalable.": {
+		"message": "Vous ne pouvez pas ajouter de type ouvrage sans avoir créer une nature travaux au préalable."
+	},
+	"La nature des travaux est obligatoire.": {
+		"message": "La nature des travaux est obligatoire."
+	},
+	"Le type d'ouvrage est obligatoire.": {
+		"message": "Le type d'ouvrage est obligatoire."
+	},
+	"L'étape budgétaire est obligatoire.": {
+		"message": "L'étape budgétaire est obligatoire."
+	},
+	"\"Le régime fiscal est obligatoire.": {
+		"message": "\"Le régime fiscal est obligatoire."
+	},
+	"Le statut est obligatoire.": {
+		"message": "Le statut est obligatoire."
+	},
+	"Le poste budgétaire vente est obligatoire.": {
+		"message": "Le poste budgétaire vente est obligatoire."
+	},
+	"Le statut \"Commmercialisation\" nécessite la création d'un budget pour l'opération en cours": {
+		"message": "Le statut \"Commmercialisation\" nécessite la création d'un budget pour l'opération en cours"
+	},
+	"La tranche commerciale \"{{0}}\" a une grille de prix": {
+		"message": "La tranche commerciale \"{{0}}\" a une grille de prix"
+	},
+	"La tranche commerciale \"{{0}}\" a des affectations budgétaires": {
+		"message": "La tranche commerciale \"{{0}}\" a des affectations budgétaires"
+	},
+	"Adresse": {
+		"message": "Adresse"
+	},
+	"Pas de poste budgétaire de TMA pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de TMA pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Pas de poste budgétaire de désistement pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de désistement pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Pas de poste budgétaire de résolution pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de résolution pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Pas de poste budgétaire de dation pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de dation pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Pas de poste budgétaire de vente TVA sur Marge pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de vente TVA sur Marge pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Pas de poste budgétaire de vente pour la tranche commerciale \"{{0}} ({{1}})\".": {
+		"message": "Pas de poste budgétaire de vente pour la tranche commerciale \"{{0}} ({{1}})\"."
+	},
+	"Le tranche travaux \"{{0}}\" a des tranches commerciales": {
+		"message": "Le tranche travaux \"{{0}}\" a des tranches commerciales"
+	},
+	"Vous ne pouvez pas ajouter de type lot sans avoir créer un type ouvrage au préalable.": {
+		"message": "Vous ne pouvez pas ajouter de type lot sans avoir créer un type ouvrage au préalable."
+	},
+	"Le montant dation ne peut être supérieur au montant budget.": {
+		"message": "Le montant dation ne peut être supérieur au montant budget."
+	},
+	"La valeur '{{0}}' n'est pas autorisée pour le champ '{{1}}'": {
+		"message": "La valeur '{{0}}' n'est pas autorisée pour le champ '{{1}}'"
+	},
+	"Le champ '{{0}}' doit être renseigné": {
+		"message": "Le champ '{{0}}' doit être renseigné"
+	},
+	"Impossible d'accéder au dossier dont l'identifiant n'a pas été reçu": {
+		"message": "Impossible d'accéder au dossier dont l'identifiant n'a pas été reçu"
+	},
+	"Impossible de retrouver le dossier de réservation/vente n°{0}": {
+		"message": "Impossible de retrouver le dossier de réservation/vente n°{0}"
+	},
+	"Impossible de finaliser le désistement. Vous devez préalablement Annulé tout vos TMAs non inclus dans l'acte.": {
+		"message": "Impossible de finaliser le désistement. Vous devez préalablement Annulé tout vos TMAs non inclus dans l'acte."
+	},
+	"Paramètre manquant idop": {
+		"message": "Paramètre manquant idop"
+	},
+	"Vous devez enregistrer un budget actualisé avant de commencer.": {
+		"message": "Vous devez enregistrer un budget actualisé avant de commencer."
+	},
+	"Paramètre manquant type": {
+		"message": "Paramètre manquant type"
+	},
+	"Paramètre manquant idversion": {
+		"message": "Paramètre manquant idversion"
+	},
+	"Copie {{0}}": {
+		"message": "Copie {{0}}"
+	},
+	"Vous ne pouvez pas copier une version Archivé.": {
+		"message": "Vous ne pouvez pas copier une version Archivé."
+	},
+	"Vous ne pouvez pas archiver une version Archivé.": {
+		"message": "Vous ne pouvez pas archiver une version Archivé."
+	},
+	"Il est impossible de supprimer une version avec le statut {{0}}.": {
+		"message": "Il est impossible de supprimer une version avec le statut {{0}}."
+	},
+	"Vous ne pouvez pas changer le statut en \"{{0}}\" car votre version à le statut {{1}} .": {
+		"message": "Vous ne pouvez pas changer le statut en \"{{0}}\" car votre version à le statut {{1}} ."
+	},
+	"Code version manquant.": {
+		"message": "Code version manquant."
+	},
+	"La version renseigné est introuvable.": {
+		"message": "La version renseigné est introuvable."
+	},
+	"periode": {
+		"message": "periode"
+	},
+	"total": {
+		"message": "total"
+	},
+	"INT": {
+		"message": "INT"
+	},
+	"D2": {
+		"message": "D2"
+	},
+	"PCT": {
+		"message": "PCT"
+	},
+	"TEXT": {
+		"message": "TEXT"
+	},
+	"Echéancier": {
+		"message": "Echéancier"
+	},
+	"Appels de fonds": {
+		"message": "Appels de fonds"
+	},
+	"Encaissements clients": {
+		"message": "Encaissements clients"
+	},
+	"nombre": {
+		"message": "nombre"
+	},
+	"montant HT": {
+		"message": "montant HT"
+	},
+	"montant TTC": {
+		"message": "montant TTC"
+	},
+	"pourcentage": {
+		"message": "pourcentage"
+	},
+	"NONE": {
+		"message": "NONE"
+	},
+	"OP": {
+		"message": "OP"
+	},
+	"TT": {
+		"message": "TT"
+	},
+	"TOTAL": {
+		"message": "TOTAL"
+	},
+	"MOIS": {
+		"message": "MOIS"
+	},
+	"TRIM": {
+		"message": "TRIM"
+	},
+	"ANNEE": {
+		"message": "ANNEE"
+	},
+	"ALL": {
+		"message": "ALL"
+	},
+	"TC synchronisées": {
+		"message": "TC synchronisées"
+	},
+	"TC non synchronisées": {
+		"message": "TC non synchronisées"
+	},
+	"Lecture": {
+		"message": "Lecture"
+	},
+	"Gestion": {
+		"message": "Gestion"
+	},
+	"Prévu": {
+		"message": "Prévu"
+	},
+	"Réalisé": {
+		"message": "Réalisé"
+	},
+	"Appelé": {
+		"message": "Appelé"
+	},
+	"Encaissé": {
+		"message": "Encaissé"
+	},
+	"Carte": {
+		"message": "Carte"
+	},
+	"Vignette": {
+		"message": "Vignette"
+	},
+	"Liste": {
+		"message": "Liste"
+	},
+	"Document": {
+		"message": "Document"
+	},
+	"Modèle": {
+		"message": "Modèle"
+	},
+	"UNIQUE": {
+		"message": "UNIQUE"
+	},
+	"empty": {
+		"message": "empty"
+	},
+	"success": {
+		"message": "success"
+	},
+	"danger": {
+		"message": "danger"
+	},
+	"warning": {
+		"message": "warning"
+	},
+	"Tranche Travaux": {
+		"message": "Tranche Travaux"
+	},
+	"Nature Travaux": {
+		"message": "Nature Travaux"
+	},
+	"Type Ouvrage": {
+		"message": "Type Ouvrage"
+	},
+	"Lots Principaux/Secondaires": {
+		"message": "Lots Principaux/Secondaires"
+	},
+	"Annuel": {
+		"message": "Annuel"
+	},
+	"Mensuel": {
+		"message": "Mensuel"
+	},
+	"Caractéristiques": {
+		"message": "Caractéristiques"
+	},
+	"Typologie": {
+		"message": "Typologie"
+	},
+	"Surface de plancher de base": {
+		"message": "Surface de plancher de base"
+	},
+	"SHAB de base": {
+		"message": "SHAB de base"
+	},
+	"Surface terrain de base": {
+		"message": "Surface terrain de base"
+	},
+	"Réservataires": {
+		"message": "Réservataires"
+	},
+	"Page d'acceuil opérations": {
+		"message": "Page d'acceuil opérations"
+	},
+	"L'opération \"{{0}}\" n'existe pas": {
+		"message": "L'opération \"{{0}}\" n'existe pas"
+	},
+	"Date de début": {
+		"message": "Date de début"
+	},
+	"Date de fin": {
+		"message": "Date de fin"
+	},
+	"Planning préferences": {
+		"message": "Planning préferences"
+	},
+	"L'opération \"{{0}}\" n'a pas de planning.": {
+		"message": "L'opération \"{{0}}\" n'a pas de planning."
+	},
+	"Comparer ...": {
+		"message": "Comparer ..."
+	},
+	"La procédure \"{{0}}\" n'existe pas.": {
+		"message": "La procédure \"{{0}}\" n'existe pas."
+	},
+	"La procédure \"{{0}}\" n'a pas de planning.": {
+		"message": "La procédure \"{{0}}\" n'a pas de planning."
+	},
+	"Aucune ligne sélectionnée": {
+		"message": "Aucune ligne sélectionnée"
+	},
+	"L'procédure \"{{0}}\" n'existe pas": {
+		"message": "L'procédure \"{{0}}\" n'existe pas"
+	},
+	"Cette étape est déjà attribué à cette procédure.": {
+		"message": "Cette étape est déjà attribué à cette procédure."
+	},
+	"Le code renseigné est déjà attribué. Veuillez choisir un autre code": {
+		"message": "Le code renseigné est déjà attribué. Veuillez choisir un autre code"
+	},
+	"Cette action est déjà attribué à cette étape.": {
+		"message": "Cette action est déjà attribué à cette étape."
+	},
+	"Cette action n'existe pas.": {
+		"message": "Cette action n'existe pas."
+	},
+	"Cette étape n'existe pas.": {
+		"message": "Cette étape n'existe pas."
+	},
+	"Le code procédure est obligatoire": {
+		"message": "Le code procédure est obligatoire"
+	},
+	"La procédure est introuvable": {
+		"message": "La procédure est introuvable"
+	},
+	"Etape non trouvé.": {
+		"message": "Etape non trouvé."
+	},
+	"Action non trouvé.": {
+		"message": "Action non trouvé."
+	},
+	"Acteur non trouvé.": {
+		"message": "Acteur non trouvé."
+	},
+	"Echéancier du dossier": {
+		"message": "Echéancier du dossier"
+	},
+	"Echéancier des lots {{0}}": {
+		"message": "Echéancier des lots {{0}}"
+	},
+	"Echéancier du lot {{0}}": {
+		"message": "Echéancier du lot {{0}}"
+	},
+	"( Pas d'évènement )": {
+		"message": "( Pas d'évènement )"
+	},
+	"L'echéancier n'est pas modifiable.": {
+		"message": "L'echéancier n'est pas modifiable."
+	},
+	"Echéance déja appelé.": {
+		"message": "Echéance déja appelé."
+	},
+	"Dans le cas d'un dossier avec des tranches différentes sur ses lots, veuillez séléctionner \"échéancier par lot\"": {
+		"message": "Dans le cas d'un dossier avec des tranches différentes sur ses lots, veuillez séléctionner \"échéancier par lot\""
+	},
+	"Le pays est vide.": {
+		"message": "Le pays est vide."
+	},
+	"Le ville est vide.": {
+		"message": "Le ville est vide."
+	},
+	"L'adresse est obligatoire.": {
+		"message": "L'adresse est obligatoire."
+	},
+	"Le tiers \"{{0}}\" a la même siret.": {
+		"message": "Le tiers \"{{0}}\" a la même siret."
+	},
+	"La référence comptable est vide.": {
+		"message": "La référence comptable est vide."
+	},
+	"Le tiers \"{{0}}\" a la même référence comptable.": {
+		"message": "Le tiers \"{{0}}\" a la même référence comptable."
+	},
+	"La raison sociale est vide.": {
+		"message": "La raison sociale est vide."
+	},
+	"Le numéro de SIRET saisi est invalide.": {
+		"message": "Le numéro de SIRET saisi est invalide."
+	},
+	"- Votre choix -": {
+		"message": "- Votre choix -"
+	},
+	"Allemagne": {
+		"message": "Allemagne"
+	},
+	"Autriche": {
+		"message": "Autriche"
+	},
+	"Belgique": {
+		"message": "Belgique"
+	},
+	"Bulgarie": {
+		"message": "Bulgarie"
+	},
+	"Chypre": {
+		"message": "Chypre"
+	},
+	"Croatie": {
+		"message": "Croatie"
+	},
+	"Danemark": {
+		"message": "Danemark"
+	},
+	"Espagne": {
+		"message": "Espagne"
+	},
+	"Estonie": {
+		"message": "Estonie"
+	},
+	"Finlande": {
+		"message": "Finlande"
+	},
+	"France": {
+		"message": "France"
+	},
+	"Grèce": {
+		"message": "Grèce"
+	},
+	"Hongrie": {
+		"message": "Hongrie"
+	},
+	"Irlande": {
+		"message": "Irlande"
+	},
+	"Italie": {
+		"message": "Italie"
+	},
+	"Lettonie": {
+		"message": "Lettonie"
+	},
+	"Lituanie": {
+		"message": "Lituanie"
+	},
+	"Luxembourg": {
+		"message": "Luxembourg"
+	},
+	"Malte": {
+		"message": "Malte"
+	},
+	"Pays-Bas": {
+		"message": "Pays-Bas"
+	},
+	"Pologne": {
+		"message": "Pologne"
+	},
+	"Portugal": {
+		"message": "Portugal"
+	},
+	"Rép. Tchèque": {
+		"message": "Rép. Tchèque"
+	},
+	"Roumanie": {
+		"message": "Roumanie"
+	},
+	"Royaume-Uni": {
+		"message": "Royaume-Uni"
+	},
+	"Slovaquie": {
+		"message": "Slovaquie"
+	},
+	"Slovénie": {
+		"message": "Slovénie"
+	},
+	"Suède": {
+		"message": "Suède"
+	},
+	"Le nom famille est vide.": {
+		"message": "Le nom famille est vide."
+	},
+	"Le prenom est vide.": {
+		"message": "Le prenom est vide."
+	},
+	"Le couple ont a la même référence comptable.": {
+		"message": "Le couple ont a la même référence comptable."
+	},
+	"Ajout d’un tiers": {
+		"message": "Ajout d’un tiers"
+	},
+	"Ajout d’un couple": {
+		"message": "Ajout d’un couple"
+	},
+	"Votre choix": {
+		"message": "Votre choix"
+	},
+	"Représentant principal": {
+		"message": "Représentant principal"
+	},
+	"Représentant actif": {
+		"message": "Représentant actif"
+	},
+	"Représentant inactif": {
+		"message": "Représentant inactif"
+	},
+	"Domiciliation principale": {
+		"message": "Domiciliation principale"
+	},
+	"L'IBAN est vide.": {
+		"message": "L'IBAN est vide."
+	},
+	"Le titulaire du compte est vide.": {
+		"message": "Le titulaire du compte est vide."
+	},
+	"Le BIC est vide.": {
+		"message": "Le BIC est vide."
+	},
+	"Je vous prie de croire, Monsieur, en l'assurance de ma considération distinguée.": {
+		"message": "Je vous prie de croire, Monsieur, en l'assurance de ma considération distinguée."
+	},
+	"Je vous prie de croire, Madame, en l'assurance de ma considération distinguée.": {
+		"message": "Je vous prie de croire, Madame, en l'assurance de ma considération distinguée."
+	},
+	"Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments distingués.": {
+		"message": "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments distingués."
+	},
+	"Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments les meilleurs.": {
+		"message": "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments les meilleurs."
+	},
+	"Je vous prie de croire, Madame la Présidente, en l'assurance de ma considération distinguée.": {
+		"message": "Je vous prie de croire, Madame la Présidente, en l'assurance de ma considération distinguée."
+	},
+	"Je vous prie de croire, Madame, Monsieur, en l'assurance de ma considération distinguée.": {
+		"message": "Je vous prie de croire, Madame, Monsieur, en l'assurance de ma considération distinguée."
+	},
+	"Je vous prie de croire, Monsieur le Président-Directeur Général, en l'assurance de mes sentiments distingués.": {
+		"message": "Je vous prie de croire, Monsieur le Président-Directeur Général, en l'assurance de mes sentiments distingués."
+	},
+	"Je vous prie de croire, Madame le Président-Directeur Général, en l'assurance de ma considération distinguée.": {
+		"message": "Je vous prie de croire, Madame le Président-Directeur Général, en l'assurance de ma considération distinguée."
+	},
+	"Monsieur,": {
+		"message": "Monsieur,"
+	},
+	"Madame,": {
+		"message": "Madame,"
+	},
+	"Monsieur le Président,": {
+		"message": "Monsieur le Président,"
+	},
+	"Madame la Présidente,": {
+		"message": "Madame la Présidente,"
+	},
+	"Madame, Monsieur,": {
+		"message": "Madame, Monsieur,"
+	},
+	"Monsieur le Président-Directeur Général,": {
+		"message": "Monsieur le Président-Directeur Général,"
+	},
+	"Madame le Président-Directeur Général,": {
+		"message": "Madame le Président-Directeur Général,"
+	},
+	"Dans le fichier config il manque l'entrée \"serverTiers.host\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverTiers.host\"."
+	},
+	"Dans le fichier config il manque l'entrée \"serverTiers.tenant\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverTiers.tenant\"."
+	},
+	"Dans le fichier config il manque l'entrée \"serverTiers.authorization\".": {
+		"message": "Dans le fichier config il manque l'entrée \"serverTiers.authorization\"."
+	},
+	"Dans le fichier config  l'entrée \"serverTiers.authorization\" n'est pas correcte.": {
+		"message": "Dans le fichier config  l'entrée \"serverTiers.authorization\" n'est pas correcte."
+	},
+	"Reprise de ReferentielTiers vers SpoTiers... ...": {
+		"message": "Reprise de ReferentielTiers vers SpoTiers... ..."
+	},
+	"Valeur invalide pour civilité": {
+		"message": "Valeur invalide pour civilité"
+	},
+	"Invalid tiers data: unknown famille value: \"{{0}}\".": {
+		"message": "Invalid tiers data: unknown famille value: \"{{0}}\"."
+	},
+	"Le famille {{0}} n'existe pas.": {
+		"message": "Le famille {{0}} n'existe pas."
+	},
+	"{{0}} - {{1}}:  n'existe pas dans référentiel tiers": {
+		"message": "{{0}} - {{1}}:  n'existe pas dans référentiel tiers"
+	},
+	"Le type ouvrage \"{{0}}\" est déjà associé à cette nature travaux, il ne peut pas être ajouté une deuxième fois.": {
+		"message": "Le type ouvrage \"{{0}}\" est déjà associé à cette nature travaux, il ne peut pas être ajouté une deuxième fois."
+	},
+	"Nature Travaux non trouvé.": {
+		"message": "Nature Travaux non trouvé."
+	},
+	"Merci d'indiquer le code de la tranche": {
+		"message": "Merci d'indiquer le code de la tranche"
+	},
+	"Le stade d'avancement \"{{0}}\" existe déjà, il ne peut pas être ajouté une deuxième fois.": {
+		"message": "Le stade d'avancement \"{{0}}\" existe déjà, il ne peut pas être ajouté une deuxième fois."
+	},
+	" Tranche non trouvée.": {
+		"message": " Tranche non trouvée."
+	},
+	" Adresse tranche non trouvée.": {
+		"message": " Adresse tranche non trouvée."
+	},
+	" Synthèse tranche non trouvée.": {
+		"message": " Synthèse tranche non trouvée."
+	},
+	"operation undefined !": {
+		"message": "operation undefined !"
+	},
+	"Param 'tranche' requis !": {
+		"message": "Param 'tranche' requis !"
+	},
+	"Le type de lot est obligatoire": {
+		"message": "Le type de lot est obligatoire"
+	},
+	"La nature du lot est obligatoire": {
+		"message": "La nature du lot est obligatoire"
+	},
+	"Lots secondaires": {
+		"message": "Lots secondaires"
+	},
+	"Le total des lignes des lots principaux ne correspond pas à la surface à vendre : {{0}}": {
+		"message": "Le total des lignes des lots principaux ne correspond pas à la surface à vendre : {{0}}"
+	},
+	"Tranche introuvable": {
+		"message": "Tranche introuvable"
+	},
+	"Cette opération n'existe pas.": {
+		"message": "Cette opération n'existe pas."
+	},
+	"Le total réservataire ne peut pas dépasser le nombre de logements.": {
+		"message": "Le total réservataire ne peut pas dépasser le nombre de logements."
+	},
+	"Retour en arrière non autorisé dans avancement travaux": {
+		"message": "Retour en arrière non autorisé dans avancement travaux"
+	},
+	"Confirmez vous la modification de l'avancement travaux ? Retour en arrière non autorisé.": {
+		"message": "Confirmez vous la modification de l'avancement travaux ? Retour en arrière non autorisé."
+	},
+	"Nombre de lots": {
+		"message": "Nombre de lots"
+	},
+	"Le type lot \"{{0}}\" est déjà associé à ce type ouvrage, il ne peut pas être ajouté une deuxième fois.": {
+		"message": "Le type lot \"{{0}}\" est déjà associé à ce type ouvrage, il ne peut pas être ajouté une deuxième fois."
+	},
+	"Type d'ouvrage non trouvé.": {
+		"message": "Type d'ouvrage non trouvé."
+	}
+}

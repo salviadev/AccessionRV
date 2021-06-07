@@ -1,0 +1,27 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "version": "1.0.0",
+    "type": "object",
+    "title": "PreferenceView",
+    "name": "PreferenceView",
+    "primaryKey": "id",
+    "theme": "preferences",
+    "isTransient": true,
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "code": {
+            "type": "string"
+        },
+        "libelle": {
+            "type": "string"
+        },
+        "prive": {
+            "type": "boolean"
+        },
+        "vide": {
+            "type": "boolean"
+        }
+    }
+}

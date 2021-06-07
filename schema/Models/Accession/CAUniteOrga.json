@@ -1,0 +1,40 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "CAUniteOrga",
+    "description": "contrôle accès - unité organisation",
+    "primaryKey": "code",
+    "properties": {
+      "code": {
+        "type": "string",
+        "format": "code"
+      },
+      "libelle": {
+        "type": "string",
+        "title": "libellé"
+      },
+      "libLong": {
+        "type": "string"
+      },
+      "actif" : {
+        "type" : "boolean"
+      },
+      "refParent": {
+        "type": "string",
+        "format": "code"
+      }
+    },
+    "indexes": [ { "fields" : "refParent"}],
+    "relations" : {
+        "parent": {
+            "foreignEntity": "CAUniteOrga",
+            "foreignKey": "code",
+            "key": "refParent",
+            "multiplicity": "one"
+        }
+    },
+    "definitions": {
+    }
+
+  }
+  

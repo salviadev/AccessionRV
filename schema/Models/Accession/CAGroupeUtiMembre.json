@@ -1,0 +1,42 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "CAGroupeUtiMembre",
+    "description": "membres du groupe",
+    "primaryKey": "code",
+    "properties": {
+      "code": {
+        "type": "string",
+        "format": "code"
+      },
+      "libelle": {
+        "type": "string",
+        "title": "libellé"
+      },
+      "refGroupe": {
+        "type": "string",
+        "format": "code"
+      },
+      "refUti": {
+        "type": "string",
+        "format": "code"
+      }
+
+    },
+    "indexes": [ 
+        { "fields" : ["refUti", "refGroupe"], "unique": true },
+        { "fields" : "refGroupe" }
+    ],
+    "relations" : {
+        "groupe": {
+            "foreignEntity": "CAGroupeUti",
+            "foreignKey": "code",
+            "key": "refGroupe",
+            "multiplicity": "one"
+        }
+    },
+    "definitions": {
+    }
+
+  }
+  

@@ -1,0 +1,58 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "PaginatedListView",
+    "name": "PaginatedListView",
+    "primaryKey": "id",
+    "theme": "tools",
+    "isTransient": true,
+    "serializeDirectives": [
+        "models"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        },
+        "searchText": {
+            "title": "Search",
+            "type": "string"
+        },
+        "search": {
+            "type": "string"
+        },
+        "modelCode": {
+            "type": "string",
+            "title": "Modelé"
+        },
+        "modelTitle": {
+            "type": "string",
+            "title": "Modelé"
+        },
+        "classePref": {
+            "type": "string",
+            "title": "Preference code"
+        },
+        "userLastFilterCode": {
+            "type": "string"
+        },
+        "lastModelPath": {
+            "type": "string"
+        },
+        "listPropName": {
+            "type": "string"
+        }
+    },
+    "relations": {
+        "models": {
+            "type": "hasMany",
+            "aggregationKind": "none",
+            "model": "PreferenceView"
+        }
+    },
+	"links": {
+        "getList": {
+            "returnType": "boc.FindRelation<boc.BaseViewModel, boc.BaseViewModel>"
+        }
+    }
+}

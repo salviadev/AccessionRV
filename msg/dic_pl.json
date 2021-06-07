@@ -1,0 +1,5438 @@
+{
+    "Le tiers \"{{0}}\" n'existe pas": {
+        "message": "\"{0}\" osoby trzeciej nie istnieje",
+        "translated": true
+    },
+    "Fonctionnalité non supportée !": {
+        "message": "Niepewna funkcjonalność!",
+        "translated": true
+    },
+    "{{0}} est requis.": {
+        "message": "\"{0}\".",
+        "translated": true
+    },
+    "Propriétés \"telephones\", \"courriels\", \"sitesWeb\" et \"refExternes\" ne sont pas filtrables": {
+        "message": "Właściwości \"telefony\", \"e-maile\", \"sitesWeb\" i \"refExternes\" nie są filtrowane",
+        "translated": true
+    },
+    "La selection \"{{0}}\" n'est pas correcte": {
+        "message": "Wybór \"{0}\" jest nieprawidłowy",
+        "translated": true
+    },
+    "Json patch attendu": {
+        "message": "Oczekiwana poprawka Jsona",
+        "translated": true
+    },
+    "Lopération \"add\" est seulement permise sur le Path \"{{0}}\"": {
+        "message": "Operacja \"dodaj\" jest dozwolona tylko na ścieżce \"{0}\"",
+        "translated": true
+    },
+    "Les opérations \"replace\" et \"remove\" sont seulement permise sur le path \"{{1}}\"": {
+        "message": "operacje \"replace\" i \"remove\" są dozwolone tylko na ścieżce \"{1}\"",
+        "translated": true
+    },
+    "Le Path \"{{0}}\" n'est pas correct": {
+        "message": "Ścieżka \"{0}\" jest nieprawidłowa",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" du path \"{{1}}\" n'est pas correcte": {
+        "message": "Działanie \"{0}\" ścieżki \"{1}\" jest nieprawidłowe",
+        "translated": true
+    },
+    "Le type de téléphone \"{{0}}\" n'est pas correcte": {
+        "message": "Typ telefonu \"{0}\" jest nieprawidłowy",
+        "translated": true
+    },
+    "La propriété \"{{0}}\" n'est pas correcte": {
+        "message": "Właściwość \"{0}\" jest nieprawidłowa",
+        "translated": true
+    },
+    "Le paramètre \"{{0}}\" n'existe pas": {
+        "message": "Ustawienie \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Impossible de retrouver l'entité importée {{0}} dans la table {{1}}": {
+        "message": "Nie można odnaleźć importowanego encji \"{0}\" w tabeli \"{1}\"",
+        "translated": true
+    },
+    "Le libellé « {{0}} » des échéanciers de la tranche commerciale « {{1}} » n'est pas unique": {
+        "message": "Sformułowanie \"{0}\" harmonogramów \"{1}\" nie jest",
+        "translated": true
+    },
+    "Un seul échéancier de la tranche commerciale « {{0}} » doit être utilisé par défaut": {
+        "message": "Domyślnie należy używać tylko jednego przedziału czasowego dla przedziału handlowego \"{0}\".",
+        "translated": true
+    },
+    "Impossible d'accéder aux données": {
+        "message": "Nie można uzyskać dostępu do danych",
+        "translated": true
+    },
+    "Mode not supported": {
+        "message": "Tryb nie jest obsługiwany",
+        "translated": true
+    },
+    "La tranche commerciale de destination {{0}} n'est pas vide": {
+        "message": "Miejsce docelowe handlu plasterek \"{0}\" nie jest pusty",
+        "translated": true
+    },
+    "Les tranches commerciales n'ont pas la même option TVA.": {
+        "message": "Przedziały handlowe nie mają tej samej opcji PODATKU VAT.",
+        "translated": true
+    },
+    "La tranche commerciale d'origine {{0}} n'existe pas": {
+        "message": "Oryginalny nawias handlowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La tranche commerciale de destination {{0}} n'existe pas": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le {{0}} n existe pas": {
+        "message": "\"{0}\" nie istnieje",
+        "translated": true
+    },
+    "{{0}} est incorrect. Valeurs attendues: {{1}}": {
+        "message": "\"{0}\" jest nieprawidłowe. Oczekiwane wartości: \"{1}\"",
+        "translated": true
+    },
+    "{{0}} dépasse le nombre maximal de caractères autorisés.": {
+        "message": "\"{0}\" przekracza maksymalną dozwoloną liczbę znaków.",
+        "translated": true
+    },
+    "{{0}} ne peut être indéfini.": {
+        "message": "\"{0}\" nie może być nieokreślony.",
+        "translated": true
+    },
+    "Le mail ne respecte pas le format. Ex: exemple@exemple.com": {
+        "message": "Wiadomość e-mail nie jest zgodna z formatem. Przykład: exemple@exemple.com",
+        "translated": true
+    },
+    "phone ne respecte pas le format. Ex: +33101010101, 0101010101": {
+        "message": "telefon nie jest zgodny z formatem. Przykład: '33101010101, 0101010101",
+        "translated": true
+    },
+    "phoneMobile ne respecte pas le format. Ex: +33606060606, 0606060606": {
+        "message": "phoneMobile nie respektuje tego formatu. Przykład: '33606060606, 06060606",
+        "translated": true
+    },
+    "siteWeb ne respecte pas le format. Ex: http://www.exemple.com": {
+        "message": "websiteWeb nie respektuje tego formatu. Przykład: http://www.exemple.com",
+        "translated": true
+    },
+    "prenom est requis pour un tiers PHYSIQUE.": {
+        "message": "imię jest wymagane dla osoby trzeciej CIAŁA.",
+        "translated": true
+    },
+    "nomFamille est requis pour un tiers PHYSIQUE.": {
+        "message": "Nazwisko jest wymagane przez jedną trzecią roku.",
+        "translated": true
+    },
+    "phonePerso ne respecte pas le format. Ex: +33606060606, 0606060606": {
+        "message": "phonePerso nie respektuje formatu. Przykład: '33606060606, 06060606",
+        "translated": true
+    },
+    "Paramètres incorrects": {
+        "message": "Nieprawidłowe ustawienia",
+        "translated": true
+    },
+    "Demande incorrecte": {
+        "message": "Nieprawidłowe żądanie",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas.": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" ne fait pas partie de l'opération \"{{1}}\".": {
+        "message": "Przedział handlowy \"{0}\" nie jest częścią operacji \"{1}\".",
+        "translated": true
+    },
+    "FNP initial": {
+        "message": "Początkowe FNP",
+        "translated": true
+    },
+    "Achevement travaux": {
+        "message": "Zakończenie prac",
+        "translated": true
+    },
+    "Apport fonds propres": {
+        "message": "Wkład kapitałowy",
+        "translated": true
+    },
+    "Restitution fonds propres": {
+        "message": "Zwrot z kapitału własnego",
+        "translated": true
+    },
+    "Distribution de la marge": {
+        "message": "Dystrybucja depozytu zabezpieczającego",
+        "translated": true
+    },
+    "Déblocage d’emprunt": {
+        "message": "Pożyczanie odblokowania",
+        "translated": true
+    },
+    "Remboursement d’emprunt": {
+        "message": "Spłata pożyczki",
+        "translated": true
+    },
+    "crédit": {
+        "message": "Kredytowej",
+        "translated": true
+    },
+    "débit": {
+        "message": "Przepływu",
+        "translated": true
+    },
+    "Stockable": {
+        "message": "Zaopatruje się",
+        "translated": true
+    },
+    "Non stockable": {
+        "message": "Nie do magazynów",
+        "translated": true
+    },
+    "Hors FNP": {
+        "message": "Z wyłączeniem FNP",
+        "translated": true
+    },
+    "360 jours": {
+        "message": "360 dni",
+        "translated": true
+    },
+    "365 jours": {
+        "message": "365 dni",
+        "translated": true
+    },
+    "DG": {
+        "message": "Dg",
+        "translated": true
+    },
+    "DES": {
+        "message": "Des",
+        "translated": true
+    },
+    "AV": {
+        "message": "Av",
+        "translated": true
+    },
+    "RV": {
+        "message": "Rv",
+        "translated": true
+    },
+    "AF": {
+        "message": "Af",
+        "translated": true
+    },
+    "EAF": {
+        "message": "Fae",
+        "translated": true
+    },
+    "EAFN": {
+        "message": "EAFN (EAFN)",
+        "translated": true
+    },
+    "RC": {
+        "message": "Rc",
+        "translated": true
+    },
+    "ETMA": {
+        "message": "ETMA (ETMA)",
+        "translated": true
+    },
+    "FTMA": {
+        "message": "Ftma (ftma)",
+        "translated": true
+    },
+    "ECTMA": {
+        "message": "ECTMA",
+        "translated": true
+    },
+    "AFTMA": {
+        "message": "AFTMA ( AFTMA )",
+        "translated": true
+    },
+    "AFN": {
+        "message": "Afn",
+        "translated": true
+    },
+    "DAT": {
+        "message": "Dat (dat)",
+        "translated": true
+    },
+    "AR": {
+        "message": "Ar",
+        "translated": true
+    },
+    "FR": {
+        "message": "Br",
+        "translated": true
+    },
+    "PR": {
+        "message": "Pr",
+        "translated": true
+    },
+    "EPR": {
+        "message": "Epr",
+        "translated": true
+    },
+    "RFN": {
+        "message": "Rfn",
+        "translated": true
+    },
+    "RFC": {
+        "message": "Rfc",
+        "translated": true
+    },
+    "FNP": {
+        "message": "Npf",
+        "translated": true
+    },
+    "EFR": {
+        "message": "Efr (efr)",
+        "translated": true
+    },
+    "FRAISD": {
+        "message": "FRAISD ( FRAISD )",
+        "translated": true
+    },
+    "FRAISPF": {
+        "message": "Świeże",
+        "translated": true
+    },
+    "FRAISR": {
+        "message": "Świeże",
+        "translated": true
+    },
+    "VSLA": {
+        "message": "VSLA ( VSLA )",
+        "translated": true
+    },
+    "VSLL": {
+        "message": "VSLL ( VSLL )",
+        "translated": true
+    },
+    "A": {
+        "message": "Hsa",
+        "translated": true
+    },
+    "Bon commande recette": {
+        "message": "Dobry przepis na zamówienie",
+        "translated": true
+    },
+    "Facture recette": {
+        "message": "Przepis billa",
+        "translated": true
+    },
+    "C": {
+        "message": "C",
+        "translated": true
+    },
+    "U": {
+        "message": "U",
+        "translated": true
+    },
+    "S": {
+        "message": "S",
+        "translated": true
+    },
+    "R": {
+        "message": "R",
+        "translated": true
+    },
+    "P": {
+        "message": "P",
+        "translated": true
+    },
+    "E": {
+        "message": "E",
+        "translated": true
+    },
+    "B": {
+        "message": "B",
+        "translated": true
+    },
+    "I": {
+        "message": "I",
+        "translated": true
+    },
+    "Personne Physique": {
+        "message": "Osoba fizyczna",
+        "translated": true
+    },
+    "Tiers Moral": {
+        "message": "Trzeci moralny",
+        "translated": true
+    },
+    "Collectivité Locale": {
+        "message": "Społeczność lokalna",
+        "translated": true
+    },
+    "Organisme Financier": {
+        "message": "Organizacja finansowa",
+        "translated": true
+    },
+    "Monsieur": {
+        "message": "Pan",
+        "translated": true
+    },
+    "Madame": {
+        "message": "Pani",
+        "translated": true
+    },
+    "ACTIF": {
+        "message": "Aktywne",
+        "translated": true
+    },
+    "INACTIF": {
+        "message": "Nieaktywne",
+        "translated": true
+    },
+    "M": {
+        "message": "Pan",
+        "translated": true
+    },
+    "MME": {
+        "message": "Pani",
+        "translated": true
+    },
+    "IBAN": {
+        "message": "Iban",
+        "translated": true
+    },
+    "AUTRE": {
+        "message": "Innych",
+        "translated": true
+    },
+    "V": {
+        "message": "V",
+        "translated": true
+    },
+    "compte courant": {
+        "message": "rachunek bieżący",
+        "translated": true
+    },
+    "compte de dépôt": {
+        "message": "rachunek depozytowy",
+        "translated": true
+    },
+    "compte séquestre": {
+        "message": "konto odbiorcy",
+        "translated": true
+    },
+    "ANN": {
+        "message": "Ann",
+        "translated": true
+    },
+    "MENS": {
+        "message": "Mężczyźni",
+        "translated": true
+    },
+    "COOP": {
+        "message": "Coop",
+        "translated": true
+    },
+    "COOPHLM": {
+        "message": "COOPHLM (COOPHLM)",
+        "translated": true
+    },
+    "EURL": {
+        "message": "Eurl (eurl)",
+        "translated": true
+    },
+    "Office": {
+        "message": "Office",
+        "translated": true
+    },
+    "OPHLM": {
+        "message": "Ophlm ( ophlm )",
+        "translated": true
+    },
+    "SA": {
+        "message": "Ihs",
+        "translated": true
+    },
+    "SAHLM": {
+        "message": "sahlm",
+        "translated": true
+    },
+    "SARL": {
+        "message": "Sarl",
+        "translated": true
+    },
+    "SAS": {
+        "message": "Sas",
+        "translated": true
+    },
+    "SASU": {
+        "message": "Okręg wyborczy Sasu",
+        "translated": true
+    },
+    "SCI": {
+        "message": "Sci",
+        "translated": true
+    },
+    "SCCV": {
+        "message": "SCCV (właśc.",
+        "translated": true
+    },
+    "SCOP": {
+        "message": "Scop ( scop )",
+        "translated": true
+    },
+    "SELARL": {
+        "message": "OKRĘG WYBORCZY SELARL",
+        "translated": true
+    },
+    "SEM": {
+        "message": "Sem",
+        "translated": true
+    },
+    "SCM": {
+        "message": "Scm",
+        "translated": true
+    },
+    "SCP": {
+        "message": "Scp",
+        "translated": true
+    },
+    "SNC": {
+        "message": "Snc",
+        "translated": true
+    },
+    "En cours d’immatriculation": {
+        "message": "W procesie rejestracji",
+        "translated": true
+    },
+    "En activité": {
+        "message": "W eksploatacji",
+        "translated": true
+    },
+    "En liquidation": {
+        "message": "W likwidacji",
+        "translated": true
+    },
+    "Fermée": {
+        "message": "Zamknięta",
+        "translated": true
+    },
+    "T": {
+        "message": "T",
+        "translated": true
+    },
+    "O": {
+        "message": "z o.o.",
+        "translated": true
+    },
+    "date de création": {
+        "message": "data utworzenia",
+        "translated": true
+    },
+    "saisie libre": {
+        "message": "wstęp wolny",
+        "translated": true
+    },
+    "aucune": {
+        "message": "Nie",
+        "translated": true
+    },
+    "mois": {
+        "message": "Miesiąc",
+        "translated": true
+    },
+    "trimestre": {
+        "message": "Kwartale",
+        "translated": true
+    },
+    "semestre": {
+        "message": "Semestr",
+        "translated": true
+    },
+    "dernier jour de la période clôturée": {
+        "message": "ostatniego dnia okresu zamkniętego",
+        "translated": true
+    },
+    "clôture différenciée": {
+        "message": "zróżnicowane ogrodzenie",
+        "translated": true
+    },
+    "période en cours": {
+        "message": "bieżący okres",
+        "translated": true
+    },
+    "période n plus 1": {
+        "message": "okres nr plus 1",
+        "translated": true
+    },
+    "HT": {
+        "message": "Ht",
+        "translated": true
+    },
+    "TTC": {
+        "message": "Ttc",
+        "translated": true
+    },
+    "DOSSIER": {
+        "message": "Folder",
+        "translated": true
+    },
+    "LOT": {
+        "message": "Wiele",
+        "translated": true
+    },
+    "FIXE": {
+        "message": "Stałe",
+        "translated": true
+    },
+    "MNT": {
+        "message": "Mnt",
+        "translated": true
+    },
+    "PRCT": {
+        "message": "PRCT (PRCT)",
+        "translated": true
+    },
+    "VENTE": {
+        "message": "Sprzedaż",
+        "translated": true
+    },
+    "TMA": {
+        "message": "Tma",
+        "translated": true
+    },
+    "APPELE": {
+        "message": "Wywoływana",
+        "translated": true
+    },
+    "ENCAISSE": {
+        "message": "Gotówki",
+        "translated": true
+    },
+    "PREVU": {
+        "message": "Planowane",
+        "translated": true
+    },
+    "REEL": {
+        "message": "Bębnowa",
+        "translated": true
+    },
+    "QTE": {
+        "message": "Funkcja QTE",
+        "translated": true
+    },
+    "M2": {
+        "message": "M2 (włas iem",
+        "translated": true
+    },
+    "TC": {
+        "message": "Tc",
+        "translated": true
+    },
+    "TYPO": {
+        "message": "Literówka",
+        "translated": true
+    },
+    "PREV": {
+        "message": "Poprzedni",
+        "translated": true
+    },
+    "L": {
+        "message": "L",
+        "translated": true
+    },
+    "DET": {
+        "message": "Det",
+        "translated": true
+    },
+    "ACTU": {
+        "message": "Wiadomości",
+        "translated": true
+    },
+    "GLOBAL": {
+        "message": "Globalne",
+        "translated": true
+    },
+    "RES": {
+        "message": "Res",
+        "translated": true
+    },
+    "VEN": {
+        "message": "Pt",
+        "translated": true
+    },
+    "LIV": {
+        "message": "Liv",
+        "translated": true
+    },
+    "APP": {
+        "message": "App",
+        "translated": true
+    },
+    "ENC": {
+        "message": "Enc",
+        "translated": true
+    },
+    "Préréservé": {
+        "message": "Wstępnie zedytowane",
+        "translated": true
+    },
+    "Réservé": {
+        "message": "Rezerwacja",
+        "translated": true
+    },
+    "Loué": {
+        "message": "Wynajmowane",
+        "translated": true
+    },
+    "Vendu": {
+        "message": "Sprzedawane",
+        "translated": true
+    },
+    "Livré": {
+        "message": "Dostarczane",
+        "translated": true
+    },
+    "Désisté": {
+        "message": "Wycofane",
+        "translated": true
+    },
+    "Résolu/résilié": {
+        "message": "Rozwiązano/zakończone",
+        "translated": true
+    },
+    "NON": {
+        "message": "Nie",
+        "translated": true
+    },
+    "CS": {
+        "message": "Cs",
+        "translated": true
+    },
+    "CC": {
+        "message": "Cc",
+        "translated": true
+    },
+    "REALISE": {
+        "message": "Zdaję sobie sprawę",
+        "translated": true
+    },
+    "PRET": {
+        "message": "Gotowy",
+        "translated": true
+    },
+    "REVENTE": {
+        "message": "Odsprzedaży",
+        "translated": true
+    },
+    "ACP": {
+        "message": "Akp",
+        "translated": true
+    },
+    "DEM": {
+        "message": "Dem",
+        "translated": true
+    },
+    "ACC": {
+        "message": "Wg",
+        "translated": true
+    },
+    "EMIS": {
+        "message": "Emis ( Emis )",
+        "translated": true
+    },
+    "OBT": {
+        "message": "Obt",
+        "translated": true
+    },
+    "FINV": {
+        "message": "FINV (WAŁK)",
+        "translated": true
+    },
+    "F": {
+        "message": "F",
+        "translated": true
+    },
+    "technique": {
+        "message": "Techniczne",
+        "translated": true
+    },
+    "esthétique": {
+        "message": "Estetyczne",
+        "translated": true
+    },
+    "Demande": {
+        "message": "Aplikacji",
+        "translated": true
+    },
+    "Devis": {
+        "message": "Cytat",
+        "translated": true
+    },
+    "Signé": {
+        "message": "Podpisane",
+        "translated": true
+    },
+    "Refusé": {
+        "message": "Odmówił",
+        "translated": true
+    },
+    "Annulé": {
+        "message": "Anulowane",
+        "translated": true
+    },
+    "VIR": {
+        "message": "Vir",
+        "translated": true
+    },
+    "CHQ": {
+        "message": "Chq",
+        "translated": true
+    },
+    "LIBRE": {
+        "message": "Wolna",
+        "translated": true
+    },
+    "mètre": {
+        "message": "Miernik",
+        "translated": true
+    },
+    "m2": {
+        "message": "m2",
+        "translated": true
+    },
+    "fixe": {
+        "message": "Stałe",
+        "translated": true
+    },
+    "signature": {
+        "message": "Podpis",
+        "translated": true
+    },
+    "livraison": {
+        "message": "Dostawy",
+        "translated": true
+    },
+    "EVENEMENT": {
+        "message": "Zdarzenie",
+        "translated": true
+    },
+    "ECHEANCE": {
+        "message": "CHEANCE ( CHEANCE )",
+        "translated": true
+    },
+    "nature travaux": {
+        "message": "prace przyrodnicze",
+        "translated": true
+    },
+    "tranche commerciale": {
+        "message": "transza handlowa",
+        "translated": true
+    },
+    "Nord": {
+        "message": "Północ",
+        "translated": true
+    },
+    "Nord-Est": {
+        "message": "Północny wschód",
+        "translated": true
+    },
+    "Est": {
+        "message": "Jest",
+        "translated": true
+    },
+    "Sud-Est": {
+        "message": "Południowy wschód",
+        "translated": true
+    },
+    "Sud": {
+        "message": "Południe",
+        "translated": true
+    },
+    "Sud-Ouest": {
+        "message": "Southwest",
+        "translated": true
+    },
+    "Ouest": {
+        "message": "Zachód",
+        "translated": true
+    },
+    "Nord-Ouest": {
+        "message": "Northwest",
+        "translated": true
+    },
+    "Nord-Sud": {
+        "message": "Północ-Południe",
+        "translated": true
+    },
+    "Est-Ouest": {
+        "message": "Wschód-Zachód",
+        "translated": true
+    },
+    "En stock": {
+        "message": "W magazynie",
+        "translated": true
+    },
+    "Optionné": {
+        "message": "Opcjonalne",
+        "translated": true
+    },
+    "Pré-réservé": {
+        "message": "Wcześniej zarezerwowane",
+        "translated": true
+    },
+    "Lot témoin": {
+        "message": "Świadek partii",
+        "translated": true
+    },
+    "ANNULE": {
+        "message": "Anuluje",
+        "translated": true
+    },
+    "MORALE": {
+        "message": "Moralne",
+        "translated": true
+    },
+    "PHYSIQUE": {
+        "message": "Fizyczne",
+        "translated": true
+    },
+    "TVA classique": {
+        "message": "Klasyczny podatek VAT",
+        "translated": true
+    },
+    "TVA sur marge inclus": {
+        "message": "VAT od marży wliczone",
+        "translated": true
+    },
+    "TVA sur marge non inclus": {
+        "message": "VAT od marży nie jest wliczony",
+        "translated": true
+    },
+    "Lots principaux": {
+        "message": "Główne partie",
+        "translated": true
+    },
+    "Prix": {
+        "message": "Cena",
+        "translated": true
+    },
+    "Surface": {
+        "message": "Powierzchni",
+        "translated": true
+    },
+    "Tantième": {
+        "message": "Ciociaultimate",
+        "translated": true
+    },
+    "Au global": {
+        "message": "Globalnie",
+        "translated": true
+    },
+    "Par lot": {
+        "message": "Według partii",
+        "translated": true
+    },
+    "PROCEDURE_SAVED": {
+        "message": "PROCEDURE_SAVED",
+        "translated": true
+    },
+    "OPERATION_SAVED": {
+        "message": "OPERATION_SAVED",
+        "translated": true
+    },
+    "TRANCHE_SAVED": {
+        "message": "TRANCHE_SAVED",
+        "translated": true
+    },
+    "GANTT_SAVED": {
+        "message": "GANTT_SAVED",
+        "translated": true
+    },
+    "IMPORT_OLDPLANNING": {
+        "message": "IMPORT_OLDPLANNING",
+        "translated": true
+    },
+    "DUPLICATE": {
+        "message": "Zduplikowane",
+        "translated": true
+    },
+    "D": {
+        "message": "D",
+        "translated": true
+    },
+    "CB": {
+        "message": "Cb",
+        "translated": true
+    },
+    "CHE": {
+        "message": "Che",
+        "translated": true
+    },
+    "ESP": {
+        "message": "Esp",
+        "translated": true
+    },
+    "DEV": {
+        "message": "Dev",
+        "translated": true
+    },
+    "SIG": {
+        "message": "Gis",
+        "translated": true
+    },
+    "REF": {
+        "message": "Ref",
+        "translated": true
+    },
+    "X": {
+        "message": "X",
+        "translated": true
+    },
+    "N": {
+        "message": "N",
+        "translated": true
+    },
+    "NE": {
+        "message": "Zrobić",
+        "translated": true
+    },
+    "SE": {
+        "message": "Se",
+        "translated": true
+    },
+    "SO": {
+        "message": "Więc",
+        "translated": true
+    },
+    "NO": {
+        "message": "Nie",
+        "translated": true
+    },
+    "Personne Morale": {
+        "message": "Corporation",
+        "translated": true
+    },
+    "Engagement": {
+        "message": "Zobowiązanie",
+        "translated": true
+    },
+    "Facture": {
+        "message": "Bill",
+        "translated": true
+    },
+    "Reglement": {
+        "message": "Rozporządzenie",
+        "translated": true
+    },
+    "Versement": {
+        "message": "Płatności",
+        "translated": true
+    },
+    "PreEngagement": {
+        "message": "PreEngagement (Wstępne rozkłęcie)",
+        "translated": true
+    },
+    "DemandeVers": {
+        "message": "AskThsTover (Lek AskThsTover)",
+        "translated": true
+    },
+    "NotifFin": {
+        "message": "NotifFin",
+        "translated": true
+    },
+    "FraisFinanciers": {
+        "message": "FreshFinanciers",
+        "translated": true
+    },
+    "Dossier résa-vente": {
+        "message": "Plik resa-sale",
+        "translated": true
+    },
+    "Dépôt garantie encaissé sur compte courant": {
+        "message": "Gwarantowana wpłata na rachunku bieżącym",
+        "translated": true
+    },
+    "Appel fond": {
+        "message": "Odwołanie dolne",
+        "translated": true
+    },
+    "Encaissement appel fond": {
+        "message": "Wypłata połączenia",
+        "translated": true
+    },
+    "Appel fond TMA": {
+        "message": "Odwołanie tma tle",
+        "translated": true
+    },
+    "Encaissement TMA": {
+        "message": "TMA gotówki",
+        "translated": true
+    },
+    "Encaissement facture recette": {
+        "message": "Zarabianie na rachunku przychodów",
+        "translated": true
+    },
+    "Dation": {
+        "message": "Dając",
+        "translated": true
+    },
+    "Dation Vendu": {
+        "message": "Dation sprzedany",
+        "translated": true
+    },
+    "Dation Livré": {
+        "message": "Dation dostarczone",
+        "translated": true
+    },
+    "Résolution vente": {
+        "message": "Rozdzielczość sprzedaży",
+        "translated": true
+    },
+    "PreEngage": {
+        "message": "PreEngage (PreEngage)",
+        "translated": true
+    },
+    "Engage": {
+        "message": "Zatwierdza",
+        "translated": true
+    },
+    "Reglé": {
+        "message": "Reglé ( Reglé )",
+        "translated": true
+    },
+    "Facturé": {
+        "message": "– opłata",
+        "translated": true
+    },
+    "Annule": {
+        "message": "Anuluje",
+        "translated": true
+    },
+    "Initial": {
+        "message": "Początkowe",
+        "translated": true
+    },
+    "TotalAvenant": {
+        "message": "Totalavenant (TotalAvenant)",
+        "translated": true
+    },
+    "Avenant": {
+        "message": "Zmiana",
+        "translated": true
+    },
+    "Actualisation": {
+        "message": "Aktualizacji",
+        "translated": true
+    },
+    "Revision": {
+        "message": "Który napisze recenzję",
+        "translated": true
+    },
+    "RevisionInitial": {
+        "message": "RewizjaInitial",
+        "translated": true
+    },
+    "TotalBrut": {
+        "message": "TotalBrut ( TotalBrut )",
+        "translated": true
+    },
+    "RG": {
+        "message": "Rg",
+        "translated": true
+    },
+    "RGCouvCaution": {
+        "message": "RGCouvCaution",
+        "translated": true
+    },
+    "Prorata": {
+        "message": "Proporcji",
+        "translated": true
+    },
+    "PUC": {
+        "message": "Puc",
+        "translated": true
+    },
+    "Retenu": {
+        "message": "Zachowywane",
+        "translated": true
+    },
+    "AutreRetenu": {
+        "message": "InneRetenu",
+        "translated": true
+    },
+    "Penalites": {
+        "message": "Penalites (kary)",
+        "translated": true
+    },
+    "IE": {
+        "message": "Ie",
+        "translated": true
+    },
+    "Avance": {
+        "message": "Z góry",
+        "translated": true
+    },
+    "PenalitesDefinitives": {
+        "message": "PenalitesDefinitives",
+        "translated": true
+    },
+    "PenalitesDefTVA": {
+        "message": "PenalitesDefTVA",
+        "translated": true
+    },
+    "TotalNet": {
+        "message": "TotalNet (TotalNet)",
+        "translated": true
+    },
+    "TotalAPayer": {
+        "message": "TotalaPayer (TotalAPayer)",
+        "translated": true
+    },
+    "SousTraitants": {
+        "message": "Podwykonawców",
+        "translated": true
+    },
+    "Prospection": {
+        "message": "Poszukiwania",
+        "translated": true
+    },
+    "En étude": {
+        "message": "W ramach badania",
+        "translated": true
+    },
+    "En Cours": {
+        "message": "w Cours",
+        "translated": true
+    },
+    "Achevé": {
+        "message": "Zakończone",
+        "translated": true
+    },
+    "Archivé": {
+        "message": "Archiwizowane",
+        "translated": true
+    },
+    "Abandonné": {
+        "message": "Opuszczony",
+        "translated": true
+    },
+    "string": {
+        "message": "Ciąg",
+        "translated": true
+    },
+    "integer": {
+        "message": "Liczba całkowita",
+        "translated": true
+    },
+    "number": {
+        "message": "Numer",
+        "translated": true
+    },
+    "boolean": {
+        "message": "Boolean",
+        "translated": true
+    },
+    "date": {
+        "message": "Data",
+        "translated": true
+    },
+    "date-time": {
+        "message": "data-godzina",
+        "translated": true
+    },
+    "rate": {
+        "message": "Śledziony",
+        "translated": true
+    },
+    "money": {
+        "message": "Pieniądze",
+        "translated": true
+    },
+    "Opération": {
+        "message": "Operacji",
+        "translated": true
+    },
+    "Travaux": {
+        "message": "Pracy",
+        "translated": true
+    },
+    "Commerciale": {
+        "message": "Handlowych",
+        "translated": true
+    },
+    "taux normal": {
+        "message": "normalna stawka",
+        "translated": true
+    },
+    "taux intermédiaire": {
+        "message": "stawka pośrednia",
+        "translated": true
+    },
+    "taux réduit": {
+        "message": "obniżona stawka",
+        "translated": true
+    },
+    "Actif": {
+        "message": "Aktywne",
+        "translated": true
+    },
+    "Inactif": {
+        "message": "Nieaktywne",
+        "translated": true
+    },
+    "Fournisseur": {
+        "message": "Dostawca",
+        "translated": true
+    },
+    "Client": {
+        "message": "Klienta",
+        "translated": true
+    },
+    "Banque": {
+        "message": "Bank",
+        "translated": true
+    },
+    "Société": {
+        "message": "Firmy",
+        "translated": true
+    },
+    "Simulation": {
+        "message": "Symulacji",
+        "translated": true
+    },
+    "Actualisé": {
+        "message": "Aktualizacja",
+        "translated": true
+    },
+    "Simulation Favorite": {
+        "message": "Ulubiona symulacja",
+        "translated": true
+    },
+    "Comité d'engagement": {
+        "message": "Komitet Zobowiązań",
+        "translated": true
+    },
+    "Comité PC": {
+        "message": "Komitet KOMPUTEROWY",
+        "translated": true
+    },
+    "{Non renseigné}": {
+        "message": "\"Niedoinformowani\"",
+        "translated": true
+    },
+    "ADDED": {
+        "message": "Dodane",
+        "translated": true
+    },
+    "MODIFIED": {
+        "message": "Zmodyfikowano",
+        "translated": true
+    },
+    "DELETED": {
+        "message": "Usunięte",
+        "translated": true
+    },
+    "Avancement des tranches commerciales": {
+        "message": "Rozwój transz handlowych",
+        "translated": true
+    },
+    "Types de commercialisation": {
+        "message": "Rodzaje marketingu",
+        "translated": true
+    },
+    "Type opération": {
+        "message": "Typ operacji",
+        "translated": true
+    },
+    "Type version opération": {
+        "message": "Typ operacji wersji",
+        "translated": true
+    },
+    "La catégorie {{0}} n'existe pas dans les codifications disponibles": {
+        "message": "Kategoria \"{0}\" nie istnieje w dostępnych kodyfikacjach",
+        "translated": true
+    },
+    "Aucun code ou libellé n'a pu être reçu pour la codification avec le numéro d'ordre <{{0}}>": {
+        "message": "Nie można było otrzymać kodu ani sformułowania do kodowania z numerem zamówienia {0}",
+        "translated": true
+    },
+    "Code <{{0}}> non valide, caractères acceptés : lettre majuscule, chiffre et _": {
+        "message": "Kod {0} nieprawidłowe, akceptowane znaki: wielka litera, liczba i",
+        "translated": true
+    },
+    "Il n'y a pas de lots à grouper": {
+        "message": "Nie ma wielu do zgrupowania",
+        "translated": true
+    },
+    "Il n'y a pas de lots à dégrouper": {
+        "message": "Nie ma wielu rzeczy do rozdzielenia",
+        "translated": true
+    },
+    "Paramètre groupement obligatoire": {
+        "message": "Obowiązkowe ustawienie grupowania",
+        "translated": true
+    },
+    "Il n'y a pas de lots à la vente en bloc": {
+        "message": "Nie ma partii do sprzedaży hurtowych",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{numLot}} pour l'option en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+        "message": "Nie można odczytać informacji w numerowanym numerze \"numLot\" dla bieżącej opcji. Jego cena zarządzania nie może być zdyskontowana.",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{numeroLot}} pour la réservation en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+        "message": "Nie można odczytać informacji o numerowanych partiach dla bieżącej rezerwacji. Jego cena zarządzania nie może być zdyskontowana.",
+        "translated": true
+    },
+    "Les informations du lot de numéro {{0}} pour la réservation en cours n'ont pu être lues": {
+        "message": "Nie można odczytać informacji w partii \"{0}\" dla bieżącej rezerwacji",
+        "translated": true
+    },
+    "Il existe plusieurs réservations en cours pour le lot de numéro {{0}}.": {
+        "message": "Istnieje kilka rezerwacji dla numeru \"{0}\".",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{0}} pour la réservation en cours n'ont pu être lues.": {
+        "message": "Nie można odczytać informacji o numerowanym numerze \"{0}\" dla bieżącej rezerwacji.",
+        "translated": true
+    },
+    "Les informations du lot de numéro {{0}} pour l'option en cours n'ont pu être lues": {
+        "message": "Nie można odczytać informacji zawartych w partii \"{0}\" dla bieżącej opcji",
+        "translated": true
+    },
+    "Il est impossible de lire l'option en cours pour le lot de numéro {{0}}.": {
+        "message": "Nie można odczytać obecnej opcji dla partii \"{0}\".",
+        "translated": true
+    },
+    "Il existe plusieurs options en cours pour le lot de numéro {{0}}.": {
+        "message": "Istnieje kilka opcji w toku dla partii \"{0}\".",
+        "translated": true
+    },
+    "Le numéro de lot est obligatoire, veuillez renseigner un numéro de lot": {
+        "message": "Numer partii jest obowiązkowy, proszę podać numer partii",
+        "translated": true
+    },
+    "Le code de lot est obligatoire, veuillez renseigner un code de lot": {
+        "message": "Kod partii jest obowiązkowy, proszę podać kod partii",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la réception du lot": {
+        "message": "Dostawa nie może poprzedzać otrzymania partii",
+        "translated": true
+    },
+    "La réception ne peut être antérieure à l'achèvement du lot": {
+        "message": "Odbiór nie może poprzedzać ukończenia partii",
+        "translated": true
+    },
+    "Le lot n'est pas en stock.": {
+        "message": "Partia nie jest w magazynie.",
+        "translated": true
+    },
+    "Il y a moins de 2 lots sélectionnés pour le groupement": {
+        "message": "Do zgrupowania wybrano mniej niż 2 partie",
+        "translated": true
+    },
+    "Tous les lots n'appartiennent pas au même groupement": {
+        "message": "Nie wszystkie partie należą do tej samej grupy",
+        "translated": true
+    },
+    "Tous les lots à grouper n'appartiennent pas à la même tranche commerciale": {
+        "message": "Nie wszystkie partie, które mają zostać zgrupowane, należą do tej samej transzy handlowej",
+        "translated": true
+    },
+    "Le numéro de lot {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+        "message": "Numer partii \"{0}\" już istnieje dla innej partii. Wprowadź inny numer partii.",
+        "translated": true
+    },
+    "Le numéro de copropriété {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+        "message": "Numer kondominium \"{0}\" już istnieje dla innej partii. Wprowadź inny numer partii.",
+        "translated": true
+    },
+    "Verrouillage de lot n° {{0}}": {
+        "message": "Blokada partii no.{0}",
+        "translated": true
+    },
+    "Impossible de verrouiller lot n° {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "Nie jest możliwe zablokowanie partii no.{0}, jest już używana gdzie indziej.",
+        "translated": true
+    },
+    "Lots manquants": {
+        "message": "Brakujące partie",
+        "translated": true
+    },
+    "Le lot {{0}} n'est pas en option": {
+        "message": "Partia \"{0}\" nie jest opcjonalna",
+        "translated": true
+    },
+    "Impossible d`annuler plusieurs options en même temps": {
+        "message": "Nie można anulować wielu opcji w tym samym czasie",
+        "translated": true
+    },
+    "La date d'annulation ne peut être supérieure à la date du jour": {
+        "message": "Data anulowania nie może być wyższa niż data",
+        "translated": true
+    },
+    "La date d'annulation ne peut être antérieure à la date de pose d'option": {
+        "message": "Data anulowania nie może być wcześniejsza od daty opcji",
+        "translated": true
+    },
+    "multiple": {
+        "message": "Wielu",
+        "translated": true
+    },
+    "Dates": {
+        "message": "Daty",
+        "translated": true
+    },
+    "Réservation": {
+        "message": "Rezerwacje",
+        "translated": true
+    },
+    "Réalisée": {
+        "message": "Przeprowadzane",
+        "translated": true
+    },
+    "Envoi du contrat": {
+        "message": "Wysyłanie umowy",
+        "translated": true
+    },
+    "Vente": {
+        "message": "Sprzedaż",
+        "translated": true
+    },
+    "Désistement": {
+        "message": "Zaprzestanie działalności",
+        "translated": true
+    },
+    "Résolution": {
+        "message": "Rozdzielczość",
+        "translated": true
+    },
+    "Livraison": {
+        "message": "Dostawy",
+        "translated": true
+    },
+    "Total prix commercial TTC": {
+        "message": "Całkowita cena handlowa TTC",
+        "translated": true
+    },
+    "Total prix commercial HT": {
+        "message": "Całkowita cena handlowa HT",
+        "translated": true
+    },
+    "Total montant Dation TTC": {
+        "message": "Całkowita kwota Dation TTC",
+        "translated": true
+    },
+    "Total montant Dation HT": {
+        "message": "Całkowita kwota Dation HT",
+        "translated": true
+    },
+    "Montant TTC": {
+        "message": "Kwota TTC",
+        "translated": true
+    },
+    "Montant HT": {
+        "message": "Kwota HT",
+        "translated": true
+    },
+    "Aucune échéance": {
+        "message": "Brak terminu",
+        "translated": true
+    },
+    "Apport personnel": {
+        "message": "Wkład osobisty",
+        "translated": true
+    },
+    "Prêt bancaire  {{0}}": {
+        "message": "Kredyt bankowy \"{0}\"",
+        "translated": true
+    },
+    "Revente": {
+        "message": "Odsprzedaży",
+        "translated": true
+    },
+    "Aucun financement": {
+        "message": "Brak finansowania",
+        "translated": true
+    },
+    "Aucun vendeur": {
+        "message": "Brak sprzedawcy",
+        "translated": true
+    },
+    "Compte client": {
+        "message": "Konto odbiorcy",
+        "translated": true
+    },
+    "Total dossier client TTC": {
+        "message": "Całkowity plik klienta TTC",
+        "translated": true
+    },
+    "Total dossier client HT": {
+        "message": "Całkowity plik klienta HT",
+        "translated": true
+    },
+    "Montant appelé TTC": {
+        "message": "Kwota o nazwie TTC",
+        "translated": true
+    },
+    "Montant appelé HT": {
+        "message": "Kwota o nazwie HT",
+        "translated": true
+    },
+    "Montant encaissé TTC": {
+        "message": "Kwota wynajęta TTC",
+        "translated": true
+    },
+    "Montant encaissé HT": {
+        "message": "Kwota wynajęta HT",
+        "translated": true
+    },
+    "Solde à régler TTC": {
+        "message": "Saldo do zapłaty TTC",
+        "translated": true
+    },
+    "Solde à régler HT": {
+        "message": "Saldo do zapłaty HT",
+        "translated": true
+    },
+    "Imposible de supprimer cet objet car il est utilisé dans \"{{0}}\".": {
+        "message": "Nie można usunąć tego obiektu, ponieważ jest on używany w \"{0}\".",
+        "translated": true
+    },
+    "Toutes": {
+        "message": "Wszystkie",
+        "translated": true
+    },
+    "Le champ {{0}} est obligatoire": {
+        "message": "Pole \"{0}\" jest obowiązkowe",
+        "translated": true
+    },
+    "Inconnu": {
+        "message": "Nieznany",
+        "translated": true
+    },
+    "Vous essayez de modifier un objet de type \"{{0}}\" qui à été modifié par un autre utilisateur.": {
+        "message": "Próbujesz zmienić obiekt, taki jak \"{0}\", który został zmodyfikowany przez innego użytkownika.",
+        "translated": true
+    },
+    "123 {{0}} 56 {{1}}{{0}}": {
+        "message": "123 {{0}} 56 {{1}}{{0}}",
+        "translated": true
+    },
+    "123 {{one}} 56 {{two}}{{one}}": {
+        "message": "123 \"jeden\" 56 \"dwa\"",
+        "translated": true
+    },
+    "Reprise terminé : {{0}} tiers en {{1}} secondes": {
+        "message": "Całkowite odzyskiwanie: \"{0}\" trzecie w \"{1}\" sekund",
+        "translated": true
+    },
+    "Vous devez être un administrateur pour gérer les verrous": {
+        "message": "Musisz być administratorem, aby zarządzać blokadami",
+        "translated": true
+    },
+    "Mise à zéro des affectations budgetaires ...": {
+        "message": "Zerowanie alokacji budżetu ...",
+        "translated": true
+    },
+    "Recalcul affectations budgetaires ...": {
+        "message": "Ponowne obliczanie alokacji budżetowych ...",
+        "translated": true
+    },
+    "Le dossier {{0}} n'a pas des acquereurs.": {
+        "message": "Plik \"{0}\" nie ma nabywców.",
+        "translated": true
+    },
+    "La \"{{0}}\" tranche n'existe pas.": {
+        "message": "Nie ma czegoś takiego jak \"{0}\" plasterek.",
+        "translated": true
+    },
+    "Impossible d'enregistrer l'impact budgétaire pour l'encaissement \"{{0}}\".": {
+        "message": "Nie można rejestrować wpływu na budżet zbiórki \"{0}\".",
+        "translated": true
+    },
+    "Impossible d'enregistrer l'impact budgétaire pour le dossier \"{{0}}\".": {
+        "message": "Nie można zarejestrować wpływu na budżet w aktach \"{0}\".",
+        "translated": true
+    },
+    "La tranche commerciale {{0}} n'existe pas": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Aucun libellé n'a été reçu pour l'aide à la vente": {
+        "message": "Nie otrzymano żadnego sformułowania o pomocy sprzedażowej",
+        "translated": true
+    },
+    "Aucun code n'a pu être attribué à la codification": {
+        "message": "Kodowanie nie może być przypisane do kodu",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de l'aide à la vente est déjà utilisé": {
+        "message": "Sformułowanie \"libelle\" pomocy na sprzedaż jest już używane",
+        "translated": true
+    },
+    "Le code {{code}} de l'aide à la vente est déjà utilisé": {
+        "message": "\"Kod\" pomocy na sprzedaż jest już",
+        "translated": true
+    },
+    "Le montant d'aide à la vente doit être positif pour l'aide libellée {{libelle}}": {
+        "message": "Kwota pomocy na sprzedaż musi być dodatnia w przypadku pomocy denominowanej jako \"libelle\"",
+        "translated": true
+    },
+    "Les aides 'Frais de notaire' sont définies pour l'ensemble des lots du dossier": {
+        "message": "Pomoce \"Opłaty notariusza\" są ustalane dla wszystkich partii w pliku",
+        "translated": true
+    },
+    "Pour les aides '{{libelle}}' il faut saisir le Montant TTC max ou le % Offert max": {
+        "message": "W przypadku pomocy \"libelle\" należy wprowadzić maksymalną kwotę TTC lub % oferowanego maks.",
+        "translated": true
+    },
+    "L'aide 'Echéancier aménagé' est définie pour chaque lot du dossier": {
+        "message": "Pomoc \"Zaaranżowana szkoła\" jest definiowana dla każdej partii",
+        "translated": true
+    },
+    "Les aides 'Frais de notaire' et 'Echéancier aménagé' ne peuvent pas être supprimées": {
+        "message": "\"Opłaty notariusza\" i \"Sprawa zarządzana\" nie mogą zostać usunięte",
+        "translated": true
+    },
+    "Cette aide est utilisée. Elle ne peut être supprimée": {
+        "message": "Pomoc ta jest wykorzystywana. Nie można go usunąć",
+        "translated": true
+    },
+    "Aide à la vente {{0}} non trouvé": {
+        "message": "Nie znaleziono pomocy sprzedażowej \"{0}\"",
+        "translated": true
+    },
+    "Aide à la vente non trouvée": {
+        "message": "Nie znaleziono pomocy sprzedażowej",
+        "translated": true
+    },
+    "L'aide à la vente n'est pas définie": {
+        "message": "Pomoc sprzedażowa nie jest zdefiniowana",
+        "translated": true
+    },
+    "La tranche commerciale n'est pas définie pour l'aide {{0}}": {
+        "message": "Przedział handlowy nie jest ustawiony dla pomocy \"{0}\"",
+        "translated": true
+    },
+    "Le montant de l'aide {{0}} doit être positif": {
+        "message": "Kwota pomocy \"{0}\" musi być dodatnia",
+        "translated": true
+    },
+    "La TVA de l'aide {{0}} ne peut pas être négative": {
+        "message": "Podatek VAT od pomocy \"{0}\" nie może być ujemny",
+        "translated": true
+    },
+    "La fin de la validité de l'aide à la vente {{0}} doit être postérieure au début": {
+        "message": "Koniec ważności pomocy w zakresie sprzedaży \"{0}\" musi nastąpić po rozpoczęciu",
+        "translated": true
+    },
+    "Impossible de vérifier si cette aide est utilisée. Elle ne peut être supprimée": {
+        "message": "Nie można zweryfikować, czy pomoc ta jest wykorzystywana. Nie można go usunąć",
+        "translated": true
+    },
+    "Cette aide est utilisée dans des ventes. Elle ne peut être supprimée": {
+        "message": "Pomoc ta jest wykorzystywana w sprzedaży. Nie można go usunąć",
+        "translated": true
+    },
+    "Merci d'indiquer la tranche commerciale ou le code opération": {
+        "message": "Proszę podać transzę handlową lub kod transakcji",
+        "translated": true
+    },
+    "La tranche {{tranche}} n'existe pas": {
+        "message": "Plasterek \"plasterek\" nie istnieje",
+        "translated": true
+    },
+    "L'opération {{0}} n'a pas de tranches commerciales": {
+        "message": "Transakcja \"{0}\" nie ma transz handlowych",
+        "translated": true
+    },
+    "La tranche commerciale {{0}} n'appartient pas à l'opération {{1}}": {
+        "message": "Przedział handlowy \"{0}\" nie należy do transakcji \"{1}\"",
+        "translated": true
+    },
+    "Le champ \"{{0}}\" est obligatoire.": {
+        "message": "Pole \"{0}\" jest obowiązkowe.",
+        "translated": true
+    },
+    "La référence du dossier client doit être indiquée.": {
+        "message": "Należy wskazać numer referencyjny pliku klienta.",
+        "translated": true
+    },
+    "Le dossier client référence {{0}} n'existe pas.": {
+        "message": "Referencyjny plik klienta \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "La référence du tiers doit être indiquée.": {
+        "message": "Należy wskazać odniesienie osoby trzeciej.",
+        "translated": true
+    },
+    "Le tiers référence {{0}} n'existe pas.": {
+        "message": "Trzecie odniesienie \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "L'échéance référence {{0}} n'existe pas dans les TMA.": {
+        "message": "Termin odniesienia \"{0}\" nie istnieje w ADT.",
+        "translated": true
+    },
+    "L'échéance référence {{0}} n'existe pas dans le dossier de vente.": {
+        "message": "Termin referencyjny \"{0}\" nie istnieje w pliku sprzedaży.",
+        "translated": true
+    },
+    "Code opération manquant": {
+        "message": "Brakujący kod operacji",
+        "translated": true
+    },
+    "L'op opération \"{{0}}\" n'existe pas.": {
+        "message": "\"{0}\" po nie istnieje.",
+        "translated": true
+    },
+    "Avant de pouvoir supprimer un appel de fond, vous devez au préalable supprimer tous les encaissements lui étant liés.": {
+        "message": "Aby można było usunąć połączenie w tle, należy najpierw usunąć wszystkie związane z nim wypłaty.",
+        "translated": true
+    },
+    "Attention statut ne devrait pas être encaissé": {
+        "message": "Status uwagi nie powinien być wynajęciem",
+        "translated": true
+    },
+    "Il est impossible de lancer la facturation sur l'échéance {{0}}. Cette facturation a déjà été lancée": {
+        "message": "Nie jest możliwe rozpoczęcie rozliczeń w terminie \"{0}\". Ten rachunek został już uruchomiony",
+        "translated": true
+    },
+    "Impossible de trouver la tranche commerciale de l'appel de fonds {{0}}": {
+        "message": "Nie można znaleźć części handlowej odwołania funduszu \"{0}\"",
+        "translated": true
+    },
+    "Un plan de compte compatible n'a pas été trouvé": {
+        "message": "Nie znaleziono zgodnego planu kont",
+        "translated": true
+    },
+    "La date est obligatoire": {
+        "message": "Data jest obowiązkowa",
+        "translated": true
+    },
+    "La version est obligatoire": {
+        "message": "Wersja jest obowiązkowa",
+        "translated": true
+    },
+    "Le budget est obligatoire": {
+        "message": "Budżet jest obowiązkowy",
+        "translated": true
+    },
+    "La tranche {{0}} est comptabilisée, vous ne pouvez pas supprimer sa date d'achèvement": {
+        "message": "Nawias \"{0}\" jest zliczany, nie można usunąć daty zakończenia",
+        "translated": true
+    },
+    "Code FNP is missing": {
+        "message": "Brak kodu FNP",
+        "translated": true
+    },
+    "Il n'existe pas un FNP pour ce code": {
+        "message": "Nie ma NPF dla tego kodu",
+        "translated": true
+    },
+    "Tranche Commerciale": {
+        "message": "Kawałek komercyjny",
+        "translated": true
+    },
+    "Dossier de vente": {
+        "message": "Plik sprzedaży",
+        "translated": true
+    },
+    "Lot": {
+        "message": "Wiele",
+        "translated": true
+    },
+    "Invalid init params.": {
+        "message": "Nieprawidłowy inicjuje params.",
+        "translated": true
+    },
+    "lots": {
+        "message": "Wiele",
+        "translated": true
+    },
+    "Le code opération \"{{0}}\" est incorrect": {
+        "message": "Kod operacji \"{0}\" jest niepoprawny",
+        "translated": true
+    },
+    "La date OS n'est pas renseigné.": {
+        "message": "Data systemu operacyjnego nie jest informowana.",
+        "translated": true
+    },
+    "secondaires": {
+        "message": "Pomocniczy",
+        "translated": true
+    },
+    "principaux": {
+        "message": "Główne",
+        "translated": true
+    },
+    "L'opération {{0}} n'existe pas": {
+        "message": "Operacja \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Erreur dans l'actualisation de la commercialisation": {
+        "message": "Błąd podczas aktualizacji marketingu",
+        "translated": true
+    },
+    "Le lot {{0}} n'existe pas dans la tranche {{1}}": {
+        "message": "Partia \"{0}\" nie istnieje w nawiasie \"{1}\"",
+        "translated": true
+    },
+    "L'opération {{0}} n'a pas des tranches commerciales.": {
+        "message": "Transakcja \"{0}\" nie ma transz handlowych.",
+        "translated": true
+    },
+    "Pas de correspondence pour la tranche {{0}}": {
+        "message": "Brak korespondencji dla plastra \"{0}\"",
+        "translated": true
+    },
+    "Pas de correspondence pour la tranche travaux{{0}}": {
+        "message": "Brak korespondencji w transzy {0} pracy",
+        "translated": true
+    },
+    "Id du container introuvable": {
+        "message": "Nie znaleziono identyfikatora pojemnika",
+        "translated": true
+    },
+    "Id du view model principal introuvable": {
+        "message": "Nie znaleziono identyfikatora modelu widoku głównego",
+        "translated": true
+    },
+    "Id de la ligne de la cellule sélectionnée introuvable": {
+        "message": "Nie znaleziono identyfikatora wiersza wybranej komórki",
+        "translated": true
+    },
+    "Id de la cellule sélectionnée container introuvable": {
+        "message": "Nie znaleziono identyfikatora wybranej komórki kontenera",
+        "translated": true
+    },
+    "Impossible de retrouver le container principal": {
+        "message": "Nie można znaleźć głównego pojemnika",
+        "translated": true
+    },
+    "Impossible de retrouver le view model principal": {
+        "message": "Nie można znaleźć modelu widoku głównego",
+        "translated": true
+    },
+    "janv.": {
+        "message": "Jan.",
+        "translated": true
+    },
+    "févr.": {
+        "message": "Lutego.",
+        "translated": true
+    },
+    "mars": {
+        "message": "Marzec",
+        "translated": true
+    },
+    "avril": {
+        "message": "Kwiecień",
+        "translated": true
+    },
+    "mai": {
+        "message": "Maj",
+        "translated": true
+    },
+    "juin": {
+        "message": "Czerwiec",
+        "translated": true
+    },
+    "juil.": {
+        "message": "Lip.",
+        "translated": true
+    },
+    "août": {
+        "message": "Sierpień",
+        "translated": true
+    },
+    "sept.": {
+        "message": "Siedem.",
+        "translated": true
+    },
+    "oct.": {
+        "message": "Października.",
+        "translated": true
+    },
+    "nov.": {
+        "message": "Listopada.",
+        "translated": true
+    },
+    "déc.": {
+        "message": "Grudnia.",
+        "translated": true
+    },
+    "Tranche travaux": {
+        "message": "Plasterek działa",
+        "translated": true
+    },
+    "Tranche commerciale": {
+        "message": "Kawałek komercyjny",
+        "translated": true
+    },
+    "Stade": {
+        "message": "Etapie",
+        "translated": true
+    },
+    "% appelé": {
+        "message": "% zwanych",
+        "translated": true
+    },
+    "% cumulé": {
+        "message": "% skumulowany",
+        "translated": true
+    },
+    "Prévisionnel": {
+        "message": "Pogoda",
+        "translated": true
+    },
+    "Réservés": {
+        "message": "Zastrzeżone",
+        "translated": true
+    },
+    "Réservations à acter": {
+        "message": "Rezerwacje do działania",
+        "translated": true
+    },
+    "Vendus": {
+        "message": "Sprzedawane",
+        "translated": true
+    },
+    "Livrés": {
+        "message": "Dostarczane",
+        "translated": true
+    },
+    "Appelés": {
+        "message": "Wywoływana",
+        "translated": true
+    },
+    "Encaissés": {
+        "message": "Zrealizowane",
+        "translated": true
+    },
+    "Impossible de charger la codification {{0}}": {
+        "message": "Nie można załadować kodowania \"{0}\"",
+        "translated": true
+    },
+    "Impossible de charger la codif {{0}} de la catégorie {{1}}": {
+        "message": "Nie można załadować \"{0}\" codif kategorii \"{1}\"",
+        "translated": true
+    },
+    "Option": {
+        "message": "Opcja",
+        "translated": true
+    },
+    "Ajouter": {
+        "message": "Dodaj",
+        "translated": true
+    },
+    "Soustraire": {
+        "message": "Odejmij",
+        "translated": true
+    },
+    "Multiplier": {
+        "message": "Pomnożyć",
+        "translated": true
+    },
+    "Diviser": {
+        "message": "Podzielić",
+        "translated": true
+    },
+    "Remplacer": {
+        "message": "Zastąpić",
+        "translated": true
+    },
+    " ": {
+        "message": " ",
+        "translated": true
+    },
+    "%": {
+        "message": "%",
+        "translated": true
+    },
+    "Compte courant": {
+        "message": "Rachunek bieżący",
+        "translated": true
+    },
+    "Compte de dépôt": {
+        "message": "Konto depozytowe",
+        "translated": true
+    },
+    "Compte séquestre": {
+        "message": "Konto odbiorcy",
+        "translated": true
+    },
+    "Technique": {
+        "message": "Techniczne",
+        "translated": true
+    },
+    "Esthétique": {
+        "message": "Estetyczne",
+        "translated": true
+    },
+    "Fixe": {
+        "message": "Stałe",
+        "translated": true
+    },
+    "Signature": {
+        "message": "Podpis",
+        "translated": true
+    },
+    "Oui": {
+        "message": "Tak",
+        "translated": true
+    },
+    "Non": {
+        "message": "Nie",
+        "translated": true
+    },
+    "Chèque": {
+        "message": "Sprawdzić",
+        "translated": true
+    },
+    "Espèces": {
+        "message": "Gatunków",
+        "translated": true
+    },
+    "Carte paiement": {
+        "message": "Karta płatnicza",
+        "translated": true
+    },
+    "Virement bancaire": {
+        "message": "Przelew bankowy",
+        "translated": true
+    },
+    "Impossible de créer les écritures du dossier de réservation/vente": {
+        "message": "Nie można utworzyć wpisów w folderze rezerwacji/sprzedaży",
+        "translated": true
+    },
+    "Impossible de créer les écritures de {{0}} encaissement(s)": {
+        "message": "Nie można utworzyć zapisów kasowych \"{0}\"",
+        "translated": true
+    },
+    "Impossible de créer les écritures de {{0}} TMA": {
+        "message": "Nie można utworzyć wpisów TMA \"{0}\"",
+        "translated": true
+    },
+    "Impossible de retrouver la pièce comptable": {
+        "message": "Nie można znaleźć sali księgowej",
+        "translated": true
+    },
+    "L'opération {{0}} n'existe pas.": {
+        "message": "Operacja \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "La société {{0}} n'existe pas.": {
+        "message": "Spółka \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "TMA hors acte vente": {
+        "message": "Sprzedaż bez czynu",
+        "translated": true
+    },
+    "Total": {
+        "message": "Łącznych",
+        "translated": true
+    },
+    "Le dossier portant l'id \"{{0}}\" n'existe pas.": {
+        "message": "Plik o identyfikatorze \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Vous devez obligatoirement choisir un dossier ou un acquereur afin d'afficher le compte client.": {
+        "message": "Aby wyświetlić konto odbiorcy, należy wybrać folder lub nabywcę.",
+        "translated": true
+    },
+    "Totaux": {
+        "message": "Łącznych",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'opération n'existe pas": {
+        "message": "Odniesienie księgowe \"{0}\" transakcji nie istnieje",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'opération référence plusieurs opérations": {
+        "message": "Odniesienie księgowe \"{0}\" transakcji odnosi się do kilku transakcji",
+        "translated": true
+    },
+    "L'opération « {{0}} » n'existe pas": {
+        "message": "Operacja \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Compte bancaire {{0}}": {
+        "message": "Konto bankowe \"{0}\"",
+        "translated": true
+    },
+    "Le code comptable est obligatoire": {
+        "message": "Kod księgowy jest obowiązkowy",
+        "translated": true
+    },
+    "Le code journal est obligatoire": {
+        "message": "Kod dziennika jest obowiązkowy",
+        "translated": true
+    },
+    "Le code journal « {{0}} » n'existe pas": {
+        "message": "Kod dziennika \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le code journal de réaffectation est obligatoire": {
+        "message": "Kod dziennika ponownego przypisania jest obowiązkowy",
+        "translated": true
+    },
+    "Le code journal de réaffectation « {{0}} » n'existe pas": {
+        "message": "Kod dziennika zmiany przydziału \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le budget de l'opération « {{0}} » n'existe pas": {
+        "message": "Budżet na operację \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Aucun acquéreur n'a été attribué au dossier client « {{0}} »": {
+        "message": "Do pliku klienta \"{0}\" nie przypisano nabywców.",
+        "translated": true
+    },
+    "Aucun lot n'a été attribué au dossier client « {{0}} »": {
+        "message": "Do pliku klienta \"{0}\" nie przydzielono żadnych partii.",
+        "translated": true
+    },
+    "Le lot « {{0}} » n'est pas en stock": {
+        "message": "\"{0}\" partii nie jest w magazynie",
+        "translated": true
+    },
+    "La tranche commerciale « {{0}} » n'existe pas": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La tranche commerciale du lot « {{0}} » n'est pas commercialisée": {
+        "message": "Komercyjny kawałek partii \"{0}\" nie jest sprzedawany",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'acquéreur n'existe pas": {
+        "message": "Odniesienie księgowe kupującego \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'acquéreur référence plusieurs tiers": {
+        "message": "Odniesienie księgowe nabywcy \"{0}\" odnosi się do kilku stron trzecich",
+        "translated": true
+    },
+    "Le tiers « {{0}} » n'existe pas": {
+        "message": "Trzeci \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La quotité totale des acquéreurs doit être égale à 100": {
+        "message": "Łączny nota jako wartość nabywców musi być równa 100",
+        "translated": true
+    },
+    "Le lot « {{0}} » n'a pas été trouvé": {
+        "message": "Nie znaleziono partii \"{0}\"",
+        "translated": true
+    },
+    "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} » en TVA sur marge": {
+        "message": "Niespójność w formule HT-TVA-TTC partii \"{0}\" w podatku VAT od marży",
+        "translated": true
+    },
+    "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} »": {
+        "message": "Niespójność w formule HT-TVA-TTC partii \"{0}\"",
+        "translated": true
+    },
+    "La référence de l'acquéreur doit être précisé sur le dépôt de garantie": {
+        "message": "Odniesienie kupującego musi być określone na depozycie",
+        "translated": true
+    },
+    "Le tiers « {{0}} » n'est pas un acquéreur du dossier": {
+        "message": "Osoba trzecia \"{0}\" nie jest nabywcą pliku",
+        "translated": true
+    },
+    "Echéances : le lot « {{0}} » n'est pas un lot du dossier": {
+        "message": "Daty: \"{0}\" partii nie jest dużo rekordu",
+        "translated": true
+    },
+    "Echéances : l'échéance type « {{0}} » n'existe pas": {
+        "message": "Terminy: Standardowy termin \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Echéances : le code évènement « {{0}} » n'existe pas pour la nature travaux du lot concerné (code nature « {{1}} »)": {
+        "message": "Daty: Kod wydarzenia \"{0}\" nie istnieje dla charakteru prac danej partii (kod natury \"{1}\")",
+        "translated": true
+    },
+    "Aides à la vente : il est nécessaire d'indiquer soit la tranche commerciale, soit le lot concerné": {
+        "message": "Pomoc na sprzedaż: konieczne jest wskazanie transzy handlowej lub danej partii",
+        "translated": true
+    },
+    "Aides à la vente : le lot « {{0}} » n'est pas un lot du dossier": {
+        "message": "Pomoc sprzedażowa: \"{0}\" partii nie jest dużo pliku",
+        "translated": true
+    },
+    "Aides à la vente : la tranche « {{0}} » n'est pas celle du lot « {{1}} »": {
+        "message": "Pomoc na sprzedaż: plasterek \"{0}\" nie jest częścią partii \"{1}\"",
+        "translated": true
+    },
+    "Aides à la vente : la tranche « {{0}} » ne correspond pas aux lots du dossier": {
+        "message": "Pomoc na sprzedaż: rata \"{0}\" nie odpowiada częściom w aktach",
+        "translated": true
+    },
+    "Aides à la vente : l'aide « {{0}} » n'est pas paramétrée sur la tranche commerciale « {{1}} »": {
+        "message": "Pomoc na sprzedaż: pomoc \"{0}\" nie jest ustanowiona w przedziale \"{1}\"",
+        "translated": true
+    },
+    "Le changement d'opération n'est pas autorisé.": {
+        "message": "Zmiana operacji jest niedozwolona.",
+        "translated": true
+    },
+    "Afin de pouvoir annuler votre vente, vous devez au préalable supprimer tous les appels de fonds étant liés à votre dossier ainsi que les encaissements liés à ces appels de fonds.": {
+        "message": "Aby anulować sprzedaż, należy najpierw usunąć wszystkie wezwania do otrzymania środków związanych z Twoim plikiem, a także wpływy gotówkowe związane z tymi wezwaniami do składania funduszy.",
+        "translated": true
+    },
+    "Afin de pouvoir annuler votre vente, vous devez au préalable annuler tous les TMAs étant liés à votre dossier.": {
+        "message": "Aby anulować sprzedaż, należy najpierw anulować wszystkie TMA związane z Twoim plikiem.",
+        "translated": true
+    },
+    "Merci d'indiquer l'opération": {
+        "message": "Proszę wskazać operację",
+        "translated": true
+    },
+    "L'opération n'existe pas.": {
+        "message": "Operacja nie istnieje.",
+        "translated": true
+    },
+    "Choisir un modèle": {
+        "message": "Wybór modelu",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer ce niveau car il est lié à un classeur ayant des opérations actives.": {
+        "message": "Nie można usunąć tego poziomu, ponieważ jest on połączony z spinacza z aktywnymi operacjami.",
+        "translated": true
+    },
+    "Opérations": {
+        "message": "Operacji",
+        "translated": true
+    },
+    "Marché Commande Facturation": {
+        "message": "Rynek zamówień rozliczeniowych",
+        "translated": true
+    },
+    "Recettes": {
+        "message": "Przepisy",
+        "translated": true
+    },
+    "Dossier Financement": {
+        "message": "Plik finansowania",
+        "translated": true
+    },
+    "Paramétrage": {
+        "message": "Ustawienie",
+        "translated": true
+    },
+    "Tiers": {
+        "message": "Trzeci",
+        "translated": true
+    },
+    "Dossier opération": {
+        "message": "Plik operacji",
+        "translated": true
+    },
+    "Version": {
+        "message": "Wersja",
+        "translated": true
+    },
+    "Suivi Dossier": {
+        "message": "Plik śledzenia",
+        "translated": true
+    },
+    "Planning": {
+        "message": "Planowania",
+        "translated": true
+    },
+    "Acteurs": {
+        "message": "Aktorów",
+        "translated": true
+    },
+    "Budget": {
+        "message": "Budżetu",
+        "translated": true
+    },
+    "Suivi budgétaire": {
+        "message": "Śledzenie budżetu",
+        "translated": true
+    },
+    "Commercialisation": {
+        "message": "Marketing",
+        "translated": true
+    },
+    "Trésorerie": {
+        "message": "Gotówki",
+        "translated": true
+    },
+    "Dossier Société": {
+        "message": "Plik firmy",
+        "translated": true
+    },
+    "Exercice et clôture": {
+        "message": "Ćwiczenia i zamykanie",
+        "translated": true
+    },
+    "Périmètre": {
+        "message": "Obwodowej",
+        "translated": true
+    },
+    "Frais financiers": {
+        "message": "Koszty finansowe",
+        "translated": true
+    },
+    "Validation export comptable": {
+        "message": "Sprawdzanie poprawności eksportu księgowego",
+        "translated": true
+    },
+    "Flux financiers": {
+        "message": "Przepływy finansowe",
+        "translated": true
+    },
+    "Comptes bancaires": {
+        "message": "Konta bankowe",
+        "translated": true
+    },
+    "Changement de société d'une opération": {
+        "message": "Zmiana firmy z transakcji",
+        "translated": true
+    },
+    "Passage d'une opération du statut lancé au statut achevé": {
+        "message": "Przejście z operacji stanu uruchomionej na pełny stan",
+        "translated": true
+    },
+    "Opération en cours terminé": {
+        "message": "Operacja w toku zakończona",
+        "translated": true
+    },
+    "Inventaire achèvement": {
+        "message": "Inwentaryzacja ukończenia",
+        "translated": true
+    },
+    "Modification marge": {
+        "message": "Zmiana marży",
+        "translated": true
+    },
+    "Inventaire avancement anticipation recette": {
+        "message": "Przepis na przewidywanie zaawansowania zapasów",
+        "translated": true
+    },
+    "Inventaire avancement FNP en cours": {
+        "message": "Postęp zapasów FNP w toku",
+        "translated": true
+    },
+    "Inventaire avancement calcul périodique": {
+        "message": "Okresowe obliczanie zaawansowania zapasów",
+        "translated": true
+    },
+    "Bon de commande": {
+        "message": "Zamówienie",
+        "translated": true
+    },
+    "Avenant Bon de commande": {
+        "message": "Zamówienie uzgadniania",
+        "translated": true
+    },
+    "Marché": {
+        "message": "Rynku",
+        "translated": true
+    },
+    "Marché TCE": {
+        "message": "Rynek TCE",
+        "translated": true
+    },
+    "Marché à bon de commande": {
+        "message": "Rynek zamówień",
+        "translated": true
+    },
+    "Marché PI": {
+        "message": "Rynek PI",
+        "translated": true
+    },
+    "Marché CES": {
+        "message": "Rynek CES",
+        "translated": true
+    },
+    "Sous traitant": {
+        "message": "Niedostatekowanie umowy",
+        "translated": true
+    },
+    "Avenant marché": {
+        "message": "Zatwierdzenie rynku",
+        "translated": true
+    },
+    "Marché caution bancaire": {
+        "message": "Rynek obligacji bankowych",
+        "translated": true
+    },
+    "Marché délégation de paiement": {
+        "message": "Rynek delegowania płatności",
+        "translated": true
+    },
+    "Facture directe": {
+        "message": "Rachunek bezpośredni",
+        "translated": true
+    },
+    "Facture sur bon de commande": {
+        "message": "Rachunek przy zamówieniu zakupu",
+        "translated": true
+    },
+    "Situations de Travaux": {
+        "message": "Sytuacje w pracy",
+        "translated": true
+    },
+    "Validation des factures": {
+        "message": "Sprawdzanie poprawności faktur",
+        "translated": true
+    },
+    "OD": {
+        "message": "Od Od",
+        "translated": true
+    },
+    "Grille de prix vente": {
+        "message": "Sprzedaż siatki cenowej",
+        "translated": true
+    },
+    "Dossier client": {
+        "message": "Plik odbiorcy",
+        "translated": true
+    },
+    "Stade travaux": {
+        "message": "Stadion works",
+        "translated": true
+    },
+    "Facturation TMA": {
+        "message": "Rozliczenia TMA",
+        "translated": true
+    },
+    "Encaissement": {
+        "message": "Zarabiają",
+        "translated": true
+    },
+    "Suivi compte client": {
+        "message": "Śledzenie konta klienta",
+        "translated": true
+    },
+    "Dossier client saisie en masse": {
+        "message": "Plik klienta zajęty masowo",
+        "translated": true
+    },
+    "Dossier financement": {
+        "message": "Plik finansowania",
+        "translated": true
+    },
+    "Suivi dossier de prêt": {
+        "message": "Śledzenie pliku pożyczki",
+        "translated": true
+    },
+    "Suivi dossier de subvention": {
+        "message": "Śledzenie pliku dotacji",
+        "translated": true
+    },
+    "Contrat cadre": {
+        "message": "Umowa ramowa",
+        "translated": true
+    },
+    "Garantie de prêt": {
+        "message": "Gwarancja pożyczki",
+        "translated": true
+    },
+    "Contrat de prêt": {
+        "message": "Umowa pożyczki",
+        "translated": true
+    },
+    "Versements prêt": {
+        "message": "Płatności gotowe",
+        "translated": true
+    },
+    "Décision de financement": {
+        "message": "Decyzja o finansowaniu",
+        "translated": true
+    },
+    "Versements subvention": {
+        "message": "Wypłaty dotacji",
+        "translated": true
+    },
+    "Administration et contrôle des accès": {
+        "message": "Administracja dostępem i kontrola dostępu",
+        "translated": true
+    },
+    "Procédure et planning": {
+        "message": "Procedura i planowanie",
+        "translated": true
+    },
+    "CRM": {
+        "message": "Crm",
+        "translated": true
+    },
+    "Comptabilité": {
+        "message": "Księgowych",
+        "translated": true
+    },
+    "Dossier des financements": {
+        "message": "Plik finansowania",
+        "translated": true
+    },
+    "Marchés et bons de commandes": {
+        "message": "Rynki i zamówienia",
+        "translated": true
+    },
+    "Tranches commerciales": {
+        "message": "Plastry komercyjne",
+        "translated": true
+    },
+    "Mobilité": {
+        "message": "Mobilności",
+        "translated": true
+    },
+    "Fiche Tiers": {
+        "message": "Arkusz innych firm",
+        "translated": true
+    },
+    "Identification": {
+        "message": "Identyfikacji",
+        "translated": true
+    },
+    "Juridique": {
+        "message": "Prawnych",
+        "translated": true
+    },
+    "Adresses": {
+        "message": "Adresy",
+        "translated": true
+    },
+    "Représentants": {
+        "message": "Przedstawicieli",
+        "translated": true
+    },
+    "Créer Opération": {
+        "message": "Utwórz operację",
+        "translated": true
+    },
+    "Supprimer Opération": {
+        "message": "Operacja usuwania",
+        "translated": true
+    },
+    "Créer Tranche travaux": {
+        "message": "Tworzenie prac wycinka",
+        "translated": true
+    },
+    "Créer Tranche commerciale": {
+        "message": "Tworzenie wycinka komercyjnego",
+        "translated": true
+    },
+    "Supprimer Tranche commerciale": {
+        "message": "Usuń wycinek komercyjny",
+        "translated": true
+    },
+    "Créer Budget": {
+        "message": "Tworzenie budżetu",
+        "translated": true
+    },
+    "Supprimer Budget": {
+        "message": "Usuń budżet",
+        "translated": true
+    },
+    "Verrouiller autorisation budgétaire": {
+        "message": "Blokowanie autoryzacji budżetu",
+        "translated": true
+    },
+    "Supprimer": {
+        "message": "Usunąć",
+        "translated": true
+    },
+    "Archiver": {
+        "message": "Archiwum",
+        "translated": true
+    },
+    "Modifier le type de version": {
+        "message": "Zmienianie typu wersji",
+        "translated": true
+    },
+    "Modifier le libellé": {
+        "message": "Zmienianie brzmienia",
+        "translated": true
+    },
+    "Modifier le statut actualisé": {
+        "message": "Zmienianie zaktualizowanego stanu",
+        "translated": true
+    },
+    "Modifier la date d'arrêté": {
+        "message": "Zmienianie daty zamówienia",
+        "translated": true
+    },
+    "Modifier le commentaire": {
+        "message": "Edytowanie komentarza",
+        "translated": true
+    },
+    "Modifier avancement travaux": {
+        "message": "Zmiana prac nad postępem",
+        "translated": true
+    },
+    "Echéanciers": {
+        "message": "Rynki roczne",
+        "translated": true
+    },
+    "Aides à la vente": {
+        "message": "Pomoc sprzedażowa",
+        "translated": true
+    },
+    "TVA sur marge": {
+        "message": "VAT od marży",
+        "translated": true
+    },
+    "Créer grille de prix": {
+        "message": "Tworzenie siatki cenowej",
+        "translated": true
+    },
+    "Supprimer grille de prix": {
+        "message": "Usuwanie siatki cenowej",
+        "translated": true
+    },
+    "Supprimer action": {
+        "message": "Akcja usuwania",
+        "translated": true
+    },
+    "Exporter": {
+        "message": "Eksportu",
+        "translated": true
+    },
+    "Sauvegarde": {
+        "message": "Kopia zapasowa",
+        "translated": true
+    },
+    "Créer": {
+        "message": "Utworzyć",
+        "translated": true
+    },
+    "Opérations rattachées": {
+        "message": "Powiązane operacje",
+        "translated": true
+    },
+    "Créer un exercice": {
+        "message": "Tworzenie ćwiczenia",
+        "translated": true
+    },
+    "Clôtures": {
+        "message": "Ogrodzenia",
+        "translated": true
+    },
+    "Date achèvement": {
+        "message": "Data zakończenia",
+        "translated": true
+    },
+    "Annuler date": {
+        "message": "Data anulowania",
+        "translated": true
+    },
+    "Comptabiliser": {
+        "message": "Rozpoznać",
+        "translated": true
+    },
+    "Transfert": {
+        "message": "Transfer",
+        "translated": true
+    },
+    "Annuler comptabilisation": {
+        "message": "Anuluj księgowanie",
+        "translated": true
+    },
+    "Créer Bon de commande": {
+        "message": "Utwórz zamówienie",
+        "translated": true
+    },
+    "Affecter le budget imprévu": {
+        "message": "Wpływ na nieprzewidziany budżet",
+        "translated": true
+    },
+    "Engager Bon de commande": {
+        "message": "Zaangażuj zamówienie",
+        "translated": true
+    },
+    "Engager Avenant": {
+        "message": "Zaangażuj avenant",
+        "translated": true
+    },
+    "Autoliquidation": {
+        "message": "Równowaga własna",
+        "translated": true
+    },
+    "Créer marché TCE": {
+        "message": "Tworzenie rynku TCE",
+        "translated": true
+    },
+    "Créer marché à Bon de commande": {
+        "message": "Utwórz zlecenie na zamówienie z rynku na zamówienie",
+        "translated": true
+    },
+    "Engager marché CES": {
+        "message": "Zaangażuj rynek CES",
+        "translated": true
+    },
+    "Créer sous traitant": {
+        "message": "Tworzenie podwykonawstwa",
+        "translated": true
+    },
+    "Créer avenant": {
+        "message": "Tworzenie rekomendacji",
+        "translated": true
+    },
+    "Annuler Facture directe": {
+        "message": "Anuluj rachunek bezpośredni",
+        "translated": true
+    },
+    "Annuler Facture sur Bon de commande": {
+        "message": "Anuluj rachunek przy zamówieniu",
+        "translated": true
+    },
+    "Annuler Situation de travaux": {
+        "message": "Anuluj sytuację w pracy",
+        "translated": true
+    },
+    "Accompte": {
+        "message": "Konta",
+        "translated": true
+    },
+    "DGD": {
+        "message": "Dgd",
+        "translated": true
+    },
+    "Libération retenue de garantie ": {
+        "message": "Zwolnienie wstrzymane gwarancji ",
+        "translated": true
+    },
+    "Engager": {
+        "message": "Angażować się",
+        "translated": true
+    },
+    "Coche TVA multiple": {
+        "message": "Wielokrotna kontrola VAT",
+        "translated": true
+    },
+    "Police unique de chantier": {
+        "message": "Pojedyncza policja budowlana",
+        "translated": true
+    },
+    "Inter Entreprises": {
+        "message": "Przedsiębiorstwa Inter",
+        "translated": true
+    },
+    "Plusieurs taux TVA": {
+        "message": "Kilka stawek VAT",
+        "translated": true
+    },
+    "Grouper": {
+        "message": "Grupa",
+        "translated": true
+    },
+    "Dégrouper": {
+        "message": "Rozdział",
+        "translated": true
+    },
+    "Vente en bloc": {
+        "message": "Sprzedaż hurtowa",
+        "translated": true
+    },
+    "Non vente en bloc": {
+        "message": "Nie sprzedaż zbiorcza",
+        "translated": true
+    },
+    "Changer de tranche": {
+        "message": "Zmienianie plasterków",
+        "translated": true
+    },
+    "Ajouter un lot": {
+        "message": "Dodawanie partii",
+        "translated": true
+    },
+    "Supprimer un lot": {
+        "message": "Usuń dużo",
+        "translated": true
+    },
+    "Poser une option": {
+        "message": "Zapytaj o opcję",
+        "translated": true
+    },
+    "Annuler un option": {
+        "message": "Anulowanie opcji",
+        "translated": true
+    },
+    "Annuler Vente": {
+        "message": "Anuluj sprzedaż",
+        "translated": true
+    },
+    "Forcer TVA sur marge": {
+        "message": "Wymuszenie podatku VAT od marży",
+        "translated": true
+    },
+    "Réserver": {
+        "message": "Dokonać rezerwacji",
+        "translated": true
+    },
+    "Aide à la vente": {
+        "message": "Pomoc dotycząca sprzedaży",
+        "translated": true
+    },
+    " non trouvé.": {
+        "message": " nie znaleziono.",
+        "translated": true
+    },
+    "Niveau organisationnel non trouvé.": {
+        "message": "Nie znaleziono poziomu organizacyjnego.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer ce niveau car il a un ou plusieurs sous niveaux.": {
+        "message": "Nie można usunąć tego poziomu, ponieważ ma jeden lub więcej podpoziomów.",
+        "translated": true
+    },
+    "Vous devez choisir un libellé pour \"Role Fonctionnel\" ainsi qu'un code pour celui-ci.": {
+        "message": "Należy wybrać etykietę dla \"Role funkcjonalną\", a także kod dla niego.",
+        "translated": true
+    },
+    "Le mot de passe doit au minimum contenir {{0}} caractères, comme spécifié ci-dessous par le champ \"Nombre minimum de caractères\".": {
+        "message": "Hasło musi zawierać co najmniej znaki \"{0}\", jak określono poniżej w polu \"Minimalna liczba znaków\".",
+        "translated": true
+    },
+    "La confirmation du mot de passe n'est pas identique au mot de passe.": {
+        "message": "Potwierdzenie hasła nie jest takie samo jak hasło.",
+        "translated": true
+    },
+    "Evènement": {
+        "message": "Zdarzenie",
+        "translated": true
+    },
+    "Veuillez indiquer l'échéancier à utiliser par défaut pour cette nature de travaux": {
+        "message": "Proszę wskazać domyślny harmonogram tego typu prac",
+        "translated": true
+    },
+    "Veuillez ne sélectionner qu'un seul échéancier à utiliser par défaut": {
+        "message": "Wybierz tylko jeden przedział czasu, który będzie używany domyślnie",
+        "translated": true
+    },
+    "L'échéancier type de la tranche commerciale {{0}} n'est pas défini": {
+        "message": "Standardowy harmonogram dla przedziału handlowego \"{0}\" nie jest zdefiniowany",
+        "translated": true
+    },
+    "L'échéance {{e1}} dépend de {{e2}}": {
+        "message": "Termin zapadalności zależy od \"e2\"",
+        "translated": true
+    },
+    "Le libellé doit être renseigné.": {
+        "message": "Należy przedstawić sformułowanie.",
+        "translated": true
+    },
+    "Le pourcentage doit être renseigné.": {
+        "message": "Procent musi być poinformowany.",
+        "translated": true
+    },
+    "Le délai doit être renseigné.": {
+        "message": "Termin musi zostać poinformowany.",
+        "translated": true
+    },
+    "Le pourcentage doit être compris entre 0 % et 100 %.": {
+        "message": "Odsetek ten musi wynosić od 0% do 100%.",
+        "translated": true
+    },
+    "L'échéance vente ne peut pas être liée à une autre échéance ou à un événement.": {
+        "message": "Data sprzedaży nie może być powiązana z innym terminem lub zdarzeniem.",
+        "translated": true
+    },
+    "Une échéance liée à un évènement ne peut pas être liée également à une autre échéance.": {
+        "message": "Termin związany z wydarzeniem nie może być również powiązany z innym terminem.",
+        "translated": true
+    },
+    "L'échéance doit être liée à un évènement.": {
+        "message": "Termin musi być powiązany z wydarzeniem.",
+        "translated": true
+    },
+    "Une échéance liée à une autre échéance ne peut pas être liée également à un évènement.": {
+        "message": "Termin zapadalności związany z innym terminem zapadalności nie może być również powiązany ze zdarzeniem.",
+        "translated": true
+    },
+    "L'échéance doit être liée à une autre échéance.": {
+        "message": "Termin musi być powiązany z innym terminem.",
+        "translated": true
+    },
+    "Type d'échéance non déterminé.": {
+        "message": "Nieokreślony rodzaj dojrzałości.",
+        "translated": true
+    },
+    "Echéance": {
+        "message": "Termin",
+        "translated": true
+    },
+    "Nouvel échéancier": {
+        "message": "Nowy rozkład jazdy",
+        "translated": true
+    },
+    "Impossible de créer la copie d'une échéance": {
+        "message": "Nie można utworzyć kopii terminu ostatecznego",
+        "translated": true
+    },
+    "Le libellé est obligatoire pour l'échéancier {{0}}": {
+        "message": "Sformułowanie to jest obowiązkowe dla harmonogramu \"{0}\"",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de l'écheancier {{id}} n'est pas unique": {
+        "message": "Sformułowanie \"libelle\" \"id\" nie jest",
+        "translated": true
+    },
+    "Le libellé {{libelle}} des échéanciers {{ids}} n'est pas unique": {
+        "message": "Sformułowanie \"libelle\" osi czasu \"ids\" nie jest unikalne",
+        "translated": true
+    },
+    "La tranche commerciale n'est pas définie": {
+        "message": "Nawias handlowy nie jest zdefiniowany",
+        "translated": true
+    },
+    "Libre": {
+        "message": "Wolna",
+        "translated": true
+    },
+    "Veuillez indiquer l'échéancier à utiliser par défaut pour cette tranche commerciale": {
+        "message": "Proszę wskazać domyślny harmonogram dla tego przedziału handlowego",
+        "translated": true
+    },
+    "EncaissementView: codeEncaissement is missing.": {
+        "message": "CashingView: codeEncament brakuje.",
+        "translated": true
+    },
+    "L'encaissement avec le code \"{{0}}\" n'existe pas.": {
+        "message": "Nie ma czegoś takiego jak zarabianie z kodem \"{0}\".",
+        "translated": true
+    },
+    "Le mode de réglement doit être indiqué": {
+        "message": "Metoda regulacji musi być wskazana",
+        "translated": true
+    },
+    "Le mode de réglement {{0}} n'existe pas.": {
+        "message": "\"{0}\" metoda regulacji nie istnieje.",
+        "translated": true
+    },
+    "La référence du compte banque doit être indiquée.": {
+        "message": "Należy wskazać numer referencyjny rachunku bankowego.",
+        "translated": true
+    },
+    "Le compte bancaire référence {{0}} n'existe pas.": {
+        "message": "Referencyjny rachunek bankowy \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Le compte bancaire {{0}} ne concerne pas l'opération {{1}}": {
+        "message": "Rachunek bankowy \"{0}\" nie odnosi się do transakcji \"{1}\"",
+        "translated": true
+    },
+    "Encaissement introuvable": {
+        "message": "Zarabianie w",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'existe pas.": {
+        "message": "Operacja \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"compte courant\" n'est paramétré pour l'opération {{0}}": {
+        "message": "Dla transakcji \"{0}\" nie jest skonfigurowane żadne konto bankowe \"rachunek bieżący\".",
+        "translated": true
+    },
+    "Merci de préciser un mode de règlement": {
+        "message": "Proszę określić metodę rozliczenia",
+        "translated": true
+    },
+    "Merci de préciser une banque": {
+        "message": "Proszę określić bank",
+        "translated": true
+    },
+    "La somme des ventilations doit être égale au montant réglé + les frais de notaire pris en charge": {
+        "message": "Suma podziałów musi być równa zapłaconej kwocie - koszty notariusza zapłacone",
+        "translated": true
+    },
+    "La somme des ventilations doit être égale au montant réglé": {
+        "message": "Suma podziałów musi być równa kwocie zapłaconej",
+        "translated": true
+    },
+    "La date de reglement est vide": {
+        "message": "Data rozliczenia jest pusta",
+        "translated": true
+    },
+    "Pas d'opération  dans dossier.": {
+        "message": "Brak operacji pliku.",
+        "translated": true
+    },
+    "Impossible de retrouver l`échéance {{0}}": {
+        "message": "Nie można znaleźć terminu \"{0}\"",
+        "translated": true
+    },
+    "Impossible de retrouver l`échéance de TMA {{0}}": {
+        "message": "Nie można znaleźć dojrzałości TMA \"{0}\"",
+        "translated": true
+    },
+    "Impossible de retrouver le container de la modale": {
+        "message": "Nie można znaleźć kontenera na modalnym",
+        "translated": true
+    },
+    "Impossible de retrouver la règle de la modale": {
+        "message": "Nie można znaleźć reguły modalnej",
+        "translated": true
+    },
+    "Il y trop des lignes. Seulement les premières {{0}} lignes sont chargées.": {
+        "message": "Istnieje zbyt wiele linii. Załadowane są tylko pierwsze wiersze \"{0}\".",
+        "translated": true
+    },
+    "Le montant réglé doit être inférieur ou égal au montant de l'appel": {
+        "message": "Zapłacona kwota musi być mniejsza lub równa kwocie odwołania",
+        "translated": true
+    },
+    "Impossible de retrouver la tranche commerciale de l'encaissement {{0}}": {
+        "message": "Nie można znaleźć części handlowej \"{0}\" wynajęciem",
+        "translated": true
+    },
+    "Date de règlement vide.": {
+        "message": "Pusta data rozliczenia.",
+        "translated": true
+    },
+    "Pas d'opération.": {
+        "message": "Bez operacji.",
+        "translated": true
+    },
+    "Pas de tiers.": {
+        "message": "Brak osób trzecich.",
+        "translated": true
+    },
+    "Pas de compte bancaire.": {
+        "message": "Brak konta bankowego.",
+        "translated": true
+    },
+    "Le montant d'encaissement est zéro.": {
+        "message": "Kwota gotówki wynosi zero.",
+        "translated": true
+    },
+    "L'encaissement \"{{0}}\" n'existe pas.": {
+        "message": "Nie ma czegoś takiego jak kolekcja \"{0}\".",
+        "translated": true
+    },
+    "idsFacture is missing.": {
+        "message": "idsFacture brakuje.",
+        "translated": true
+    },
+    "La facture \"{{0}}\" n'existe pas.": {
+        "message": "Faktura \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" n'existe pas.": {
+        "message": "Trzeci {0} nie istnieje.",
+        "translated": true
+    },
+    "L'tranche commerciale \"{{0}}\" n'existe pas.": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Facture non trouvé": {
+        "message": "Nie znaleziono rachunku",
+        "translated": true
+    },
+    "La facture recette \"{{0}}\" n'existe pas, mais elle a des encaissements.": {
+        "message": "Faktura receptury \"{0}\" nie istnieje, ale ma paragony gotówkowe.",
+        "translated": true
+    },
+    "La date de fin d'exercice ne peut être antérieure à la date de début d'exercice": {
+        "message": "Data zakończenia roku nie może być przed datą zakończenia roku",
+        "translated": true
+    },
+    "La société \"{{0}}\" n'a pas d'exercice ouvert.": {
+        "message": "Firma \"{0}\" nie ma otwartych ćwiczeń.",
+        "translated": true
+    },
+    "La société \"{{0}}\" n'a pas d'exercice clos.": {
+        "message": "Firma \"{0}\" nie ma roku zakończonego.",
+        "translated": true
+    },
+    "Les sociétés sélectionnées ne comportent pas de dates d'exercice compatibles.": {
+        "message": "Wybrane firmy nie mają zgodnych dat ćwiczeń.",
+        "translated": true
+    },
+    "Janvier": {
+        "message": "Styczeń",
+        "translated": true
+    },
+    "Février": {
+        "message": "Luty",
+        "translated": true
+    },
+    "Mars": {
+        "message": "Marzec",
+        "translated": true
+    },
+    "Avril": {
+        "message": "Kwiecień",
+        "translated": true
+    },
+    "Mai": {
+        "message": "Maj",
+        "translated": true
+    },
+    "Juin": {
+        "message": "Czerwiec",
+        "translated": true
+    },
+    "Juillet": {
+        "message": "Lipiec",
+        "translated": true
+    },
+    "Août": {
+        "message": "Sierpień",
+        "translated": true
+    },
+    "Septembre": {
+        "message": "Wrzesień",
+        "translated": true
+    },
+    "Octobre": {
+        "message": "Październik",
+        "translated": true
+    },
+    "Novembre": {
+        "message": "Listopad",
+        "translated": true
+    },
+    "Décembre": {
+        "message": "Grudzień",
+        "translated": true
+    },
+    "Trimestre {{0}}": {
+        "message": "Kwartał \"{0}\"",
+        "translated": true
+    },
+    "Semestre {{0}}": {
+        "message": "Semestr \"{0}\"",
+        "translated": true
+    },
+    "Fille": {
+        "message": "Córka",
+        "translated": true
+    },
+    "Mère": {
+        "message": "Matka",
+        "translated": true
+    },
+    "La date de début d'exercice ne peut être ultérieure à la date de fin d'exercice": {
+        "message": "Data rozpoczęcia nie może być późniejsza niż data zakończenia roku",
+        "translated": true
+    },
+    "refTiers est obligatoire": {
+        "message": "refTiers jest obowiązkowe",
+        "translated": true
+    },
+    "Le tiers sélectionné n'existe pas": {
+        "message": "Wybrana strona trzecia nie istnieje",
+        "translated": true
+    },
+    "Tous": {
+        "message": "Wszystkie",
+        "translated": true
+    },
+    "La société n'a pas été définie": {
+        "message": "Firma nie została zdefiniowana",
+        "translated": true
+    },
+    "L'opération n'a pas été définie": {
+        "message": "Operacja nie została zdefiniowana",
+        "translated": true
+    },
+    "Le type de mouvement n'a pas été défini": {
+        "message": "Typ ruchu nie został zdefiniowany",
+        "translated": true
+    },
+    "La date de réglement n'a pas été définie": {
+        "message": "Data rozliczenia nie została ustalona",
+        "translated": true
+    },
+    "Le montant du réglement n'a pas été défini": {
+        "message": "Kwota rozliczenia nie została określona",
+        "translated": true
+    },
+    "Le mode de règlement n'a pas été défini": {
+        "message": "Metoda rozliczania nie została zdefiniowana",
+        "translated": true
+    },
+    "La banque de règlement n'a pas été définie": {
+        "message": "Bank rozrachunkowy nie został zdefiniowany",
+        "translated": true
+    },
+    "L'opération {{0}} n'est pas rattachée à la société {{1}}": {
+        "message": "Transakcja \"{0}\" nie jest związana z \"{1}\" spółki",
+        "translated": true
+    },
+    "L'associé {{0}} n'est pas actionnaire de la société {{1}}": {
+        "message": "Partner \"{0}\" nie jest akcjonariuszem spółki \"{1}\"",
+        "translated": true
+    },
+    "Le compte banque {{0}} ne fait pas partie de l'opération {{1}}": {
+        "message": "Rachunek bankowy \"{0}\" nie jest częścią transakcji \"{1}\"",
+        "translated": true
+    },
+    "La ventilation du montant n'est pas correctement réalisée sur les tranches ({{0}} au lieu de {{1}})": {
+        "message": "Podział kwoty nie jest wykonywany poprawnie na plasterkach ({0} zamiast \"{1}\")",
+        "translated": true
+    },
+    "Impossible de supprimer le frais financier {{0}} car il existe un autre plus recent {{1}}": {
+        "message": "Nie można usunąć \"{0}\" opłaty finansowej, ponieważ istnieje inny nowszy \"{1}\"",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il existe plusieurs postes de type : produit financier": {
+        "message": "Nie da się stworzyć kosztów finansowych, ponieważ istnieje kilka rodzajów produktów: produkt finansowy",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il n'existe pas des postes de type : produit financier": {
+        "message": "Nie da się stworzyć kosztów finansowych, ponieważ nie ma takich pozycji: produkt finansowy",
+        "translated": true
+    },
+    "Le tiers société pour \"{{0}}\" n'existe pas.": {
+        "message": "Firma zewnętrzna dla \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Le calcul des frais financiers est impossible (plusieurs sociétés)": {
+        "message": "Obliczanie kosztów finansowych jest niemożliwe (kilka firm)",
+        "translated": true
+    },
+    "Le taux doit étre positive": {
+        "message": "Stopa musi być dodatnia",
+        "translated": true
+    },
+    "Les dates sélectionnées sont incohérentes": {
+        "message": "Wybrane daty są niespójne",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il existe déjà pour la période séléctionée : {{0}} ": {
+        "message": "Nie można utworzyć kosztów finansowych, ponieważ istnieje on już w wybranym okresie: \"{0}\" ",
+        "translated": true
+    },
+    "Frais financiers tranche \"{{0}}\": période du \"{{1}}\" au \"{{2}}\"": {
+        "message": "Koszty finansowe w {0}: okres od \"{1}\" do \"{2}\".",
+        "translated": true
+    },
+    "Code is missing": {
+        "message": "Brakuje kodu",
+        "translated": true
+    },
+    "Il n'existe pas un frais financier pour ce code": {
+        "message": "Nie ma żadnych opłat finansowych za ten kod",
+        "translated": true
+    },
+    "Il existe déja une piéce comptable pour le frais financier {{0}}": {
+        "message": "Istnieje już sala rachunkowa dla kosztów finansowych {0}",
+        "translated": true
+    },
+    "Impossible de supprimer le périmètre société {{0}} car il est utilisé par les sociétes {{1}}": {
+        "message": "Nie można usunąć obwodu firmy \"{0}\", ponieważ jest on używany przez firmy \"{1}\"",
+        "translated": true
+    },
+    "Le code est obligatoire": {
+        "message": "Kod jest obowiązkowy",
+        "translated": true
+    },
+    "Le libellé est obligatoire": {
+        "message": "Sformułowanie to jest obowiązkowe",
+        "translated": true
+    },
+    "Le code doit être unique": {
+        "message": "Kod musi być unikatowy",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes.": {
+        "message": "Metoda przydzielenia podatku VAT na wybraną marżę wymaga wprowadzenia ciotek.",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas de grille de prix.": {
+        "message": "Operacja \"{0}\" nie ma siatki cenowej.",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas la tranche commerciale \"{{1}}\".": {
+        "message": "Operacja \"{0}\" nie ma przedziału handlowego \"{1}\".",
+        "translated": true
+    },
+    "Total ({{0}})": {
+        "message": "Razem ({0})",
+        "translated": true
+    },
+    "Lots principaux ({{0}})": {
+        "message": "Główne partie ({0})",
+        "translated": true
+    },
+    "Lots secondaires ({{0}})": {
+        "message": "Partie wtórne ({0})",
+        "translated": true
+    },
+    "Lot n° {{0}}: Le champ \"{{1}}\" est obligatoire.": {
+        "message": "Nr partii {0}: Pole \"{1}\" jest obowiązkowe.",
+        "translated": true
+    },
+    "Préciser les identifiants des lots concernés par le changement de tranche": {
+        "message": "Określ identyfikatory partii, których dotyczy zmiana plasterka",
+        "translated": true
+    },
+    "Préciser le code de la tranche de destination": {
+        "message": "Określ kod transzy docelowej",
+        "translated": true
+    },
+    "Le lot {{0}} n'existe pas": {
+        "message": "\"{0}\" partii nie istnieje",
+        "translated": true
+    },
+    "Le lot {{0}} est soumis à la TVA sur marge.": {
+        "message": "Partia \"{0}\" podlega fakturze VAT od marży.",
+        "translated": true
+    },
+    "Le code opération est obligatoire": {
+        "message": "Kod operacji jest obowiązkowy",
+        "translated": true
+    },
+    "Le code analytique « {{0}} » du programme n'existe pas": {
+        "message": "Kod analityczny \"{0}\" programu nie istnieje",
+        "translated": true
+    },
+    "Le code analytique « {{0}} » du programme référence plusieurs programmes": {
+        "message": "Kod analityczny \"{0}\" programu odnosi się do kilku programów",
+        "translated": true
+    },
+    "Le programme « {{0}} » n'existe pas": {
+        "message": "Program \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La tranche commerciale « {{0}} » possède déjà une typologie": {
+        "message": "\"{0}\" trade-in z typologii",
+        "translated": true
+    },
+    "Le lot doit être en stock": {
+        "message": "Partia musi być w magazynie",
+        "translated": true
+    },
+    "Le type de lot doit être renseigné": {
+        "message": "Typ partii musi być informowany",
+        "translated": true
+    },
+    "Le type de lot « {{0}} » n'est pas autorisé pour le type d'ouvrage « {{1}} »": {
+        "message": "Typ partii \"{0}\" nie jest dozwolony dla rodzaju pracy \"{1}\"",
+        "translated": true
+    },
+    "Le type de lot « {{0}} » n'est pas cohérent avec l'indication principal/secondaire du lot": {
+        "message": "Typ partii \"{0}\" nie jest zgodny z głównym/wtórnym wskazaniem partii",
+        "translated": true
+    },
+    "La date de livraison doit être renseignée": {
+        "message": "Termin dostawy musi być",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes": {
+        "message": "Metoda przydzielenia podatku VAT na wybrany margines wymaga zajęcia ciotek",
+        "translated": true
+    },
+    "La codification n'a pas de numéro d'ordre": {
+        "message": "Kodyfikacja nie ma numeru zamówienia",
+        "translated": true
+    },
+    "Aucun code n'a pu être reçu pour la codification": {
+        "message": "Nie można było otrzymać kodu kodującego",
+        "translated": true
+    },
+    "Aucun libellé n'a été reçu pour la codification": {
+        "message": "Nie otrzymano sformułowania do kodowania",
+        "translated": true
+    },
+    "Les codifications de la catégorie sont inconnues, aucune validation n'est possible": {
+        "message": "Kodyfikacje kategorii nie są znane, nie jest możliwe walidacja",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de la codification est déjà utilisé par {{code}}": {
+        "message": "Sformułowanie \"libelle\" kodowania jest już używane przez \"code\"",
+        "translated": true
+    },
+    "Le code {{code}} de la codification est déjà utilisé": {
+        "message": "Kod kodowania jest już używany",
+        "translated": true
+    },
+    "La nature des travaux n'est pas définie": {
+        "message": "Charakter pracy nie jest określony",
+        "translated": true
+    },
+    "Vous n'avez pas les habilitations necessaires pour créer une opération": {
+        "message": "Nie masz prześwitów, aby utworzyć operację",
+        "translated": true
+    },
+    "Il y a des affectations budgetaires sur cette opération.": {
+        "message": "Istnieją alokacje budżetu dla tej operacji.",
+        "translated": true
+    },
+    "Cette opération a des tranches commerciales.": {
+        "message": "Operacja ta ma transze handlowe.",
+        "translated": true
+    },
+    "Cette opération est utilisé, elle ne peut être supprimé.": {
+        "message": "Ta operacja jest używana, nie można jej usunąć.",
+        "translated": true
+    },
+    "La version {{0}} n'existe pas": {
+        "message": "Wersja \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Archivée le {{dateDay}}/{{dateMonth}}/{{dateYear}}": {
+        "message": "Zarchiwizowane w dniu 'dateDay' /'dateMonth' /'dateYear'",
+        "translated": true
+    },
+    "Impossible de trouver l'opération source.": {
+        "message": "Nie można znaleźć operacji źródłowej.",
+        "translated": true
+    },
+    "La version {{0}} est actualisée": {
+        "message": "Wersja \"{0}\" jest aktualizowana",
+        "translated": true
+    },
+    "La version actualisée {{0}} n'existe pas": {
+        "message": "Zaktualizowana wersja \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Autorisé uniquement si le statut d'opération est {{0}} ou {{1}}.": {
+        "message": "Dozwolone tylko wtedy, gdy stan operacyjny to \"{0}\" lub \"{1}\".",
+        "translated": true
+    },
+    "Le statut d'opération est différent de statut de la version.": {
+        "message": "Stan pracy różni się od stanu wersji.",
+        "translated": true
+    },
+    "La version à actualiser n'est pas à isopérimètre.": {
+        "message": "Wersja, która ma zostać zaktualizowana, nie jest dostępna na isoperometrze.",
+        "translated": true
+    },
+    "La tranche travaux \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+        "message": "Transza pracy \"{0}\" - \"{1}\" nie istnieje w operacji \"{2}\".",
+        "translated": true
+    },
+    "La tranche travaux \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+        "message": "Część robocza \"{0}\" nie istnieje w operacji \"{1}\".",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+        "message": "Transza handlowa \"{0}\" - \"{1}\" nie istnieje w ramach operacji \"{2}\".",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}} - {{1}}\" a des lots qu ne sont pas en stock.\"": {
+        "message": "Transza handlowa \"{0} - \"{1}\" ma wiele, które nie są w magazynie.\"",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+        "message": "Przedział handlowy \"{0}\" nie istnieje w operacji \"{1}\".",
+        "translated": true
+    },
+    "Le lot \"{{0}}\" existe déjà dans la tranche \"{{1}}\" de l'operation \"{{2}}.\"": {
+        "message": "Partia \"{0}\" już istnieje w części \"{1}\" operacji \"{2}\".",
+        "translated": true
+    },
+    "Le lot {{0}} dans la tranche commerciale {{1}} a été reservé": {
+        "message": "Partia \"{0}\" w przedziale \"{1}\" została ponownie",
+        "translated": true
+    },
+    "Opération non définie.": {
+        "message": "Niezdefiniowana operacja.",
+        "translated": true
+    },
+    "Version 1": {
+        "message": "Wersja 1",
+        "translated": true
+    },
+    "La tranche commerciale n'a pas été trouvée": {
+        "message": "Transza handlowa nie została znaleziona",
+        "translated": true
+    },
+    "Impossible de supprimer la grille de prix: Le lot {{0}} n'est plus en stock": {
+        "message": "Nie można usunąć siatki cenowej: partia \"{0}\" nie jest już w magazynie",
+        "translated": true
+    },
+    "Impossible de créer la grille de prix: Le lot {{0}} n'est plus en stock": {
+        "message": "Nie można utworzyć siatki cenowej: partia \"{0}\" nie jest już w magazynie",
+        "translated": true
+    },
+    "La liste des aides à la vente est incorrecte": {
+        "message": "Lista pomocy sprzedażowych jest niepoprawna",
+        "translated": true
+    },
+    "Le statut {{0}} pour la tranche commerciale n'existe pas": {
+        "message": "Status \"{0}\" dla przedziału handlowego nie istnieje",
+        "translated": true
+    },
+    "Impossible d'accéder à la nature de travaux de la tranche commerciale": {
+        "message": "Niemożna uzyskać dostępu do charakteru transzy handlowej",
+        "translated": true
+    },
+    "Impossible de supprimer la tranche commerciale car elle comprend des lots en stock": {
+        "message": "Nie można usunąć transzy handlowej, ponieważ zawiera ona części w magazynie",
+        "translated": true
+    },
+    "La répartition de la TVA sur Marge au tantième est impossible. Le lot \"{{0}}\" n'a pas des tantièmes.": {
+        "message": "Przyznanie podatku VAT od Marge ciotce jest niemożliwe. Partia \"{0}\" nie ma ciotek.",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur Marge est vide.": {
+        "message": "Sposób rozłąki podatku VAT od Marge jest pusty.",
+        "translated": true
+    },
+    "Impossible d'accéder à l'échéancier identifié par {{idEch}} associé aux travaux de type  {{libelle}} de cette tranche commerciale": {
+        "message": "Nie można uzyskać dostępu do harmonogramu określonego przez \"idEch\" związanego z pracą typu \"libelle\" tej transzy handlowej",
+        "translated": true
+    },
+    "Impossible de répliquer l'échéancier {{libEch}} associé aux travaux de type {{libNat}} de cette tranche commerciale": {
+        "message": "Nie można powtórzyć harmonogramu \"libEch\" związanego z pracą typu \"libNat\" tej transzy handlowej",
+        "translated": true
+    },
+    "Impossible de créer un échéancier {{libEch}} pour cette tranche commerciale": {
+        "message": "Nie można utworzyć harmonogramu \"libEch\" dla tego przedziału handlowego",
+        "translated": true
+    },
+    "Impossible d'ajouter l'échéancier {{libEch}} à la liste des échéanciers pour cette tranche commerciale": {
+        "message": "Nie można dodać osi czasu \"libEch\" do listy osi czasu dla tej transzy handlowej",
+        "translated": true
+    },
+    "Merci d'indiquer le code opération": {
+        "message": "Wprowadź kod operacji",
+        "translated": true
+    },
+    "opération \"{{0}}\" non trouvé.": {
+        "message": "nie znaleziono operacji \"{0}\".",
+        "translated": true
+    },
+    "Vous ne pouvez pas changer pour cette société.": {
+        "message": "Nie można zmienić dla tej firmy.",
+        "translated": true
+    },
+    "Erreur de connexion à service tiers: {{0}}": {
+        "message": "Błąd połączenia innej firmy: \"{0}\"",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.host\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverPlanning.host\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.tenant\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverPlanning.holding\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.authorization\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverPlanning.authorization\".",
+        "translated": true
+    },
+    "Dans le fichier config  l'entrée \"serverPlanning.authorization\" n'est pas correcte.": {
+        "message": "W pliku konfiguracyjnym wpis \"serverPlanning.authorization\" jest nieprawidłowy.",
+        "translated": true
+    },
+    "Le cookie \"jwt\" n'est pas present.": {
+        "message": "Plik cookie \"jwt\" nie jest obecny.",
+        "translated": true
+    },
+    "Reprise de ReferentielPlanning vers SpoGantt ...": {
+        "message": "Przejęcie ReferentielPlanning do SpoGantt ...",
+        "translated": true
+    },
+    "{{0}} - {{1}}: {{2}}": {
+        "message": "{{0}} - {{1}}: {{2}}",
+        "translated": true
+    },
+    "Reprise de Planning Spo vers SpoGantt ...": {
+        "message": "Wznowienie planowania Spo do SpoGantt ...",
+        "translated": true
+    },
+    "opération": {
+        "message": "Operacji",
+        "translated": true
+    },
+    "procédure": {
+        "message": "Procedura",
+        "translated": true
+    },
+    "La migration du planning {{0}} a échoué: {{1}}": {
+        "message": "Migracja harmonogramu \"{0}\" nie powiodła się: \"{1}\"",
+        "translated": true
+    },
+    "References invalides": {
+        "message": "Nieprawidłowe odwołania",
+        "translated": true
+    },
+    "Le planning type n'existe pas": {
+        "message": "Typowy harmonogram nie istnieje",
+        "translated": true
+    },
+    "Suppression du planning impossible": {
+        "message": "Usuwanie niemożliwego harmonogramu",
+        "translated": true
+    },
+    "Le planning de l'opération {{0}} n'existe pas": {
+        "message": "Harmonogram operacji \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le planning de l'opération {{0}} est vide": {
+        "message": "Harmonogram operacji \"{0}\" jest pusty",
+        "translated": true
+    },
+    "Le planning type {{0}} n'existe pas": {
+        "message": "Standardowy harmonogram \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La version « {{0}} » n'existe pas pour l'opération « {{1}} »": {
+        "message": "Wersja \"{0}\" nie istnieje dla operacji \"{1}\".",
+        "translated": true
+    },
+    "Le libellé d'étape « {{0}} » n'existe pas": {
+        "message": "Sformułowanie kroku \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "L'étape « {{0}} » n'existe pas": {
+        "message": "Etap \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le libellé de jalon « {{0}} » n'existe pas": {
+        "message": "Nie istnieje przełomowe sformułowanie \"{0}\"",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'existe pas": {
+        "message": "Kamień milowy \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'appartient pas à l'étape « {{1}} »": {
+        "message": "Kamień milowy \"{0}\" nie należy do etapu \"{1}\"",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'a pas été retrouvé dans le planning": {
+        "message": "Nie znaleziono kamienia milowego \"{0}\" w",
+        "translated": true
+    },
+    "TT {{0}}": {
+        "message": "TT \"{0}\"",
+        "translated": true
+    },
+    "TC {{0}}": {
+        "message": "TC \"{0}\"",
+        "translated": true
+    },
+    "TC {{0}} {{1}}": {
+        "message": "TC \"{0}\" \"{1}\"",
+        "translated": true
+    },
+    "TT {{0}} {{1}}": {
+        "message": "TT \"{0}\" \"{1}\"",
+        "translated": true
+    },
+    "L'échéancier de la tranche commerciale \"{{0}}\" utilise cette action.": {
+        "message": "Harmonogram \"{0}\" wspornik handlu wykorzystuje tę akcję.",
+        "translated": true
+    },
+    "Action non trouvé": {
+        "message": "Nie znaleziono akcji",
+        "translated": true
+    },
+    "La procédure enfant est vide.": {
+        "message": "Procedura podrzędna jest pusta.",
+        "translated": true
+    },
+    "L'etape enfant est vide.": {
+        "message": "Etap dziecka jest pusty.",
+        "translated": true
+    },
+    "L'action enfant est vide.": {
+        "message": "Akcja podrzędna jest pusta.",
+        "translated": true
+    },
+    "La procédure parent est vide.": {
+        "message": "Procedura nadrzędna jest pusta.",
+        "translated": true
+    },
+    "L'etape parent est vide.": {
+        "message": "Etap nadrzędny jest pusty.",
+        "translated": true
+    },
+    "L'action parent est vide.": {
+        "message": "Akcja nadrzędna jest pusta.",
+        "translated": true
+    },
+    "Initialisation de la vue pose d'option incorrecte": {
+        "message": "Inicjowanie widoku powoduje niepoprawną opcję",
+        "translated": true
+    },
+    "Liste des lots et prix (TVA sur Marge)": {
+        "message": "Lista partii i cen (VAT od marży)",
+        "translated": true
+    },
+    "Liste des lots et prix": {
+        "message": "Lista losów i nagród",
+        "translated": true
+    },
+    "Préciser les codes des lots concernés par la pose d'option": {
+        "message": "Określ kody partii, których dotyczy instalacja opcji",
+        "translated": true
+    },
+    "On peut pas melanger des lots soumis au régime classique de TVA avec des lots soumis au TVA Sur Marge.": {
+        "message": "Partie podlegające tradycyjnemu systemowi VAT nie mogą być mieszane z częściami podlegaymi vatowi Marge.",
+        "translated": true
+    },
+    "On ne peut avoir plusieurs fois le même lot dans un même dossier client.": {
+        "message": "Nie można mieć tej samej partii w tym samym pliku klienta wiele razy.",
+        "translated": true
+    },
+    "La date-heure de début ne peut être supérieure à la date du jour.": {
+        "message": "Data rozpoczęcia nie może być wyższa niż data dnia.",
+        "translated": true
+    },
+    "La date de fin ne peut être antérieure à la date de début d’option.": {
+        "message": "Data zakończenia nie może być przed datą rozpoczęcia opcji.",
+        "translated": true
+    },
+    "La durée de l’option ne peut excéder {{dureeOption}} heures": {
+        "message": "Czas trwania opcji nie może przekraczać godzin \"trudnych\"",
+        "translated": true
+    },
+    "Le nombre minimum de lots d’un dossier (option - pré-réservation - réservation) est égal à 1.": {
+        "message": "Minimalna liczba lotów w folderze (opcja - rezerwacja wstępna - rezerwacja) jest równa 1.",
+        "translated": true
+    },
+    "La date d’annulation d’option ne peut être antérieure à la date de la pose d’option.": {
+        "message": "Data anulowania opcji nie może być wcześniejsza niż data opcji.",
+        "translated": true
+    },
+    "La date d’annulation d’option ne peut être supérieure à la date du jour.": {
+        "message": "Data anulowania opcji nie może być wyższa niż data dnia.",
+        "translated": true
+    },
+    "Verrouillage de l'option n° {{0}}": {
+        "message": "Opcja blokowania '{0}'",
+        "translated": true
+    },
+    "Impossible de verrouiller l'option {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "Nie można zablokować opcji \"{0}\", jest już używana.",
+        "translated": true
+    },
+    "La libelle de modéle est vide.": {
+        "message": "Model zniesławienia jest pusty.",
+        "translated": true
+    },
+    "La classe de modéle est vide.": {
+        "message": "Klasa modelu jest pusta.",
+        "translated": true
+    },
+    "La classe des preferences est vide.": {
+        "message": "Klasa preferencji jest pusta.",
+        "translated": true
+    },
+    "Préférences utilisateur": {
+        "message": "Preferencje użytkownika",
+        "translated": true
+    },
+    "Défaut": {
+        "message": "Wady",
+        "translated": true
+    },
+    "Il y a des programmes qui utilisent cette procédure.": {
+        "message": "Istnieją programy, które korzystają z tej procedury.",
+        "translated": true
+    },
+    "Il y a des types ouvrage qui utilisent cette procédure.": {
+        "message": "Istnieją typy pracy, które używają tej procedury.",
+        "translated": true
+    },
+    "Il y a des tranches travaux qui utilisent cette procédure.": {
+        "message": "Istnieją plasterki robocze, które używają tej procedury.",
+        "translated": true
+    },
+    "Il y a des opérations qui utilisent cette procédure.": {
+        "message": "Istnieją operacje, które używają tej procedury.",
+        "translated": true
+    },
+    "Il y a des natures travaux qui utilisent cette procédure.": {
+        "message": "Istnieją natury pracy, które korzystają z tej procedury.",
+        "translated": true
+    },
+    "L'procédure \"{{0}}\" a le meme code.": {
+        "message": "Procedura \"{0}\" ma ten sam kod.",
+        "translated": true
+    },
+    "Ged is disable": {
+        "message": "Ged jest wyłączony",
+        "translated": true
+    },
+    "Recette": {
+        "message": "Przepis",
+        "translated": true
+    },
+    "{{0}} jours {{1}}, exigibilité le {{2}}": {
+        "message": "\"{0}\" dni {1}, ze względu na \"{2}\"",
+        "translated": true
+    },
+    "Libellé": {
+        "message": "Sformułowanie",
+        "translated": true
+    },
+    "A actualiser": {
+        "message": "Aby zostać zaktualizowanym",
+        "translated": true
+    },
+    "Impossible d'exporter en {0}": {
+        "message": "Nie można wyeksportować do {0}",
+        "translated": true
+    },
+    "Appel de fonds": {
+        "message": "Zaproszenie do składania funduszy",
+        "translated": true
+    },
+    "Evénement": {
+        "message": "Zdarzenie",
+        "translated": true
+    },
+    "Dossier": {
+        "message": "Folder",
+        "translated": true
+    },
+    "Situation": {
+        "message": "Sytuacji",
+        "translated": true
+    },
+    "Programme": {
+        "message": "Program",
+        "translated": true
+    },
+    "Pour pouvoir être enregistrée, la vente doit être réalisée": {
+        "message": "Aby można było się zarejestrować, sprzedaż musi być",
+        "translated": true
+    },
+    "Veuillez indiquer le motif de désistement": {
+        "message": "Proszę podać przyczynę odstąpienia od umowy",
+        "translated": true
+    },
+    "Veuillez indiquer le motif de résolution": {
+        "message": "Proszę podać przyczynę rozwiązania",
+        "translated": true
+    },
+    "Veuillez indiquer la date de livraison de ces lots": {
+        "message": "Proszę podać datę dostawy tych partii",
+        "translated": true
+    },
+    "La date de remise d'un dépot de garantie ne doit pas être antérieur à la date de réservation.": {
+        "message": "Data dostawy depozytu gwarancyjnego nie może poprzedzać daty rezerwacji.",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"Compte Courant\" n'est paramétré pour l'opération {{0}}": {
+        "message": "Dla transakcji \"{0}\" nie jest skonfigurowane żadne konto bankowe \"Rachunek bieżący\".",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"Compte Séquestre\" n'est paramétré pour l'opération {{0}}": {
+        "message": "Dla transakcji \"{0}\" nie jest skonfigurowane żadne konto bankowe \"Konto Sekwestr\".",
+        "translated": true
+    },
+    "Le total des dépôts de garantie ne doit pas être négatif.": {
+        "message": "Łączne depozyty zabezpieczające nie powinny być ujemne.",
+        "translated": true
+    },
+    "Impossible de charger un des lots en mémoire": {
+        "message": "Nie można załadować jednej z partii w pamięci",
+        "translated": true
+    },
+    "Détail dossier TMA {{0}} introuvable": {
+        "message": "Nie znaleziono pliku TMA szczegółów \"{0}\"",
+        "translated": true
+    },
+    "Echeance dossier TMA manquant": {
+        "message": "Brak pliku TMA tandetny",
+        "translated": true
+    },
+    "Aucun échéancier de TMA n'est paramétré": {
+        "message": "Nie ustawiono harmonogramu TMA",
+        "translated": true
+    },
+    "Le montant offert TTC ne peut pas être supérieur au montant max.": {
+        "message": "Oferowana kwota TTC nie może być większa niż maksymalna kwota.",
+        "translated": true
+    },
+    "Le TMA ne peut pas être supprimé car son statut est \"{{0}}\". Il doit être \"demande\" ou \"annulé\" ou \"refusé\" afin d'être supprimé.": {
+        "message": "Nie można usunąć TMA, ponieważ jego stan jest \"{0}\". Aby go usunąć, należy go \"zażądać\" lub \"anulować\" lub \"odmówić\".",
+        "translated": true
+    },
+    "Le Vendeur <{{libTiers}}> existe déjà !": {
+        "message": "Sprzedawca \"libTiers\" już istnieje!",
+        "translated": true
+    },
+    "Impossible de charger le résumé de la réservation": {
+        "message": "Nie można załadować podsumowania rezerwacji",
+        "translated": true
+    },
+    " - Dossier en Vente en bloc": {
+        "message": " - Plik w sprzedaży hurtowej",
+        "translated": true
+    },
+    " - Dossier en Dation": {
+        "message": " - Plik w Dation",
+        "translated": true
+    },
+    "Saisir une réservation": {
+        "message": "Wprowadź rezerwację",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation n°{0}": {
+        "message": "Nie można znaleźć pliku rezerwacji {0}",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation en cours": {
+        "message": "Nie można znaleźć bieżącego pliku rezerwacji",
+        "translated": true
+    },
+    "Il y a des TMA attachés à ce lot.": {
+        "message": "Do tej partii dołączone są TMA.",
+        "translated": true
+    },
+    "La date de vente est ultérieure à la date du jour": {
+        "message": "Data sprzedaży jest późniejsza niż data dnia",
+        "translated": true
+    },
+    "La date de report de livraison ne peut être antérieur à la date de livraison contractuelle.": {
+        "message": "Data odroczenia dostawy nie może być przed umownym terminem dostawy.",
+        "translated": true
+    },
+    "Il existe des TMA inclus dans l'acte, pour les TMA en demande ils seront automatiquement annulés,     pour les TMA en devis, ils seront automatiquement signés. Voulez-vous continuer ?": {
+        "message": "Istnieją TMA zawarte w czynie, dla TMA popytu zostaną one automatycznie anulowane, dla TMA w cudzysłowie, zostaną one automatycznie podpisane. Czy chcesz kontynuować?",
+        "translated": true
+    },
+    "Liste des Lots du dossier": {
+        "message": "Lista lotów w folderze",
+        "translated": true
+    },
+    "Liste des Lots du dossier (TVA sur Marge)": {
+        "message": "Lista lotów w folderze (VAT na Marge)",
+        "translated": true
+    },
+    "Impossible de générer les écritures de dépôt de garantie, car aucun compte séquestre n'a été paramétré pour l'opération {{0}}": {
+        "message": "Nie jest możliwe wygenerowanie zapisów depozytu, ponieważ dla transakcji \"{0}\" nie utworzyono żadnego konta odbiorcy.",
+        "translated": true
+    },
+    "L'échéance n'est pas libellée": {
+        "message": "Termin nie jest sformułowany",
+        "translated": true
+    },
+    "Acquéreur déjà ajouté": {
+        "message": "Kupujący już dodany",
+        "translated": true
+    },
+    "Le lot {{0}} n'a pas le même taux de TVA que les autres lots du dossier": {
+        "message": "Partia \"{0}\" nie ma takiej samej stawki VAT jak pozostałe partie w aktach",
+        "translated": true
+    },
+    "Statistiques: Le champ \"{{0}}\" est obligatoire.": {
+        "message": "Statystyki: Pole \"{0}\" jest obowiązkowe.",
+        "translated": true
+    },
+    "La liste des acquéreurs est vide": {
+        "message": "Lista nabywców jest pusta",
+        "translated": true
+    },
+    "La quotité totale est de {{0}}. Elle doit être égale à 100 pour une indivision": {
+        "message": "Całkowity cudzysłów to \"{0}\". Musi być równa 100 dla",
+        "translated": true
+    },
+    "La quotité totale est de {{0}}. Elle doit être égale à 100": {
+        "message": "Całkowity cudzysłów to \"{0}\". Musi być równa 100",
+        "translated": true
+    },
+    "Veuillez sélectionner au moins 1 lot à réserver": {
+        "message": "Wybierz co najmniej 1 lot do rezerwacji",
+        "translated": true
+    },
+    "Tous les lots doit être en dation.": {
+        "message": "Wszystkie partie muszą być w dation.",
+        "translated": true
+    },
+    "Tous les lots du dossier doivent avoir le même taux de TVA": {
+        "message": "Wszystkie partie w pliku muszą mieć taką samą stawkę VAT",
+        "translated": true
+    },
+    "La date de réservation est obligatoire": {
+        "message": "Data rezerwacji jest obowiązkowa",
+        "translated": true
+    },
+    "La date de réservation ne peut être postérieure à la date du jour": {
+        "message": "Data rezerwacji nie może być po dacie dnia",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la réservation": {
+        "message": "Dostawa nie może być wcześniejsza rezerwacja",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la vente": {
+        "message": "Dostawa nie może być przedsprzedażą",
+        "translated": true
+    },
+    "La présentation du contrat ne peut intervenir avant sa signature": {
+        "message": "Przedstawienie umowy nie może nastąpić przed jej podpisaniem",
+        "translated": true
+    },
+    "La date limite de rétractation ne peut précéder la présentation du contrat": {
+        "message": "Termin odstąpienia od umowy nie może poprzedzać przedstawienia umowy",
+        "translated": true
+    },
+    "Le notaire ne doit pas être convoqué après la vente": {
+        "message": "Notariusz nie może być wezwany po sprzedaży",
+        "translated": true
+    },
+    "Le notaire doit être notifié de la vente avant celle-ci": {
+        "message": "Notariusz musi zostać powiadomiony o sprzedaży przed sprzedażą",
+        "translated": true
+    },
+    "La vente ne peut intervenir avant la réservation": {
+        "message": "Sprzedaż nie może nastąpić przed dokonaniem rezerwacji",
+        "translated": true
+    },
+    "La date de vente est obligatoire": {
+        "message": "Data sprzedaży jest obowiązkowa",
+        "translated": true
+    },
+    "Veuillez indiquer la date de désistement de cette réservation": {
+        "message": "Prosimy o wskazanie daty odstąpienia od tej rezerwacji",
+        "translated": true
+    },
+    "Veuillez indiquer la date de résolution de cette vente": {
+        "message": "Proszę wskazać datę rozstrzygnięcia tej sprzedaży",
+        "translated": true
+    },
+    "La livraison ne peut intervenir avant la vente": {
+        "message": "Dostawa nie może mieć miejsca przed sprzedażą",
+        "translated": true
+    },
+    "Il est impossible de modifier le prix d'un dossier vendu": {
+        "message": "Nie można zmienić ceny sprzedanego pliku",
+        "translated": true
+    },
+    "Le prix total des TMA ne peut être négatif, merci de corriger": {
+        "message": "Całkowita cena AMT nie może być ujemna, proszę poprawić",
+        "translated": true
+    },
+    "Aucun libellé de condition suspensive n'a été sélectionnée": {
+        "message": "Nie wybrano warunku zawieszającego",
+        "translated": true
+    },
+    "La date limite de la condition suspensive n'a pas été renseignée": {
+        "message": "Termin warunku zawieszania nie został",
+        "translated": true
+    },
+    "Le lot {{refLot}} n'existe pas dans le dossier de réservation": {
+        "message": "Partia \"refLot\" nie istnieje w pliku rezerwacji",
+        "translated": true
+    },
+    "Merci de préciser l'id du tiers concerné": {
+        "message": "Proszę podać identyfikator danej osoby trzeciej",
+        "translated": true
+    },
+    "L'échéancier du dossier a une échéance vide.": {
+        "message": "Oś czasu pliku ma pusty termin.",
+        "translated": true
+    },
+    "L'échéancier du lot n° {{0}} a une échéance vide.": {
+        "message": "Harmonogram partii no.{0} ma pusty termin.",
+        "translated": true
+    },
+    "Aucun échéancier n'a été attribué au dossier.": {
+        "message": "Do pliku nie przypisano osi czasu.",
+        "translated": true
+    },
+    "Aucun échéancier n'a été attribué au lot n° {{0}}.": {
+        "message": "Do {0} nr partii nie przypisano osi czasu.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix HT du dossier.": {
+        "message": "Całkowite terminy zapadalności, \"{0}\", różnią się od ceny HT w pliku.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix HT du lot n° {{1}}.": {
+        "message": "Całkowite terminy zapadalności, \"{0}\", różnią się od ceny HT partii no.{1}.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix TTC du dossier.": {
+        "message": "Całkowite terminy zapadalności, \"{0}\", różnią się od ceny TTC pliku.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix TTC du lot n° {{1}}.": {
+        "message": "Całkowite terminy zapadalności, \"{0}\", różnią się od ceny TTC partii nr {1}.",
+        "translated": true
+    },
+    "Verrouillage de dossier n° {{0}}": {
+        "message": "Nr blokady pliku \"{0}\"",
+        "translated": true
+    },
+    "Impossible de verrouiller le dossier {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "Nie jest możliwe zablokowanie folderu \"{0}\", jest on już używany.",
+        "translated": true
+    },
+    "Merci d'indiquer le libellé des détails du TMA": {
+        "message": "Proszę podać treść szczegółów TMA",
+        "translated": true
+    },
+    "Merci d'indiquer une unité pour les détails du TMA": {
+        "message": "Proszę podać urządzenie, aby uzyskać szczegółowe informacje na temat",
+        "translated": true
+    },
+    "Le taux d'appel d'une échéance doit être supérieur à 0": {
+        "message": "Stawka odwołania dla terminu zapadalności musi wynosić więcej niż 0",
+        "translated": true
+    },
+    "Merci d'indiquer l'événement générateur de l'échéance": {
+        "message": "Proszę wskazać zdarzenie, które generuje ostateczny termin",
+        "translated": true
+    },
+    "Merci d'indiquer la date de l'échéance": {
+        "message": "Proszę podać datę terminu płatności",
+        "translated": true
+    },
+    "Les taux de TVA du TMA et des lots le constituant doivent être les mêmes si le TMA est inclus dans l'acte": {
+        "message": "Stawki VAT TMA i części składowych muszą być takie same, jeżeli TMA jest zawarte w ustawie",
+        "translated": true
+    },
+    "Le statut du TMA impose que les prix de vente soient renseignés": {
+        "message": "Status TMA wymaga, aby ceny sprzedaży były",
+        "translated": true
+    },
+    "Le dossier de TMA ne doit pas avoir son propre échéancier s'il est inclus dans l'acte": {
+        "message": "Akt TMA nie powinien mieć własnego harmonogramu, jeżeli jest zawarty w ustawie",
+        "translated": true
+    },
+    "Le dossier de TMA ne doit pas avoir d'échéancier si le prix de vente est de 0": {
+        "message": "Plik TMA nie powinien mieć harmonogramu, jeśli cena sprzedaży wynosi 0",
+        "translated": true
+    },
+    "Le % total des échéances doit être égal à 100%": {
+        "message": "Całkowity procent terminów zapadalności musi wynosić 100 %",
+        "translated": true
+    },
+    "Merci de préciser le mode de réglement": {
+        "message": "Proszę określić metodę regulacji",
+        "translated": true
+    },
+    "Le total des échéances doit être égal au total du prix de vente": {
+        "message": "Całkowity termin zapadalności musi być równy całkowitej cenie sprzedaży",
+        "translated": true
+    },
+    "La date de livraison doit être postérieure à la date de signature": {
+        "message": "Data dostawy musi być po dacie podpisania",
+        "translated": true
+    },
+    "La date de signature doit être postérieure à la date du devis": {
+        "message": "Data podpisania musi być po dacie oferty",
+        "translated": true
+    },
+    "La date du devis doit être postérieure à la date de la demande": {
+        "message": "Data oferty musi być późniejsza niż data złożenia wniosku",
+        "translated": true
+    },
+    "La date du refus doit être postérieure à la date du devis": {
+        "message": "Data odmowy musi być po dacie oszacowania",
+        "translated": true
+    },
+    "La date d'annulation doit être postérieure à la date de la demande": {
+        "message": "Data anulowania musi być po dacie złożenia wniosku",
+        "translated": true
+    },
+    "Merci de ne saisir qu'une valeur pour le paramètre: TMA en moins-value non autorisé": {
+        "message": "Wprowadź tylko jedną wartość dla ustawienia: TMA w nieautoryzowanym upośledzeniu",
+        "translated": true
+    },
+    "Le dossier {{0}} n'existe pas": {
+        "message": "Plik \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "refAcquereur est obligatoire": {
+        "message": "refAcquereur jest obowiązkowe",
+        "translated": true
+    },
+    "Le libelle de l'indivision ne peut pas être vide.": {
+        "message": "Zniesławienie indivision nie może być puste.",
+        "translated": true
+    },
+    "Code dossier introuvable": {
+        "message": "Nie znaleziono kodu pliku",
+        "translated": true
+    },
+    "Le TMA {{0}} n'existe pas": {
+        "message": "\"{0}\" TMA nie istnieje",
+        "translated": true
+    },
+    "Quantité": {
+        "message": "Kwota",
+        "translated": true
+    },
+    "ML": {
+        "message": "Ml",
+        "translated": true
+    },
+    "m²": {
+        "message": "M²",
+        "translated": true
+    },
+    "Le dossier est vide.": {
+        "message": "Plik jest pusty.",
+        "translated": true
+    },
+    "La société \"{{0}}\" est la société mère d'une autre société, par conséquent elle ne peut pas être supprimé.": {
+        "message": "Spółka \"{0}\" jest spółką dominującą innej spółki, dlatego nie można jej znieść.",
+        "translated": true
+    },
+    "La société \"{{0}}\" est rattaché à une opération, par conséquent elle ne peut pas être supprimé.": {
+        "message": "Firma \"{0}\" jest dołączona do transakcji, dlatego nie można jej usunąć.",
+        "translated": true
+    },
+    "Veuillez choisir une opération": {
+        "message": "Proszę wybrać operację",
+        "translated": true
+    },
+    "Le type de compte est obligatoire": {
+        "message": "Rodzaj konta jest obowiązkowy",
+        "translated": true
+    },
+    "L'IBAN est incorrect": {
+        "message": "IBAN jest niepoprawny",
+        "translated": true
+    },
+    "Un seul compte par défaut par type de compte": {
+        "message": "Domyślnie tylko jedno konto na typ konta",
+        "translated": true
+    },
+    "Le compte comptable est obligatoire": {
+        "message": "Rachunek księgowy jest obowiązkowy",
+        "translated": true
+    },
+    "L'IBAN est incorrect.": {
+        "message": "Numer IBAN jest niepoprawny.",
+        "translated": true
+    },
+    "Préciser le tiers concerné pour créer l'acquéreur": {
+        "message": "Określ zainteresowana strona trzecia, aby utworzyć nabywcę",
+        "translated": true
+    },
+    "Le tiers {{0}} n'existe pas": {
+        "message": "Jedna trzecia \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Merci de préciser le compte schema original": {
+        "message": "Określ oryginalne konto schematu",
+        "translated": true
+    },
+    "Le compte schéma {{0}} n'existe pas": {
+        "message": "Schemat \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le délai réservation vente est négatif": {
+        "message": "Opóźnienie sprzedaży rezerwacji jest ujemne",
+        "translated": true
+    },
+    "La référence comptable est obligatoire": {
+        "message": "Odniesienie księgowe jest obowiązkowe",
+        "translated": true
+    },
+    "Le référence comptable \"{{0}}\" est déjà attribué à une autre société.": {
+        "message": "Odniesienie księgowe \"{0}\" jest już przypisane do innej firmy.",
+        "translated": true
+    },
+    "Le paramétrage type \"{{0}}\" n'existe pas.": {
+        "message": "Ustawienie \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "Invalid dateDebut or dateFin": {
+        "message": "Nieprawidłowa dataDebut lub dateFin",
+        "translated": true
+    },
+    "Exercice {{0}}": {
+        "message": "Ćwiczenie \"{0}\"",
+        "translated": true
+    },
+    "Exercice {{0}}-{{1}}": {
+        "message": "Ćwiczenie \"{0}\"-{1}'",
+        "translated": true
+    },
+    "Afin de créer un exercice, il faut que vous renseigniez préalablement la date de création de votre entreprise.": {
+        "message": "Aby utworzyć ćwiczenie, musisz wstępnie podać datę utworzenia firmy.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un exercice cloturé.": {
+        "message": "Nie można usunąć zamkniętego ćwiczenia.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un exercice ayant des écritures comptables.": {
+        "message": "Nie można usunąć ćwiczenia z zapisami księgowymi.",
+        "translated": true
+    },
+    "La société modéle{{0}} n'a pas de mois de clôture exercice parametré.": {
+        "message": "Firma modelowa {0} nie ma miesięcy parametrów z zamkniętym rokiem.",
+        "translated": true
+    },
+    "Impossible de récupérer l'actionnaire d'origine": {
+        "message": "Nie można odzyskać pierwotnego akcjonariusza",
+        "translated": true
+    },
+    "La société mère « {{0}} » n'existe pas": {
+        "message": "Spółka dominująca \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La société mère indiquée « {{0}} » n'est pas une société mère": {
+        "message": "Spółka dominująca \"{0}\" nie jest spółką dominującą",
+        "translated": true
+    },
+    "Le paramétrage type doit être renseigné": {
+        "message": "Typowe ustawienie powinno być",
+        "translated": true
+    },
+    "La date prévisionnelle de signature des statuts doit être renseignée": {
+        "message": "Data podpisania statutu musi być informowana",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du tiers n'existe pas": {
+        "message": "Odniesienie księgowe \"{0}\" strony trzeciej nie istnieje",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du tiers référence plusieurs tiers": {
+        "message": "Referencyjne księgowe \"{0}\" strony trzeciej",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du liquidateur n'existe pas": {
+        "message": "Numer księgowy likwidatora \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du liquidateur référence plusieurs tiers": {
+        "message": "Numer księgowy likwidatora \"{0}\" kilku osób trzecich",
+        "translated": true
+    },
+    "Le tiers liquidateur « {{0}} » n'existe pas": {
+        "message": "Trzeci likwidator \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Le total des montants des associés doit être égal au capital de la société": {
+        "message": "Łączna kwota wspólników musi być równa kapitałowi spółki",
+        "translated": true
+    },
+    "Le total des parts des associés doit être égal au nombre de parts de la société": {
+        "message": "Łączna liczba akcji wspólnika musi być równa liczbie akcji spółki",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'actionnaire n'existe pas": {
+        "message": "Odniesienie księgowe akcjonariusza \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'actionnaire référence plusieurs tiers": {
+        "message": "Odniesienie księgowe akcjonariusza \"{0}\" odnosi się do kilku",
+        "translated": true
+    },
+    "Code modèle société introuvable": {
+        "message": "Nie znaleziono kodu firmy modelu",
+        "translated": true
+    },
+    "Code société manquant": {
+        "message": "Brak kodu firmy",
+        "translated": true
+    },
+    "Liste des opérations rattachées à la société {{0}}": {
+        "message": "Wykaz transakcji związanych z firmą \"{0}\"",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un associé si un mouvement de fonds propres a été réalisé pour cet associé.": {
+        "message": "Nie można usunąć partnera, jeśli dokonano przepływu kapitału dla tego partnera.",
+        "translated": true
+    },
+    "Le code de société {{0}} est déjà utilisé": {
+        "message": "Kod firmy \"{0}\" jest już w użyciu",
+        "translated": true
+    },
+    "Une société mère doit être indiquée": {
+        "message": "Spółka dominująca musi być wymieniona",
+        "translated": true
+    },
+    "Code opération manquant.": {
+        "message": "Brak kodu operacji.",
+        "translated": true
+    },
+    "L'opération renseigné est introuvable.": {
+        "message": "Świadomej operacji nigdzie nie można znaleźć.",
+        "translated": true
+    },
+    "Veuillez indiquer une date de validation": {
+        "message": "Proszę podać datę weryfikacji",
+        "translated": true
+    },
+    "Veuillez indiquer le stade travaux validé": {
+        "message": "Proszę wskazać prace sceniczne zatwierdzone",
+        "translated": true
+    },
+    "L'action existe déjà.": {
+        "message": "Akcja już istnieje.",
+        "translated": true
+    },
+    "L'opération est introuvable": {
+        "message": "Operacja nigdzie nie jest znalezion",
+        "translated": true
+    },
+    "Suivi dossier": {
+        "message": "Plik śledzenia",
+        "translated": true
+    },
+    "Le code tiers n'est pas défini": {
+        "message": "Kod innej firmy nie jest ustawiony",
+        "translated": true
+    },
+    "Le code tiers ({{0}}) ne correspond pas avec {{1}}": {
+        "message": "Kod strony trzeciej ({0}) nie odpowiada \"{1}\"",
+        "translated": true
+    },
+    "Tiers : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+        "message": "Po trzecie: Pole \"codePays\" musi być podane dla pola \"adrPays\" z informacją",
+        "translated": true
+    },
+    "Tiers : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Po trzecie: W przypadku adresu poza Francją kod pocztowy musi być podany na tym samym obszarze, co",
+        "translated": true
+    },
+    "Adresses : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+        "message": "Adresy: Pole \"codePays\" musi być podane dla pola \"adrPays\" z informacją",
+        "translated": true
+    },
+    "Adresses : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Adresy: W przypadku adresu poza Francją kod pocztowy musi być podany w tym samym obszarze, co",
+        "translated": true
+    },
+    "Répresentants : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Oferty: W przypadku adresu poza Francją kod pocztowy musi być podany w tym samym obszarze co",
+        "translated": true
+    },
+    "Tiers : Le champ 'Adresse' doit être renseigné pour un tiers PHYSIQUE": {
+        "message": "Po trzecie: Pole \"Adres\" musi być zapewnione dla osoby trzeciej",
+        "translated": true
+    },
+    "{{0}} : Le champ '{{1}}' doit être renseigné {{2}}": {
+        "message": "\"{0}\": Pole \"{1}\" musi być poinformowane \"{2}\"",
+        "translated": true
+    },
+    "{{0}} : Le champ '{{1}}' ne respecte pas le format. Ex: {{2}}": {
+        "message": "\"{0}\": Pole \"{1}\" nie jest zgodne z formatem. Przykład: \"{2}\"",
+        "translated": true
+    },
+    "Il y a des affectations budgetaires qui utilisent ce tiers.": {
+        "message": "Istnieją alokacje budżetu, które używają tej strony trzeciej.",
+        "translated": true
+    },
+    "Il y a des situations qui utilisent ce tiers.": {
+        "message": "Istnieją sytuacje, które korzystają z tej strony trzeciej.",
+        "translated": true
+    },
+    "Il y a des opérations diverses qui utilisent ce tiers.": {
+        "message": "Istnieją różne operacje, które używają tej strony trzeciej.",
+        "translated": true
+    },
+    "Il y a des acteurs  qui utilisent ce tiers.": {
+        "message": "Są aktorzy, którzy korzystają z tej strony trzeciej.",
+        "translated": true
+    },
+    "Il y a des acteurs de dossier diverses qui utilisent ce tiers.": {
+        "message": "Istnieją różne podmioty przypadku, którzy korzystają z tej strony trzeciej.",
+        "translated": true
+    },
+    "Il y a des elements du dossier diverses qui utilisent ce tiers.": {
+        "message": "Istnieją różne elementy pliku, które używają tej strony trzeciej.",
+        "translated": true
+    },
+    "Ce tiers est utilisé commme sous-traitant.": {
+        "message": "Ta strona trzecia jest wykorzystywana jako podwykonawca.",
+        "translated": true
+    },
+    "Ce tiers est utilisé commme contractant.": {
+        "message": "Ta strona trzecia jest wykorzystywana jako wykonawca.",
+        "translated": true
+    },
+    "Ce tiers est utilisé dans une opération, il ne peut être supprimé.": {
+        "message": "Ta strona trzecia jest używana w operacji, nie można jej usunąć.",
+        "translated": true
+    },
+    "Reprise de DOMTIERS vers SpoTiers...": {
+        "message": "Przejęcie DOMTIERS do SpoTiers ...",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a déjà un dossier vendu.": {
+        "message": "Strona trzecia \"{0}\" ma już sprzedany plik.",
+        "translated": true
+    },
+    "Veuillez spécifier une date d'appel afin de pouvoir facturer vos TMAs": {
+        "message": "Podaj datę połączenia, aby można było naładować swoje TMA",
+        "translated": true
+    },
+    "Le total des appels doit être de 100%": {
+        "message": "Łączna liczba połączeń musi wynosić 100%",
+        "translated": true
+    },
+    "L'ordre de l'échéance {{0}} doit être défini": {
+        "message": "Kolejność terminu \"{0}\" musi być określona",
+        "translated": true
+    },
+    "Plusieurs échéances ont le même numéro d'ordre": {
+        "message": "Kilka terminów ma ten sam numer zamówienia",
+        "translated": true
+    },
+    "Le libellé de l'échéance est obligatoire": {
+        "message": "Treść terminu jest obowiązkowa",
+        "translated": true
+    },
+    "L'événement de l'échéance est obligatoire": {
+        "message": "Wydarzenie nieprzekraczalny jest obowiązkowe",
+        "translated": true
+    },
+    "Le pourcentage d'appel de l'échéance doit être compris entre 0 et 100%": {
+        "message": "Procent połączenia z datą ukończenia musi wynosić od 0 do 100%",
+        "translated": true
+    },
+    "Au moins un échéancier doit etre renseigné": {
+        "message": "Należy poinformować co najmniej jeden harmonogram",
+        "translated": true
+    },
+    "Le code de l'échéancier doit être renseigné": {
+        "message": "Kod rozkładu jazdy musi być",
+        "translated": true
+    },
+    "Le libelle de l'échéancier doit être renseigné": {
+        "message": "O zniesławienie harmonogramu należy poinformować",
+        "translated": true
+    },
+    "Vous ne pouvez pas ajouter de type ouvrage sans avoir créer une nature travaux au préalable.": {
+        "message": "Nie można dodać typu książki bez konieczności wcześniejszego tworzenia natury pracy.",
+        "translated": true
+    },
+    "La nature des travaux est obligatoire.": {
+        "message": "Charakter pracy jest obowiązkowy.",
+        "translated": true
+    },
+    "Le type d'ouvrage est obligatoire.": {
+        "message": "Rodzaj pracy jest obowiązkowy.",
+        "translated": true
+    },
+    "L'étape budgétaire est obligatoire.": {
+        "message": "Etap budżetu jest obowiązkowy.",
+        "translated": true
+    },
+    "\"Le régime fiscal est obligatoire.": {
+        "message": "\"System podatkowy jest obowiązkowy.",
+        "translated": true
+    },
+    "Le statut est obligatoire.": {
+        "message": "Stan jest obowiązkowy.",
+        "translated": true
+    },
+    "Le poste budgétaire vente est obligatoire.": {
+        "message": "Sprzedaż pozycji budżetowej jest obowiązkowa.",
+        "translated": true
+    },
+    "Le statut \"Commmercialisation\" nécessite la création d'un budget pour l'opération en cours": {
+        "message": "Status \"Commmercialisation\" wymaga utworzenia budżetu na bieżącą operację",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" a une grille de prix": {
+        "message": "Przedział handlowy \"{0}\" ma siatkę cenową",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" a des affectations budgétaires": {
+        "message": "Przedział handlowy \"{0}\" ma przydziały budżetowe",
+        "translated": true
+    },
+    "Adresse": {
+        "message": "Adres",
+        "translated": true
+    },
+    "Pas de poste budgétaire de TMA pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Nie ma pozycji budżetu TMA dla przedziału handlowego \"{0}\" {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de désistement pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Nie ma budżetu na wycofanie dla przedziału handlowego \"{0}\" {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de résolution pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Nie ma pozycji budżetu restrukturyzacji i uporządkowanej likwidacji dla przedziału handlowego \"{0}\" {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de dation pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Nie ma pozycji budżetu dation dla przedziału handlowego \"{0}\" {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de vente TVA sur Marge pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Brak pozycji budżetu sprzedaży VAT na marży dla handlowej \"{0}\" ({1})\".",
+        "translated": true
+    },
+    "Pas de poste budgétaire de vente pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "Nie ma pozycji budżetu sprzedaży dla komercyjnego \"{0}\" ({1})\".",
+        "translated": true
+    },
+    "Le tranche travaux \"{{0}}\" a des tranches commerciales": {
+        "message": "Kawałek pracy \"{0}\" ma transze handlowe",
+        "translated": true
+    },
+    "Vous ne pouvez pas ajouter de type lot sans avoir créer un type ouvrage au préalable.": {
+        "message": "Nie można dodać typu partii bez konieczności wcześniejszego tworzenia typu książki.",
+        "translated": true
+    },
+    "Le montant dation ne peut être supérieur au montant budget.": {
+        "message": "Kwota pieniędzy nie może być wyższa niż kwota budżetu.",
+        "translated": true
+    },
+    "La valeur '{{0}}' n'est pas autorisée pour le champ '{{1}}'": {
+        "message": "Wartość \"{0}\" nie jest dozwolona dla pola \"{1}\"",
+        "translated": true
+    },
+    "Le champ '{{0}}' doit être renseigné": {
+        "message": "Pole \"{0}\" musi być",
+        "translated": true
+    },
+    "Impossible d'accéder au dossier dont l'identifiant n'a pas été reçu": {
+        "message": "Nie można uzyskać dostępu do pliku, którego identyfikator nie został odebrany",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation/vente n°{0}": {
+        "message": "Nie można znaleźć {0}",
+        "translated": true
+    },
+    "Impossible de finaliser le désistement. Vous devez préalablement Annulé tout vos TMAs non inclus dans l'acte.": {
+        "message": "Nie da się sfinalizować wypłaty. Wcześniej należy anulować wszystkie tma nie uwzględnione w uczynkwad.",
+        "translated": true
+    },
+    "Paramètre manquant idop": {
+        "message": "Brak ustawień idop",
+        "translated": true
+    },
+    "Vous devez enregistrer un budget actualisé avant de commencer.": {
+        "message": "Przed rozpoczęciem należy zapisać zaktualizowany budżet.",
+        "translated": true
+    },
+    "Paramètre manquant type": {
+        "message": "Typowe brakujące ustawienie",
+        "translated": true
+    },
+    "Paramètre manquant idversion": {
+        "message": "Brak idversion ustawienia",
+        "translated": true
+    },
+    "Copie {{0}}": {
+        "message": "Kopiowanie '{0}'",
+        "translated": true
+    },
+    "Vous ne pouvez pas copier une version Archivé.": {
+        "message": "Nie można skopiować zarchiwizowanej wersji.",
+        "translated": true
+    },
+    "Vous ne pouvez pas archiver une version Archivé.": {
+        "message": "Nie można zarchiwizować zarchiwizowanej wersji.",
+        "translated": true
+    },
+    "Il est impossible de supprimer une version avec le statut {{0}}.": {
+        "message": "Nie można usunąć wersji o stanie \"{0}\".",
+        "translated": true
+    },
+    "Vous ne pouvez pas changer le statut en \"{{0}}\" car votre version à le statut {{1}} .": {
+        "message": "Nie można zmienić stanu na \"{0}\", ponieważ wersja ma stan {1}.",
+        "translated": true
+    },
+    "Code version manquant.": {
+        "message": "Brak wersji kodu.",
+        "translated": true
+    },
+    "La version renseigné est introuvable.": {
+        "message": "Świadomej wersji nigdzie nie można znaleźć.",
+        "translated": true
+    },
+    "periode": {
+        "message": "Okres",
+        "translated": true
+    },
+    "total": {
+        "message": "Łącznych",
+        "translated": true
+    },
+    "INT": {
+        "message": "Int",
+        "translated": true
+    },
+    "D2": {
+        "message": "D2 (właso)",
+        "translated": true
+    },
+    "PCT": {
+        "message": "Pct",
+        "translated": true
+    },
+    "TEXT": {
+        "message": "Tekst",
+        "translated": true
+    },
+    "Echéancier": {
+        "message": "Tyłek-er",
+        "translated": true
+    },
+    "Appels de fonds": {
+        "message": "Zaproszenia do składania funduszy",
+        "translated": true
+    },
+    "Encaissements clients": {
+        "message": "Środki pieniężne odbiorcy",
+        "translated": true
+    },
+    "nombre": {
+        "message": "Numer",
+        "translated": true
+    },
+    "montant HT": {
+        "message": "kwota HT",
+        "translated": true
+    },
+    "montant TTC": {
+        "message": "kwota TTC",
+        "translated": true
+    },
+    "pourcentage": {
+        "message": "Procent",
+        "translated": true
+    },
+    "NONE": {
+        "message": "Brak",
+        "translated": true
+    },
+    "OP": {
+        "message": "Op",
+        "translated": true
+    },
+    "TT": {
+        "message": "Tt",
+        "translated": true
+    },
+    "TOTAL": {
+        "message": "Łącznych",
+        "translated": true
+    },
+    "MOIS": {
+        "message": "Miesiąc",
+        "translated": true
+    },
+    "TRIM": {
+        "message": "Przycinanie",
+        "translated": true
+    },
+    "ANNEE": {
+        "message": "Roku",
+        "translated": true
+    },
+    "ALL": {
+        "message": "Wszystkie",
+        "translated": true
+    },
+    "TC synchronisées": {
+        "message": "Zsynchronizowane TC",
+        "translated": true
+    },
+    "TC non synchronisées": {
+        "message": "TC nie jest zsynchronizowany",
+        "translated": true
+    },
+    "Lecture": {
+        "message": "Czytanie",
+        "translated": true
+    },
+    "Gestion": {
+        "message": "Zarządzania",
+        "translated": true
+    },
+    "Prévu": {
+        "message": "Planowane",
+        "translated": true
+    },
+    "Réalisé": {
+        "message": "Realizowane",
+        "translated": true
+    },
+    "Appelé": {
+        "message": "Wywoływana",
+        "translated": true
+    },
+    "Encaissé": {
+        "message": "Zrealizowane",
+        "translated": true
+    },
+    "Carte": {
+        "message": "Mapę",
+        "translated": true
+    },
+    "Vignette": {
+        "message": "Naklejki",
+        "translated": true
+    },
+    "Liste": {
+        "message": "Listy",
+        "translated": true
+    },
+    "Document": {
+        "message": "Dokumentu",
+        "translated": true
+    },
+    "Modèle": {
+        "message": "Modelu",
+        "translated": true
+    },
+    "UNIQUE": {
+        "message": "Unikatowy",
+        "translated": true
+    },
+    "empty": {
+        "message": "Pusty",
+        "translated": true
+    },
+    "success": {
+        "message": "Sukces",
+        "translated": true
+    },
+    "danger": {
+        "message": "Niebezpieczeństwo",
+        "translated": true
+    },
+    "warning": {
+        "message": "Ostrzeżenie",
+        "translated": true
+    },
+    "Tranche Travaux": {
+        "message": "Prace w plasterkach",
+        "translated": true
+    },
+    "Nature Travaux": {
+        "message": "Prace przyrodnicze",
+        "translated": true
+    },
+    "Type Ouvrage": {
+        "message": "Wpisz pracę",
+        "translated": true
+    },
+    "Lots Principaux/Secondaires": {
+        "message": "Partie główne/drugorzędne",
+        "translated": true
+    },
+    "Annuel": {
+        "message": "Roczne",
+        "translated": true
+    },
+    "Mensuel": {
+        "message": "Miesięczne",
+        "translated": true
+    },
+    "Caractéristiques": {
+        "message": "Cechy",
+        "translated": true
+    },
+    "Typologie": {
+        "message": "Typu",
+        "translated": true
+    },
+    "Surface de plancher de base": {
+        "message": "Podstawowa powierzchnia podłogi",
+        "translated": true
+    },
+    "SHAB de base": {
+        "message": "Podstawowy SHAB",
+        "translated": true
+    },
+    "Surface terrain de base": {
+        "message": "Obszar pola bazowego",
+        "translated": true
+    },
+    "Réservataires": {
+        "message": "Rezerwistów",
+        "translated": true
+    },
+    "Page d'acceuil opérations": {
+        "message": "Operacje na stronie głównej",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'existe pas": {
+        "message": "Operacja \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Date de début": {
+        "message": "Data rozpoczęcia",
+        "translated": true
+    },
+    "Date de fin": {
+        "message": "Data zakończenia",
+        "translated": true
+    },
+    "Planning préferences": {
+        "message": "Preferencje planowania",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas de planning.": {
+        "message": "Operacja \"{0}\" nie ma harmonogramu.",
+        "translated": true
+    },
+    "Comparer ...": {
+        "message": "Porównać...",
+        "translated": true
+    },
+    "La procédure \"{{0}}\" n'existe pas.": {
+        "message": "Procedura \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "La procédure \"{{0}}\" n'a pas de planning.": {
+        "message": "Procedura \"{0}\" nie ma harmonogramu.",
+        "translated": true
+    },
+    "Aucune ligne sélectionnée": {
+        "message": "Nie wybrano wiersza",
+        "translated": true
+    },
+    "L'procédure \"{{0}}\" n'existe pas": {
+        "message": "Procedura \"{0}\" nie istnieje",
+        "translated": true
+    },
+    "Cette étape est déjà attribué à cette procédure.": {
+        "message": "Ten krok jest już przypisany do tej procedury.",
+        "translated": true
+    },
+    "Le code renseigné est déjà attribué. Veuillez choisir un autre code": {
+        "message": "Kod informacji jest już przypisany. Wybierz inny kod",
+        "translated": true
+    },
+    "Cette action est déjà attribué à cette étape.": {
+        "message": "Ta akcja jest już przypisana na tym etapie.",
+        "translated": true
+    },
+    "Cette action n'existe pas.": {
+        "message": "Ta akcja nie istnieje.",
+        "translated": true
+    },
+    "Cette étape n'existe pas.": {
+        "message": "Ten krok nie istnieje.",
+        "translated": true
+    },
+    "Le code procédure est obligatoire": {
+        "message": "Kod procedury jest obowiązkowy",
+        "translated": true
+    },
+    "La procédure est introuvable": {
+        "message": "Procedury nigdzie nie można znaleźć",
+        "translated": true
+    },
+    "Etape non trouvé.": {
+        "message": "Nie znaleziono kroku.",
+        "translated": true
+    },
+    "Action non trouvé.": {
+        "message": "Nie znaleziono akcji.",
+        "translated": true
+    },
+    "Acteur non trouvé.": {
+        "message": "Nie znaleziono aktora.",
+        "translated": true
+    },
+    "Echéancier du dossier": {
+        "message": "Bolący plik",
+        "translated": true
+    },
+    "Echéancier des lots {{0}}": {
+        "message": "Aukcjoner partii \"{0}\"",
+        "translated": true
+    },
+    "Echéancier du lot {{0}}": {
+        "message": "Napowietrzona partia \"{0}\"",
+        "translated": true
+    },
+    "( Pas d'évènement )": {
+        "message": "(Brak zdarzenia)",
+        "translated": true
+    },
+    "L'echéancier n'est pas modifiable.": {
+        "message": "Hydroizolacja nie jest zmienna.",
+        "translated": true
+    },
+    "Echéance déja appelé.": {
+        "message": "Koniec już wywoływane.",
+        "translated": true
+    },
+    "Dans le cas d'un dossier avec des tranches différentes sur ses lots, veuillez séléctionner \"échéancier par lot\"": {
+        "message": "W przypadku folderu z różnymi plasterkami na jego partiach, wybierz \"czas po partii\"",
+        "translated": true
+    },
+    "Le pays est vide.": {
+        "message": "Kraj jest pusty.",
+        "translated": true
+    },
+    "Le ville est vide.": {
+        "message": "Miasto jest puste.",
+        "translated": true
+    },
+    "L'adresse est obligatoire.": {
+        "message": "Adres jest obowiązkowy.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a la même siret.": {
+        "message": "Strona trzecia \"{0}\" ma ten sam siret.",
+        "translated": true
+    },
+    "La référence comptable est vide.": {
+        "message": "Odwołanie księgowe jest puste.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a la même référence comptable.": {
+        "message": "Strona trzecia \"{0}\" ma to samo odniesienie księgowe.",
+        "translated": true
+    },
+    "La raison sociale est vide.": {
+        "message": "Nazwa jest pusta.",
+        "translated": true
+    },
+    "Le numéro de SIRET saisi est invalide.": {
+        "message": "SEized numer SIRET jest nieprawidłowy.",
+        "translated": true
+    },
+    "- Votre choix -": {
+        "message": "- Twój wybór -",
+        "translated": true
+    },
+    "Allemagne": {
+        "message": "Niemcy",
+        "translated": true
+    },
+    "Autriche": {
+        "message": "Austria",
+        "translated": true
+    },
+    "Belgique": {
+        "message": "Belgia",
+        "translated": true
+    },
+    "Bulgarie": {
+        "message": "Bułgaria",
+        "translated": true
+    },
+    "Chypre": {
+        "message": "Cypr",
+        "translated": true
+    },
+    "Croatie": {
+        "message": "Chorwacja",
+        "translated": true
+    },
+    "Danemark": {
+        "message": "Dania",
+        "translated": true
+    },
+    "Espagne": {
+        "message": "Hiszpania",
+        "translated": true
+    },
+    "Estonie": {
+        "message": "Estonia",
+        "translated": true
+    },
+    "Finlande": {
+        "message": "Finlandia",
+        "translated": true
+    },
+    "France": {
+        "message": "Francja",
+        "translated": true
+    },
+    "Grèce": {
+        "message": "Grecja",
+        "translated": true
+    },
+    "Hongrie": {
+        "message": "Węgry",
+        "translated": true
+    },
+    "Irlande": {
+        "message": "Irlandia",
+        "translated": true
+    },
+    "Italie": {
+        "message": "Włochy",
+        "translated": true
+    },
+    "Lettonie": {
+        "message": "Łotwa",
+        "translated": true
+    },
+    "Lituanie": {
+        "message": "Litwa",
+        "translated": true
+    },
+    "Luxembourg": {
+        "message": "Luksemburg",
+        "translated": true
+    },
+    "Malte": {
+        "message": "Malta",
+        "translated": true
+    },
+    "Pays-Bas": {
+        "message": "Holandia",
+        "translated": true
+    },
+    "Pologne": {
+        "message": "Polska",
+        "translated": true
+    },
+    "Portugal": {
+        "message": "Portugalia",
+        "translated": true
+    },
+    "Rép. Tchèque": {
+        "message": "Rep. Czeski",
+        "translated": true
+    },
+    "Roumanie": {
+        "message": "Rumunia",
+        "translated": true
+    },
+    "Royaume-Uni": {
+        "message": "Wielka Brytania",
+        "translated": true
+    },
+    "Slovaquie": {
+        "message": "Słowacja",
+        "translated": true
+    },
+    "Slovénie": {
+        "message": "Słowenia",
+        "translated": true
+    },
+    "Suède": {
+        "message": "Szwecja",
+        "translated": true
+    },
+    "Le nom famille est vide.": {
+        "message": "Nazwisko jest puste.",
+        "translated": true
+    },
+    "Le prenom est vide.": {
+        "message": "Imię jest puste.",
+        "translated": true
+    },
+    "Le couple ont a la même référence comptable.": {
+        "message": "Para ma to samo odniesienie księgowe.",
+        "translated": true
+    },
+    "Ajout d’un tiers": {
+        "message": "Dodawanie trzeciej",
+        "translated": true
+    },
+    "Ajout d’un couple": {
+        "message": "Dodawanie pary",
+        "translated": true
+    },
+    "Votre choix": {
+        "message": "Twój wybór",
+        "translated": true
+    },
+    "Représentant principal": {
+        "message": "Starszy przedstawiciel",
+        "translated": true
+    },
+    "Représentant actif": {
+        "message": "Aktywny przedstawiciel",
+        "translated": true
+    },
+    "Représentant inactif": {
+        "message": "Nieaktywny przedstawiciel",
+        "translated": true
+    },
+    "Domiciliation principale": {
+        "message": "Główne miejsce zamieszkania",
+        "translated": true
+    },
+    "L'IBAN est vide.": {
+        "message": "Numer IBAN jest pusty.",
+        "translated": true
+    },
+    "Le titulaire du compte est vide.": {
+        "message": "Właściciel konta jest pusty.",
+        "translated": true
+    },
+    "Le BIC est vide.": {
+        "message": "BIC jest pusty.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur, en l'assurance de ma considération distinguée.": {
+        "message": "Proszę was, abyście uwierzyli, panie, w zapewnienie mojej wybitnej uwagi.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame, en l'assurance de ma considération distinguée.": {
+        "message": "Pani przewodnicząca, proszę pani, aby uwierzyła pani w zapewnienie mojej wybitnej refleksji.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments distingués.": {
+        "message": "Proszę wierzyć, panie przewodniczący, w zapewnieniu moich wybitnych uczuć.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments les meilleurs.": {
+        "message": "Proszę wierzyć, panie przewodniczący, w zapewnieniu moich najlepszych uczuć.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame la Présidente, en l'assurance de ma considération distinguée.": {
+        "message": "Proszę, pani przewodnicząca, w zapewnieniu mojej wybitnej uwagi.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame, Monsieur, en l'assurance de ma considération distinguée.": {
+        "message": "Proszę pani, pani, panie, panie, w zapewnienie mojej wybitnej uwagi.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président-Directeur Général, en l'assurance de mes sentiments distingués.": {
+        "message": "Proszę wierzyć, panie przewodniczący i dyrektor generalny, w zapewnieniu moich wybitnych uczuć.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame le Président-Directeur Général, en l'assurance de ma considération distinguée.": {
+        "message": "Proszę wierzyć, pani przewodnicząca i dyrektor generalny, w zapewnieniu mojej wybitnej uwagi.",
+        "translated": true
+    },
+    "Monsieur,": {
+        "message": "Pan",
+        "translated": true
+    },
+    "Madame,": {
+        "message": "Pani",
+        "translated": true
+    },
+    "Monsieur le Président,": {
+        "message": "Panie Przewodniczący",
+        "translated": true
+    },
+    "Madame la Présidente,": {
+        "message": "Pani przewodnicząca",
+        "translated": true
+    },
+    "Madame, Monsieur,": {
+        "message": "Ma'am, sir,",
+        "translated": true
+    },
+    "Monsieur le Président-Directeur Général,": {
+        "message": "Pan Prezes i Dyrektor Generalny,",
+        "translated": true
+    },
+    "Madame le Président-Directeur Général,": {
+        "message": "Pani przewodnicząca i dyrektor generalny,",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.host\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverTiers.host\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.tenant\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverTiers.holding\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.authorization\".": {
+        "message": "W pliku konfiguracyjnym brakuje wpisu \"serverTiers.authorization\".",
+        "translated": true
+    },
+    "Dans le fichier config  l'entrée \"serverTiers.authorization\" n'est pas correcte.": {
+        "message": "W pliku konfiguracyjnym wpis \"serverTiers.authorization\" jest nieprawidłowy.",
+        "translated": true
+    },
+    "Reprise de ReferentielTiers vers SpoTiers... ...": {
+        "message": "Ponowne przejęcie ReferentielTiers do SpoTiers ......",
+        "translated": true
+    },
+    "Valeur invalide pour civilité": {
+        "message": "Nieprawidłowa wartość dla cywilizacji",
+        "translated": true
+    },
+    "Invalid tiers data: unknown famille value: \"{{0}}\".": {
+        "message": "Nieprawidłowe dane trzecie: nieznana wartość rodziny: \"{0}\".",
+        "translated": true
+    },
+    "Le famille {{0}} n'existe pas.": {
+        "message": "Rodzina \"{0}\" nie istnieje.",
+        "translated": true
+    },
+    "{{0}} - {{1}}:  n'existe pas dans référentiel tiers": {
+        "message": "\"{0}\" - \"{1}\": nie istnieje w repozytorium stron trzecich",
+        "translated": true
+    },
+    "Le type ouvrage \"{{0}}\" est déjà associé à cette nature travaux, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "Rodzaj pracy \"{0}\" jest już związany z tą naturą działa, nie można dodać po raz drugi.",
+        "translated": true
+    },
+    "Nature Travaux non trouvé.": {
+        "message": "Natura Prace nie znaleziono.",
+        "translated": true
+    },
+    "Merci d'indiquer le code de la tranche": {
+        "message": "Wprowadź kod raty",
+        "translated": true
+    },
+    "Le stade d'avancement \"{{0}}\" existe déjà, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "\"{0}\" etap rozwoju już istnieje, nie można dodać po raz drugi.",
+        "translated": true
+    },
+    " Tranche non trouvée.": {
+        "message": " Nie znaleziono plasterka.",
+        "translated": true
+    },
+    " Adresse tranche non trouvée.": {
+        "message": " Nie znaleziono plasterka adresu.",
+        "translated": true
+    },
+    " Synthèse tranche non trouvée.": {
+        "message": " Nie znaleziono plasterka podsumowania.",
+        "translated": true
+    },
+    "operation undefined !": {
+        "message": "operacja niezdefiniowana!",
+        "translated": true
+    },
+    "Param 'tranche' requis !": {
+        "message": "Param \"plasterek\" wymagane!",
+        "translated": true
+    },
+    "Le type de lot est obligatoire": {
+        "message": "Rodzaj partii jest obowiązkowy",
+        "translated": true
+    },
+    "La nature du lot est obligatoire": {
+        "message": "Charakter partii jest obowiązkowy",
+        "translated": true
+    },
+    "Lots secondaires": {
+        "message": "Partie wtórne",
+        "translated": true
+    },
+    "Le total des lignes des lots principaux ne correspond pas à la surface à vendre : {{0}}": {
+        "message": "Wszystkie linie głównych partii nie odpowiadają powierzchni na sprzedaż: \"{0}\"",
+        "translated": true
+    },
+    "Tranche introuvable": {
+        "message": "Nie znaleziono plasterka",
+        "translated": true
+    },
+    "Cette opération n'existe pas.": {
+        "message": "To nie istnieje.",
+        "translated": true
+    },
+    "Le total réservataire ne peut pas dépasser le nombre de logements.": {
+        "message": "Całkowita rezerwa nie może przekroczyć liczby mieszkań.",
+        "translated": true
+    },
+    "Retour en arrière non autorisé dans avancement travaux": {
+        "message": "Nieautoryzowane wycofywanie w pracach rozwojowych",
+        "translated": true
+    },
+    "Confirmez vous la modification de l'avancement travaux ? Retour en arrière non autorisé.": {
+        "message": "Czy potwierdzasz zmiany w pracach nad postępem? Nieautoryzowane wycofywanie.",
+        "translated": true
+    },
+    "Nombre de lots": {
+        "message": "Liczba partii",
+        "translated": true
+    },
+    "Le type lot \"{{0}}\" est déjà associé à ce type ouvrage, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "Typ partii \"{0}\" jest już skojarzony z tego typu pracą, nie można go dodać po raz drugi.",
+        "translated": true
+    },
+    "Type d'ouvrage non trouvé.": {
+        "message": "Nie znaleziono rodzaju pracy.",
+        "translated": true
+    }
+}

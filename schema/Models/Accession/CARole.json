@@ -1,0 +1,58 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "type": "object",
+    "name": "CARole",
+    "description": "contrôle accès - rôle",
+    "primaryKey": "code",
+    "properties": {
+      "code": {
+        "type": "string",
+        "format": "code"
+      },
+      "libelle": {
+        "type": "string",
+        "title": "libellé"
+      },
+      "actif" : {
+        "type" : "boolean"
+      },
+      "habilitations": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/CARoleHabilDef"
+        }
+      }
+    },
+    "definitions": {
+      "CARoleHabilDef": {
+        "type": "object",
+        "name" : "CARoleHabil",
+        "description": "habilitations par rôle",
+        "primaryKey": "code",
+        "properties": {
+            "code": {
+                "type": "string",
+                "format": "code"
+              },
+              "libelle": {
+                "type": "string",
+                "title": "libellé"
+              },
+              "action": {
+                "type": "string",
+                "format": "code"
+              },
+              "niveau": {
+                "type": "string",
+                "format": "code"
+              }
+
+        },
+        "indexes": [{ "fields" : ["action", "parentId"], "unique": true}]
+
+      }
+
+    }
+
+  }
+  

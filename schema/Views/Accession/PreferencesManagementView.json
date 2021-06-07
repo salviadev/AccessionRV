@@ -1,0 +1,28 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "version": "1.0.0",
+    "type": "object",
+    "title": "PreferencesManagementView",
+    "name": "PreferencesManagementView",
+    "primaryKey": "id",
+    "theme": "preferences",
+    "isTransient": true,
+    "serializeDirectives": [
+        "preferences"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "classe": {
+            "type": "string"
+        }
+    },
+    "relations": {
+        "preferences": {
+            "type": "hasMany",
+            "aggregationKind": "none",
+            "model": "PreferenceItemView"
+        }
+    }
+}

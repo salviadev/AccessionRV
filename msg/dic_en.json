@@ -1,0 +1,5438 @@
+{
+    "Le tiers \"{{0}}\" n'existe pas": {
+        "message": "The third party \"{0}\" does not exist",
+        "translated": true
+    },
+    "Fonctionnalité non supportée !": {
+        "message": "Unsured functionality!",
+        "translated": true
+    },
+    "{{0}} est requis.": {
+        "message": "'{0}' is required.",
+        "translated": true
+    },
+    "Propriétés \"telephones\", \"courriels\", \"sitesWeb\" et \"refExternes\" ne sont pas filtrables": {
+        "message": "Properties \"telephones,\" \"emails,\" \"sitesWeb\" and \"refExternes\" are not filterable",
+        "translated": true
+    },
+    "La selection \"{{0}}\" n'est pas correcte": {
+        "message": "The \"{0}\" selection is not correct",
+        "translated": true
+    },
+    "Json patch attendu": {
+        "message": "Json patch expected",
+        "translated": true
+    },
+    "Lopération \"add\" est seulement permise sur le Path \"{{0}}\"": {
+        "message": "The \"add\" operation is only allowed on the Path \"{0}\"",
+        "translated": true
+    },
+    "Les opérations \"replace\" et \"remove\" sont seulement permise sur le path \"{{1}}\"": {
+        "message": "\"replace\" and \"remove\" operations are only permitted on the \"{1}\" path",
+        "translated": true
+    },
+    "Le Path \"{{0}}\" n'est pas correct": {
+        "message": "The Path \"{0}\" is not correct",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" du path \"{{1}}\" n'est pas correcte": {
+        "message": "The \"{0}\" operation of the path \"{1}\" is not correct",
+        "translated": true
+    },
+    "Le type de téléphone \"{{0}}\" n'est pas correcte": {
+        "message": "The type of phone \"{0}\" is not correct",
+        "translated": true
+    },
+    "La propriété \"{{0}}\" n'est pas correcte": {
+        "message": "The \"{0}\" property is not correct",
+        "translated": true
+    },
+    "Le paramètre \"{{0}}\" n'existe pas": {
+        "message": "The \"{0}\" setting does not exist",
+        "translated": true
+    },
+    "Impossible de retrouver l'entité importée {{0}} dans la table {{1}}": {
+        "message": "Can't find the imported entity '{0}' in the '{1}' table",
+        "translated": true
+    },
+    "Le libellé « {{0}} » des échéanciers de la tranche commerciale « {{1}} » n'est pas unique": {
+        "message": "The wording \"{0}\" of the \"{1}\" trade bracket schedules is not unique",
+        "translated": true
+    },
+    "Un seul échéancier de la tranche commerciale « {{0}} » doit être utilisé par défaut": {
+        "message": "Only one time frame for the '{0}' trade bracket must be used by default",
+        "translated": true
+    },
+    "Impossible d'accéder aux données": {
+        "message": "Unable to access data",
+        "translated": true
+    },
+    "Mode not supported": {
+        "message": "Mode not supported",
+        "translated": true
+    },
+    "La tranche commerciale de destination {{0}} n'est pas vide": {
+        "message": "The destination trading slice '{0}' is not empty",
+        "translated": true
+    },
+    "Les tranches commerciales n'ont pas la même option TVA.": {
+        "message": "The trade brackets do not have the same VAT option.",
+        "translated": true
+    },
+    "La tranche commerciale d'origine {{0}} n'existe pas": {
+        "message": "The original trade bracket '{0}' does not exist",
+        "translated": true
+    },
+    "La tranche commerciale de destination {{0}} n'existe pas": {
+        "message": "The '{0}' destination trade bracket does not exist",
+        "translated": true
+    },
+    "Le {{0}} n existe pas": {
+        "message": "The '{0}' does not exist",
+        "translated": true
+    },
+    "{{0}} est incorrect. Valeurs attendues: {{1}}": {
+        "message": "'{0}' is incorrect. Expected values: '{1}'",
+        "translated": true
+    },
+    "{{0}} dépasse le nombre maximal de caractères autorisés.": {
+        "message": "'{0}' exceeds the maximum number of characters allowed.",
+        "translated": true
+    },
+    "{{0}} ne peut être indéfini.": {
+        "message": "'{0}' cannot be indefinite.",
+        "translated": true
+    },
+    "Le mail ne respecte pas le format. Ex: exemple@exemple.com": {
+        "message": "The email does not respect the format. Ex: exemple@exemple.com",
+        "translated": true
+    },
+    "phone ne respecte pas le format. Ex: +33101010101, 0101010101": {
+        "message": "phone does not respect the format. Ex: '33101010101, 0101010101",
+        "translated": true
+    },
+    "phoneMobile ne respecte pas le format. Ex: +33606060606, 0606060606": {
+        "message": "phoneMobile does not respect the format. Ex: '33606060606, 06060606",
+        "translated": true
+    },
+    "siteWeb ne respecte pas le format. Ex: http://www.exemple.com": {
+        "message": "websiteWeb does not respect the format. Ex: http://www.exemple.com",
+        "translated": true
+    },
+    "prenom est requis pour un tiers PHYSIQUE.": {
+        "message": "first name is required for a PHYSIQUE third party.",
+        "translated": true
+    },
+    "nomFamille est requis pour un tiers PHYSIQUE.": {
+        "message": "Family name is required for a THIRD of the year.",
+        "translated": true
+    },
+    "phonePerso ne respecte pas le format. Ex: +33606060606, 0606060606": {
+        "message": "phonePerso does not respect the format. Ex: '33606060606, 06060606",
+        "translated": true
+    },
+    "Paramètres incorrects": {
+        "message": "Incorrect settings",
+        "translated": true
+    },
+    "Demande incorrecte": {
+        "message": "Incorrect request",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" trade bracket does not exist.",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" ne fait pas partie de l'opération \"{{1}}\".": {
+        "message": "The \"{0}\" trade bracket is not part of the \"{1}\" operation.",
+        "translated": true
+    },
+    "FNP initial": {
+        "message": "Initial FNP",
+        "translated": true
+    },
+    "Achevement travaux": {
+        "message": "Completion of work",
+        "translated": true
+    },
+    "Apport fonds propres": {
+        "message": "Equity contribution",
+        "translated": true
+    },
+    "Restitution fonds propres": {
+        "message": "Return on equity",
+        "translated": true
+    },
+    "Distribution de la marge": {
+        "message": "Margin distribution",
+        "translated": true
+    },
+    "Déblocage d’emprunt": {
+        "message": "Borrowing unlocking",
+        "translated": true
+    },
+    "Remboursement d’emprunt": {
+        "message": "Borrowing repayment",
+        "translated": true
+    },
+    "crédit": {
+        "message": "Credit",
+        "translated": true
+    },
+    "débit": {
+        "message": "Flow",
+        "translated": true
+    },
+    "Stockable": {
+        "message": "Stockable",
+        "translated": true
+    },
+    "Non stockable": {
+        "message": "Not stockable",
+        "translated": true
+    },
+    "Hors FNP": {
+        "message": "Excluding FNP",
+        "translated": true
+    },
+    "360 jours": {
+        "message": "360 days",
+        "translated": true
+    },
+    "365 jours": {
+        "message": "365 days",
+        "translated": true
+    },
+    "DG": {
+        "message": "Dg",
+        "translated": true
+    },
+    "DES": {
+        "message": "DES",
+        "translated": true
+    },
+    "AV": {
+        "message": "Av",
+        "translated": true
+    },
+    "RV": {
+        "message": "Rv",
+        "translated": true
+    },
+    "AF": {
+        "message": "Af",
+        "translated": true
+    },
+    "EAF": {
+        "message": "Fae",
+        "translated": true
+    },
+    "EAFN": {
+        "message": "EAFN",
+        "translated": true
+    },
+    "RC": {
+        "message": "Rc",
+        "translated": true
+    },
+    "ETMA": {
+        "message": "ETMA",
+        "translated": true
+    },
+    "FTMA": {
+        "message": "FTMA",
+        "translated": true
+    },
+    "ECTMA": {
+        "message": "ECTMA",
+        "translated": true
+    },
+    "AFTMA": {
+        "message": "AFTMA",
+        "translated": true
+    },
+    "AFN": {
+        "message": "Afn",
+        "translated": true
+    },
+    "DAT": {
+        "message": "Dat",
+        "translated": true
+    },
+    "AR": {
+        "message": "Ar",
+        "translated": true
+    },
+    "FR": {
+        "message": "Br",
+        "translated": true
+    },
+    "PR": {
+        "message": "Pr",
+        "translated": true
+    },
+    "EPR": {
+        "message": "Epr",
+        "translated": true
+    },
+    "RFN": {
+        "message": "RFN",
+        "translated": true
+    },
+    "RFC": {
+        "message": "Rfc",
+        "translated": true
+    },
+    "FNP": {
+        "message": "Npf",
+        "translated": true
+    },
+    "EFR": {
+        "message": "Efr",
+        "translated": true
+    },
+    "FRAISD": {
+        "message": "FRAISD",
+        "translated": true
+    },
+    "FRAISPF": {
+        "message": "FRESH",
+        "translated": true
+    },
+    "FRAISR": {
+        "message": "FRESH",
+        "translated": true
+    },
+    "VSLA": {
+        "message": "VSLA",
+        "translated": true
+    },
+    "VSLL": {
+        "message": "VSLL",
+        "translated": true
+    },
+    "A": {
+        "message": "Has",
+        "translated": true
+    },
+    "Bon commande recette": {
+        "message": "Good order recipe",
+        "translated": true
+    },
+    "Facture recette": {
+        "message": "Bill recipe",
+        "translated": true
+    },
+    "C": {
+        "message": "C",
+        "translated": true
+    },
+    "U": {
+        "message": "U",
+        "translated": true
+    },
+    "S": {
+        "message": "S",
+        "translated": true
+    },
+    "R": {
+        "message": "R",
+        "translated": true
+    },
+    "P": {
+        "message": "P",
+        "translated": true
+    },
+    "E": {
+        "message": "E",
+        "translated": true
+    },
+    "B": {
+        "message": "B",
+        "translated": true
+    },
+    "I": {
+        "message": "I",
+        "translated": true
+    },
+    "Personne Physique": {
+        "message": "Physical person",
+        "translated": true
+    },
+    "Tiers Moral": {
+        "message": "Third Moral",
+        "translated": true
+    },
+    "Collectivité Locale": {
+        "message": "Local community",
+        "translated": true
+    },
+    "Organisme Financier": {
+        "message": "Financial organization",
+        "translated": true
+    },
+    "Monsieur": {
+        "message": "Mr",
+        "translated": true
+    },
+    "Madame": {
+        "message": "Madam",
+        "translated": true
+    },
+    "ACTIF": {
+        "message": "Active",
+        "translated": true
+    },
+    "INACTIF": {
+        "message": "Inactive",
+        "translated": true
+    },
+    "M": {
+        "message": "Mr",
+        "translated": true
+    },
+    "MME": {
+        "message": "Mrs",
+        "translated": true
+    },
+    "IBAN": {
+        "message": "Iban",
+        "translated": true
+    },
+    "AUTRE": {
+        "message": "Other",
+        "translated": true
+    },
+    "V": {
+        "message": "V",
+        "translated": true
+    },
+    "compte courant": {
+        "message": "current account",
+        "translated": true
+    },
+    "compte de dépôt": {
+        "message": "deposit account",
+        "translated": true
+    },
+    "compte séquestre": {
+        "message": "receiver account",
+        "translated": true
+    },
+    "ANN": {
+        "message": "Ann",
+        "translated": true
+    },
+    "MENS": {
+        "message": "Mens",
+        "translated": true
+    },
+    "COOP": {
+        "message": "Coop",
+        "translated": true
+    },
+    "COOPHLM": {
+        "message": "COOPHLM",
+        "translated": true
+    },
+    "EURL": {
+        "message": "Eurl",
+        "translated": true
+    },
+    "Office": {
+        "message": "Office",
+        "translated": true
+    },
+    "OPHLM": {
+        "message": "OPHLM",
+        "translated": true
+    },
+    "SA": {
+        "message": "His",
+        "translated": true
+    },
+    "SAHLM": {
+        "message": "SAHLM",
+        "translated": true
+    },
+    "SARL": {
+        "message": "Sarl",
+        "translated": true
+    },
+    "SAS": {
+        "message": "Sas",
+        "translated": true
+    },
+    "SASU": {
+        "message": "Sasu",
+        "translated": true
+    },
+    "SCI": {
+        "message": "Sci",
+        "translated": true
+    },
+    "SCCV": {
+        "message": "SCCV",
+        "translated": true
+    },
+    "SCOP": {
+        "message": "Scop",
+        "translated": true
+    },
+    "SELARL": {
+        "message": "SELARL",
+        "translated": true
+    },
+    "SEM": {
+        "message": "Sem",
+        "translated": true
+    },
+    "SCM": {
+        "message": "Scm",
+        "translated": true
+    },
+    "SCP": {
+        "message": "Scp",
+        "translated": true
+    },
+    "SNC": {
+        "message": "Snc",
+        "translated": true
+    },
+    "En cours d’immatriculation": {
+        "message": "In the process of being registered",
+        "translated": true
+    },
+    "En activité": {
+        "message": "In operation",
+        "translated": true
+    },
+    "En liquidation": {
+        "message": "In liquidation",
+        "translated": true
+    },
+    "Fermée": {
+        "message": "Closed",
+        "translated": true
+    },
+    "T": {
+        "message": "T",
+        "translated": true
+    },
+    "O": {
+        "message": "O",
+        "translated": true
+    },
+    "date de création": {
+        "message": "date of creation",
+        "translated": true
+    },
+    "saisie libre": {
+        "message": "free entry",
+        "translated": true
+    },
+    "aucune": {
+        "message": "No",
+        "translated": true
+    },
+    "mois": {
+        "message": "Month",
+        "translated": true
+    },
+    "trimestre": {
+        "message": "Quarter",
+        "translated": true
+    },
+    "semestre": {
+        "message": "Semester",
+        "translated": true
+    },
+    "dernier jour de la période clôturée": {
+        "message": "last day of the closed period",
+        "translated": true
+    },
+    "clôture différenciée": {
+        "message": "differentiated fence",
+        "translated": true
+    },
+    "période en cours": {
+        "message": "current period",
+        "translated": true
+    },
+    "période n plus 1": {
+        "message": "period no plus 1",
+        "translated": true
+    },
+    "HT": {
+        "message": "Ht",
+        "translated": true
+    },
+    "TTC": {
+        "message": "Ttc",
+        "translated": true
+    },
+    "DOSSIER": {
+        "message": "Folder",
+        "translated": true
+    },
+    "LOT": {
+        "message": "Lot",
+        "translated": true
+    },
+    "FIXE": {
+        "message": "Fixed",
+        "translated": true
+    },
+    "MNT": {
+        "message": "Mnt",
+        "translated": true
+    },
+    "PRCT": {
+        "message": "PRCT",
+        "translated": true
+    },
+    "VENTE": {
+        "message": "Sale",
+        "translated": true
+    },
+    "TMA": {
+        "message": "Tma",
+        "translated": true
+    },
+    "APPELE": {
+        "message": "Called",
+        "translated": true
+    },
+    "ENCAISSE": {
+        "message": "Cash",
+        "translated": true
+    },
+    "PREVU": {
+        "message": "Planned",
+        "translated": true
+    },
+    "REEL": {
+        "message": "Reel",
+        "translated": true
+    },
+    "QTE": {
+        "message": "QTE",
+        "translated": true
+    },
+    "M2": {
+        "message": "M2",
+        "translated": true
+    },
+    "TC": {
+        "message": "Tc",
+        "translated": true
+    },
+    "TYPO": {
+        "message": "Typo",
+        "translated": true
+    },
+    "PREV": {
+        "message": "Prev",
+        "translated": true
+    },
+    "L": {
+        "message": "L",
+        "translated": true
+    },
+    "DET": {
+        "message": "Det",
+        "translated": true
+    },
+    "ACTU": {
+        "message": "News",
+        "translated": true
+    },
+    "GLOBAL": {
+        "message": "Global",
+        "translated": true
+    },
+    "RES": {
+        "message": "Res",
+        "translated": true
+    },
+    "VEN": {
+        "message": "Fri",
+        "translated": true
+    },
+    "LIV": {
+        "message": "Liv",
+        "translated": true
+    },
+    "APP": {
+        "message": "App",
+        "translated": true
+    },
+    "ENC": {
+        "message": "Enc",
+        "translated": true
+    },
+    "Préréservé": {
+        "message": "Pre-ededated",
+        "translated": true
+    },
+    "Réservé": {
+        "message": "Booked",
+        "translated": true
+    },
+    "Loué": {
+        "message": "Rented",
+        "translated": true
+    },
+    "Vendu": {
+        "message": "Sold",
+        "translated": true
+    },
+    "Livré": {
+        "message": "Delivered",
+        "translated": true
+    },
+    "Désisté": {
+        "message": "Withdrawn",
+        "translated": true
+    },
+    "Résolu/résilié": {
+        "message": "Resolved/terminated",
+        "translated": true
+    },
+    "NON": {
+        "message": "Not",
+        "translated": true
+    },
+    "CS": {
+        "message": "Cs",
+        "translated": true
+    },
+    "CC": {
+        "message": "Cc",
+        "translated": true
+    },
+    "REALISE": {
+        "message": "REALISE",
+        "translated": true
+    },
+    "PRET": {
+        "message": "Ready",
+        "translated": true
+    },
+    "REVENTE": {
+        "message": "Resale",
+        "translated": true
+    },
+    "ACP": {
+        "message": "Acp",
+        "translated": true
+    },
+    "DEM": {
+        "message": "Dem",
+        "translated": true
+    },
+    "ACC": {
+        "message": "Acc",
+        "translated": true
+    },
+    "EMIS": {
+        "message": "Emis",
+        "translated": true
+    },
+    "OBT": {
+        "message": "OBT",
+        "translated": true
+    },
+    "FINV": {
+        "message": "FINV",
+        "translated": true
+    },
+    "F": {
+        "message": "F",
+        "translated": true
+    },
+    "technique": {
+        "message": "Technical",
+        "translated": true
+    },
+    "esthétique": {
+        "message": "Aesthetic",
+        "translated": true
+    },
+    "Demande": {
+        "message": "Application",
+        "translated": true
+    },
+    "Devis": {
+        "message": "Quote",
+        "translated": true
+    },
+    "Signé": {
+        "message": "Signed",
+        "translated": true
+    },
+    "Refusé": {
+        "message": "Refused",
+        "translated": true
+    },
+    "Annulé": {
+        "message": "Cancelled",
+        "translated": true
+    },
+    "VIR": {
+        "message": "Vir",
+        "translated": true
+    },
+    "CHQ": {
+        "message": "Chq",
+        "translated": true
+    },
+    "LIBRE": {
+        "message": "Free",
+        "translated": true
+    },
+    "mètre": {
+        "message": "Meter",
+        "translated": true
+    },
+    "m2": {
+        "message": "m2",
+        "translated": true
+    },
+    "fixe": {
+        "message": "Fixed",
+        "translated": true
+    },
+    "signature": {
+        "message": "Signature",
+        "translated": true
+    },
+    "livraison": {
+        "message": "Delivery",
+        "translated": true
+    },
+    "EVENEMENT": {
+        "message": "Event",
+        "translated": true
+    },
+    "ECHEANCE": {
+        "message": "CHEANCE",
+        "translated": true
+    },
+    "nature travaux": {
+        "message": "nature works",
+        "translated": true
+    },
+    "tranche commerciale": {
+        "message": "commercial tranche",
+        "translated": true
+    },
+    "Nord": {
+        "message": "North",
+        "translated": true
+    },
+    "Nord-Est": {
+        "message": "Northeast",
+        "translated": true
+    },
+    "Est": {
+        "message": "Is",
+        "translated": true
+    },
+    "Sud-Est": {
+        "message": "Southeast",
+        "translated": true
+    },
+    "Sud": {
+        "message": "South",
+        "translated": true
+    },
+    "Sud-Ouest": {
+        "message": "Southwest",
+        "translated": true
+    },
+    "Ouest": {
+        "message": "West",
+        "translated": true
+    },
+    "Nord-Ouest": {
+        "message": "Northwest",
+        "translated": true
+    },
+    "Nord-Sud": {
+        "message": "North-South",
+        "translated": true
+    },
+    "Est-Ouest": {
+        "message": "East-West",
+        "translated": true
+    },
+    "En stock": {
+        "message": "In stock",
+        "translated": true
+    },
+    "Optionné": {
+        "message": "Optional",
+        "translated": true
+    },
+    "Pré-réservé": {
+        "message": "Pre-booked",
+        "translated": true
+    },
+    "Lot témoin": {
+        "message": "Witness lot",
+        "translated": true
+    },
+    "ANNULE": {
+        "message": "Cancels",
+        "translated": true
+    },
+    "MORALE": {
+        "message": "Moral",
+        "translated": true
+    },
+    "PHYSIQUE": {
+        "message": "Physical",
+        "translated": true
+    },
+    "TVA classique": {
+        "message": "Classic VAT",
+        "translated": true
+    },
+    "TVA sur marge inclus": {
+        "message": "VAT on margin included",
+        "translated": true
+    },
+    "TVA sur marge non inclus": {
+        "message": "VAT on margin not included",
+        "translated": true
+    },
+    "Lots principaux": {
+        "message": "Main lots",
+        "translated": true
+    },
+    "Prix": {
+        "message": "Price",
+        "translated": true
+    },
+    "Surface": {
+        "message": "Surface",
+        "translated": true
+    },
+    "Tantième": {
+        "message": "Auntultimate",
+        "translated": true
+    },
+    "Au global": {
+        "message": "Globally",
+        "translated": true
+    },
+    "Par lot": {
+        "message": "By batch",
+        "translated": true
+    },
+    "PROCEDURE_SAVED": {
+        "message": "PROCEDURE_SAVED",
+        "translated": true
+    },
+    "OPERATION_SAVED": {
+        "message": "OPERATION_SAVED",
+        "translated": true
+    },
+    "TRANCHE_SAVED": {
+        "message": "TRANCHE_SAVED",
+        "translated": true
+    },
+    "GANTT_SAVED": {
+        "message": "GANTT_SAVED",
+        "translated": true
+    },
+    "IMPORT_OLDPLANNING": {
+        "message": "IMPORT_OLDPLANNING",
+        "translated": true
+    },
+    "DUPLICATE": {
+        "message": "Duplicate",
+        "translated": true
+    },
+    "D": {
+        "message": "D",
+        "translated": true
+    },
+    "CB": {
+        "message": "Cb",
+        "translated": true
+    },
+    "CHE": {
+        "message": "Che",
+        "translated": true
+    },
+    "ESP": {
+        "message": "Esp",
+        "translated": true
+    },
+    "DEV": {
+        "message": "Dev",
+        "translated": true
+    },
+    "SIG": {
+        "message": "Gis",
+        "translated": true
+    },
+    "REF": {
+        "message": "Ref",
+        "translated": true
+    },
+    "X": {
+        "message": "X",
+        "translated": true
+    },
+    "N": {
+        "message": "N",
+        "translated": true
+    },
+    "NE": {
+        "message": "Do",
+        "translated": true
+    },
+    "SE": {
+        "message": "SE",
+        "translated": true
+    },
+    "SO": {
+        "message": "SO",
+        "translated": true
+    },
+    "NO": {
+        "message": "№",
+        "translated": true
+    },
+    "Personne Morale": {
+        "message": "Corporation",
+        "translated": true
+    },
+    "Engagement": {
+        "message": "Commitment",
+        "translated": true
+    },
+    "Facture": {
+        "message": "Bill",
+        "translated": true
+    },
+    "Reglement": {
+        "message": "Regulation",
+        "translated": true
+    },
+    "Versement": {
+        "message": "Payment",
+        "translated": true
+    },
+    "PreEngagement": {
+        "message": "PreEngagement",
+        "translated": true
+    },
+    "DemandeVers": {
+        "message": "AskThsTover",
+        "translated": true
+    },
+    "NotifFin": {
+        "message": "NotifFin",
+        "translated": true
+    },
+    "FraisFinanciers": {
+        "message": "FreshFinanciers",
+        "translated": true
+    },
+    "Dossier résa-vente": {
+        "message": "Resa-sale file",
+        "translated": true
+    },
+    "Dépôt garantie encaissé sur compte courant": {
+        "message": "Guaranteed deposit in current account",
+        "translated": true
+    },
+    "Appel fond": {
+        "message": "Bottom appeal",
+        "translated": true
+    },
+    "Encaissement appel fond": {
+        "message": "Cashing down call",
+        "translated": true
+    },
+    "Appel fond TMA": {
+        "message": "TMA background appeal",
+        "translated": true
+    },
+    "Encaissement TMA": {
+        "message": "TMA cash",
+        "translated": true
+    },
+    "Encaissement facture recette": {
+        "message": "Cashing in revenue bill",
+        "translated": true
+    },
+    "Dation": {
+        "message": "Giving",
+        "translated": true
+    },
+    "Dation Vendu": {
+        "message": "Dation Sold",
+        "translated": true
+    },
+    "Dation Livré": {
+        "message": "Dation Delivered",
+        "translated": true
+    },
+    "Résolution vente": {
+        "message": "Sale resolution",
+        "translated": true
+    },
+    "PreEngage": {
+        "message": "PreEngage",
+        "translated": true
+    },
+    "Engage": {
+        "message": "Commits",
+        "translated": true
+    },
+    "Reglé": {
+        "message": "Reglé",
+        "translated": true
+    },
+    "Facturé": {
+        "message": "Charged",
+        "translated": true
+    },
+    "Annule": {
+        "message": "Cancels",
+        "translated": true
+    },
+    "Initial": {
+        "message": "Initial",
+        "translated": true
+    },
+    "TotalAvenant": {
+        "message": "TotalAvenant",
+        "translated": true
+    },
+    "Avenant": {
+        "message": "Amendment",
+        "translated": true
+    },
+    "Actualisation": {
+        "message": "Update",
+        "translated": true
+    },
+    "Revision": {
+        "message": "Review",
+        "translated": true
+    },
+    "RevisionInitial": {
+        "message": "RevisionInitial",
+        "translated": true
+    },
+    "TotalBrut": {
+        "message": "TotalBrut",
+        "translated": true
+    },
+    "RG": {
+        "message": "Rg",
+        "translated": true
+    },
+    "RGCouvCaution": {
+        "message": "RGCouvCaution",
+        "translated": true
+    },
+    "Prorata": {
+        "message": "Proportion",
+        "translated": true
+    },
+    "PUC": {
+        "message": "Puc",
+        "translated": true
+    },
+    "Retenu": {
+        "message": "Retained",
+        "translated": true
+    },
+    "AutreRetenu": {
+        "message": "OtherRetenu",
+        "translated": true
+    },
+    "Penalites": {
+        "message": "Penalites",
+        "translated": true
+    },
+    "IE": {
+        "message": "Ie",
+        "translated": true
+    },
+    "Avance": {
+        "message": "Advance",
+        "translated": true
+    },
+    "PenalitesDefinitives": {
+        "message": "PenalitesDefinitives",
+        "translated": true
+    },
+    "PenalitesDefTVA": {
+        "message": "PenalitesDefTVA",
+        "translated": true
+    },
+    "TotalNet": {
+        "message": "TotalNet",
+        "translated": true
+    },
+    "TotalAPayer": {
+        "message": "TotalAPayer",
+        "translated": true
+    },
+    "SousTraitants": {
+        "message": "Subcontractors",
+        "translated": true
+    },
+    "Prospection": {
+        "message": "Prospecting",
+        "translated": true
+    },
+    "En étude": {
+        "message": "Under study",
+        "translated": true
+    },
+    "En Cours": {
+        "message": "In Cours",
+        "translated": true
+    },
+    "Achevé": {
+        "message": "Completed",
+        "translated": true
+    },
+    "Archivé": {
+        "message": "Archived",
+        "translated": true
+    },
+    "Abandonné": {
+        "message": "Abandoned",
+        "translated": true
+    },
+    "string": {
+        "message": "String",
+        "translated": true
+    },
+    "integer": {
+        "message": "Integer",
+        "translated": true
+    },
+    "number": {
+        "message": "number",
+        "translated": true
+    },
+    "boolean": {
+        "message": "Boolean",
+        "translated": true
+    },
+    "date": {
+        "message": "Date",
+        "translated": true
+    },
+    "date-time": {
+        "message": "date-time",
+        "translated": true
+    },
+    "rate": {
+        "message": "spleen",
+        "translated": true
+    },
+    "money": {
+        "message": "Money",
+        "translated": true
+    },
+    "Opération": {
+        "message": "Operation",
+        "translated": true
+    },
+    "Travaux": {
+        "message": "Work",
+        "translated": true
+    },
+    "Commerciale": {
+        "message": "Commercial",
+        "translated": true
+    },
+    "taux normal": {
+        "message": "normal rate",
+        "translated": true
+    },
+    "taux intermédiaire": {
+        "message": "intermediate rate",
+        "translated": true
+    },
+    "taux réduit": {
+        "message": "reduced rate",
+        "translated": true
+    },
+    "Actif": {
+        "message": "Active",
+        "translated": true
+    },
+    "Inactif": {
+        "message": "Inactive",
+        "translated": true
+    },
+    "Fournisseur": {
+        "message": "Supplier",
+        "translated": true
+    },
+    "Client": {
+        "message": "Client",
+        "translated": true
+    },
+    "Banque": {
+        "message": "Bank",
+        "translated": true
+    },
+    "Société": {
+        "message": "Company",
+        "translated": true
+    },
+    "Simulation": {
+        "message": "Simulation",
+        "translated": true
+    },
+    "Actualisé": {
+        "message": "Updated",
+        "translated": true
+    },
+    "Simulation Favorite": {
+        "message": "Simulation Favorite",
+        "translated": true
+    },
+    "Comité d'engagement": {
+        "message": "Commitment Committee",
+        "translated": true
+    },
+    "Comité PC": {
+        "message": "PC Committee",
+        "translated": true
+    },
+    "{Non renseigné}": {
+        "message": "'Uninformed'",
+        "translated": true
+    },
+    "ADDED": {
+        "message": "ADDED",
+        "translated": true
+    },
+    "MODIFIED": {
+        "message": "MODIFIED",
+        "translated": true
+    },
+    "DELETED": {
+        "message": "Deleted",
+        "translated": true
+    },
+    "Avancement des tranches commerciales": {
+        "message": "Advancement of trade tranches",
+        "translated": true
+    },
+    "Types de commercialisation": {
+        "message": "Types of marketing",
+        "translated": true
+    },
+    "Type opération": {
+        "message": "Operation type",
+        "translated": true
+    },
+    "Type version opération": {
+        "message": "Type version operation",
+        "translated": true
+    },
+    "La catégorie {{0}} n'existe pas dans les codifications disponibles": {
+        "message": "The '{0}' category does not exist in the available codifications",
+        "translated": true
+    },
+    "Aucun code ou libellé n'a pu être reçu pour la codification avec le numéro d'ordre <{{0}}>": {
+        "message": "No code or wording could be received for coding with the order number {0}",
+        "translated": true
+    },
+    "Code <{{0}}> non valide, caractères acceptés : lettre majuscule, chiffre et _": {
+        "message": "Code {0} invalid, accepted characters: capital letter, number and",
+        "translated": true
+    },
+    "Il n'y a pas de lots à grouper": {
+        "message": "There are no lots to group",
+        "translated": true
+    },
+    "Il n'y a pas de lots à dégrouper": {
+        "message": "There are no lots to unbundle",
+        "translated": true
+    },
+    "Paramètre groupement obligatoire": {
+        "message": "Mandatory grouping setting",
+        "translated": true
+    },
+    "Il n'y a pas de lots à la vente en bloc": {
+        "message": "There are no lots for bulk sale",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{numLot}} pour l'option en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+        "message": "The information in the numbered lot 'numLot' for the current option could not be read. Its management price cannot be discounted.",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{numeroLot}} pour la réservation en cours n'ont pu être lues. Son prix de gestion ne peut être actualisé.": {
+        "message": "The information of the numbered lot for the current booking could not be read. Its management price cannot be discounted.",
+        "translated": true
+    },
+    "Les informations du lot de numéro {{0}} pour la réservation en cours n'ont pu être lues": {
+        "message": "The information in the '{0}' lot for the current booking could not be read",
+        "translated": true
+    },
+    "Il existe plusieurs réservations en cours pour le lot de numéro {{0}}.": {
+        "message": "There are several reservations in progress for the '{0}' number.",
+        "translated": true
+    },
+    "Les informations du lot numéroté {{0}} pour la réservation en cours n'ont pu être lues.": {
+        "message": "The information of the numbered lot '{0}' for the current booking could not be read.",
+        "translated": true
+    },
+    "Les informations du lot de numéro {{0}} pour l'option en cours n'ont pu être lues": {
+        "message": "The information in the '{0}' lot for the current option could not be read",
+        "translated": true
+    },
+    "Il est impossible de lire l'option en cours pour le lot de numéro {{0}}.": {
+        "message": "It is impossible to read the current option for the '{0}' lot.",
+        "translated": true
+    },
+    "Il existe plusieurs options en cours pour le lot de numéro {{0}}.": {
+        "message": "There are several options in progress for the '{0}' lot.",
+        "translated": true
+    },
+    "Le numéro de lot est obligatoire, veuillez renseigner un numéro de lot": {
+        "message": "The lot number is mandatory, please provide a lot number",
+        "translated": true
+    },
+    "Le code de lot est obligatoire, veuillez renseigner un code de lot": {
+        "message": "Lot code is mandatory, please provide a lot code",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la réception du lot": {
+        "message": "Delivery cannot predate the receipt of the lot",
+        "translated": true
+    },
+    "La réception ne peut être antérieure à l'achèvement du lot": {
+        "message": "The reception may not predate the completion of the lot",
+        "translated": true
+    },
+    "Le lot n'est pas en stock.": {
+        "message": "The lot is not in stock.",
+        "translated": true
+    },
+    "Il y a moins de 2 lots sélectionnés pour le groupement": {
+        "message": "There are less than 2 lots selected for the grouping",
+        "translated": true
+    },
+    "Tous les lots n'appartiennent pas au même groupement": {
+        "message": "Not all lots belong to the same grouping",
+        "translated": true
+    },
+    "Tous les lots à grouper n'appartiennent pas à la même tranche commerciale": {
+        "message": "Not all batches to be grouped belong to the same commercial tranche",
+        "translated": true
+    },
+    "Le numéro de lot {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+        "message": "The lot number '{0}' already exists for another lot. Please enter a different lot number.",
+        "translated": true
+    },
+    "Le numéro de copropriété {{0}} existe déjà pour un autre lot. Veuillez saisir un numéro de lot différent.": {
+        "message": "The condominium number '{0}' already exists for another lot. Please enter a different lot number.",
+        "translated": true
+    },
+    "Verrouillage de lot n° {{0}}": {
+        "message": "Lot lock no.{0}",
+        "translated": true
+    },
+    "Impossible de verrouiller lot n° {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "It is not possible to lock lot no.{0}, it is already in use elsewhere.",
+        "translated": true
+    },
+    "Lots manquants": {
+        "message": "Missing lots",
+        "translated": true
+    },
+    "Le lot {{0}} n'est pas en option": {
+        "message": "The '{0}' lot is not optional",
+        "translated": true
+    },
+    "Impossible d`annuler plusieurs options en même temps": {
+        "message": "Can't cancel multiple options at the same time",
+        "translated": true
+    },
+    "La date d'annulation ne peut être supérieure à la date du jour": {
+        "message": "The cancellation date may not be higher than the date of the day",
+        "translated": true
+    },
+    "La date d'annulation ne peut être antérieure à la date de pose d'option": {
+        "message": "The cancellation date may not be prior to the option date",
+        "translated": true
+    },
+    "multiple": {
+        "message": "Multiple",
+        "translated": true
+    },
+    "Dates": {
+        "message": "Dates",
+        "translated": true
+    },
+    "Réservation": {
+        "message": "Reservation",
+        "translated": true
+    },
+    "Réalisée": {
+        "message": "Carried out",
+        "translated": true
+    },
+    "Envoi du contrat": {
+        "message": "Sending the contract",
+        "translated": true
+    },
+    "Vente": {
+        "message": "Sale",
+        "translated": true
+    },
+    "Désistement": {
+        "message": "Discontinuance",
+        "translated": true
+    },
+    "Résolution": {
+        "message": "Resolution",
+        "translated": true
+    },
+    "Livraison": {
+        "message": "Delivery",
+        "translated": true
+    },
+    "Total prix commercial TTC": {
+        "message": "Total TTC commercial price",
+        "translated": true
+    },
+    "Total prix commercial HT": {
+        "message": "Total commercial price HT",
+        "translated": true
+    },
+    "Total montant Dation TTC": {
+        "message": "Total amount Dation TTC",
+        "translated": true
+    },
+    "Total montant Dation HT": {
+        "message": "Total amount Dation HT",
+        "translated": true
+    },
+    "Montant TTC": {
+        "message": "Amount TTC",
+        "translated": true
+    },
+    "Montant HT": {
+        "message": "Amount HT",
+        "translated": true
+    },
+    "Aucune échéance": {
+        "message": "No deadline",
+        "translated": true
+    },
+    "Apport personnel": {
+        "message": "Personal contribution",
+        "translated": true
+    },
+    "Prêt bancaire  {{0}}": {
+        "message": "Bank loan '{0}'",
+        "translated": true
+    },
+    "Revente": {
+        "message": "Resale",
+        "translated": true
+    },
+    "Aucun financement": {
+        "message": "No funding",
+        "translated": true
+    },
+    "Aucun vendeur": {
+        "message": "No seller",
+        "translated": true
+    },
+    "Compte client": {
+        "message": "Customer account",
+        "translated": true
+    },
+    "Total dossier client TTC": {
+        "message": "Total TTC customer file",
+        "translated": true
+    },
+    "Total dossier client HT": {
+        "message": "Total customer file HT",
+        "translated": true
+    },
+    "Montant appelé TTC": {
+        "message": "Amount called TTC",
+        "translated": true
+    },
+    "Montant appelé HT": {
+        "message": "Amount called HT",
+        "translated": true
+    },
+    "Montant encaissé TTC": {
+        "message": "Amount cashed TTC",
+        "translated": true
+    },
+    "Montant encaissé HT": {
+        "message": "Amount cashed HT",
+        "translated": true
+    },
+    "Solde à régler TTC": {
+        "message": "Balance to be paid TTC",
+        "translated": true
+    },
+    "Solde à régler HT": {
+        "message": "Balance to be paid HT",
+        "translated": true
+    },
+    "Imposible de supprimer cet objet car il est utilisé dans \"{{0}}\".": {
+        "message": "It is impossible to remove this object because it is used in \"{0}.\"",
+        "translated": true
+    },
+    "Toutes": {
+        "message": "All",
+        "translated": true
+    },
+    "Le champ {{0}} est obligatoire": {
+        "message": "The '{0}' field is mandatory",
+        "translated": true
+    },
+    "Inconnu": {
+        "message": "Unknown",
+        "translated": true
+    },
+    "Vous essayez de modifier un objet de type \"{{0}}\" qui à été modifié par un autre utilisateur.": {
+        "message": "You're trying to change an object like \"{0}\" that has been modified by another user.",
+        "translated": true
+    },
+    "123 {{0}} 56 {{1}}{{0}}": {
+        "message": "123 {{0}} 56 {{1}}{{0}}",
+        "translated": true
+    },
+    "123 {{one}} 56 {{two}}{{one}}": {
+        "message": "123 'one' 56 'two'",
+        "translated": true
+    },
+    "Reprise terminé : {{0}} tiers en {{1}} secondes": {
+        "message": "Complete recovery: '{0}' third in '{1}' seconds",
+        "translated": true
+    },
+    "Vous devez être un administrateur pour gérer les verrous": {
+        "message": "You must be an administrator to manage the locks",
+        "translated": true
+    },
+    "Mise à zéro des affectations budgetaires ...": {
+        "message": "Zeroing budget allocations ...",
+        "translated": true
+    },
+    "Recalcul affectations budgetaires ...": {
+        "message": "Recalculation budget allocations ...",
+        "translated": true
+    },
+    "Le dossier {{0}} n'a pas des acquereurs.": {
+        "message": "The '{0}' file does not have acquirers.",
+        "translated": true
+    },
+    "La \"{{0}}\" tranche n'existe pas.": {
+        "message": "There is no such thing as a \"{0}\" slice.",
+        "translated": true
+    },
+    "Impossible d'enregistrer l'impact budgétaire pour l'encaissement \"{{0}}\".": {
+        "message": "It is impossible to record the budgetary impact for the \"{0}\" collection.",
+        "translated": true
+    },
+    "Impossible d'enregistrer l'impact budgétaire pour le dossier \"{{0}}\".": {
+        "message": "It is impossible to record the budgetary impact on the \"{0}\" file.",
+        "translated": true
+    },
+    "La tranche commerciale {{0}} n'existe pas": {
+        "message": "The '{0}' trade bracket does not exist",
+        "translated": true
+    },
+    "Aucun libellé n'a été reçu pour l'aide à la vente": {
+        "message": "No wording was received for sales assistance",
+        "translated": true
+    },
+    "Aucun code n'a pu être attribué à la codification": {
+        "message": "No code could be attributed to the coding",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de l'aide à la vente est déjà utilisé": {
+        "message": "The wording 'libelle' of the aid for sale is already used",
+        "translated": true
+    },
+    "Le code {{code}} de l'aide à la vente est déjà utilisé": {
+        "message": "The 'code' for sales aid is already used",
+        "translated": true
+    },
+    "Le montant d'aide à la vente doit être positif pour l'aide libellée {{libelle}}": {
+        "message": "The amount of sales aid must be positive for the aid denominated 'libelle'",
+        "translated": true
+    },
+    "Les aides 'Frais de notaire' sont définies pour l'ensemble des lots du dossier": {
+        "message": "'Notary's Fees' aids are set for all lots in the file",
+        "translated": true
+    },
+    "Pour les aides '{{libelle}}' il faut saisir le Montant TTC max ou le % Offert max": {
+        "message": "For 'libelle' aids, the maximum TTC amount or the % Offered max must be entered.",
+        "translated": true
+    },
+    "L'aide 'Echéancier aménagé' est définie pour chaque lot du dossier": {
+        "message": "The 'Arranged SchoolIng' aid is defined for each batch of the file",
+        "translated": true
+    },
+    "Les aides 'Frais de notaire' et 'Echéancier aménagé' ne peuvent pas être supprimées": {
+        "message": "'Notary's Fee' and 'Managed Case' can't be removed",
+        "translated": true
+    },
+    "Cette aide est utilisée. Elle ne peut être supprimée": {
+        "message": "This aid is used. It cannot be removed",
+        "translated": true
+    },
+    "Aide à la vente {{0}} non trouvé": {
+        "message": "'{0}' sales assistance not found",
+        "translated": true
+    },
+    "Aide à la vente non trouvée": {
+        "message": "Sales aid not found",
+        "translated": true
+    },
+    "L'aide à la vente n'est pas définie": {
+        "message": "Sales aid is not defined",
+        "translated": true
+    },
+    "La tranche commerciale n'est pas définie pour l'aide {{0}}": {
+        "message": "The trade bracket is not set for '{0}' aid",
+        "translated": true
+    },
+    "Le montant de l'aide {{0}} doit être positif": {
+        "message": "The amount of aid '{0}' must be positive",
+        "translated": true
+    },
+    "La TVA de l'aide {{0}} ne peut pas être négative": {
+        "message": "The VAT on aid '{0}' cannot be negative",
+        "translated": true
+    },
+    "La fin de la validité de l'aide à la vente {{0}} doit être postérieure au début": {
+        "message": "The end of the validity of the '{0}' sales aid must be after the beginning of the",
+        "translated": true
+    },
+    "Impossible de vérifier si cette aide est utilisée. Elle ne peut être supprimée": {
+        "message": "It is impossible to verify whether this aid is being used. It cannot be removed",
+        "translated": true
+    },
+    "Cette aide est utilisée dans des ventes. Elle ne peut être supprimée": {
+        "message": "This aid is used in sales. It cannot be removed",
+        "translated": true
+    },
+    "Merci d'indiquer la tranche commerciale ou le code opération": {
+        "message": "Please indicate the trade tranche or transaction code",
+        "translated": true
+    },
+    "La tranche {{tranche}} n'existe pas": {
+        "message": "The 'slice' slice does not exist",
+        "translated": true
+    },
+    "L'opération {{0}} n'a pas de tranches commerciales": {
+        "message": "The '{0}' transaction has no commercial tranches",
+        "translated": true
+    },
+    "La tranche commerciale {{0}} n'appartient pas à l'opération {{1}}": {
+        "message": "The '{0}' trade bracket does not belong to the '{1}' transaction",
+        "translated": true
+    },
+    "Le champ \"{{0}}\" est obligatoire.": {
+        "message": "The field \"{0}\" is mandatory.",
+        "translated": true
+    },
+    "La référence du dossier client doit être indiquée.": {
+        "message": "The reference of the customer file must be indicated.",
+        "translated": true
+    },
+    "Le dossier client référence {{0}} n'existe pas.": {
+        "message": "The reference customer file '{0}' does not exist.",
+        "translated": true
+    },
+    "La référence du tiers doit être indiquée.": {
+        "message": "The third party's reference must be indicated.",
+        "translated": true
+    },
+    "Le tiers référence {{0}} n'existe pas.": {
+        "message": "The third reference '{0}' does not exist.",
+        "translated": true
+    },
+    "L'échéance référence {{0}} n'existe pas dans les TMA.": {
+        "message": "The reference '{0}' deadline does not exist in ADTs.",
+        "translated": true
+    },
+    "L'échéance référence {{0}} n'existe pas dans le dossier de vente.": {
+        "message": "The reference deadline '{0}' does not exist in the sales file.",
+        "translated": true
+    },
+    "Code opération manquant": {
+        "message": "Missing operation code",
+        "translated": true
+    },
+    "L'op opération \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" op does not exist.",
+        "translated": true
+    },
+    "Avant de pouvoir supprimer un appel de fond, vous devez au préalable supprimer tous les encaissements lui étant liés.": {
+        "message": "Before you can delete a background call, you must first delete all cashouts related to it.",
+        "translated": true
+    },
+    "Attention statut ne devrait pas être encaissé": {
+        "message": "Attention status should not be cashed",
+        "translated": true
+    },
+    "Il est impossible de lancer la facturation sur l'échéance {{0}}. Cette facturation a déjà été lancée": {
+        "message": "It is not possible to start billing on the '{0}' deadline. This billing has already been launched",
+        "translated": true
+    },
+    "Impossible de trouver la tranche commerciale de l'appel de fonds {{0}}": {
+        "message": "Can't find the commercial portion of the '{0}' fund appeal",
+        "translated": true
+    },
+    "Un plan de compte compatible n'a pas été trouvé": {
+        "message": "A compatible account plan has not been found",
+        "translated": true
+    },
+    "La date est obligatoire": {
+        "message": "The date is mandatory",
+        "translated": true
+    },
+    "La version est obligatoire": {
+        "message": "The version is mandatory",
+        "translated": true
+    },
+    "Le budget est obligatoire": {
+        "message": "The budget is mandatory",
+        "translated": true
+    },
+    "La tranche {{0}} est comptabilisée, vous ne pouvez pas supprimer sa date d'achèvement": {
+        "message": "The '{0}' bracket is counted, you can't delete its completion date",
+        "translated": true
+    },
+    "Code FNP is missing": {
+        "message": "Code FNP is missing",
+        "translated": true
+    },
+    "Il n'existe pas un FNP pour ce code": {
+        "message": "There is no NPF for this code",
+        "translated": true
+    },
+    "Tranche Commerciale": {
+        "message": "Commercial slice",
+        "translated": true
+    },
+    "Dossier de vente": {
+        "message": "Sales file",
+        "translated": true
+    },
+    "Lot": {
+        "message": "Lot",
+        "translated": true
+    },
+    "Invalid init params.": {
+        "message": "Invalid initiates params.",
+        "translated": true
+    },
+    "lots": {
+        "message": "Lots",
+        "translated": true
+    },
+    "Le code opération \"{{0}}\" est incorrect": {
+        "message": "The operation code \"{0}\" is incorrect",
+        "translated": true
+    },
+    "La date OS n'est pas renseigné.": {
+        "message": "The OS date is not informed.",
+        "translated": true
+    },
+    "secondaires": {
+        "message": "Secondary",
+        "translated": true
+    },
+    "principaux": {
+        "message": "Main",
+        "translated": true
+    },
+    "L'opération {{0}} n'existe pas": {
+        "message": "The '{0}' operation does not exist",
+        "translated": true
+    },
+    "Erreur dans l'actualisation de la commercialisation": {
+        "message": "Error in updating marketing",
+        "translated": true
+    },
+    "Le lot {{0}} n'existe pas dans la tranche {{1}}": {
+        "message": "The '{0}' lot does not exist in the '{1}' bracket",
+        "translated": true
+    },
+    "L'opération {{0}} n'a pas des tranches commerciales.": {
+        "message": "The '{0}' transaction does not have commercial tranches.",
+        "translated": true
+    },
+    "Pas de correspondence pour la tranche {{0}}": {
+        "message": "No correspondence for the '{0}' slice",
+        "translated": true
+    },
+    "Pas de correspondence pour la tranche travaux{{0}}": {
+        "message": "No correspondence for the work-{0} tranche",
+        "translated": true
+    },
+    "Id du container introuvable": {
+        "message": "Id of the container not found",
+        "translated": true
+    },
+    "Id du view model principal introuvable": {
+        "message": "Id of the main view model not found",
+        "translated": true
+    },
+    "Id de la ligne de la cellule sélectionnée introuvable": {
+        "message": "Id of the line of the selected cell not found",
+        "translated": true
+    },
+    "Id de la cellule sélectionnée container introuvable": {
+        "message": "Id of the selected container cell not found",
+        "translated": true
+    },
+    "Impossible de retrouver le container principal": {
+        "message": "Can't find the main container",
+        "translated": true
+    },
+    "Impossible de retrouver le view model principal": {
+        "message": "Can't find the main view model",
+        "translated": true
+    },
+    "janv.": {
+        "message": "Jan.",
+        "translated": true
+    },
+    "févr.": {
+        "message": "Feb.",
+        "translated": true
+    },
+    "mars": {
+        "message": "March",
+        "translated": true
+    },
+    "avril": {
+        "message": "April",
+        "translated": true
+    },
+    "mai": {
+        "message": "May",
+        "translated": true
+    },
+    "juin": {
+        "message": "June",
+        "translated": true
+    },
+    "juil.": {
+        "message": "Jul.",
+        "translated": true
+    },
+    "août": {
+        "message": "August",
+        "translated": true
+    },
+    "sept.": {
+        "message": "Seven.",
+        "translated": true
+    },
+    "oct.": {
+        "message": "Oct.",
+        "translated": true
+    },
+    "nov.": {
+        "message": "Nov.",
+        "translated": true
+    },
+    "déc.": {
+        "message": "Dec.",
+        "translated": true
+    },
+    "Tranche travaux": {
+        "message": "Slice works",
+        "translated": true
+    },
+    "Tranche commerciale": {
+        "message": "Commercial slice",
+        "translated": true
+    },
+    "Stade": {
+        "message": "Stage",
+        "translated": true
+    },
+    "% appelé": {
+        "message": "% called",
+        "translated": true
+    },
+    "% cumulé": {
+        "message": "% cumulative",
+        "translated": true
+    },
+    "Prévisionnel": {
+        "message": "Forecast",
+        "translated": true
+    },
+    "Réservés": {
+        "message": "Reserved",
+        "translated": true
+    },
+    "Réservations à acter": {
+        "message": "Bookings to act",
+        "translated": true
+    },
+    "Vendus": {
+        "message": "Sold",
+        "translated": true
+    },
+    "Livrés": {
+        "message": "Delivered",
+        "translated": true
+    },
+    "Appelés": {
+        "message": "Called",
+        "translated": true
+    },
+    "Encaissés": {
+        "message": "Cashed",
+        "translated": true
+    },
+    "Impossible de charger la codification {{0}}": {
+        "message": "Can't load the '{0}' coding",
+        "translated": true
+    },
+    "Impossible de charger la codif {{0}} de la catégorie {{1}}": {
+        "message": "Can't load the '{0}' codif of the '{1}' category",
+        "translated": true
+    },
+    "Option": {
+        "message": "Option",
+        "translated": true
+    },
+    "Ajouter": {
+        "message": "Add",
+        "translated": true
+    },
+    "Soustraire": {
+        "message": "Subtract",
+        "translated": true
+    },
+    "Multiplier": {
+        "message": "Multiply",
+        "translated": true
+    },
+    "Diviser": {
+        "message": "Divide",
+        "translated": true
+    },
+    "Remplacer": {
+        "message": "Replace",
+        "translated": true
+    },
+    " ": {
+        "message": " ",
+        "translated": true
+    },
+    "%": {
+        "message": "%",
+        "translated": true
+    },
+    "Compte courant": {
+        "message": "Current account",
+        "translated": true
+    },
+    "Compte de dépôt": {
+        "message": "Deposit account",
+        "translated": true
+    },
+    "Compte séquestre": {
+        "message": "Receiver account",
+        "translated": true
+    },
+    "Technique": {
+        "message": "Technical",
+        "translated": true
+    },
+    "Esthétique": {
+        "message": "Aesthetic",
+        "translated": true
+    },
+    "Fixe": {
+        "message": "Fixed",
+        "translated": true
+    },
+    "Signature": {
+        "message": "Signature",
+        "translated": true
+    },
+    "Oui": {
+        "message": "Yes",
+        "translated": true
+    },
+    "Non": {
+        "message": "Not",
+        "translated": true
+    },
+    "Chèque": {
+        "message": "Check",
+        "translated": true
+    },
+    "Espèces": {
+        "message": "Species",
+        "translated": true
+    },
+    "Carte paiement": {
+        "message": "Payment card",
+        "translated": true
+    },
+    "Virement bancaire": {
+        "message": "Bank transfer",
+        "translated": true
+    },
+    "Impossible de créer les écritures du dossier de réservation/vente": {
+        "message": "Can't create the entries in the booking/sale folder",
+        "translated": true
+    },
+    "Impossible de créer les écritures de {{0}} encaissement(s)": {
+        "message": "Can't create '{0}' cashing entries",
+        "translated": true
+    },
+    "Impossible de créer les écritures de {{0}} TMA": {
+        "message": "Can't create the '{0}' TMA entries",
+        "translated": true
+    },
+    "Impossible de retrouver la pièce comptable": {
+        "message": "Can't find the accounting room",
+        "translated": true
+    },
+    "L'opération {{0}} n'existe pas.": {
+        "message": "The '{0}' operation does not exist.",
+        "translated": true
+    },
+    "La société {{0}} n'existe pas.": {
+        "message": "The '{0}' company does not exist.",
+        "translated": true
+    },
+    "TMA hors acte vente": {
+        "message": "TMA non-deed sale",
+        "translated": true
+    },
+    "Total": {
+        "message": "Total",
+        "translated": true
+    },
+    "Le dossier portant l'id \"{{0}}\" n'existe pas.": {
+        "message": "The file with the id \"{0}\" does not exist.",
+        "translated": true
+    },
+    "Vous devez obligatoirement choisir un dossier ou un acquereur afin d'afficher le compte client.": {
+        "message": "You must choose a folder or a purchaser in order to view the customer account.",
+        "translated": true
+    },
+    "Totaux": {
+        "message": "Total",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'opération n'existe pas": {
+        "message": "The transaction's '{0}' accounting reference does not exist",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'opération référence plusieurs opérations": {
+        "message": "The accounting reference \"{0}\" of the transaction refers to several transactions",
+        "translated": true
+    },
+    "L'opération « {{0}} » n'existe pas": {
+        "message": "The '{0}' operation does not exist",
+        "translated": true
+    },
+    "Compte bancaire {{0}}": {
+        "message": "Bank account '{0}'",
+        "translated": true
+    },
+    "Le code comptable est obligatoire": {
+        "message": "The accounting code is mandatory",
+        "translated": true
+    },
+    "Le code journal est obligatoire": {
+        "message": "The log code is mandatory",
+        "translated": true
+    },
+    "Le code journal « {{0}} » n'existe pas": {
+        "message": "The log code \"{0}\" does not exist",
+        "translated": true
+    },
+    "Le code journal de réaffectation est obligatoire": {
+        "message": "The reassignment log code is mandatory",
+        "translated": true
+    },
+    "Le code journal de réaffectation « {{0}} » n'existe pas": {
+        "message": "The \"{0}\" reassignment log code does not exist",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas": {
+        "message": "The \"{0}\" trade bracket does not exist",
+        "translated": true
+    },
+    "Le budget de l'opération « {{0}} » n'existe pas": {
+        "message": "The budget for the '{0}' operation does not exist",
+        "translated": true
+    },
+    "Aucun acquéreur n'a été attribué au dossier client « {{0}} »": {
+        "message": "No purchasers were assigned to the '{0}' client file.",
+        "translated": true
+    },
+    "Aucun lot n'a été attribué au dossier client « {{0}} »": {
+        "message": "No batches have been allocated to the '{0}' customer file.",
+        "translated": true
+    },
+    "Le lot « {{0}} » n'est pas en stock": {
+        "message": "The '{0}' lot is not in stock",
+        "translated": true
+    },
+    "La tranche commerciale « {{0}} » n'existe pas": {
+        "message": "The '{0}' trade bracket does not exist",
+        "translated": true
+    },
+    "La tranche commerciale du lot « {{0}} » n'est pas commercialisée": {
+        "message": "The commercial slice of the '{0}' lot is not marketed",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'acquéreur n'existe pas": {
+        "message": "The purchaser's \"{0}\" accounting reference does not exist",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'acquéreur référence plusieurs tiers": {
+        "message": "The purchaser's \"{0}\" accounting reference refers to several third parties",
+        "translated": true
+    },
+    "Le tiers « {{0}} » n'existe pas": {
+        "message": "The third \"{0}\" does not exist",
+        "translated": true
+    },
+    "La quotité totale des acquéreurs doit être égale à 100": {
+        "message": "The total quotity of the purchasers must be equal to 100",
+        "translated": true
+    },
+    "Le lot « {{0}} » n'a pas été trouvé": {
+        "message": "The batch '{0}' has not been found",
+        "translated": true
+    },
+    "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} » en TVA sur marge": {
+        "message": "Inconsistency in the HT-TVA-TTC formula of the '{0}' lot in VAT on margin",
+        "translated": true
+    },
+    "Incohérence dans la formule HT+TVA=TTC du lot « {{0}} »": {
+        "message": "Inconsistency in the HT-TVA-TTC formula of the \"{0}\" lot",
+        "translated": true
+    },
+    "La référence de l'acquéreur doit être précisé sur le dépôt de garantie": {
+        "message": "The buyer's reference must be specified on the security deposit",
+        "translated": true
+    },
+    "Le tiers « {{0}} » n'est pas un acquéreur du dossier": {
+        "message": "The third party \"{0}\" is not a purchaser of the file",
+        "translated": true
+    },
+    "Echéances : le lot « {{0}} » n'est pas un lot du dossier": {
+        "message": "Dates: the '{0}' lot is not a lot of the record",
+        "translated": true
+    },
+    "Echéances : l'échéance type « {{0}} » n'existe pas": {
+        "message": "Deadlines: The standard '{0}' deadline does not exist",
+        "translated": true
+    },
+    "Echéances : le code évènement « {{0}} » n'existe pas pour la nature travaux du lot concerné (code nature « {{1}} »)": {
+        "message": "Dates: The event code \"{0}\" does not exist for the nature of the works of the lot concerned (nature code \"{1}\")",
+        "translated": true
+    },
+    "Aides à la vente : il est nécessaire d'indiquer soit la tranche commerciale, soit le lot concerné": {
+        "message": "Sales aid: it is necessary to indicate either the commercial tranche or the lot concerned",
+        "translated": true
+    },
+    "Aides à la vente : le lot « {{0}} » n'est pas un lot du dossier": {
+        "message": "Sales aid: the '{0}' lot is not a lot of the file",
+        "translated": true
+    },
+    "Aides à la vente : la tranche « {{0}} » n'est pas celle du lot « {{1}} »": {
+        "message": "Sales aid: the '{0}' slice is not that of the '{1}' lot",
+        "translated": true
+    },
+    "Aides à la vente : la tranche « {{0}} » ne correspond pas aux lots du dossier": {
+        "message": "Sales aid: the '{0}' instalment does not correspond to the lots in the file",
+        "translated": true
+    },
+    "Aides à la vente : l'aide « {{0}} » n'est pas paramétrée sur la tranche commerciale « {{1}} »": {
+        "message": "Sales aid: '{0}' aid is not set up on the '{1}' trade bracket",
+        "translated": true
+    },
+    "Le changement d'opération n'est pas autorisé.": {
+        "message": "The change of operation is not allowed.",
+        "translated": true
+    },
+    "Afin de pouvoir annuler votre vente, vous devez au préalable supprimer tous les appels de fonds étant liés à votre dossier ainsi que les encaissements liés à ces appels de fonds.": {
+        "message": "In order to cancel your sale, you must first delete all calls for funds related to your file as well as the cash receipts related to these calls for funds.",
+        "translated": true
+    },
+    "Afin de pouvoir annuler votre vente, vous devez au préalable annuler tous les TMAs étant liés à votre dossier.": {
+        "message": "In order to cancel your sale, you must first cancel all TMAs related to your file.",
+        "translated": true
+    },
+    "Merci d'indiquer l'opération": {
+        "message": "Please indicate the operation",
+        "translated": true
+    },
+    "L'opération n'existe pas.": {
+        "message": "The operation does not exist.",
+        "translated": true
+    },
+    "Choisir un modèle": {
+        "message": "Choosing a model",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer ce niveau car il est lié à un classeur ayant des opérations actives.": {
+        "message": "You can't delete this level because it's linked to a binder with active operations.",
+        "translated": true
+    },
+    "Opérations": {
+        "message": "Operations",
+        "translated": true
+    },
+    "Marché Commande Facturation": {
+        "message": "Billing Order Market",
+        "translated": true
+    },
+    "Recettes": {
+        "message": "Recipes",
+        "translated": true
+    },
+    "Dossier Financement": {
+        "message": "Funding file",
+        "translated": true
+    },
+    "Paramétrage": {
+        "message": "Setting",
+        "translated": true
+    },
+    "Tiers": {
+        "message": "Third",
+        "translated": true
+    },
+    "Dossier opération": {
+        "message": "Operation file",
+        "translated": true
+    },
+    "Version": {
+        "message": "Version",
+        "translated": true
+    },
+    "Suivi Dossier": {
+        "message": "Tracking File",
+        "translated": true
+    },
+    "Planning": {
+        "message": "Planning",
+        "translated": true
+    },
+    "Acteurs": {
+        "message": "Actors",
+        "translated": true
+    },
+    "Budget": {
+        "message": "Budget",
+        "translated": true
+    },
+    "Suivi budgétaire": {
+        "message": "Budget tracking",
+        "translated": true
+    },
+    "Commercialisation": {
+        "message": "Marketing",
+        "translated": true
+    },
+    "Trésorerie": {
+        "message": "Cash",
+        "translated": true
+    },
+    "Dossier Société": {
+        "message": "Company file",
+        "translated": true
+    },
+    "Exercice et clôture": {
+        "message": "Exercise and closing",
+        "translated": true
+    },
+    "Périmètre": {
+        "message": "Perimeter",
+        "translated": true
+    },
+    "Frais financiers": {
+        "message": "Financial expenses",
+        "translated": true
+    },
+    "Validation export comptable": {
+        "message": "Accounting export validation",
+        "translated": true
+    },
+    "Flux financiers": {
+        "message": "Financial flows",
+        "translated": true
+    },
+    "Comptes bancaires": {
+        "message": "Bank accounts",
+        "translated": true
+    },
+    "Changement de société d'une opération": {
+        "message": "Change of company from a transaction",
+        "translated": true
+    },
+    "Passage d'une opération du statut lancé au statut achevé": {
+        "message": "Switching from a status operation launched to a complete status",
+        "translated": true
+    },
+    "Opération en cours terminé": {
+        "message": "Operation in progress completed",
+        "translated": true
+    },
+    "Inventaire achèvement": {
+        "message": "Completion inventory",
+        "translated": true
+    },
+    "Modification marge": {
+        "message": "Margin change",
+        "translated": true
+    },
+    "Inventaire avancement anticipation recette": {
+        "message": "Inventory advancement anticipation recipe",
+        "translated": true
+    },
+    "Inventaire avancement FNP en cours": {
+        "message": "Inventory progress FNP in progress",
+        "translated": true
+    },
+    "Inventaire avancement calcul périodique": {
+        "message": "Inventory advancement periodic calculation",
+        "translated": true
+    },
+    "Bon de commande": {
+        "message": "Order order",
+        "translated": true
+    },
+    "Avenant Bon de commande": {
+        "message": "Agreeing Order",
+        "translated": true
+    },
+    "Marché": {
+        "message": "Market",
+        "translated": true
+    },
+    "Marché TCE": {
+        "message": "TCE Market",
+        "translated": true
+    },
+    "Marché à bon de commande": {
+        "message": "Order market",
+        "translated": true
+    },
+    "Marché PI": {
+        "message": "PI Market",
+        "translated": true
+    },
+    "Marché CES": {
+        "message": "CES Market",
+        "translated": true
+    },
+    "Sous traitant": {
+        "message": "Undercontracting",
+        "translated": true
+    },
+    "Avenant marché": {
+        "message": "Market endorsement",
+        "translated": true
+    },
+    "Marché caution bancaire": {
+        "message": "Bank bond market",
+        "translated": true
+    },
+    "Marché délégation de paiement": {
+        "message": "Payment delegation market",
+        "translated": true
+    },
+    "Facture directe": {
+        "message": "Direct bill",
+        "translated": true
+    },
+    "Facture sur bon de commande": {
+        "message": "Bill on purchase order",
+        "translated": true
+    },
+    "Situations de Travaux": {
+        "message": "Work Situations",
+        "translated": true
+    },
+    "Validation des factures": {
+        "message": "Validating invoices",
+        "translated": true
+    },
+    "OD": {
+        "message": "Od",
+        "translated": true
+    },
+    "Grille de prix vente": {
+        "message": "Price grid sale",
+        "translated": true
+    },
+    "Dossier client": {
+        "message": "Customer file",
+        "translated": true
+    },
+    "Stade travaux": {
+        "message": "Works stadium",
+        "translated": true
+    },
+    "Facturation TMA": {
+        "message": "TMA Billing",
+        "translated": true
+    },
+    "Encaissement": {
+        "message": "Cashing",
+        "translated": true
+    },
+    "Suivi compte client": {
+        "message": "Customer account tracking",
+        "translated": true
+    },
+    "Dossier client saisie en masse": {
+        "message": "Customer file seized en masse",
+        "translated": true
+    },
+    "Dossier financement": {
+        "message": "Funding file",
+        "translated": true
+    },
+    "Suivi dossier de prêt": {
+        "message": "Tracking loan file",
+        "translated": true
+    },
+    "Suivi dossier de subvention": {
+        "message": "Tracking grant file",
+        "translated": true
+    },
+    "Contrat cadre": {
+        "message": "Framework contract",
+        "translated": true
+    },
+    "Garantie de prêt": {
+        "message": "Loan guarantee",
+        "translated": true
+    },
+    "Contrat de prêt": {
+        "message": "Loan contract",
+        "translated": true
+    },
+    "Versements prêt": {
+        "message": "Payments ready",
+        "translated": true
+    },
+    "Décision de financement": {
+        "message": "Funding decision",
+        "translated": true
+    },
+    "Versements subvention": {
+        "message": "Grant payments",
+        "translated": true
+    },
+    "Administration et contrôle des accès": {
+        "message": "Access administration and control",
+        "translated": true
+    },
+    "Procédure et planning": {
+        "message": "Procedure and planning",
+        "translated": true
+    },
+    "CRM": {
+        "message": "Crm",
+        "translated": true
+    },
+    "Comptabilité": {
+        "message": "Accounting",
+        "translated": true
+    },
+    "Dossier des financements": {
+        "message": "Funding file",
+        "translated": true
+    },
+    "Marchés et bons de commandes": {
+        "message": "Markets and orders",
+        "translated": true
+    },
+    "Tranches commerciales": {
+        "message": "Commercial slices",
+        "translated": true
+    },
+    "Mobilité": {
+        "message": "Mobility",
+        "translated": true
+    },
+    "Fiche Tiers": {
+        "message": "Third-party sheet",
+        "translated": true
+    },
+    "Identification": {
+        "message": "Identification",
+        "translated": true
+    },
+    "Juridique": {
+        "message": "Legal",
+        "translated": true
+    },
+    "Adresses": {
+        "message": "Addresses",
+        "translated": true
+    },
+    "Représentants": {
+        "message": "Representatives",
+        "translated": true
+    },
+    "Créer Opération": {
+        "message": "Create Operation",
+        "translated": true
+    },
+    "Supprimer Opération": {
+        "message": "Delete Operation",
+        "translated": true
+    },
+    "Créer Tranche travaux": {
+        "message": "Create Slice Works",
+        "translated": true
+    },
+    "Créer Tranche commerciale": {
+        "message": "Create Commercial Slice",
+        "translated": true
+    },
+    "Supprimer Tranche commerciale": {
+        "message": "Delete Commercial Slice",
+        "translated": true
+    },
+    "Créer Budget": {
+        "message": "Create Budget",
+        "translated": true
+    },
+    "Supprimer Budget": {
+        "message": "Delete Budget",
+        "translated": true
+    },
+    "Verrouiller autorisation budgétaire": {
+        "message": "Locking budget authorization",
+        "translated": true
+    },
+    "Supprimer": {
+        "message": "Remove",
+        "translated": true
+    },
+    "Archiver": {
+        "message": "Archive",
+        "translated": true
+    },
+    "Modifier le type de version": {
+        "message": "Change the type of version",
+        "translated": true
+    },
+    "Modifier le libellé": {
+        "message": "Change the wording",
+        "translated": true
+    },
+    "Modifier le statut actualisé": {
+        "message": "Change the updated status",
+        "translated": true
+    },
+    "Modifier la date d'arrêté": {
+        "message": "Change the date of the order",
+        "translated": true
+    },
+    "Modifier le commentaire": {
+        "message": "Edit the comment",
+        "translated": true
+    },
+    "Modifier avancement travaux": {
+        "message": "Changing progress work",
+        "translated": true
+    },
+    "Echéanciers": {
+        "message": "Yearmarkets",
+        "translated": true
+    },
+    "Aides à la vente": {
+        "message": "Sales aid",
+        "translated": true
+    },
+    "TVA sur marge": {
+        "message": "VAT on margin",
+        "translated": true
+    },
+    "Créer grille de prix": {
+        "message": "Create price grid",
+        "translated": true
+    },
+    "Supprimer grille de prix": {
+        "message": "Delete price grid",
+        "translated": true
+    },
+    "Supprimer action": {
+        "message": "Delete action",
+        "translated": true
+    },
+    "Exporter": {
+        "message": "Export",
+        "translated": true
+    },
+    "Sauvegarde": {
+        "message": "Backup",
+        "translated": true
+    },
+    "Créer": {
+        "message": "Create",
+        "translated": true
+    },
+    "Opérations rattachées": {
+        "message": "Related operations",
+        "translated": true
+    },
+    "Créer un exercice": {
+        "message": "Create an exercise",
+        "translated": true
+    },
+    "Clôtures": {
+        "message": "Fences",
+        "translated": true
+    },
+    "Date achèvement": {
+        "message": "Completion date",
+        "translated": true
+    },
+    "Annuler date": {
+        "message": "Cancel date",
+        "translated": true
+    },
+    "Comptabiliser": {
+        "message": "Recognise",
+        "translated": true
+    },
+    "Transfert": {
+        "message": "Transfer",
+        "translated": true
+    },
+    "Annuler comptabilisation": {
+        "message": "Cancel accounting",
+        "translated": true
+    },
+    "Créer Bon de commande": {
+        "message": "Create Order",
+        "translated": true
+    },
+    "Affecter le budget imprévu": {
+        "message": "Affecting the unforeseen budget",
+        "translated": true
+    },
+    "Engager Bon de commande": {
+        "message": "Engage Order Order",
+        "translated": true
+    },
+    "Engager Avenant": {
+        "message": "Engage Avenant",
+        "translated": true
+    },
+    "Autoliquidation": {
+        "message": "Self-balance",
+        "translated": true
+    },
+    "Créer marché TCE": {
+        "message": "Create TCE Market",
+        "translated": true
+    },
+    "Créer marché à Bon de commande": {
+        "message": "Create Market to Order Order",
+        "translated": true
+    },
+    "Engager marché CES": {
+        "message": "Engage CES market",
+        "translated": true
+    },
+    "Créer sous traitant": {
+        "message": "Create subcontracting",
+        "translated": true
+    },
+    "Créer avenant": {
+        "message": "Create endorsement",
+        "translated": true
+    },
+    "Annuler Facture directe": {
+        "message": "Cancel Direct Bill",
+        "translated": true
+    },
+    "Annuler Facture sur Bon de commande": {
+        "message": "Cancel Bill on Order Order",
+        "translated": true
+    },
+    "Annuler Situation de travaux": {
+        "message": "Cancel Work Situation",
+        "translated": true
+    },
+    "Accompte": {
+        "message": "Account",
+        "translated": true
+    },
+    "DGD": {
+        "message": "DGD",
+        "translated": true
+    },
+    "Libération retenue de garantie ": {
+        "message": "Release withheld guarantee ",
+        "translated": true
+    },
+    "Engager": {
+        "message": "Engage",
+        "translated": true
+    },
+    "Coche TVA multiple": {
+        "message": "Multiple VAT check",
+        "translated": true
+    },
+    "Police unique de chantier": {
+        "message": "Single construction police",
+        "translated": true
+    },
+    "Inter Entreprises": {
+        "message": "Inter Enterprises",
+        "translated": true
+    },
+    "Plusieurs taux TVA": {
+        "message": "Several VAT rates",
+        "translated": true
+    },
+    "Grouper": {
+        "message": "Group",
+        "translated": true
+    },
+    "Dégrouper": {
+        "message": "Unbundle",
+        "translated": true
+    },
+    "Vente en bloc": {
+        "message": "Bulk sale",
+        "translated": true
+    },
+    "Non vente en bloc": {
+        "message": "Not bulk sale",
+        "translated": true
+    },
+    "Changer de tranche": {
+        "message": "Changing slices",
+        "translated": true
+    },
+    "Ajouter un lot": {
+        "message": "Add a batch",
+        "translated": true
+    },
+    "Supprimer un lot": {
+        "message": "Delete a lot",
+        "translated": true
+    },
+    "Poser une option": {
+        "message": "Ask an option",
+        "translated": true
+    },
+    "Annuler un option": {
+        "message": "Cancel an option",
+        "translated": true
+    },
+    "Annuler Vente": {
+        "message": "Cancel Sale",
+        "translated": true
+    },
+    "Forcer TVA sur marge": {
+        "message": "Forcing VAT on margin",
+        "translated": true
+    },
+    "Réserver": {
+        "message": "Book",
+        "translated": true
+    },
+    "Aide à la vente": {
+        "message": "Sales help",
+        "translated": true
+    },
+    " non trouvé.": {
+        "message": " not found.",
+        "translated": true
+    },
+    "Niveau organisationnel non trouvé.": {
+        "message": "Organizational level not found.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer ce niveau car il a un ou plusieurs sous niveaux.": {
+        "message": "You can't remove this level because it has one or more sub-levels.",
+        "translated": true
+    },
+    "Vous devez choisir un libellé pour \"Role Fonctionnel\" ainsi qu'un code pour celui-ci.": {
+        "message": "You must choose a label for \"Functional Role\" as well as a code for it.",
+        "translated": true
+    },
+    "Le mot de passe doit au minimum contenir {{0}} caractères, comme spécifié ci-dessous par le champ \"Nombre minimum de caractères\".": {
+        "message": "The password must at least contain '{0}' characters, as specified below by the \"Minimum Number of Characters\" field.",
+        "translated": true
+    },
+    "La confirmation du mot de passe n'est pas identique au mot de passe.": {
+        "message": "The password confirmation is not the same as the password.",
+        "translated": true
+    },
+    "Evènement": {
+        "message": "Event",
+        "translated": true
+    },
+    "Veuillez indiquer l'échéancier à utiliser par défaut pour cette nature de travaux": {
+        "message": "Please indicate the default timetable for this type of work",
+        "translated": true
+    },
+    "Veuillez ne sélectionner qu'un seul échéancier à utiliser par défaut": {
+        "message": "Please select only one time frame to use by default",
+        "translated": true
+    },
+    "L'échéancier type de la tranche commerciale {{0}} n'est pas défini": {
+        "message": "The standard timetable for the '{0}' trade bracket is not defined",
+        "translated": true
+    },
+    "L'échéance {{e1}} dépend de {{e2}}": {
+        "message": "The maturity depends on 'e2'",
+        "translated": true
+    },
+    "Le libellé doit être renseigné.": {
+        "message": "The wording must be provided.",
+        "translated": true
+    },
+    "Le pourcentage doit être renseigné.": {
+        "message": "The percentage must be informed.",
+        "translated": true
+    },
+    "Le délai doit être renseigné.": {
+        "message": "The deadline must be informed.",
+        "translated": true
+    },
+    "Le pourcentage doit être compris entre 0 % et 100 %.": {
+        "message": "The percentage must be between 0% and 100%.",
+        "translated": true
+    },
+    "L'échéance vente ne peut pas être liée à une autre échéance ou à un événement.": {
+        "message": "The sell-by date cannot be linked to another deadline or event.",
+        "translated": true
+    },
+    "Une échéance liée à un évènement ne peut pas être liée également à une autre échéance.": {
+        "message": "An event-related deadline cannot also be linked to another deadline.",
+        "translated": true
+    },
+    "L'échéance doit être liée à un évènement.": {
+        "message": "The deadline must be linked to an event.",
+        "translated": true
+    },
+    "Une échéance liée à une autre échéance ne peut pas être liée également à un évènement.": {
+        "message": "A maturity related to another maturity cannot also be linked to an event.",
+        "translated": true
+    },
+    "L'échéance doit être liée à une autre échéance.": {
+        "message": "The deadline must be linked to another deadline.",
+        "translated": true
+    },
+    "Type d'échéance non déterminé.": {
+        "message": "Undetermined type of maturity.",
+        "translated": true
+    },
+    "Echéance": {
+        "message": "Deadline",
+        "translated": true
+    },
+    "Nouvel échéancier": {
+        "message": "New timetable",
+        "translated": true
+    },
+    "Impossible de créer la copie d'une échéance": {
+        "message": "Can't create a copy of a deadline",
+        "translated": true
+    },
+    "Le libellé est obligatoire pour l'échéancier {{0}}": {
+        "message": "The wording is mandatory for the '{0}' timetable",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de l'écheancier {{id}} n'est pas unique": {
+        "message": "The wording 'libelle' of the 'id' is not unique",
+        "translated": true
+    },
+    "Le libellé {{libelle}} des échéanciers {{ids}} n'est pas unique": {
+        "message": "The wording 'libelle' of the 'ids' timelines is not unique",
+        "translated": true
+    },
+    "La tranche commerciale n'est pas définie": {
+        "message": "The trade bracket is not defined",
+        "translated": true
+    },
+    "Libre": {
+        "message": "Free",
+        "translated": true
+    },
+    "Veuillez indiquer l'échéancier à utiliser par défaut pour cette tranche commerciale": {
+        "message": "Please indicate the default timetable for this trade bracket",
+        "translated": true
+    },
+    "EncaissementView: codeEncaissement is missing.": {
+        "message": "CashingView: codeEncament is missing.",
+        "translated": true
+    },
+    "L'encaissement avec le code \"{{0}}\" n'existe pas.": {
+        "message": "There is no such thing as cashing in with the code \"{0}.\"",
+        "translated": true
+    },
+    "Le mode de réglement doit être indiqué": {
+        "message": "The method of regulation must be indicated",
+        "translated": true
+    },
+    "Le mode de réglement {{0}} n'existe pas.": {
+        "message": "The '{0}' method of regulation does not exist.",
+        "translated": true
+    },
+    "La référence du compte banque doit être indiquée.": {
+        "message": "The bank account reference must be indicated.",
+        "translated": true
+    },
+    "Le compte bancaire référence {{0}} n'existe pas.": {
+        "message": "The reference bank account '{0}' does not exist.",
+        "translated": true
+    },
+    "Le compte bancaire {{0}} ne concerne pas l'opération {{1}}": {
+        "message": "The '{0}' bank account does not relate to the '{1}' transaction",
+        "translated": true
+    },
+    "Encaissement introuvable": {
+        "message": "Cashing in",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" operation does not exist.",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"compte courant\" n'est paramétré pour l'opération {{0}}": {
+        "message": "No \"current account\" bank account is set up for the '{0}' transaction.",
+        "translated": true
+    },
+    "Merci de préciser un mode de règlement": {
+        "message": "Please specify a method of settlement",
+        "translated": true
+    },
+    "Merci de préciser une banque": {
+        "message": "Please specify a bank",
+        "translated": true
+    },
+    "La somme des ventilations doit être égale au montant réglé + les frais de notaire pris en charge": {
+        "message": "The sum of the breakdowns must be equal to the amount paid - the notary's expenses paid",
+        "translated": true
+    },
+    "La somme des ventilations doit être égale au montant réglé": {
+        "message": "The sum of the breakdowns must be equal to the amount paid",
+        "translated": true
+    },
+    "La date de reglement est vide": {
+        "message": "The settlement date is empty",
+        "translated": true
+    },
+    "Pas d'opération  dans dossier.": {
+        "message": "No file operation.",
+        "translated": true
+    },
+    "Impossible de retrouver l`échéance {{0}}": {
+        "message": "Can't find the '{0}' deadline",
+        "translated": true
+    },
+    "Impossible de retrouver l`échéance de TMA {{0}}": {
+        "message": "Can't find the maturity of TMA '{0}'",
+        "translated": true
+    },
+    "Impossible de retrouver le container de la modale": {
+        "message": "Can't find the container on the modal",
+        "translated": true
+    },
+    "Impossible de retrouver la règle de la modale": {
+        "message": "Can't find the modal rule",
+        "translated": true
+    },
+    "Il y trop des lignes. Seulement les premières {{0}} lignes sont chargées.": {
+        "message": "There are too many lines. Only the first '{0}' lines are loaded.",
+        "translated": true
+    },
+    "Le montant réglé doit être inférieur ou égal au montant de l'appel": {
+        "message": "The amount paid must be less than or equal to the amount of the appeal",
+        "translated": true
+    },
+    "Impossible de retrouver la tranche commerciale de l'encaissement {{0}}": {
+        "message": "Unable to find the commercial portion of the cashing '{0}'",
+        "translated": true
+    },
+    "Date de règlement vide.": {
+        "message": "Empty settlement date.",
+        "translated": true
+    },
+    "Pas d'opération.": {
+        "message": "No surgery.",
+        "translated": true
+    },
+    "Pas de tiers.": {
+        "message": "No third parties.",
+        "translated": true
+    },
+    "Pas de compte bancaire.": {
+        "message": "No bank account.",
+        "translated": true
+    },
+    "Le montant d'encaissement est zéro.": {
+        "message": "The amount of cash is zero.",
+        "translated": true
+    },
+    "L'encaissement \"{{0}}\" n'existe pas.": {
+        "message": "There is no such thing as a \"{0}\" collection.",
+        "translated": true
+    },
+    "idsFacture is missing.": {
+        "message": "idsFacture is missing.",
+        "translated": true
+    },
+    "La facture \"{{0}}\" n'existe pas.": {
+        "message": "The invoice \"{0}\" does not exist.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" n'existe pas.": {
+        "message": "The third {0} does not exist.",
+        "translated": true
+    },
+    "L'tranche commerciale \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" trade bracket does not exist.",
+        "translated": true
+    },
+    "Facture non trouvé": {
+        "message": "Bill not found",
+        "translated": true
+    },
+    "La facture recette \"{{0}}\" n'existe pas, mais elle a des encaissements.": {
+        "message": "The \"{0}\" recipe invoice does not exist, but it has cash receipts.",
+        "translated": true
+    },
+    "La date de fin d'exercice ne peut être antérieure à la date de début d'exercice": {
+        "message": "The year-end date may not be prior to the year-end date",
+        "translated": true
+    },
+    "La société \"{{0}}\" n'a pas d'exercice ouvert.": {
+        "message": "The company \"{0}\" has no open exercise.",
+        "translated": true
+    },
+    "La société \"{{0}}\" n'a pas d'exercice clos.": {
+        "message": "The company \"{0}\" does not have a year ended.",
+        "translated": true
+    },
+    "Les sociétés sélectionnées ne comportent pas de dates d'exercice compatibles.": {
+        "message": "Selected companies do not have compatible exercise dates.",
+        "translated": true
+    },
+    "Janvier": {
+        "message": "January",
+        "translated": true
+    },
+    "Février": {
+        "message": "February",
+        "translated": true
+    },
+    "Mars": {
+        "message": "March",
+        "translated": true
+    },
+    "Avril": {
+        "message": "April",
+        "translated": true
+    },
+    "Mai": {
+        "message": "May",
+        "translated": true
+    },
+    "Juin": {
+        "message": "June",
+        "translated": true
+    },
+    "Juillet": {
+        "message": "July",
+        "translated": true
+    },
+    "Août": {
+        "message": "August",
+        "translated": true
+    },
+    "Septembre": {
+        "message": "September",
+        "translated": true
+    },
+    "Octobre": {
+        "message": "October",
+        "translated": true
+    },
+    "Novembre": {
+        "message": "November",
+        "translated": true
+    },
+    "Décembre": {
+        "message": "December",
+        "translated": true
+    },
+    "Trimestre {{0}}": {
+        "message": "Quarter '{0}'",
+        "translated": true
+    },
+    "Semestre {{0}}": {
+        "message": "Semester '{0}'",
+        "translated": true
+    },
+    "Fille": {
+        "message": "Daughter",
+        "translated": true
+    },
+    "Mère": {
+        "message": "Mother",
+        "translated": true
+    },
+    "La date de début d'exercice ne peut être ultérieure à la date de fin d'exercice": {
+        "message": "The start date may not be later than the year-end date",
+        "translated": true
+    },
+    "refTiers est obligatoire": {
+        "message": "refTiers is mandatory",
+        "translated": true
+    },
+    "Le tiers sélectionné n'existe pas": {
+        "message": "The selected third party does not exist",
+        "translated": true
+    },
+    "Tous": {
+        "message": "All",
+        "translated": true
+    },
+    "La société n'a pas été définie": {
+        "message": "The company has not been defined",
+        "translated": true
+    },
+    "L'opération n'a pas été définie": {
+        "message": "The operation has not been defined",
+        "translated": true
+    },
+    "Le type de mouvement n'a pas été défini": {
+        "message": "The type of movement has not been defined",
+        "translated": true
+    },
+    "La date de réglement n'a pas été définie": {
+        "message": "The settlement date has not been set",
+        "translated": true
+    },
+    "Le montant du réglement n'a pas été défini": {
+        "message": "The amount of the settlement has not been defined",
+        "translated": true
+    },
+    "Le mode de règlement n'a pas été défini": {
+        "message": "The method of settlement has not been defined",
+        "translated": true
+    },
+    "La banque de règlement n'a pas été définie": {
+        "message": "The settlement bank has not been defined",
+        "translated": true
+    },
+    "L'opération {{0}} n'est pas rattachée à la société {{1}}": {
+        "message": "The '{0}' transaction is not attached to the company '{1}'",
+        "translated": true
+    },
+    "L'associé {{0}} n'est pas actionnaire de la société {{1}}": {
+        "message": "The partner '{0}' is not a shareholder in the company '{1}'",
+        "translated": true
+    },
+    "Le compte banque {{0}} ne fait pas partie de l'opération {{1}}": {
+        "message": "The '{0}' bank account is not part of the '{1}' transaction",
+        "translated": true
+    },
+    "La ventilation du montant n'est pas correctement réalisée sur les tranches ({{0}} au lieu de {{1}})": {
+        "message": "The breakdown of the amount is not done correctly on the slices ({0} instead of '{1}')",
+        "translated": true
+    },
+    "Impossible de supprimer le frais financier {{0}} car il existe un autre plus recent {{1}}": {
+        "message": "Can't remove the '{0}' financial fee because there is another more recent '{1}'",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il existe plusieurs postes de type : produit financier": {
+        "message": "It is impossible to create financial costs because there are several types of items: financial product",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il n'existe pas des postes de type : produit financier": {
+        "message": "It is impossible to create financial costs because there are no such positions: financial product",
+        "translated": true
+    },
+    "Le tiers société pour \"{{0}}\" n'existe pas.": {
+        "message": "The third-party company for \"{0}\" does not exist.",
+        "translated": true
+    },
+    "Le calcul des frais financiers est impossible (plusieurs sociétés)": {
+        "message": "The calculation of financial costs is impossible (several companies)",
+        "translated": true
+    },
+    "Le taux doit étre positive": {
+        "message": "The rate must be positive",
+        "translated": true
+    },
+    "Les dates sélectionnées sont incohérentes": {
+        "message": "Selected dates are inconsistent",
+        "translated": true
+    },
+    "Impossible de creer le(s) frais financiers car il existe déjà pour la période séléctionée : {{0}} ": {
+        "message": "It is impossible to create the financial costs because it already exists for the selected period: '{0}' ",
+        "translated": true
+    },
+    "Frais financiers tranche \"{{0}}\": période du \"{{1}}\" au \"{{2}}\"": {
+        "message": "Financial expenses in the {0}: period from '{1}' to '{2}'\"",
+        "translated": true
+    },
+    "Code is missing": {
+        "message": "Code is missing",
+        "translated": true
+    },
+    "Il n'existe pas un frais financier pour ce code": {
+        "message": "There is no financial charge for this code",
+        "translated": true
+    },
+    "Il existe déja une piéce comptable pour le frais financier {{0}}": {
+        "message": "There is already an accounting room for the financial expenses {0}",
+        "translated": true
+    },
+    "Impossible de supprimer le périmètre société {{0}} car il est utilisé par les sociétes {{1}}": {
+        "message": "It is impossible to remove the company perimeter '{0}' because it is used by the companies '{1}'",
+        "translated": true
+    },
+    "Le code est obligatoire": {
+        "message": "The code is mandatory",
+        "translated": true
+    },
+    "Le libellé est obligatoire": {
+        "message": "The wording is mandatory",
+        "translated": true
+    },
+    "Le code doit être unique": {
+        "message": "The code must be unique",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes.": {
+        "message": "The method of allocating VAT on selected margin requires the entry of aunts.",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas de grille de prix.": {
+        "message": "The \"{0}\" operation does not have a price grid.",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas la tranche commerciale \"{{1}}\".": {
+        "message": "The \"{0}\" operation does not have the \"{1}\" trade bracket.",
+        "translated": true
+    },
+    "Total ({{0}})": {
+        "message": "Total ({0})",
+        "translated": true
+    },
+    "Lots principaux ({{0}})": {
+        "message": "Main Lots ({0})",
+        "translated": true
+    },
+    "Lots secondaires ({{0}})": {
+        "message": "Secondary lots ({0})",
+        "translated": true
+    },
+    "Lot n° {{0}}: Le champ \"{{1}}\" est obligatoire.": {
+        "message": "Lot No. {0}: The field \"{1}\" is mandatory.",
+        "translated": true
+    },
+    "Préciser les identifiants des lots concernés par le changement de tranche": {
+        "message": "Specify the identifiers of the lots affected by the change of slice",
+        "translated": true
+    },
+    "Préciser le code de la tranche de destination": {
+        "message": "Specify the destination tranche code",
+        "translated": true
+    },
+    "Le lot {{0}} n'existe pas": {
+        "message": "The '{0}' lot does not exist",
+        "translated": true
+    },
+    "Le lot {{0}} est soumis à la TVA sur marge.": {
+        "message": "The '{0}' lot is subject to VAT on margin.",
+        "translated": true
+    },
+    "Le code opération est obligatoire": {
+        "message": "The operation code is mandatory",
+        "translated": true
+    },
+    "Le code analytique « {{0}} » du programme n'existe pas": {
+        "message": "The program's '{0}' analytic code does not exist",
+        "translated": true
+    },
+    "Le code analytique « {{0}} » du programme référence plusieurs programmes": {
+        "message": "The program's '{0}' analytic code refers to several programs",
+        "translated": true
+    },
+    "Le programme « {{0}} » n'existe pas": {
+        "message": "The '{0}' programme does not exist",
+        "translated": true
+    },
+    "La tranche commerciale « {{0}} » possède déjà une typologie": {
+        "message": "The \"{0}\" trade-ins with a typology",
+        "translated": true
+    },
+    "Le lot doit être en stock": {
+        "message": "The lot must be in stock",
+        "translated": true
+    },
+    "Le type de lot doit être renseigné": {
+        "message": "The type of batch must be informed",
+        "translated": true
+    },
+    "Le type de lot « {{0}} » n'est pas autorisé pour le type d'ouvrage « {{1}} »": {
+        "message": "The type of lot \"{0}\" is not allowed for the type of work \"{1}\"",
+        "translated": true
+    },
+    "Le type de lot « {{0}} » n'est pas cohérent avec l'indication principal/secondaire du lot": {
+        "message": "The type of lot \"{0}\" is not consistent with the main/secondary indication of the lot",
+        "translated": true
+    },
+    "La date de livraison doit être renseignée": {
+        "message": "The delivery date must be informed",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur marge choisi nécessite la saisie des tantièmes": {
+        "message": "The method of allocating VAT on selected margin requires the seizure of aunts",
+        "translated": true
+    },
+    "La codification n'a pas de numéro d'ordre": {
+        "message": "Codification does not have an order number",
+        "translated": true
+    },
+    "Aucun code n'a pu être reçu pour la codification": {
+        "message": "No code could be received for coding",
+        "translated": true
+    },
+    "Aucun libellé n'a été reçu pour la codification": {
+        "message": "No wording was received for coding",
+        "translated": true
+    },
+    "Les codifications de la catégorie sont inconnues, aucune validation n'est possible": {
+        "message": "Category codifications are unknown, no validation is possible",
+        "translated": true
+    },
+    "Le libellé {{libelle}} de la codification est déjà utilisé par {{code}}": {
+        "message": "The 'libelle' wording of the coding is already used by 'code'",
+        "translated": true
+    },
+    "Le code {{code}} de la codification est déjà utilisé": {
+        "message": "The code for coding is already used",
+        "translated": true
+    },
+    "La nature des travaux n'est pas définie": {
+        "message": "The nature of the work is not defined",
+        "translated": true
+    },
+    "Vous n'avez pas les habilitations necessaires pour créer une opération": {
+        "message": "You don't have the clearances to create an operation",
+        "translated": true
+    },
+    "Il y a des affectations budgetaires sur cette opération.": {
+        "message": "There are budget allocations on this operation.",
+        "translated": true
+    },
+    "Cette opération a des tranches commerciales.": {
+        "message": "This operation has commercial tranches.",
+        "translated": true
+    },
+    "Cette opération est utilisé, elle ne peut être supprimé.": {
+        "message": "This operation is used, it cannot be deleted.",
+        "translated": true
+    },
+    "La version {{0}} n'existe pas": {
+        "message": "The '{0}' version does not exist",
+        "translated": true
+    },
+    "Archivée le {{dateDay}}/{{dateMonth}}/{{dateYear}}": {
+        "message": "Archived on 'dateDay' /'dateMonth' /'dateYear'",
+        "translated": true
+    },
+    "Impossible de trouver l'opération source.": {
+        "message": "Can't find the source operation.",
+        "translated": true
+    },
+    "La version {{0}} est actualisée": {
+        "message": "The '{0}' version is updated",
+        "translated": true
+    },
+    "La version actualisée {{0}} n'existe pas": {
+        "message": "The updated version '{0}' does not exist",
+        "translated": true
+    },
+    "Autorisé uniquement si le statut d'opération est {{0}} ou {{1}}.": {
+        "message": "Allowed only if the operating status is '{0}' or '{1}'.",
+        "translated": true
+    },
+    "Le statut d'opération est différent de statut de la version.": {
+        "message": "The operating status is different from the status of the version.",
+        "translated": true
+    },
+    "La version à actualiser n'est pas à isopérimètre.": {
+        "message": "The version to be updated is not at isoperometer.",
+        "translated": true
+    },
+    "La tranche travaux \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+        "message": "The \"{0}\" - '{1}' work tranche does not exist in the operation \"{2}.\"",
+        "translated": true
+    },
+    "La tranche travaux \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+        "message": "The \"{0}\" work portion does not exist in the operation \"{1}.\"",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}} - {{1}}\" n'existe pas dans l'operation \"{{2}}.\"": {
+        "message": "The \"{0}\" - '{1}' trade tranche does not exist in the '{2}' operation.",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}} - {{1}}\" a des lots qu ne sont pas en stock.\"": {
+        "message": "The commercial tranche \"{0} - '{1}' has lots that are not in stock.\"",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" n'existe pas dans l'operation \"{{1}}.\"": {
+        "message": "The \"{0}\" trade bracket does not exist in the \"{1}\" operation.",
+        "translated": true
+    },
+    "Le lot \"{{0}}\" existe déjà dans la tranche \"{{1}}\" de l'operation \"{{2}}.\"": {
+        "message": "The lot \"{0}\" already exists in the \"{1}\" portion of the operation \"{2}.\"",
+        "translated": true
+    },
+    "Le lot {{0}} dans la tranche commerciale {{1}} a été reservé": {
+        "message": "The '{0}' lot in the '{1}' trade bracket has been re-served",
+        "translated": true
+    },
+    "Opération non définie.": {
+        "message": "Undefined operation.",
+        "translated": true
+    },
+    "Version 1": {
+        "message": "Version 1",
+        "translated": true
+    },
+    "La tranche commerciale n'a pas été trouvée": {
+        "message": "The trade tranche was not found",
+        "translated": true
+    },
+    "Impossible de supprimer la grille de prix: Le lot {{0}} n'est plus en stock": {
+        "message": "Can't remove the price grid: The '{0}' lot is no longer in stock",
+        "translated": true
+    },
+    "Impossible de créer la grille de prix: Le lot {{0}} n'est plus en stock": {
+        "message": "Can't create the price grid: The '{0}' lot is no longer in stock",
+        "translated": true
+    },
+    "La liste des aides à la vente est incorrecte": {
+        "message": "The list of sales aids is incorrect",
+        "translated": true
+    },
+    "Le statut {{0}} pour la tranche commerciale n'existe pas": {
+        "message": "The '{0}' status for the trade bracket does not exist",
+        "translated": true
+    },
+    "Impossible d'accéder à la nature de travaux de la tranche commerciale": {
+        "message": "Unable to access the nature of the trade tranche works",
+        "translated": true
+    },
+    "Impossible de supprimer la tranche commerciale car elle comprend des lots en stock": {
+        "message": "Unable to remove the commercial tranche as it includes lots in stock",
+        "translated": true
+    },
+    "La répartition de la TVA sur Marge au tantième est impossible. Le lot \"{{0}}\" n'a pas des tantièmes.": {
+        "message": "The allocation of VAT on Marge to the aunt is impossible. The lot \"{0}\" does not have aunties.",
+        "translated": true
+    },
+    "Le mode de répartition de la TVA sur Marge est vide.": {
+        "message": "The way VAT is distributed on Marge is empty.",
+        "translated": true
+    },
+    "Impossible d'accéder à l'échéancier identifié par {{idEch}} associé aux travaux de type  {{libelle}} de cette tranche commerciale": {
+        "message": "Unable to access the timetable identified by 'idEch' associated with the 'libelle' type work of this commercial tranche",
+        "translated": true
+    },
+    "Impossible de répliquer l'échéancier {{libEch}} associé aux travaux de type {{libNat}} de cette tranche commerciale": {
+        "message": "It is impossible to replicate the 'libEch' timetable associated with the 'libNat' type work of this commercial tranche",
+        "translated": true
+    },
+    "Impossible de créer un échéancier {{libEch}} pour cette tranche commerciale": {
+        "message": "Can't create a 'libEch' timetable for this trade bracket",
+        "translated": true
+    },
+    "Impossible d'ajouter l'échéancier {{libEch}} à la liste des échéanciers pour cette tranche commerciale": {
+        "message": "Can't add the 'libEch' timeline to the list of timelines for this trade tranche",
+        "translated": true
+    },
+    "Merci d'indiquer le code opération": {
+        "message": "Please enter the operation code",
+        "translated": true
+    },
+    "opération \"{{0}}\" non trouvé.": {
+        "message": "operation \"{0}\" not found.",
+        "translated": true
+    },
+    "Vous ne pouvez pas changer pour cette société.": {
+        "message": "You can't change for this company.",
+        "translated": true
+    },
+    "Erreur de connexion à service tiers: {{0}}": {
+        "message": "Third-party connection error: '{0}'",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.host\".": {
+        "message": "In the config file it lacks the entry \"serverPlanning.host\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.tenant\".": {
+        "message": "In the config file it lacks the entry \"serverPlanning.holding\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverPlanning.authorization\".": {
+        "message": "In the config file it lacks the entry \"serverPlanning.authorization\".",
+        "translated": true
+    },
+    "Dans le fichier config  l'entrée \"serverPlanning.authorization\" n'est pas correcte.": {
+        "message": "In the config file the entry \"serverPlanning.authorization\" is not correct.",
+        "translated": true
+    },
+    "Le cookie \"jwt\" n'est pas present.": {
+        "message": "The \"jwt\" cookie is not present.",
+        "translated": true
+    },
+    "Reprise de ReferentielPlanning vers SpoGantt ...": {
+        "message": "Takeover of ReferentielPlanning to SpoGantt ...",
+        "translated": true
+    },
+    "{{0}} - {{1}}: {{2}}": {
+        "message": "{{0}} - {{1}}: {{2}}",
+        "translated": true
+    },
+    "Reprise de Planning Spo vers SpoGantt ...": {
+        "message": "Resuming Planning Spo to SpoGantt ...",
+        "translated": true
+    },
+    "opération": {
+        "message": "Operation",
+        "translated": true
+    },
+    "procédure": {
+        "message": "Procedure",
+        "translated": true
+    },
+    "La migration du planning {{0}} a échoué: {{1}}": {
+        "message": "The migration of the '{0}' schedule has failed: '{1}'",
+        "translated": true
+    },
+    "References invalides": {
+        "message": "Invalid references",
+        "translated": true
+    },
+    "Le planning type n'existe pas": {
+        "message": "Typical schedule does not exist",
+        "translated": true
+    },
+    "Suppression du planning impossible": {
+        "message": "Removing the impossible schedule",
+        "translated": true
+    },
+    "Le planning de l'opération {{0}} n'existe pas": {
+        "message": "The '{0}' operation schedule does not exist",
+        "translated": true
+    },
+    "Le planning de l'opération {{0}} est vide": {
+        "message": "The schedule of the '{0}' operation is empty",
+        "translated": true
+    },
+    "Le planning type {{0}} n'existe pas": {
+        "message": "The '{0}' standard schedule does not exist",
+        "translated": true
+    },
+    "La version « {{0}} » n'existe pas pour l'opération « {{1}} »": {
+        "message": "The '{0}' version does not exist for the '{1}' operation.",
+        "translated": true
+    },
+    "Le libellé d'étape « {{0}} » n'existe pas": {
+        "message": "The \"{0}\" step wording does not exist",
+        "translated": true
+    },
+    "L'étape « {{0}} » n'existe pas": {
+        "message": "The '{0}' stage does not exist",
+        "translated": true
+    },
+    "Le libellé de jalon « {{0}} » n'existe pas": {
+        "message": "The milestone wording \"{0}\" does not exist",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'existe pas": {
+        "message": "The '{0}' milestone does not exist",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'appartient pas à l'étape « {{1}} »": {
+        "message": "The '{0}' milestone does not belong to the '{1}' stage",
+        "translated": true
+    },
+    "Le jalon « {{0}} » n'a pas été retrouvé dans le planning": {
+        "message": "The '{0}' milestone has not been found in the planning",
+        "translated": true
+    },
+    "TT {{0}}": {
+        "message": "TT '{0}'",
+        "translated": true
+    },
+    "TC {{0}}": {
+        "message": "TC '{0}'",
+        "translated": true
+    },
+    "TC {{0}} {{1}}": {
+        "message": "TC '{0}' '{1}'",
+        "translated": true
+    },
+    "TT {{0}} {{1}}": {
+        "message": "TT '{0}' '{1}'",
+        "translated": true
+    },
+    "L'échéancier de la tranche commerciale \"{{0}}\" utilise cette action.": {
+        "message": "The timetable for the \"{0}\" trade bracket uses this action.",
+        "translated": true
+    },
+    "Action non trouvé": {
+        "message": "Action not found",
+        "translated": true
+    },
+    "La procédure enfant est vide.": {
+        "message": "The child procedure is empty.",
+        "translated": true
+    },
+    "L'etape enfant est vide.": {
+        "message": "The child's stage is empty.",
+        "translated": true
+    },
+    "L'action enfant est vide.": {
+        "message": "The child action is empty.",
+        "translated": true
+    },
+    "La procédure parent est vide.": {
+        "message": "The parent procedure is empty.",
+        "translated": true
+    },
+    "L'etape parent est vide.": {
+        "message": "The parent stage is empty.",
+        "translated": true
+    },
+    "L'action parent est vide.": {
+        "message": "The parent action is empty.",
+        "translated": true
+    },
+    "Initialisation de la vue pose d'option incorrecte": {
+        "message": "Initialization of the view poses incorrect option",
+        "translated": true
+    },
+    "Liste des lots et prix (TVA sur Marge)": {
+        "message": "List of lots and prices (VAT on Margin)",
+        "translated": true
+    },
+    "Liste des lots et prix": {
+        "message": "List of lots and prizes",
+        "translated": true
+    },
+    "Préciser les codes des lots concernés par la pose d'option": {
+        "message": "Specify the codes of the lots affected by the option installation",
+        "translated": true
+    },
+    "On peut pas melanger des lots soumis au régime classique de TVA avec des lots soumis au TVA Sur Marge.": {
+        "message": "Lots subject to the traditional VAT regime cannot be mixed with lots subject to VAT On Marge.",
+        "translated": true
+    },
+    "On ne peut avoir plusieurs fois le même lot dans un même dossier client.": {
+        "message": "You can't have the same lot in the same customer file multiple times.",
+        "translated": true
+    },
+    "La date-heure de début ne peut être supérieure à la date du jour.": {
+        "message": "The start date cannot be higher than the date of the day.",
+        "translated": true
+    },
+    "La date de fin ne peut être antérieure à la date de début d’option.": {
+        "message": "The end date cannot be prior to the option start date.",
+        "translated": true
+    },
+    "La durée de l’option ne peut excéder {{dureeOption}} heures": {
+        "message": "The duration of the option may not exceed 'hard-time' hours",
+        "translated": true
+    },
+    "Le nombre minimum de lots d’un dossier (option - pré-réservation - réservation) est égal à 1.": {
+        "message": "The minimum number of lots in a folder (option - pre-booking - booking) is equal to 1.",
+        "translated": true
+    },
+    "La date d’annulation d’option ne peut être antérieure à la date de la pose d’option.": {
+        "message": "The option cancellation date may not be earlier than the option date.",
+        "translated": true
+    },
+    "La date d’annulation d’option ne peut être supérieure à la date du jour.": {
+        "message": "The option cancellation date cannot be higher than the date of the day.",
+        "translated": true
+    },
+    "Verrouillage de l'option n° {{0}}": {
+        "message": "Locking option '{0}'",
+        "translated": true
+    },
+    "Impossible de verrouiller l'option {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "Can't lock the '{0}' option, it's already in use.",
+        "translated": true
+    },
+    "La libelle de modéle est vide.": {
+        "message": "The model libel is empty.",
+        "translated": true
+    },
+    "La classe de modéle est vide.": {
+        "message": "The model class is empty.",
+        "translated": true
+    },
+    "La classe des preferences est vide.": {
+        "message": "The preference class is empty.",
+        "translated": true
+    },
+    "Préférences utilisateur": {
+        "message": "User preferences",
+        "translated": true
+    },
+    "Défaut": {
+        "message": "Defect",
+        "translated": true
+    },
+    "Il y a des programmes qui utilisent cette procédure.": {
+        "message": "There are programs that use this procedure.",
+        "translated": true
+    },
+    "Il y a des types ouvrage qui utilisent cette procédure.": {
+        "message": "There are work types that use this procedure.",
+        "translated": true
+    },
+    "Il y a des tranches travaux qui utilisent cette procédure.": {
+        "message": "There are work slices that use this procedure.",
+        "translated": true
+    },
+    "Il y a des opérations qui utilisent cette procédure.": {
+        "message": "There are operations that use this procedure.",
+        "translated": true
+    },
+    "Il y a des natures travaux qui utilisent cette procédure.": {
+        "message": "There are work natures that use this procedure.",
+        "translated": true
+    },
+    "L'procédure \"{{0}}\" a le meme code.": {
+        "message": "The \"{0}\" procedure has the same code.",
+        "translated": true
+    },
+    "Ged is disable": {
+        "message": "Ged is disable",
+        "translated": true
+    },
+    "Recette": {
+        "message": "Recipe",
+        "translated": true
+    },
+    "{{0}} jours {{1}}, exigibilité le {{2}}": {
+        "message": "'{0}' days {1}, due to the '{2}'",
+        "translated": true
+    },
+    "Libellé": {
+        "message": "Wording",
+        "translated": true
+    },
+    "A actualiser": {
+        "message": "To be updated",
+        "translated": true
+    },
+    "Impossible d'exporter en {0}": {
+        "message": "Can't export to {0}",
+        "translated": true
+    },
+    "Appel de fonds": {
+        "message": "Call for funds",
+        "translated": true
+    },
+    "Evénement": {
+        "message": "Event",
+        "translated": true
+    },
+    "Dossier": {
+        "message": "Folder",
+        "translated": true
+    },
+    "Situation": {
+        "message": "Situation",
+        "translated": true
+    },
+    "Programme": {
+        "message": "Program",
+        "translated": true
+    },
+    "Pour pouvoir être enregistrée, la vente doit être réalisée": {
+        "message": "In order to be registered, the sale must be made",
+        "translated": true
+    },
+    "Veuillez indiquer le motif de désistement": {
+        "message": "Please indicate the reason for withdrawal",
+        "translated": true
+    },
+    "Veuillez indiquer le motif de résolution": {
+        "message": "Please indicate the reason for the resolution",
+        "translated": true
+    },
+    "Veuillez indiquer la date de livraison de ces lots": {
+        "message": "Please indicate the delivery date of these lots",
+        "translated": true
+    },
+    "La date de remise d'un dépot de garantie ne doit pas être antérieur à la date de réservation.": {
+        "message": "The delivery date for a warranty deposit must not predate the booking date.",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"Compte Courant\" n'est paramétré pour l'opération {{0}}": {
+        "message": "No \"Current Account\" bank account is set up for the '{0}' transaction.",
+        "translated": true
+    },
+    "Aucun compte bancaire de type \"Compte Séquestre\" n'est paramétré pour l'opération {{0}}": {
+        "message": "No \"Sequester Account\" bank account is set up for the '{0}' transaction.",
+        "translated": true
+    },
+    "Le total des dépôts de garantie ne doit pas être négatif.": {
+        "message": "Total security deposits should not be negative.",
+        "translated": true
+    },
+    "Impossible de charger un des lots en mémoire": {
+        "message": "Can't load one of the batches in memory",
+        "translated": true
+    },
+    "Détail dossier TMA {{0}} introuvable": {
+        "message": "Detail TMA file '{0}' not found",
+        "translated": true
+    },
+    "Echeance dossier TMA manquant": {
+        "message": "Missing TMA file cheesy",
+        "translated": true
+    },
+    "Aucun échéancier de TMA n'est paramétré": {
+        "message": "No TMA schedule is set",
+        "translated": true
+    },
+    "Le montant offert TTC ne peut pas être supérieur au montant max.": {
+        "message": "The amount offered TTC cannot be greater than the maximum amount.",
+        "translated": true
+    },
+    "Le TMA ne peut pas être supprimé car son statut est \"{{0}}\". Il doit être \"demande\" ou \"annulé\" ou \"refusé\" afin d'être supprimé.": {
+        "message": "The TMA cannot be removed because its status is \"{0}\". It must be \"requested\" or \"cancelled\" or \"refused\" in order to be deleted.",
+        "translated": true
+    },
+    "Le Vendeur <{{libTiers}}> existe déjà !": {
+        "message": "The Seller 'libTiers' already exists!",
+        "translated": true
+    },
+    "Impossible de charger le résumé de la réservation": {
+        "message": "Can't load the booking summary",
+        "translated": true
+    },
+    " - Dossier en Vente en bloc": {
+        "message": " - File in bulk sale",
+        "translated": true
+    },
+    " - Dossier en Dation": {
+        "message": " - File in Dation",
+        "translated": true
+    },
+    "Saisir une réservation": {
+        "message": "Enter a reservation",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation n°{0}": {
+        "message": "Can't find the {0} reservation file",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation en cours": {
+        "message": "Can't find the current booking file",
+        "translated": true
+    },
+    "Il y a des TMA attachés à ce lot.": {
+        "message": "There are TMAs attached to this lot.",
+        "translated": true
+    },
+    "La date de vente est ultérieure à la date du jour": {
+        "message": "The sale date is later than the date of the day",
+        "translated": true
+    },
+    "La date de report de livraison ne peut être antérieur à la date de livraison contractuelle.": {
+        "message": "The delivery deferral date cannot be prior to the contractual delivery date.",
+        "translated": true
+    },
+    "Il existe des TMA inclus dans l'acte, pour les TMA en demande ils seront automatiquement annulés,     pour les TMA en devis, ils seront automatiquement signés. Voulez-vous continuer ?": {
+        "message": "There are TMAs included in the deed, for the TMA in demand they will be automatically cancelled, for the TMA in quotes, they will be automatically signed. Do you want to continue?",
+        "translated": true
+    },
+    "Liste des Lots du dossier": {
+        "message": "List of Lots in the folder",
+        "translated": true
+    },
+    "Liste des Lots du dossier (TVA sur Marge)": {
+        "message": "List of Lots in the folder (VAT on Marge)",
+        "translated": true
+    },
+    "Impossible de générer les écritures de dépôt de garantie, car aucun compte séquestre n'a été paramétré pour l'opération {{0}}": {
+        "message": "It is not possible to generate the security deposit entries, as no receiver account has been set up for the '{0}' transaction.",
+        "translated": true
+    },
+    "L'échéance n'est pas libellée": {
+        "message": "The deadline is not worded",
+        "translated": true
+    },
+    "Acquéreur déjà ajouté": {
+        "message": "Buyer already added",
+        "translated": true
+    },
+    "Le lot {{0}} n'a pas le même taux de TVA que les autres lots du dossier": {
+        "message": "The '{0}' lot does not have the same VAT rate as the other lots in the file",
+        "translated": true
+    },
+    "Statistiques: Le champ \"{{0}}\" est obligatoire.": {
+        "message": "Statistics: The field \"{0}\" is mandatory.",
+        "translated": true
+    },
+    "La liste des acquéreurs est vide": {
+        "message": "The list of purchasers is empty",
+        "translated": true
+    },
+    "La quotité totale est de {{0}}. Elle doit être égale à 100 pour une indivision": {
+        "message": "The total quotity is '{0}'. It must be equal to 100 for an indivision",
+        "translated": true
+    },
+    "La quotité totale est de {{0}}. Elle doit être égale à 100": {
+        "message": "The total quotity is '{0}'. It must be equal to 100",
+        "translated": true
+    },
+    "Veuillez sélectionner au moins 1 lot à réserver": {
+        "message": "Please select at least 1 lot to book",
+        "translated": true
+    },
+    "Tous les lots doit être en dation.": {
+        "message": "All lots must be in dation.",
+        "translated": true
+    },
+    "Tous les lots du dossier doivent avoir le même taux de TVA": {
+        "message": "All lots in the file must have the same VAT rate",
+        "translated": true
+    },
+    "La date de réservation est obligatoire": {
+        "message": "The booking date is mandatory",
+        "translated": true
+    },
+    "La date de réservation ne peut être postérieure à la date du jour": {
+        "message": "The booking date cannot be after the date of the day",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la réservation": {
+        "message": "Delivery cannot be pre-booking",
+        "translated": true
+    },
+    "La livraison ne peut être antérieure à la vente": {
+        "message": "Delivery cannot be pre-sale",
+        "translated": true
+    },
+    "La présentation du contrat ne peut intervenir avant sa signature": {
+        "message": "The presentation of the contract cannot take place before it is signed",
+        "translated": true
+    },
+    "La date limite de rétractation ne peut précéder la présentation du contrat": {
+        "message": "The deadline for withdrawal cannot precede the presentation of the contract",
+        "translated": true
+    },
+    "Le notaire ne doit pas être convoqué après la vente": {
+        "message": "The notary must not be summoned after the sale",
+        "translated": true
+    },
+    "Le notaire doit être notifié de la vente avant celle-ci": {
+        "message": "The notary must be notified of the sale before the sale",
+        "translated": true
+    },
+    "La vente ne peut intervenir avant la réservation": {
+        "message": "The sale cannot take place before booking",
+        "translated": true
+    },
+    "La date de vente est obligatoire": {
+        "message": "The sale date is mandatory",
+        "translated": true
+    },
+    "Veuillez indiquer la date de désistement de cette réservation": {
+        "message": "Please indicate the date of withdrawal of this booking",
+        "translated": true
+    },
+    "Veuillez indiquer la date de résolution de cette vente": {
+        "message": "Please indicate the resolution date of this sale",
+        "translated": true
+    },
+    "La livraison ne peut intervenir avant la vente": {
+        "message": "Delivery cannot take place before the sale",
+        "translated": true
+    },
+    "Il est impossible de modifier le prix d'un dossier vendu": {
+        "message": "It is impossible to change the price of a file sold",
+        "translated": true
+    },
+    "Le prix total des TMA ne peut être négatif, merci de corriger": {
+        "message": "The total price of AMTs cannot be negative, please correct",
+        "translated": true
+    },
+    "Aucun libellé de condition suspensive n'a été sélectionnée": {
+        "message": "No suspensive condition wording was selected",
+        "translated": true
+    },
+    "La date limite de la condition suspensive n'a pas été renseignée": {
+        "message": "The deadline for the suspensive condition has not been informed",
+        "translated": true
+    },
+    "Le lot {{refLot}} n'existe pas dans le dossier de réservation": {
+        "message": "The 'refLot' lot does not exist in the booking file",
+        "translated": true
+    },
+    "Merci de préciser l'id du tiers concerné": {
+        "message": "Please specify the id of the third party concerned",
+        "translated": true
+    },
+    "L'échéancier du dossier a une échéance vide.": {
+        "message": "The timeline for the file has an empty deadline.",
+        "translated": true
+    },
+    "L'échéancier du lot n° {{0}} a une échéance vide.": {
+        "message": "The timetable for lot no.{0} has an empty deadline.",
+        "translated": true
+    },
+    "Aucun échéancier n'a été attribué au dossier.": {
+        "message": "No timeline was assigned to the file.",
+        "translated": true
+    },
+    "Aucun échéancier n'a été attribué au lot n° {{0}}.": {
+        "message": "No timeline has been assigned to Lot No.{0}.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix HT du dossier.": {
+        "message": "The total maturities, '{0}', are different from the HT price in the file.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix HT du lot n° {{1}}.": {
+        "message": "The total maturities, '{0}', are different from the HT price of lot no.{1}.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix TTC du dossier.": {
+        "message": "The total maturities, '{0}', are different from the TTC price of the file.",
+        "translated": true
+    },
+    "Le total des échéances, {{0}}, est différent du prix TTC du lot n° {{1}}.": {
+        "message": "The total maturities, '{0}', are different from the TTC price of lot no.{1}.",
+        "translated": true
+    },
+    "Verrouillage de dossier n° {{0}}": {
+        "message": "File Lock No. '{0}'",
+        "translated": true
+    },
+    "Impossible de verrouiller le dossier {{0}}, il est déjà en cours de utilisation par ailleurs.": {
+        "message": "It is not possible to lock the '{0}' folder, it is already in use.",
+        "translated": true
+    },
+    "Merci d'indiquer le libellé des détails du TMA": {
+        "message": "Please include the wording of the details of the TMA",
+        "translated": true
+    },
+    "Merci d'indiquer une unité pour les détails du TMA": {
+        "message": "Please indicate a unit for the details of the TMA",
+        "translated": true
+    },
+    "Le taux d'appel d'une échéance doit être supérieur à 0": {
+        "message": "The appeal rate for a maturity must be more than 0",
+        "translated": true
+    },
+    "Merci d'indiquer l'événement générateur de l'échéance": {
+        "message": "Please indicate the event that generates the deadline",
+        "translated": true
+    },
+    "Merci d'indiquer la date de l'échéance": {
+        "message": "Please indicate the date of the due date",
+        "translated": true
+    },
+    "Les taux de TVA du TMA et des lots le constituant doivent être les mêmes si le TMA est inclus dans l'acte": {
+        "message": "The VAT rates of the TMA and the constituent lots must be the same if the TMA is included in the act",
+        "translated": true
+    },
+    "Le statut du TMA impose que les prix de vente soient renseignés": {
+        "message": "The status of the TMA requires that selling prices be informed",
+        "translated": true
+    },
+    "Le dossier de TMA ne doit pas avoir son propre échéancier s'il est inclus dans l'acte": {
+        "message": "The TMA file should not have its own timetable if it is included in the act",
+        "translated": true
+    },
+    "Le dossier de TMA ne doit pas avoir d'échéancier si le prix de vente est de 0": {
+        "message": "The TMA file should not have a timetable if the sale price is 0",
+        "translated": true
+    },
+    "Le % total des échéances doit être égal à 100%": {
+        "message": "The total % of maturities must be 100%",
+        "translated": true
+    },
+    "Merci de préciser le mode de réglement": {
+        "message": "Please specify the method of regulation",
+        "translated": true
+    },
+    "Le total des échéances doit être égal au total du prix de vente": {
+        "message": "The total maturities must be equal to the total selling price",
+        "translated": true
+    },
+    "La date de livraison doit être postérieure à la date de signature": {
+        "message": "The delivery date must be after the signing date",
+        "translated": true
+    },
+    "La date de signature doit être postérieure à la date du devis": {
+        "message": "The date of signature must be after the date of the quote",
+        "translated": true
+    },
+    "La date du devis doit être postérieure à la date de la demande": {
+        "message": "The date of the quote must be later than the date of the application",
+        "translated": true
+    },
+    "La date du refus doit être postérieure à la date du devis": {
+        "message": "The date of refusal must be after the date of the estimate",
+        "translated": true
+    },
+    "La date d'annulation doit être postérieure à la date de la demande": {
+        "message": "The cancellation date must be after the date of the application",
+        "translated": true
+    },
+    "Merci de ne saisir qu'une valeur pour le paramètre: TMA en moins-value non autorisé": {
+        "message": "Please enter only one value for the setting: TMA in unauthorized impairment",
+        "translated": true
+    },
+    "Le dossier {{0}} n'existe pas": {
+        "message": "The '{0}' file does not exist",
+        "translated": true
+    },
+    "refAcquereur est obligatoire": {
+        "message": "refAcquereur is mandatory",
+        "translated": true
+    },
+    "Le libelle de l'indivision ne peut pas être vide.": {
+        "message": "The libel of indivision cannot be empty.",
+        "translated": true
+    },
+    "Code dossier introuvable": {
+        "message": "File code not found",
+        "translated": true
+    },
+    "Le TMA {{0}} n'existe pas": {
+        "message": "The '{0}' TMA does not exist",
+        "translated": true
+    },
+    "Quantité": {
+        "message": "Amount",
+        "translated": true
+    },
+    "ML": {
+        "message": "Ml",
+        "translated": true
+    },
+    "m²": {
+        "message": "M²",
+        "translated": true
+    },
+    "Le dossier est vide.": {
+        "message": "The file is empty.",
+        "translated": true
+    },
+    "La société \"{{0}}\" est la société mère d'une autre société, par conséquent elle ne peut pas être supprimé.": {
+        "message": "The company \"{0}\" is the parent company of another company, therefore it cannot be abolished.",
+        "translated": true
+    },
+    "La société \"{{0}}\" est rattaché à une opération, par conséquent elle ne peut pas être supprimé.": {
+        "message": "The company \"{0}\" is attached to a transaction, therefore it cannot be removed.",
+        "translated": true
+    },
+    "Veuillez choisir une opération": {
+        "message": "Please choose an operation",
+        "translated": true
+    },
+    "Le type de compte est obligatoire": {
+        "message": "The type of account is mandatory",
+        "translated": true
+    },
+    "L'IBAN est incorrect": {
+        "message": "IBAN is incorrect",
+        "translated": true
+    },
+    "Un seul compte par défaut par type de compte": {
+        "message": "Only one account by default per account type",
+        "translated": true
+    },
+    "Le compte comptable est obligatoire": {
+        "message": "The accounting account is mandatory",
+        "translated": true
+    },
+    "L'IBAN est incorrect.": {
+        "message": "The IBAN is incorrect.",
+        "translated": true
+    },
+    "Préciser le tiers concerné pour créer l'acquéreur": {
+        "message": "Specify the third party concerned to create the purchaser",
+        "translated": true
+    },
+    "Le tiers {{0}} n'existe pas": {
+        "message": "One-third '{0}' does not exist",
+        "translated": true
+    },
+    "Merci de préciser le compte schema original": {
+        "message": "Please specify the original schema account",
+        "translated": true
+    },
+    "Le compte schéma {{0}} n'existe pas": {
+        "message": "The '{0}' schematic account does not exist",
+        "translated": true
+    },
+    "Le délai réservation vente est négatif": {
+        "message": "Booking sale delay is negative",
+        "translated": true
+    },
+    "La référence comptable est obligatoire": {
+        "message": "Accounting reference is mandatory",
+        "translated": true
+    },
+    "Le référence comptable \"{{0}}\" est déjà attribué à une autre société.": {
+        "message": "The accounting reference \"{0}\" is already assigned to another company.",
+        "translated": true
+    },
+    "Le paramétrage type \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" setting does not exist.",
+        "translated": true
+    },
+    "Invalid dateDebut or dateFin": {
+        "message": "Invalid dateDebut or dateFin",
+        "translated": true
+    },
+    "Exercice {{0}}": {
+        "message": "Exercise '{0}'",
+        "translated": true
+    },
+    "Exercice {{0}}-{{1}}": {
+        "message": "Exercise '{0}'-{1}'",
+        "translated": true
+    },
+    "Afin de créer un exercice, il faut que vous renseigniez préalablement la date de création de votre entreprise.": {
+        "message": "In order to create an exercise, you need to pre-state the date of your company's creation.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un exercice cloturé.": {
+        "message": "You can't delete a closed exercise.",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un exercice ayant des écritures comptables.": {
+        "message": "You cannot delete an exercise with accounting entries.",
+        "translated": true
+    },
+    "La société modéle{{0}} n'a pas de mois de clôture exercice parametré.": {
+        "message": "The model company {0} has no months of closed-year parameters.",
+        "translated": true
+    },
+    "Impossible de récupérer l'actionnaire d'origine": {
+        "message": "Unable to recover the original shareholder",
+        "translated": true
+    },
+    "La société mère « {{0}} » n'existe pas": {
+        "message": "The parent company '{0}' does not exist",
+        "translated": true
+    },
+    "La société mère indiquée « {{0}} » n'est pas une société mère": {
+        "message": "The parent company '{0}' is not a parent company",
+        "translated": true
+    },
+    "Le paramétrage type doit être renseigné": {
+        "message": "The typical setting should be informed",
+        "translated": true
+    },
+    "La date prévisionnelle de signature des statuts doit être renseignée": {
+        "message": "The date of the date of signing the statutes must be informed",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du tiers n'existe pas": {
+        "message": "The third-party's \"{0}\" accounting reference does not exist",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du tiers référence plusieurs tiers": {
+        "message": "The third-party's '{0}' accounting reference",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du liquidateur n'existe pas": {
+        "message": "The liquidator's accounting reference \"{0}\" does not exist",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » du liquidateur référence plusieurs tiers": {
+        "message": "The liquidator's accounting reference \"{0}\" several third parties",
+        "translated": true
+    },
+    "Le tiers liquidateur « {{0}} » n'existe pas": {
+        "message": "The third liquidator \"{0}\" does not exist",
+        "translated": true
+    },
+    "Le total des montants des associés doit être égal au capital de la société": {
+        "message": "The total amounts of the partners must be equal to the capital of the company",
+        "translated": true
+    },
+    "Le total des parts des associés doit être égal au nombre de parts de la société": {
+        "message": "The total shares of the partners must be equal to the number of shares of the company",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'actionnaire n'existe pas": {
+        "message": "The shareholder's '{0}' accounting reference does not exist",
+        "translated": true
+    },
+    "La référence comptable « {{0}} » de l'actionnaire référence plusieurs tiers": {
+        "message": "The shareholder's '{0}' accounting reference refers to several third parties",
+        "translated": true
+    },
+    "Code modèle société introuvable": {
+        "message": "Model company code not found",
+        "translated": true
+    },
+    "Code société manquant": {
+        "message": "Missing company code",
+        "translated": true
+    },
+    "Liste des opérations rattachées à la société {{0}}": {
+        "message": "List of company-related transactions '{0}'",
+        "translated": true
+    },
+    "Vous ne pouvez pas supprimer un associé si un mouvement de fonds propres a été réalisé pour cet associé.": {
+        "message": "You cannot delete a partner if a capital movement has been made for that partner.",
+        "translated": true
+    },
+    "Le code de société {{0}} est déjà utilisé": {
+        "message": "The company code '{0}' is already in use",
+        "translated": true
+    },
+    "Une société mère doit être indiquée": {
+        "message": "A parent company must be listed",
+        "translated": true
+    },
+    "Code opération manquant.": {
+        "message": "Missing operation code.",
+        "translated": true
+    },
+    "L'opération renseigné est introuvable.": {
+        "message": "The informed operation is nowhere to be found.",
+        "translated": true
+    },
+    "Veuillez indiquer une date de validation": {
+        "message": "Please indicate a validation date",
+        "translated": true
+    },
+    "Veuillez indiquer le stade travaux validé": {
+        "message": "Please indicate the stage work validated",
+        "translated": true
+    },
+    "L'action existe déjà.": {
+        "message": "The action already exists.",
+        "translated": true
+    },
+    "L'opération est introuvable": {
+        "message": "The operation is nowhere to be found",
+        "translated": true
+    },
+    "Suivi dossier": {
+        "message": "Tracking file",
+        "translated": true
+    },
+    "Le code tiers n'est pas défini": {
+        "message": "Third-party code is not set",
+        "translated": true
+    },
+    "Le code tiers ({{0}}) ne correspond pas avec {{1}}": {
+        "message": "The third-party code ({0}) does not correspond with '{1}'",
+        "translated": true
+    },
+    "Tiers : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+        "message": "Third: The 'codePays' field must be provided for the informationed 'adrPays' field",
+        "translated": true
+    },
+    "Tiers : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Third: For an address outside France, the postcode must be provided in the same area as the locality",
+        "translated": true
+    },
+    "Adresses : Le champ 'codePays' doit être renseigné pour le champ 'adrPays' renseigné": {
+        "message": "Addresses: The 'codePays' field must be provided for the informationed 'adrPays' field",
+        "translated": true
+    },
+    "Adresses : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Addresses: For an address outside France, the postcode must be provided in the same area as the locality",
+        "translated": true
+    },
+    "Répresentants : Pour une adresse hors de France, le code postal doit être renseigné dans la même zone que la localité": {
+        "message": "Listings: For an address outside France, the postcode must be provided in the same area as the locality",
+        "translated": true
+    },
+    "Tiers : Le champ 'Adresse' doit être renseigné pour un tiers PHYSIQUE": {
+        "message": "Third: The 'Address' field must be provided for a PHYSIQUE third party",
+        "translated": true
+    },
+    "{{0}} : Le champ '{{1}}' doit être renseigné {{2}}": {
+        "message": "'{0}': The field '{1}' must be informed '{2}'",
+        "translated": true
+    },
+    "{{0}} : Le champ '{{1}}' ne respecte pas le format. Ex: {{2}}": {
+        "message": "'{0}': The field '{1}' does not respect the format. Ex: '{2}'",
+        "translated": true
+    },
+    "Il y a des affectations budgetaires qui utilisent ce tiers.": {
+        "message": "There are budget allocations that use that third party.",
+        "translated": true
+    },
+    "Il y a des situations qui utilisent ce tiers.": {
+        "message": "There are situations that use this third party.",
+        "translated": true
+    },
+    "Il y a des opérations diverses qui utilisent ce tiers.": {
+        "message": "There are various operations that use that third party.",
+        "translated": true
+    },
+    "Il y a des acteurs  qui utilisent ce tiers.": {
+        "message": "There are actors who use that third party.",
+        "translated": true
+    },
+    "Il y a des acteurs de dossier diverses qui utilisent ce tiers.": {
+        "message": "There are various case actors who use this third party.",
+        "translated": true
+    },
+    "Il y a des elements du dossier diverses qui utilisent ce tiers.": {
+        "message": "There are various elements of the file that use this third party.",
+        "translated": true
+    },
+    "Ce tiers est utilisé commme sous-traitant.": {
+        "message": "This third party is used as a subcontractor.",
+        "translated": true
+    },
+    "Ce tiers est utilisé commme contractant.": {
+        "message": "This third party is used as a contractor.",
+        "translated": true
+    },
+    "Ce tiers est utilisé dans une opération, il ne peut être supprimé.": {
+        "message": "This third party is used in an operation, it cannot be deleted.",
+        "translated": true
+    },
+    "Reprise de DOMTIERS vers SpoTiers...": {
+        "message": "Takeover of DOMTIERS to SpoTiers...",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a déjà un dossier vendu.": {
+        "message": "The third party \"{0}\" already has a file sold.",
+        "translated": true
+    },
+    "Veuillez spécifier une date d'appel afin de pouvoir facturer vos TMAs": {
+        "message": "Please specify a call date so you can charge your TMAs",
+        "translated": true
+    },
+    "Le total des appels doit être de 100%": {
+        "message": "Total calls must be 100%",
+        "translated": true
+    },
+    "L'ordre de l'échéance {{0}} doit être défini": {
+        "message": "The order of the '{0}' deadline must be defined",
+        "translated": true
+    },
+    "Plusieurs échéances ont le même numéro d'ordre": {
+        "message": "Several deadlines have the same order number",
+        "translated": true
+    },
+    "Le libellé de l'échéance est obligatoire": {
+        "message": "The wording of the deadline is mandatory",
+        "translated": true
+    },
+    "L'événement de l'échéance est obligatoire": {
+        "message": "The deadline event is mandatory",
+        "translated": true
+    },
+    "Le pourcentage d'appel de l'échéance doit être compris entre 0 et 100%": {
+        "message": "The call percentage of the due date must be between 0 and 100%",
+        "translated": true
+    },
+    "Au moins un échéancier doit etre renseigné": {
+        "message": "At least one timetable must be informed",
+        "translated": true
+    },
+    "Le code de l'échéancier doit être renseigné": {
+        "message": "The timetable code must be provided",
+        "translated": true
+    },
+    "Le libelle de l'échéancier doit être renseigné": {
+        "message": "The libel of the timetable must be informed",
+        "translated": true
+    },
+    "Vous ne pouvez pas ajouter de type ouvrage sans avoir créer une nature travaux au préalable.": {
+        "message": "You can't add a book type without having to create a work nature beforehand.",
+        "translated": true
+    },
+    "La nature des travaux est obligatoire.": {
+        "message": "The nature of the work is mandatory.",
+        "translated": true
+    },
+    "Le type d'ouvrage est obligatoire.": {
+        "message": "The type of work is mandatory.",
+        "translated": true
+    },
+    "L'étape budgétaire est obligatoire.": {
+        "message": "The budget stage is mandatory.",
+        "translated": true
+    },
+    "\"Le régime fiscal est obligatoire.": {
+        "message": "\"The tax system is mandatory.",
+        "translated": true
+    },
+    "Le statut est obligatoire.": {
+        "message": "Status is mandatory.",
+        "translated": true
+    },
+    "Le poste budgétaire vente est obligatoire.": {
+        "message": "The budget item sale is mandatory.",
+        "translated": true
+    },
+    "Le statut \"Commmercialisation\" nécessite la création d'un budget pour l'opération en cours": {
+        "message": "The \"Commmercialisation\" status requires the creation of a budget for the current operation",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" a une grille de prix": {
+        "message": "The \"{0}\" trade bracket has a price grid",
+        "translated": true
+    },
+    "La tranche commerciale \"{{0}}\" a des affectations budgétaires": {
+        "message": "The \"{0}\" trade bracket has budget allocations",
+        "translated": true
+    },
+    "Adresse": {
+        "message": "Address",
+        "translated": true
+    },
+    "Pas de poste budgétaire de TMA pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "There is no TMA budget item for the \"{0}\" trade bracket {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de désistement pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "There is no withdrawal budget for the \"{0}\" trade bracket {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de résolution pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "There is no resolution budget item for the \"{0}\" trade bracket {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de dation pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "There is no dation budget item for the \"{0}\" trade bracket {1}.",
+        "translated": true
+    },
+    "Pas de poste budgétaire de vente TVA sur Marge pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "No VAT sales budget item on Margin for the commercial \"{0}\" ({1})\".",
+        "translated": true
+    },
+    "Pas de poste budgétaire de vente pour la tranche commerciale \"{{0}} ({{1}})\".": {
+        "message": "There is no sales budget item for the commercial \"{0}\" ({1})\".",
+        "translated": true
+    },
+    "Le tranche travaux \"{{0}}\" a des tranches commerciales": {
+        "message": "The \"{0}\" work slice has commercial tranches",
+        "translated": true
+    },
+    "Vous ne pouvez pas ajouter de type lot sans avoir créer un type ouvrage au préalable.": {
+        "message": "You can't add a lot type without having to create a book type beforehand.",
+        "translated": true
+    },
+    "Le montant dation ne peut être supérieur au montant budget.": {
+        "message": "The amount of money cannot be higher than the budget amount.",
+        "translated": true
+    },
+    "La valeur '{{0}}' n'est pas autorisée pour le champ '{{1}}'": {
+        "message": "The value '{0}' is not allowed for the field '{1}'",
+        "translated": true
+    },
+    "Le champ '{{0}}' doit être renseigné": {
+        "message": "The field '{0}' needs to be informed",
+        "translated": true
+    },
+    "Impossible d'accéder au dossier dont l'identifiant n'a pas été reçu": {
+        "message": "Unable to access the file whose ID has not been received",
+        "translated": true
+    },
+    "Impossible de retrouver le dossier de réservation/vente n°{0}": {
+        "message": "Can't find the {0}",
+        "translated": true
+    },
+    "Impossible de finaliser le désistement. Vous devez préalablement Annulé tout vos TMAs non inclus dans l'acte.": {
+        "message": "It's impossible to finalize the withdrawal. You must previously Cancel all your TMAs not included in the deed.",
+        "translated": true
+    },
+    "Paramètre manquant idop": {
+        "message": "Missing setting idop",
+        "translated": true
+    },
+    "Vous devez enregistrer un budget actualisé avant de commencer.": {
+        "message": "You need to save an updated budget before you start.",
+        "translated": true
+    },
+    "Paramètre manquant type": {
+        "message": "Typical missing setting",
+        "translated": true
+    },
+    "Paramètre manquant idversion": {
+        "message": "Missing setting idversion",
+        "translated": true
+    },
+    "Copie {{0}}": {
+        "message": "Copy '{0}'",
+        "translated": true
+    },
+    "Vous ne pouvez pas copier une version Archivé.": {
+        "message": "You can't copy an archived version.",
+        "translated": true
+    },
+    "Vous ne pouvez pas archiver une version Archivé.": {
+        "message": "You can't archive an archived version.",
+        "translated": true
+    },
+    "Il est impossible de supprimer une version avec le statut {{0}}.": {
+        "message": "It is impossible to delete a version with the status '{0}'.",
+        "translated": true
+    },
+    "Vous ne pouvez pas changer le statut en \"{{0}}\" car votre version à le statut {{1}} .": {
+        "message": "You can't change the status to \"{0}\" because your version has the status {1}.",
+        "translated": true
+    },
+    "Code version manquant.": {
+        "message": "Code missing version.",
+        "translated": true
+    },
+    "La version renseigné est introuvable.": {
+        "message": "The informed version is nowhere to be found.",
+        "translated": true
+    },
+    "periode": {
+        "message": "Period",
+        "translated": true
+    },
+    "total": {
+        "message": "Total",
+        "translated": true
+    },
+    "INT": {
+        "message": "Int",
+        "translated": true
+    },
+    "D2": {
+        "message": "D2",
+        "translated": true
+    },
+    "PCT": {
+        "message": "Pct",
+        "translated": true
+    },
+    "TEXT": {
+        "message": "TEXT",
+        "translated": true
+    },
+    "Echéancier": {
+        "message": "Arse-er",
+        "translated": true
+    },
+    "Appels de fonds": {
+        "message": "Calls for funds",
+        "translated": true
+    },
+    "Encaissements clients": {
+        "message": "Customer cash",
+        "translated": true
+    },
+    "nombre": {
+        "message": "Number",
+        "translated": true
+    },
+    "montant HT": {
+        "message": "amount HT",
+        "translated": true
+    },
+    "montant TTC": {
+        "message": "amount TTC",
+        "translated": true
+    },
+    "pourcentage": {
+        "message": "Percentage",
+        "translated": true
+    },
+    "NONE": {
+        "message": "NONE",
+        "translated": true
+    },
+    "OP": {
+        "message": "Op",
+        "translated": true
+    },
+    "TT": {
+        "message": "Tt",
+        "translated": true
+    },
+    "TOTAL": {
+        "message": "Total",
+        "translated": true
+    },
+    "MOIS": {
+        "message": "Month",
+        "translated": true
+    },
+    "TRIM": {
+        "message": "Trim",
+        "translated": true
+    },
+    "ANNEE": {
+        "message": "Year",
+        "translated": true
+    },
+    "ALL": {
+        "message": "ALL",
+        "translated": true
+    },
+    "TC synchronisées": {
+        "message": "Synchronized TC",
+        "translated": true
+    },
+    "TC non synchronisées": {
+        "message": "TC not synchronized",
+        "translated": true
+    },
+    "Lecture": {
+        "message": "Reading",
+        "translated": true
+    },
+    "Gestion": {
+        "message": "Management",
+        "translated": true
+    },
+    "Prévu": {
+        "message": "Planned",
+        "translated": true
+    },
+    "Réalisé": {
+        "message": "Realized",
+        "translated": true
+    },
+    "Appelé": {
+        "message": "Called",
+        "translated": true
+    },
+    "Encaissé": {
+        "message": "Cashed",
+        "translated": true
+    },
+    "Carte": {
+        "message": "Map",
+        "translated": true
+    },
+    "Vignette": {
+        "message": "Sticker",
+        "translated": true
+    },
+    "Liste": {
+        "message": "List",
+        "translated": true
+    },
+    "Document": {
+        "message": "Document",
+        "translated": true
+    },
+    "Modèle": {
+        "message": "Model",
+        "translated": true
+    },
+    "UNIQUE": {
+        "message": "Unique",
+        "translated": true
+    },
+    "empty": {
+        "message": "empty",
+        "translated": true
+    },
+    "success": {
+        "message": "Success",
+        "translated": true
+    },
+    "danger": {
+        "message": "Danger",
+        "translated": true
+    },
+    "warning": {
+        "message": "warning",
+        "translated": true
+    },
+    "Tranche Travaux": {
+        "message": "Slice Works",
+        "translated": true
+    },
+    "Nature Travaux": {
+        "message": "Nature Works",
+        "translated": true
+    },
+    "Type Ouvrage": {
+        "message": "Type Work",
+        "translated": true
+    },
+    "Lots Principaux/Secondaires": {
+        "message": "Main/Secondary Lots",
+        "translated": true
+    },
+    "Annuel": {
+        "message": "Annual",
+        "translated": true
+    },
+    "Mensuel": {
+        "message": "Monthly",
+        "translated": true
+    },
+    "Caractéristiques": {
+        "message": "Characteristics",
+        "translated": true
+    },
+    "Typologie": {
+        "message": "Type",
+        "translated": true
+    },
+    "Surface de plancher de base": {
+        "message": "Basic floor area",
+        "translated": true
+    },
+    "SHAB de base": {
+        "message": "Basic SHAB",
+        "translated": true
+    },
+    "Surface terrain de base": {
+        "message": "Base field area",
+        "translated": true
+    },
+    "Réservataires": {
+        "message": "Reservists",
+        "translated": true
+    },
+    "Page d'acceuil opérations": {
+        "message": "Homepage operations",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'existe pas": {
+        "message": "The \"{0}\" operation does not exist",
+        "translated": true
+    },
+    "Date de début": {
+        "message": "Start date",
+        "translated": true
+    },
+    "Date de fin": {
+        "message": "End date",
+        "translated": true
+    },
+    "Planning préferences": {
+        "message": "Planning preferences",
+        "translated": true
+    },
+    "L'opération \"{{0}}\" n'a pas de planning.": {
+        "message": "The operation \"{0}\" has no schedule.",
+        "translated": true
+    },
+    "Comparer ...": {
+        "message": "Compare...",
+        "translated": true
+    },
+    "La procédure \"{{0}}\" n'existe pas.": {
+        "message": "The \"{0}\" procedure does not exist.",
+        "translated": true
+    },
+    "La procédure \"{{0}}\" n'a pas de planning.": {
+        "message": "The \"{0}\" procedure has no schedule.",
+        "translated": true
+    },
+    "Aucune ligne sélectionnée": {
+        "message": "No line selected",
+        "translated": true
+    },
+    "L'procédure \"{{0}}\" n'existe pas": {
+        "message": "The \"{0}\" procedure does not exist",
+        "translated": true
+    },
+    "Cette étape est déjà attribué à cette procédure.": {
+        "message": "This step is already attributed to this procedure.",
+        "translated": true
+    },
+    "Le code renseigné est déjà attribué. Veuillez choisir un autre code": {
+        "message": "The information code is already assigned. Please choose another code",
+        "translated": true
+    },
+    "Cette action est déjà attribué à cette étape.": {
+        "message": "This action is already attributed at this stage.",
+        "translated": true
+    },
+    "Cette action n'existe pas.": {
+        "message": "This action does not exist.",
+        "translated": true
+    },
+    "Cette étape n'existe pas.": {
+        "message": "This step does not exist.",
+        "translated": true
+    },
+    "Le code procédure est obligatoire": {
+        "message": "The procedure code is mandatory",
+        "translated": true
+    },
+    "La procédure est introuvable": {
+        "message": "The procedure is nowhere to be found",
+        "translated": true
+    },
+    "Etape non trouvé.": {
+        "message": "Step not found.",
+        "translated": true
+    },
+    "Action non trouvé.": {
+        "message": "Action not found.",
+        "translated": true
+    },
+    "Acteur non trouvé.": {
+        "message": "Actor not found.",
+        "translated": true
+    },
+    "Echéancier du dossier": {
+        "message": "Aching of the file",
+        "translated": true
+    },
+    "Echéancier des lots {{0}}": {
+        "message": "Auctioneer of lots '{0}'",
+        "translated": true
+    },
+    "Echéancier du lot {{0}}": {
+        "message": "Aerated of the lot '{0}'",
+        "translated": true
+    },
+    "( Pas d'évènement )": {
+        "message": "(No event)",
+        "translated": true
+    },
+    "L'echéancier n'est pas modifiable.": {
+        "message": "The waterproofing is not changeable.",
+        "translated": true
+    },
+    "Echéance déja appelé.": {
+        "message": "End already called.",
+        "translated": true
+    },
+    "Dans le cas d'un dossier avec des tranches différentes sur ses lots, veuillez séléctionner \"échéancier par lot\"": {
+        "message": "In the case of a folder with different slices on its lots, please select \"time by batch\"",
+        "translated": true
+    },
+    "Le pays est vide.": {
+        "message": "The country is empty.",
+        "translated": true
+    },
+    "Le ville est vide.": {
+        "message": "The city is empty.",
+        "translated": true
+    },
+    "L'adresse est obligatoire.": {
+        "message": "The address is mandatory.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a la même siret.": {
+        "message": "The third party \"{0}\" has the same siret.",
+        "translated": true
+    },
+    "La référence comptable est vide.": {
+        "message": "The accounting reference is empty.",
+        "translated": true
+    },
+    "Le tiers \"{{0}}\" a la même référence comptable.": {
+        "message": "The third party \"{0}\" has the same accounting reference.",
+        "translated": true
+    },
+    "La raison sociale est vide.": {
+        "message": "The name is empty.",
+        "translated": true
+    },
+    "Le numéro de SIRET saisi est invalide.": {
+        "message": "The SEized SIRET number is invalid.",
+        "translated": true
+    },
+    "- Votre choix -": {
+        "message": "- Your choice -",
+        "translated": true
+    },
+    "Allemagne": {
+        "message": "Germany",
+        "translated": true
+    },
+    "Autriche": {
+        "message": "Austria",
+        "translated": true
+    },
+    "Belgique": {
+        "message": "Belgium",
+        "translated": true
+    },
+    "Bulgarie": {
+        "message": "Bulgaria",
+        "translated": true
+    },
+    "Chypre": {
+        "message": "Cyprus",
+        "translated": true
+    },
+    "Croatie": {
+        "message": "Croatia",
+        "translated": true
+    },
+    "Danemark": {
+        "message": "Denmark",
+        "translated": true
+    },
+    "Espagne": {
+        "message": "Spain",
+        "translated": true
+    },
+    "Estonie": {
+        "message": "Estonia",
+        "translated": true
+    },
+    "Finlande": {
+        "message": "Finland",
+        "translated": true
+    },
+    "France": {
+        "message": "France",
+        "translated": true
+    },
+    "Grèce": {
+        "message": "Greece",
+        "translated": true
+    },
+    "Hongrie": {
+        "message": "Hungary",
+        "translated": true
+    },
+    "Irlande": {
+        "message": "Ireland",
+        "translated": true
+    },
+    "Italie": {
+        "message": "Italy",
+        "translated": true
+    },
+    "Lettonie": {
+        "message": "Latvia",
+        "translated": true
+    },
+    "Lituanie": {
+        "message": "Lithuania",
+        "translated": true
+    },
+    "Luxembourg": {
+        "message": "Luxembourg",
+        "translated": true
+    },
+    "Malte": {
+        "message": "Malta",
+        "translated": true
+    },
+    "Pays-Bas": {
+        "message": "Netherlands",
+        "translated": true
+    },
+    "Pologne": {
+        "message": "Poland",
+        "translated": true
+    },
+    "Portugal": {
+        "message": "Portugal",
+        "translated": true
+    },
+    "Rép. Tchèque": {
+        "message": "Rep. Czech",
+        "translated": true
+    },
+    "Roumanie": {
+        "message": "Romania",
+        "translated": true
+    },
+    "Royaume-Uni": {
+        "message": "United Kingdom",
+        "translated": true
+    },
+    "Slovaquie": {
+        "message": "Slovakia",
+        "translated": true
+    },
+    "Slovénie": {
+        "message": "Slovenia",
+        "translated": true
+    },
+    "Suède": {
+        "message": "Sweden",
+        "translated": true
+    },
+    "Le nom famille est vide.": {
+        "message": "The family name is empty.",
+        "translated": true
+    },
+    "Le prenom est vide.": {
+        "message": "The first name is empty.",
+        "translated": true
+    },
+    "Le couple ont a la même référence comptable.": {
+        "message": "The couple have the same accounting reference.",
+        "translated": true
+    },
+    "Ajout d’un tiers": {
+        "message": "Adding a third",
+        "translated": true
+    },
+    "Ajout d’un couple": {
+        "message": "Adding a couple",
+        "translated": true
+    },
+    "Votre choix": {
+        "message": "Your choice",
+        "translated": true
+    },
+    "Représentant principal": {
+        "message": "Senior representative",
+        "translated": true
+    },
+    "Représentant actif": {
+        "message": "Active representative",
+        "translated": true
+    },
+    "Représentant inactif": {
+        "message": "Inactive representative",
+        "translated": true
+    },
+    "Domiciliation principale": {
+        "message": "Main domicile",
+        "translated": true
+    },
+    "L'IBAN est vide.": {
+        "message": "The IBAN is empty.",
+        "translated": true
+    },
+    "Le titulaire du compte est vide.": {
+        "message": "The account holder is empty.",
+        "translated": true
+    },
+    "Le BIC est vide.": {
+        "message": "The BIC is empty.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur, en l'assurance de ma considération distinguée.": {
+        "message": "I beg you to believe, sir, in the assurance of my distinguished consideration.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame, en l'assurance de ma considération distinguée.": {
+        "message": "I beg you to believe, Madam, in the assurance of my distinguished consideration.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments distingués.": {
+        "message": "Please believe, Mr President, in the assurance of my distinguished feelings.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président, en l'assurance de mes sentiments les meilleurs.": {
+        "message": "Please believe, Mr President, in the assurance of my best feelings.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame la Présidente, en l'assurance de ma considération distinguée.": {
+        "message": "Please believe, Madam President, in the assurance of my distinguished consideration.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame, Monsieur, en l'assurance de ma considération distinguée.": {
+        "message": "I beg you to believe, Madam, Sir, in the assurance of my distinguished consideration.",
+        "translated": true
+    },
+    "Je vous prie de croire, Monsieur le Président-Directeur Général, en l'assurance de mes sentiments distingués.": {
+        "message": "Please believe, Mr President and CEO, in the assurance of my distinguished feelings.",
+        "translated": true
+    },
+    "Je vous prie de croire, Madame le Président-Directeur Général, en l'assurance de ma considération distinguée.": {
+        "message": "Please believe, Madam President and CEO, in the assurance of my distinguished consideration.",
+        "translated": true
+    },
+    "Monsieur,": {
+        "message": "Mr",
+        "translated": true
+    },
+    "Madame,": {
+        "message": "Madam",
+        "translated": true
+    },
+    "Monsieur le Président,": {
+        "message": "Mr President",
+        "translated": true
+    },
+    "Madame la Présidente,": {
+        "message": "Madam President",
+        "translated": true
+    },
+    "Madame, Monsieur,": {
+        "message": "Ma'am, sir,",
+        "translated": true
+    },
+    "Monsieur le Président-Directeur Général,": {
+        "message": "Mr. President and Chief Executive Officer,",
+        "translated": true
+    },
+    "Madame le Président-Directeur Général,": {
+        "message": "Madam President and CEO,",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.host\".": {
+        "message": "In the config file it lacks the entry \"serverTiers.host\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.tenant\".": {
+        "message": "In the config file it lacks the entry \"serverTiers.holding\".",
+        "translated": true
+    },
+    "Dans le fichier config il manque l'entrée \"serverTiers.authorization\".": {
+        "message": "In the config file it lacks the entry \"serverTiers.authorization\".",
+        "translated": true
+    },
+    "Dans le fichier config  l'entrée \"serverTiers.authorization\" n'est pas correcte.": {
+        "message": "In the config file the entry \"serverTiers.authorization\" is not correct.",
+        "translated": true
+    },
+    "Reprise de ReferentielTiers vers SpoTiers... ...": {
+        "message": "Re takeover of ReferentielTiers to SpoTiers......",
+        "translated": true
+    },
+    "Valeur invalide pour civilité": {
+        "message": "Invalid value for civility",
+        "translated": true
+    },
+    "Invalid tiers data: unknown famille value: \"{{0}}\".": {
+        "message": "Invalid third data: unknown family value: \"{0}\".",
+        "translated": true
+    },
+    "Le famille {{0}} n'existe pas.": {
+        "message": "The '{0}' family does not exist.",
+        "translated": true
+    },
+    "{{0}} - {{1}}:  n'existe pas dans référentiel tiers": {
+        "message": "'{0}' - '{1}': does not exist in third-party repository",
+        "translated": true
+    },
+    "Le type ouvrage \"{{0}}\" est déjà associé à cette nature travaux, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "The type of work \"{0}\" is already associated with this nature works, it cannot be added a second time.",
+        "translated": true
+    },
+    "Nature Travaux non trouvé.": {
+        "message": "Nature Works not found.",
+        "translated": true
+    },
+    "Merci d'indiquer le code de la tranche": {
+        "message": "Please enter the instalment code",
+        "translated": true
+    },
+    "Le stade d'avancement \"{{0}}\" existe déjà, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "The \"{0}\" stage of advancement already exists, it cannot be added a second time.",
+        "translated": true
+    },
+    " Tranche non trouvée.": {
+        "message": " Slice not found.",
+        "translated": true
+    },
+    " Adresse tranche non trouvée.": {
+        "message": " Address slice not found.",
+        "translated": true
+    },
+    " Synthèse tranche non trouvée.": {
+        "message": " Summary slice not found.",
+        "translated": true
+    },
+    "operation undefined !": {
+        "message": "operation undefined!",
+        "translated": true
+    },
+    "Param 'tranche' requis !": {
+        "message": "Param 'slice' required!",
+        "translated": true
+    },
+    "Le type de lot est obligatoire": {
+        "message": "The type of lot is mandatory",
+        "translated": true
+    },
+    "La nature du lot est obligatoire": {
+        "message": "The nature of the lot is mandatory",
+        "translated": true
+    },
+    "Lots secondaires": {
+        "message": "Secondary lots",
+        "translated": true
+    },
+    "Le total des lignes des lots principaux ne correspond pas à la surface à vendre : {{0}}": {
+        "message": "The total lines of the main lots do not correspond to the area for sale: '{0}'",
+        "translated": true
+    },
+    "Tranche introuvable": {
+        "message": "Slice not found",
+        "translated": true
+    },
+    "Cette opération n'existe pas.": {
+        "message": "This does not exist.",
+        "translated": true
+    },
+    "Le total réservataire ne peut pas dépasser le nombre de logements.": {
+        "message": "The total reserve can not exceed the number of dwellings.",
+        "translated": true
+    },
+    "Retour en arrière non autorisé dans avancement travaux": {
+        "message": "Unauthorized backtracking in advancement jobs",
+        "translated": true
+    },
+    "Confirmez vous la modification de l'avancement travaux ? Retour en arrière non autorisé.": {
+        "message": "Do you confirm the change in the progress work? Unauthorized backtracking.",
+        "translated": true
+    },
+    "Nombre de lots": {
+        "message": "Number of lots",
+        "translated": true
+    },
+    "Le type lot \"{{0}}\" est déjà associé à ce type ouvrage, il ne peut pas être ajouté une deuxième fois.": {
+        "message": "The lot type \"{0}\" is already associated with this type of work, it cannot be added a second time.",
+        "translated": true
+    },
+    "Type d'ouvrage non trouvé.": {
+        "message": "Type of work not found.",
+        "translated": true
+    }
+}

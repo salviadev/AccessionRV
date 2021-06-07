@@ -1,0 +1,29 @@
+{
+    "$schema": "http://phenix.salviadeveloppement.com/json-schema/mdr-schema.json",
+    "name": "GedFichier",
+    "type": "object",
+    "primaryKey": "code",
+    "title": "GED Fichier",
+    "properties": {
+        "code": {
+            "type": "string",
+            "format": "code",
+            "title": "Url"
+        },
+        "nomFichier": {
+            "type": "string"
+        },
+        "typeFichier": {
+            "type": "string"
+        },
+        "tailleFichier": {
+            "type": "integer",
+            "format": "int64",
+            "description": "taille en octet"
+        },
+        "dataFichier": {
+            "type": "string",
+            "format": "stream"
+        }
+    }
+}

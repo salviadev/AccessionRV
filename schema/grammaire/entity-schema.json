@@ -1,0 +1,124 @@
+{
+    "$schema" : "https://json-schema.org/draft/2020-12/schema",
+    "$id" : "http://phenix.salviadeveloppement.com/json-schema/entity-schema.json",
+    "definitions": {
+        "myExtensions" : {
+            "properties": {
+                "format" : { 
+                    "type": "string",
+                    "enum": [ "date", "money", "rate", "int16", "int64", "code", "memo", "stream", "json", "uuid",
+                    "date-time", "email", "hostname", "uri", "regex", "ipv4", "ipv6" ] 
+                },
+                "precision" : { "type": "integer", "minimum": 1, "maximum": 28, "description": "nombre de chiffre total" },
+                "decimals" : { "type": "integer", "minimum": 0, "maximum": 28, "description": "nombre de chiffre après la décimale" },
+                
+                "name" : { "type" : "string", "description": "internal name of entity or property" },
+                "primaryKey" : { "$ref" : "#/definitions/stringOrStringArray", "description": "entity unique key" },
+                "indexes" : { "type": "array", "items": { "$ref" : "#/definitions/indexDef" } },
+                "relations" : { "$ref" : "#/definitions/relationDef" },
+                "expand" : { "type" : "boolean", "description": "auto-expand dans GET odata" },
+                
+                "subType" : { "type" : "string", "enum": ["view"], "description": "obligatoire pour identifier une view"},
+                "version" : { "type" : "string", "description": "obligatoire pour versionner une view"},
+                "view" : { "$ref" : "#/definitions/viewDef" },
+
+                "autogen" : { "type": "boolean", "description": "pour le type uuid indique si le serveur doit le générer automatiquement si non fourni par le client"},
+
+                "multiTenant" : { "type" : "string", "enum": ["none", "shared", "isolated"] }
+                
+            }
+
+        },
+        "indexDef" : {
+            "type": "object", 
+            "additionalProperties": false,
+            "required": ["fields"], 
+            "properties": {
+                "fields" : { "$ref" : "#/definitions/stringOrStringArray" },
+                "unique" : { "type": "boolean", "default": false }
+            }
+        },
+        "viewDef" : { 
+            "type": "object",
+            "description": "définition de la view",
+            "additionalProperties": false,
+            "required": ["body"],
+            "properties": {
+                "sources" : { "description": "tables sources", "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems" : true },
+                "body" : {
+                    "type": "object",
+                    "additionalProperties": false,                    
+                    "description": "requêtes de la view ou référence vers fichier script. ne pas oublier tenantId",
+                    "properties": {
+                        "generic" : { "description": "SQL générique", "$ref" : "#/definitions/stringOrStringArray" },
+                        "mssql" : { "$ref" : "#/definitions/stringOrStringArray" },
+                        "postgreSql" : { "$ref" : "#/definitions/stringOrStringArray" }
+                    }
+                } 
+            } 
+        },
+        "relationDef" : {
+            "additionalProperties" : {
+                "properties": {
+                    "key" : { "$ref" : "#/definitions/stringOrStringArray" },
+                    "foreignKey" : { "$ref" : "#/definitions/stringOrStringArray" },
+                    "foreignEntity" : { "type": "string" },
+                    "multiplicity" : { "type": "string", "enum": [ "many", "one" ], "default": "many" },
+                    "inverseRel" : { "type": "string", "description": "nom de la propriete de navigation inverse" },
+                    "inverseMultiplicity" : { "type": "string", "enum": [ "many", "one" ] },
+                    "createDbFK" : { "type" : "boolean", "description": "créer une FK SQL" },
+                    "onDelete" : { "type" : "string", "enum": ["noAction", "cascade", "setNull", "setDefault"]}
+                }
+                        
+            }              
+        },
+        "stringOrStringArray" : {
+            "anyOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems" : true }]
+        },
+        "schemaArray": {
+            "type": "array",
+            "items": { "$ref": "#" }
+        }
+    },
+    "allOf": [
+        { "$ref": "http://json-schema.org/draft-04/schema#" },
+        { "$ref" : "#/definitions/myExtensions" }       
+    ],
+    "properties": {
+        "additionalItems": {
+            "anyOf": [ { "type": "boolean" }, { "$ref": "#" } ]
+        },
+        "additionalProperties": {
+            "anyOf": [ { "type": "boolean" }, { "$ref": "#" } ]
+        },
+        "dependencies": {
+            "additionalProperties": {
+                "anyOf": [ { "$ref": "#" }, { "type": "array" } ]
+            }
+        },
+        "items": {
+            "anyOf": [ { "$ref": "#" }, { "$ref": "#/definitions/schemaArray" } ]
+        },
+        "definitions": {
+            "additionalProperties": { "$ref": "#" }
+        },
+        "patternProperties": {
+            "additionalProperties": { "$ref": "#" }
+        },
+        "properties": {
+            "additionalProperties": { "$ref": "#" }
+        },
+        "allOf": {
+            "$ref": "#/definitions/schemaArray"
+        },
+        "anyOf": {
+            "$ref": "#/definitions/schemaArray"
+        },
+        "oneOf": {
+            "$ref": "#/definitions/schemaArray"
+        },
+        "not": {
+            "$ref": "#"
+        }        
+    }
+}

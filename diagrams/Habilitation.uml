@@ -1,0 +1,58 @@
+@startuml
+class CAGroupeUti {
+  code: string
+  libelle: string
+  actif: boolean
+  isAdmin: boolean
+  tenantId: integer
+  id: integer
+}
+class CAGroupeUtiAcces {
+  code: string
+  libelle: string
+  refRole: string
+  refUniteOrga: string
+  parentId: integer
+  tenantId: integer
+  id: integer
+}
+class CARole {
+  code: string
+  libelle: string
+  actif: boolean
+  tenantId: integer
+  id: integer
+}
+class CARoleHabil {
+  code: string
+  libelle: string
+  action: string
+  niveau: string
+  parentId: integer
+  tenantId: integer
+  id: integer
+}
+class CAUniteOrga {
+  code: string
+  libelle: string
+  libLong: string
+  actif: boolean
+  refParent: string
+  tenantId: integer
+  id: integer
+}
+class CAGroupeUtiMembre {
+  code: string
+  libelle: string
+  refGroupe: string
+  refUti: string
+  tenantId: integer
+  id: integer
+}
+CAGroupeUti"1"  *--> "acces" CAGroupeUtiAcces
+CAGroupeUtiAcces"1"  --> "role" CARole
+CARole"1"  *--> "habilitations" CARoleHabil
+CAGroupeUtiAcces"1"  --> "uniteOrga" CAUniteOrga
+CAUniteOrga"1"  --> "parent" CAUniteOrga
+CAGroupeUtiMembre"1"  --> "groupe" CAGroupeUti
+@enduml
