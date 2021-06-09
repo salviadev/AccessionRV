@@ -18,8 +18,8 @@ module.exports = {
                     database: 'SPOP_V17_PROMOTEUR',
                     database: 'SPOP_V17_PROMOTEUR',
                     database: 'IILKIRCH_SPO',
-                    database: 'SPOP_V171_PROMOTEUR',
-                    database: 'SPO_ALSEI',
+                    database: 'SPOP_V17.1_PROMOTEUR',
+                    // database: 'SPO_ALSEI',
                     // database: 'SPO_ALSEI_PROD',
                     options: {
                         encrypt: false,

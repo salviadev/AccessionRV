@@ -890,7 +890,7 @@ export const model: any = {
         },
         "indexes": [
             {
-                "fields": "refTiers"
+                "fields": "refArticle"
             }
         ],
         "_checked": true,

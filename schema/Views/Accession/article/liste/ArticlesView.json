@@ -1,0 +1,45 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "ArticlesView",
+    "name": "ArticlesView",
+    "primaryKey": "id",
+    "theme": "article/list",
+    "isTransient": true,
+    "serializeDirectives": [
+        "total",
+        "articles"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    },
+    "relations": {
+        "articles": {
+            "instanceOptions": true,
+            "findClass": "Article",
+            "findOptions": {
+                "select": [
+                    "code",
+                    "libelle",
+                    "prix"
+                ],
+                "count": true,
+                "optimizeCount": true,
+                "limit": 20,
+                "sort": [
+                    "libelle"
+                ]
+            },
+            "foreignEntity": "ArticlesItemView",
+            "multiplicity": "many"
+        },
+        "total": {
+            "type": "hasOne",
+            "aggregationKind": "none",
+            "model": "ArticlesTotalView"
+        }
+    }
+}
