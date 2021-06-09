@@ -1,0 +1,18 @@
+@startuml
+class ArticlesModelView {
+  id: integer
+}
+class ArticlesItemModelView {
+  id: integer
+  prix: number
+  code: string
+  libelle: string
+}
+class ArticlesModelTotalView {
+  id: integer
+  prix: number
+}
+PaginatedListView <|-- ArticlesModelView
+ArticlesModelView"1"  --> "articles" ArticlesItemModelView
+ArticlesModelView"1"  --> "total" ArticlesModelTotalView
+@enduml

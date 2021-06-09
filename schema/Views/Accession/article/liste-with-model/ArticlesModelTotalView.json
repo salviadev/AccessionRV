@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "ArticlesModelTotalView",
+    "name": "ArticlesModelTotalView",
+    "primaryKey": "id",
+    "theme": "article/list-with-model",
+    "isTransient": true,
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        },
+        "prix": {
+            "type": "number",
+            "format": "money"
+        }
+    }
+}

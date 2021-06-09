@@ -4,5 +4,10 @@
         "classes": [
             "ArticlesView"
         ]
+    },
+    "ArticlesModelView": {
+        "classes": [
+            "ArticlesModelView"
+        ]
     }
 }

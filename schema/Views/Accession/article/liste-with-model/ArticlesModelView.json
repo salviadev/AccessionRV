@@ -1,0 +1,47 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "ArticlesModelView",
+    "name": "ArticlesModelView",
+    "extends": "PaginatedListView",
+    "primaryKey": "id",
+    "theme": "article/list-with-model",
+    "isTransient": true,
+    "serializeDirectives": [
+        "total",
+        "articles",
+        "models"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    },
+    "relations": {
+        "articles": {
+            "instanceOptions": true,
+            "findClass": "Article",
+            "findOptions": {
+                "select": [
+                    "code",
+                    "libelle",
+                    "prix"
+                ],
+                "count": true,
+                "optimizeCount": true,
+                "limit": 20,
+                "sort": [
+                    "libelle"
+                ]
+            },
+            "foreignEntity": "ArticlesItemModelView",
+            "multiplicity": "many"
+        },
+        "total": {
+            "type": "hasOne",
+            "aggregationKind": "none",
+            "model": "ArticlesModelTotalView"
+        }
+    }
+}
