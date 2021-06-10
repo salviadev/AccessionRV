@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "FactureItemView",
+    "name": "FactureItemView",
+    "primaryKey": "id",
+    "theme": "factures/list",
+    "isTransient": true,
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        },
+        "montant": {
+            "type": "number",
+            "format": "money"
+        },
+        "code": {
+            "type": "string"
+        },
+        "libelle": {
+            "type": "string"
+        }
+    }
+}

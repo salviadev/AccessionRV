@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "name": "FactureMntView",
+    "primaryKey": "id",
+    "theme": "factures/detail",
+    "model": "FactureDetail",
+    "isTransient": true,
+    "mappingDef": [
+        {
+            "from": "#model",
+            "mappings": [
+                "libelle",
+                "montant"
+            ]
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "number",
+            "title": "Id"
+        },
+        "codeArticle": {
+            "type": "string"
+        },
+        "libArticle": {
+            "type": "string"
+        }
+    }
+}

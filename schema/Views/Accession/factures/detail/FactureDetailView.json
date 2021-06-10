@@ -1,0 +1,42 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "FactureDetailView",
+    "name": "FactureDetailView",
+    "primaryKey": "id",
+    "theme": "factures/detail",
+    "isTransient": true,
+    "model": "Facture",
+    "serializeDirectives": [
+        "lignes"
+    ],
+    "mappingDef": [
+        {
+            "from": "#model",
+            "mappings": [
+                "code",
+                "libelle"
+            ]
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        },
+        "codeTiers": {
+            "type": "string"
+        },
+        "libTiers": {
+            "type": "string"
+        }
+    },
+    "relations": {
+        "lignes": {
+            "type": "hasMany",
+            "aggregationKind": "none",
+            "model": "FactureMntView",
+            "syncSource": "details"
+        }
+    }
+}

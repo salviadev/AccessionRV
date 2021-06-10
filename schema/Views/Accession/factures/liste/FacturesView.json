@@ -1,0 +1,60 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "FacturesView",
+    "name": "FacturesView",
+    "primaryKey": "id",
+    "theme": "factures/list",
+    "isTransient": true,
+    "serializeDirectives": [
+        "factures"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    },
+    "relations": {
+        "factures": {
+            "instanceOptions": true,
+            "findClass": "Facture",
+            "findOptions": {
+                "entities": {
+                    "detail": {
+                        "entityName": "FactureDetail",
+                        "select": [
+                            "$sum(montant) montant",
+                            "parentId"
+                        ],
+                        "groupBy": [
+                            "parentId"
+                        ]
+                    }
+                },
+                "select": [
+                    "code",
+                    "libelle",
+                    "detail.montant montant"
+                ],
+                "join": [
+                    {
+                        "entity": "detail",
+                        "type": "left",
+                        "condition": {
+                            "id": "parentId"
+                        }
+                    }
+                ],
+                "count": true,
+                "optimizeCount": true,
+                "limit": 20,
+                "sort": [
+                    "id desc"
+                ]
+            },
+            "foreignEntity": "FactureItemView",
+            "multiplicity": "many"
+        }
+    }
+}

@@ -1,9 +1,9 @@
 import * as boc from '@phoenix/boc';
 import { DataDriverNames } from '../interfaces';
 
-const findOPActeurDataFactorySettings: boc.FindDataFactorySettings = {
-    datasetName: 'OPActeur',
-    entityName: 'OPActeur',
+const findArticleDataFactorySettings: boc.FindDataFactorySettings = {
+    datasetName: 'Article',
+    entityName: 'Article',
     findOptions: {
         count: true,
         sort: 'code',
@@ -14,4 +14,4 @@ const findOPActeurDataFactorySettings: boc.FindDataFactorySettings = {
     objectStoreName: DataDriverNames.SpoDirect
 };
 
-export const findOPActeurDataFactory = new boc.FindDataFactory(findOPActeurDataFactorySettings);
+export const findArticleDataFactory = new boc.FindDataFactory(findArticleDataFactorySettings);
