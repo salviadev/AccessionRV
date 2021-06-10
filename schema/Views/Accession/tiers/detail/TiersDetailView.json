@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "TiersDetailView",
+    "name": "TiersDetailView",
+    "primaryKey": "id",
+    "theme": "tiers/detail",
+    "isTransient": true,
+    "model": "Tiers",
+    "mappingDef": [
+        {
+            "from": "#model",
+            "mappings": [
+                "code",
+                "libelle"
+            ]
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    }
+}

@@ -9,5 +9,10 @@
         "classes": [
             "ArticlesModelView"
         ]
+    },
+    "TiersView": {
+        "classes": [
+            "ArticlesView"
+        ]
     }
 }

@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "type": "object",
+    "title": "TiersView",
+    "name": "TiersView",
+    "primaryKey": "id",
+    "theme": "tiers/list",
+    "isTransient": true,
+    "serializeDirectives": [
+        "tiers"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "Id."
+        }
+    },
+    "relations": {
+        "tiers": {
+            "instanceOptions": true,
+            "findClass": "Tiers",
+            "findOptions": {
+                "select": [
+                    "code",
+                    "libelle"
+                ],
+                "count": true,
+                "optimizeCount": true,
+                "limit": 20,
+                "sort": [
+                    "libelle"
+                ]
+            },
+            "foreignEntity": "TiersItemView",
+            "multiplicity": "many"
+        }
+    }
+}

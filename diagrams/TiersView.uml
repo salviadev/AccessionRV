@@ -1,0 +1,17 @@
+@startuml
+class ArticlesView {
+  id: integer
+}
+class ArticlesItemView {
+  id: integer
+  prix: number
+  code: string
+  libelle: string
+}
+class ArticlesTotalView {
+  id: integer
+  prix: number
+}
+ArticlesView"1"  --> "articles" ArticlesItemView
+ArticlesView"1"  --> "total" ArticlesTotalView
+@enduml
