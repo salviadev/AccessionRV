@@ -1,6 +1,6 @@
 import { ExtError } from '@phoenix/server-commons';
 import * as boc from '@phoenix/boc';
-const osmGeoCoder = require('node-open-geocoder');
+const osmGeoCoder = require('node-open-geocoder'); // eslint-disable-line @typescript-eslint/no-var-requires
 
 export class Gis {
     private container: boc.Container;

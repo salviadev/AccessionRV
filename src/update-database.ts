@@ -22,7 +22,7 @@ const options: IDatabaseUpdateOptions = {
 };
 if (program.useConfig) {
     const userConfigPath = path.join(__dirname, 'config.js');
-    const userConfig = require(userConfigPath);
+    const userConfig = require(userConfigPath); // eslint-disable-line @typescript-eslint/no-var-requires
     if (userConfig.defaultDataDriver && userConfig.defaultDataDriver.SpoDirect &&  userConfig.defaultDataDriver.SpoDirect) {
         const connection = userConfig.defaultDataDriver.SpoDirect.options.connection;
         options.connectionString = `Server=${connection.server};Database=${connection.database};Uid=${connection.user};Pwd=${connection.password}`;

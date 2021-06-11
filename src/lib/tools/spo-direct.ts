@@ -11,7 +11,7 @@ export class Spo {
         const sm: any = spoModel;
         const am: any = accessionModel;
         const modelSchema = sm[name] || am[name];
-        return modelSchema ? (!!modelSchema.tableName ? modelSchema.tableName : modelSchema.name) : null;
+        return modelSchema ? (modelSchema.tableName ? modelSchema.tableName : modelSchema.name) : null;
     }
     public static async getNewId(
         container: boc.Container, tableName: string | boc.ModelObjectConstructor<boc.ModelObject>, key: string, prefix: string, increment?: number, iIddom?: string): Promise<string> {
