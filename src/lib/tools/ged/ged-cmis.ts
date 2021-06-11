@@ -6,7 +6,7 @@ import * as path from 'path';
 import { Utils } from '../utils';
 import * as nodeFetch from '../fetch';
 import { IServiceOptions } from '../../interfaces';
-const x = require('cmis');
+const x = require('cmis'); // eslint-disable-line @typescript-eslint/no-var-requires
 
 export class Ged implements IGed {
     private config: IServiceOptions;
@@ -123,7 +123,7 @@ export class Ged implements IGed {
         }
     }
     public async downloadContent(objectId: string, outputPath: string): Promise<void> {
-        return new Promise<void>(async (resolve: any, reject: any) => {
+        return new Promise<void>(async (resolve: any, reject: any) => { // eslint-disable-line no-async-promise-executor
             await this.init();
             const contentUrl = await this.session.getContentStreamURL(objectId);
             let auth: string;

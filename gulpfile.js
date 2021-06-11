@@ -2,8 +2,8 @@
 var path = require('path');
 var del = require('del');
 var gulp = require('gulp');
-var tslint = require('gulp-tslint');
-var tslintCustom = require('tslint');
+var tslint = require('gulp-eslint');
+var tslintCustom = require('eslint');
 var mocha = require('gulp-mocha');
 var exec = require('child_process').exec;
 var { promisify } = require('util');
@@ -84,6 +84,10 @@ const options = {
             {
                 files: ['./docs/templates/**/*'],
                 out: './templates'
+            },
+            {
+                files: ['./doc2pdf/**/*'],
+                out: './doc2pdf'
             },
             {
                 files: ['./msg/*'],
@@ -194,28 +198,13 @@ gulp.task('swagger', gulp.series('swagger-clean', 'swagger-copy', 'swagger-proce
 // Lints all TypeScript source files
 gulp.task('lint', () => {
 
-    let program = tslintCustom.Linter.createProgram('tsconfig.json');
-    let files = tslintCustom.Linter.getFileNames(program);
-    return gulp.src(files)
-        // @ts-ignore
-        .pipe(tslint({
-            configuration: 'tslint.json',
-            formatter: 'verbose',
-            program
-        }))
-        // @ts-ignore
-        .pipe(tslint.report({
-            allowWarnings: true,
-            summarizeFailureOutput: true
-        }));
-    /*
-    return gulp.src(tsFilesGlob)
-        .pipe(tslint({
-            tslint: tslintCustom,
-            formatter: 'verbose'
-        }))
-        .pipe(tslint.report());
-    */
+    // let program = tslintCustom.Linter.createProgram('tsconfig.json');
+    // let files = tslintCustom.Linter.getFileNames(program);
+    return gulp.src(['src/**/*.ts'])
+        .pipe(tslint())
+        .pipe(tslint.format())
+        .pipe(tslint.failAfterError());
+
 });
 
 function compileProject(tsconfigFile, cb) {
