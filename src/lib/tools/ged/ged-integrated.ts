@@ -174,7 +174,7 @@ export class MiniGedAdapter implements IGed {
         }
     }
     public async downloadContent(objectId: string, outputPath: string): Promise<void> {
-        return new Promise<void>(async (resolve: any, reject: any) => {
+        return new Promise<void>(async (resolve: any, reject: any) => { // eslint-disable-line no-async-promise-executor
             const meta = await this.helper.getDocument(objectId);
             if (meta) {
                 try {

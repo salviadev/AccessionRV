@@ -131,7 +131,7 @@ export class Utils {
             let options = defaultConfig;
             const userConfigPath = path.join(rootFolder, 'config.js');
             if (fs.existsSync(userConfigPath)) {
-                const userConfig: IAccessionRVConfig = require(userConfigPath);
+                const userConfig: IAccessionRVConfig = require(userConfigPath); // eslint-disable-line @typescript-eslint/no-var-requires
                 options = _.merge(options, userConfig);
             }
             Utils.options = options;
@@ -358,18 +358,16 @@ export class Utils {
         if (!c || !(c instanceof boc.Container)) {
             throw new ExtError(500, 'Require container');
         }
-        let local: IGed;
-        let ged: IGed;
         const config = Utils.getOptions();
         const cmisConfig = config.CMIS;
         if (!cmisConfig || !cmisConfig.url) {
             throw new Error(c.t('Il manque l\'entrée "CMIS.url". dans le fichier config'));
         }
-        ged = new Ged(cmisConfig);
+        const ged = new Ged(cmisConfig);
         if (!config.gedStoragePath) {
             throw new Error(c.t('Il manque l\'entrée "gedStoragePath". dans le fichier config'));
         }
-        local = new MiniGedAdapter(c, config.gedStoragePath);
+        const local = new MiniGedAdapter(c, config.gedStoragePath);
         return { local, ged };
     }
 
@@ -690,19 +688,7 @@ export class Utils {
     }
 
     public static cryptageMdp(stringMdp: string): string {
-        if (!stringMdp || stringMdp.length < 1)
-            return '';
-        const CLEFCRYPT = 15;
-        const buffer = Buffer.from(stringMdp, 'ascii');
-        let test = '';
-        for (let buf of buffer) {
-            console.log(buf);
-            buf = buf ^ 15;
-            test = test + String.fromCharCode(buf);
-            console.log(buf);
-        }
-        // const test = buffer.toString();
-        return test;
+        return '';
     }
 
     public static async translateError(error: Error, container: boc.Container): Promise<Error> {

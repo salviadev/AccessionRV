@@ -10,7 +10,7 @@ import { urlencoded } from 'body-parser';
 import mime = require('mime');
 import * as express from 'express';
 
-const httpProxy = require('http-proxy');
+const httpProxy = require('http-proxy'); // eslint-disable-line @typescript-eslint/no-var-requires
 const secureProxy = httpProxy.createProxyServer({
     secure: true
 });
