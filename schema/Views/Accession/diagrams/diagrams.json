@@ -14,5 +14,11 @@
         "classes": [
             "ArticlesView"
         ]
+    },
+    "FactureDetailView": {
+        "classes": [
+            "FactureDetailView",
+            "FactureMntView"
+        ]
     }
 }

@@ -1,0 +1,13 @@
+@startuml
+class FactureDetailView {
+  id: integer
+  codeTiers: string
+  libTiers: string
+}
+class FactureMntView {
+  id: number
+  codeArticle: string
+  libArticle: string
+}
+FactureDetailView"1"  --> "lignes" FactureMntView
+@enduml
