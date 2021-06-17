@@ -70,7 +70,8 @@ export class TemporaryFolderHandler extends CtrlBaseHandler {
         return this.tryNotAwait((): void => {
             const c = this.ctrl as DownloaderFileCtrl;
             // tslint:disable-next-line:no-floating-promises
-            c.downloadTmpFile(key, this.context.req, this.context.res);
+            // eslint-disable-next-line @typescript-eslint/no-floating-promises
+            c.downloadTmpFile(key, this.context.req, this.context.res); 
         });
     }
 
@@ -91,6 +92,7 @@ export class TemporaryFolderHandler extends CtrlBaseHandler {
         return this.tryNotAwait((): void => {
             const c = this.ctrl as DownloaderFileCtrl;
             // tslint:disable-next-line:no-floating-promises
+            // eslint-disable-next-line @typescript-eslint/no-floating-promises
             c.uploadTmpFile(filename, this.context.req, this.context.res);
         });
     }
@@ -119,6 +121,7 @@ export class DocMergeHandler extends CtrlBaseHandler {
         return this.tryNotAwait((): void => {
             const c = this.ctrl as DocMergeCtrl;
             // tslint:disable-next-line:no-floating-promises
+            // eslint-disable-next-line @typescript-eslint/no-floating-promises
             c.download(key, filename, this.context.req, this.context.res);
         });
     }
@@ -147,6 +150,7 @@ export class GedHandler extends CtrlBaseHandler {
         return this.tryNotAwait((): void => {
             const c = this.ctrl as GedCtrl;
             // tslint:disable-next-line:no-floating-promises
+            // eslint-disable-next-line @typescript-eslint/no-floating-promises
             c.download(key, this.context.req, this.context.res);
         });
     }
