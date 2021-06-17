@@ -1,6 +1,11 @@
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
+    parserOptions: {
+        // ...
+        project: "./tsconfig.eslint.json",
+        // ...
+      },
     plugins: [
         '@typescript-eslint',
     ],
@@ -19,6 +24,7 @@ module.exports = {
         "no-case-declarations": "off",
         "no-constant-condition": "off",
         "no-prototype-builtins": "off",
+        '@typescript-eslint/no-floating-promises': 'error'
         
         /*
         '@typescript-eslint/no-unused-vars': ['error', { 'args': 'none' }],
