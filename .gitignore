@@ -56,3 +56,4 @@ tsconfig-incremental.tsbuildinfo
 /docs/JsonToXmlDoc/MPD/doc.xml
 debug.log
 /documents
+/config.js
