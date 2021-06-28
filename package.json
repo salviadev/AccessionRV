@@ -25,7 +25,6 @@
     "@phoenix/boc-server": "^13.1.2",
     "@phoenix/bryntum-engine": "^1.0.5",
     "@phoenix/codata": "^1.1.9",
-    "@phoenix/doc-merge-client": "^2.1.5",
     "@phoenix/export-gantt": "^1.0.9",
     "@phoenix/logger": "^2.1.6",
     "@phoenix/schema": "^3.0.0",

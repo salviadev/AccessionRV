@@ -1,5 +1,5 @@
 import { BaseController } from '@phoenix/boc-server';
-import { DocMerge } from '../tools/doc-merge';
+// import { DocMerge } from '../tools/doc-merge';
 import { Utils } from '../tools/utils';
 import { ExportExcel } from '../tools/export-excel';
 import * as fs from 'fs';
@@ -86,13 +86,15 @@ export class DownloaderFileCtrl extends BaseController {
 
 export class DocMergeCtrl extends BaseCtrl {
     public async download(key: string, filename: string, req: any, res: any): Promise<void> {
+        /*
         const connectionInfo = await this.controller().downloadUrl(key, filename);
         const proxy = this.getProxyServer(connectionInfo.ignoreCertificateErrors);
         this.proxy(proxy, req, res, connectionInfo.url);
+        */
     }
 
     protected controller() {
-        return new DocMerge(this.container);
+        // return new DocMerge(this.container);
     }
 }
 

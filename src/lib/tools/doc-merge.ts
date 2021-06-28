@@ -1,9 +1,8 @@
 import { IDataDriverOptions } from '@phoenix/boc-interfaces';
 import * as boc from '@phoenix/boc';
 import { ExtError } from '@phoenix/server-commons';
-import * as dmc from '@phoenix/doc-merge-client';
 import { Utils } from './utils';
-
+/*
 interface IModelUrl {
     url: string;
     connexion: { username: string, password: string, token: string};
@@ -14,7 +13,7 @@ export class DocMerge {
     private url: string;
     private ignoreCertificateErrors: boolean;
     // private config: IDataDriverOptions;
-    private client: dmc.Client;
+    // private client: dmc.Client;
     // [templatesName: string]: any;
 
     public constructor(c: boc.Container) {
@@ -116,3 +115,4 @@ export class DocMerge {
         return this.client;
     }
 }
+*/
