@@ -11,5 +11,15 @@ exports.entities = {
             unlock: {},
         }
     },
+    Facture: {
+        properties: {
+            lignesChanged: {
+                type: 'boolean',
+                isCalculated: true,
+            }
+        }
+    },
+
+
     
 }

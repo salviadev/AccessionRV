@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "name": "FactureTotalView",
+    "primaryKey": "id",
+    "theme": "factures/detail",
+    "isTransient": true,
+    "properties": {
+        "id": {
+            "type": "number",
+            "title": "Id"
+        },
+        "montant": {
+            "type": "number",
+            "format": "money"
+        }
+    }
+}

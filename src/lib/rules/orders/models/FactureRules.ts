@@ -11,6 +11,7 @@ export class FactureRules {
         constr: Facture,
     })
     private static async init(target: Facture, msg: boc.Message) {
+        target.details.listen('details');
         if (target.objectState === boc.ObjectState.New) {
             if (!target.data.code) {
                 target.data.code = 'FACT' + Utils.formatId(target.id, 8);
@@ -43,8 +44,35 @@ export class FactureRules {
             // TODO
         }
         await this.checkFacture(target);
+        await this.genEcritComptables(target);
     }
 
+    private static async genEcritComptables(target: Facture) {
+        if (target.objectState === boc.ObjectState.New) {
+            // annuler ancien ecriture --
+            // creer ecriture
+        } else  if (target.objectState === boc.ObjectState.Modified) {
+            if (target.oldData.refTiers !== target.refTiers || target.lignesChanged) {
+                // annuler ancien ecriture --
+                // creer ecriture
+            }
+        }
+        await target.set_lignesChanged(false);
+    }
+
+
+    @boc.RoleChange({
+        constr: Facture,
+        propName: 'details'
+    })
+    @boc.PropChange({
+        constr: Facture,
+        path: 'details',
+        propName: 'montant'
+    })
+    private static async addremoveLignes(target: Facture) {
+        await target.set_lignesChanged(true);
+    }
     private static async checkFacture(target: Facture) {
         const c = target.container;
         if (!target.libelle)

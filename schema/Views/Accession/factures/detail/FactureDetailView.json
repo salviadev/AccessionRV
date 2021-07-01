@@ -8,7 +8,8 @@
     "isTransient": true,
     "model": "Facture",
     "serializeDirectives": [
-        "lignes"
+        "lignes",
+        "total"
     ],
     "mappingDef": [
         {
@@ -29,6 +30,9 @@
         },
         "libTiers": {
             "type": "string"
+        },
+        "totalIsDirty": {
+            "type": "boolean"
         }
     },
     "relations": {
@@ -36,7 +40,12 @@
             "type": "hasMany",
             "aggregationKind": "none",
             "model": "FactureMntView",
-            "syncSource": "details"
+            "syncSource1": "details"
+        },
+        "total": {
+            "type": "hasOne",
+            "aggregationKind": "none",
+            "model": "FactureTotalView"
         }
     }
 }

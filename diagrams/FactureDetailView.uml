@@ -3,11 +3,17 @@ class FactureDetailView {
   id: integer
   codeTiers: string
   libTiers: string
+  totalIsDirty: boolean
 }
 class FactureMntView {
   id: number
   codeArticle: string
   libArticle: string
 }
+class FactureTotalView {
+  id: number
+  montant: number
+}
 FactureDetailView"1"  --> "lignes" FactureMntView
+FactureDetailView"1"  --> "total" FactureTotalView
 @enduml

@@ -3,6 +3,7 @@
 import * as boc from '@phoenix/boc';
 import { Facture } from '../../../models/Facture';
 import { FactureMntView } from './FactureMntView';
+import { FactureTotalView } from './FactureTotalView';
 @boc.ClsInfo({
     title: 'FactureDetailView',
     primaryKey: ['id'],
@@ -19,6 +20,7 @@ import { FactureMntView } from './FactureMntView';
     ],
     serializeDirectives: [
         'lignes',
+        'total',
     ],
     metadata: 'Accession',
 })
@@ -31,7 +33,14 @@ export class FactureDetailView extends boc.ViewModel<Facture> {
                 settings: {
                     roleProp: 'lignes',
                     oppositeConstr: FactureMntView,
-                    syncSource: 'details',
+                }
+            },
+            // relation total
+            {
+                constr: boc.TransientReference,
+                settings: {
+                    roleProp: 'total',
+                    oppositeConstr: FactureTotalView,
                 }
             },
         ];
@@ -71,6 +80,27 @@ export class FactureDetailView extends boc.ViewModel<Facture> {
         return this.setProp('libTiers', value);
     }
 
+    // read write property totalIsDirty
+    @boc.PropertyInfo({
+        type: 'boolean',
+    })
+    public get totalIsDirty(): boolean {
+        return this.getProp('totalIsDirty');
+    }
+
+    public set_totalIsDirty(value: boolean): Promise<boc.IRuleExecutionResult[]> {
+        return this.setProp('totalIsDirty', value);
+    }
+
     // relation lignes
     public lignes: boc.TransientMany<FactureDetailView, FactureMntView>;
+
+    // relation total
+    public total(): Promise<FactureTotalView> {
+        return this.getRoleProp('total');
+    }
+
+    public set_total(value: FactureTotalView): Promise<boc.IRuleExecutionResult[]> {
+        return this.setRoleProp('total', value);
+    }
 }

@@ -96,6 +96,19 @@ export class Facture extends boc.ModelObject {
         return this.setProp('dtFact', value);
     }
 
+    // read write property lignesChanged
+    @boc.PropertyInfo({
+        type: 'boolean',
+        isCalculated: true,
+    })
+    public get lignesChanged(): boolean {
+        return this.getProp('lignesChanged');
+    }
+
+    public set_lignesChanged(value: boolean): Promise<boc.IRuleExecutionResult[]> {
+        return this.setProp('lignesChanged', value);
+    }
+
     // relation details
     public details: boc.HasMany<Facture, FactureDetail>;
 
