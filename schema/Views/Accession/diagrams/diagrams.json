@@ -20,5 +20,11 @@
             "FactureDetailView",
             "FactureMntView"
         ]
+    },
+    "PostesView": {
+        "classes": [
+            "PostesView",
+            "PosteItemView"
+        ]
     }
 }

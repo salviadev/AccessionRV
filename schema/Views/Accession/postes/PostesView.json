@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "title": "PostesView",
+    "name": "PostesView",
+    "primaryKey": "id",
+    "theme": "budget/postes",
+    "isTransient": true,
+    "serializeDirectives": [
+        "postes"
+    ],
+    "properties": {
+        "id": {
+            "type": "number",
+            "title": "Id"
+        }
+    },
+    "relations": {
+        "postes": {
+            "type": "hasMany",
+            "agrregationKind": "none",
+            "model": "PosteItemView"
+        }
+    }
+}

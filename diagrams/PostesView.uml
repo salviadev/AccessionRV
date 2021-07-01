@@ -1,0 +1,12 @@
+@startuml
+class PostesView {
+  id: number
+}
+class PosteItemView {
+  id: number
+  code: string
+  title: string
+}
+PostesView"1"  --> "postes" PosteItemView
+PosteItemView"1"  --> "postes" PosteItemView
+@enduml

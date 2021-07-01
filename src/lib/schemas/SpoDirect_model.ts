@@ -1,5 +1,127 @@
 /* tslint:disable */
 export const model: any = {
+    "SpoPBPoste": {
+        "tableName": "PBPOSTE",
+        "name": "SpoPBPoste",
+        "title": "Poste budget",
+        "type": "object",
+        "primaryKey": [
+            "id"
+        ],
+        "properties": {
+            "id": {
+                "title": "Code",
+                "type": "string",
+                "maxLength": 32
+            },
+            "lib": {
+                "title": "Libellé",
+                "type": "string",
+                "maxLength": 200
+            },
+            "cmnt": {
+                "title": "Commentaire",
+                "type": "string",
+                "maxLength": 4000,
+                "format": "memo"
+            },
+            "pos": {
+                "title": "Position",
+                "type": "string",
+                "maxLength": 32
+            },
+            "niveau": {
+                "title": "Niveau hiérarchique",
+                "type": "integer"
+            },
+            "typstruct": {
+                "title": "Type structure",
+                "type": "string",
+                "enum": [
+                    "R",
+                    "D",
+                    "M"
+                ],
+                "enumNames": [
+                    "Recette",
+                    "Dépense",
+                    "Marge"
+                ],
+                "maxLength": 10
+            },
+            "idpere": {
+                "title": "Parent",
+                "type": "string",
+                "maxLength": 32
+            },
+            "soc": {
+                "title": "Code société",
+                "type": "string",
+                "maxLength": 32
+            },
+            "codegf": {
+                "title": "Code poste GF",
+                "type": "string",
+                "maxLength": 50
+            },
+            "codesmo": {
+                "title": "Code SMO",
+                "type": "string",
+                "maxLength": 50
+            },
+            "carac": {
+                "title": "Caractéristique",
+                "type": "string",
+                "maxLength": 10
+            },
+            "defaut": {
+                "title": "Est par défaut  (O/N)",
+                "type": "boolean",
+                "format": "mgdis-boolean"
+            },
+            "nosaisie": {
+                "title": "Interdire la saisie (O/N)",
+                "type": "boolean",
+                "format": "mgdis-boolean"
+            },
+            "moderpt": {
+                "title": "Mode répartition",
+                "type": "string",
+                "maxLength": 10
+            },
+            "moderpttr": {
+                "title": "Mode répartition Tranche",
+                "type": "string",
+                "maxLength": 10
+            },
+            "info": {
+                "title": "Information",
+                "type": "boolean",
+                "format": "mgdis-boolean"
+            },
+            "modelebudget": {
+                "title": "ModeleBudget",
+                "type": "string",
+                "maxLength": 32
+            },
+            "identmodelebudget": {
+                "title": "IdentiqueModeleBudget",
+                "type": "boolean",
+                "format": "mgdis-boolean"
+            },
+            "inclustvamarge": {
+                "title": "inclusTvaMarge",
+                "type": "boolean",
+                "format": "mgdis-boolean"
+            },
+            "colaxe": {
+                "title": "colAxe",
+                "type": "string",
+                "maxLength": 32
+            }
+        },
+        "meta": {}
+    },
     "SpoProgramme": {
         "tableName": "PROG",
         "name": "SpoProgramme",
